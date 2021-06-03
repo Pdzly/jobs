@@ -1,7 +1,7 @@
 --FC--
 TEAM_FK = DarkRP.createJob("Flotten Kadett", {
    color = Color(142, 142, 142, 255),
-   model = {"models/navy_clone/navy_clone.mdl"},
+   model = {"models/navy_clone/navy_clone.mdl", "models/defcon/banks/coldwweather/custom/repcom_cold/repcom_cold.mdl"},
    description = [[Flotten Kadett]],
    weapons = {"re_hands", "salute_swep", "cross_arms_infront_swep", "cross_arms_swep", "rw_sw_bino_white", "rw_sw_dc17", "weapon_cuff_elastic"},
    command = "FK",
@@ -24,7 +24,7 @@ TEAM_FK = DarkRP.createJob("Flotten Kadett", {
 
 TEAM_FP = DarkRP.createJob("Flotten Petty Officer", {
    color = Color(142, 142, 142, 255),
-   model = {"models/navy_clone/navy_clone.mdl"},
+   model = {"models/navy_clone/navy_clone.mdl", "models/defcon/banks/coldwweather/custom/repcom_cold/repcom_cold.mdl"},
    description = [[Flotten Petty Officer]],
    weapons = {"stunstick","re_hands", "salute_swep", "cross_arms_infront_swep", "cross_arms_swep", "rw_sw_bino_white", "rw_sw_dc17", "weapon_cuff_elastic"},
    command = "FPO",
@@ -46,7 +46,7 @@ TEAM_FP = DarkRP.createJob("Flotten Petty Officer", {
 
 TEAM_FCPO = DarkRP.createJob("Flotten Chief Petty Officer", {
    color = Color(142, 142, 142, 255),
-   model = {"models/navy_clone/navy_clone.mdl"},
+   model = {"models/navy_clone/navy_clone.mdl", "models/defcon/banks/coldwweather/custom/repcom_cold/repcom_cold.mdl"},
    description = [[Flotten Chief Petty Officer]],
    weapons = {"stunstick","re_hands", "salute_swep", "cross_arms_infront_swep", "cross_arms_swep", "rw_sw_bino_white", "rw_sw_dc17", "weapon_cuff_elastic"},
    command = "FCPO",
@@ -68,7 +68,7 @@ TEAM_FCPO = DarkRP.createJob("Flotten Chief Petty Officer", {
 
 TEAM_FWO = DarkRP.createJob("Flotten Warrant Officer", {
    color = Color(168, 178, 169, 255),
-   model = {"models/navy_clone/navy_clone.mdl"},
+   model = {"models/navy_clone/navy_clone.mdl", "models/defcon/banks/coldwweather/custom/repcom_cold/repcom_cold.mdl"},
    description = [[Flotten Warrant Officer]],
    weapons = {"stunstick","re_hands", "salute_swep", "cross_arms_infront_swep", "cross_arms_swep", "rw_sw_bino_white", "rw_sw_dc17", "weapon_cuff_elastic"},
    command = "FWO",
@@ -90,7 +90,7 @@ TEAM_FWO = DarkRP.createJob("Flotten Warrant Officer", {
 
 TEAM_FCWO = DarkRP.createJob("Flotten Chief Warrant Officer", {
    color = Color(168, 178, 169, 255),
-   model = {"models/navy_clone/navy_clone.mdl"},
+   model = {"models/navy_clone/navy_clone.mdl", "models/defcon/banks/coldwweather/custom/repcom_cold/repcom_cold.mdl"},
    description = [[Flotten Chief Warrant Officer]],
    weapons = {"stunstick","re_hands", "salute_swep", "cross_arms_infront_swep", "cross_arms_swep", "rw_sw_bino_white", "rw_sw_dc17", "weapon_cuff_elastic"},
    command = "FCWO",
@@ -112,7 +112,7 @@ TEAM_FCWO = DarkRP.createJob("Flotten Chief Warrant Officer", {
 
 TEAM_FL = DarkRP.createJob("Flotten Lieutenant", {
    color = Color(142, 142, 142, 255),
-   model = {"models/navy_clone/navy_clone.mdl"},
+   model = {"models/navy_clone/navy_clone.mdl", "models/defcon/banks/coldwweather/custom/repcom_cold/repcom_cold.mdl"},
    description = [[Flotten Lieutenant]],
    weapons = {"stunstick","re_hands", "salute_swep", "cross_arms_infront_swep", "cross_arms_swep", "rw_sw_bino_white", "rw_sw_dc17", "weapon_cuff_elastic"},
    command = "FLT",
@@ -135,7 +135,7 @@ TEAM_FL = DarkRP.createJob("Flotten Lieutenant", {
 
 TEAM_FLC = DarkRP.createJob("Flotten Lieutenant Commander", {
    color = Color(142, 142, 142, 255),
-   model = {"models/navy_clone/navy_clone.mdl"},
+   model = {"models/navy_clone/navy_clone.mdl", "models/defcon/banks/coldwweather/custom/repcom_cold/repcom_cold.mdl"},
    description = [[Flotten Lieutenant Commander]],
    weapons = {"stunstick","re_hands", "salute_swep", "cross_arms_infront_swep", "cross_arms_swep", "rw_sw_bino_white", "rw_sw_dc17", "weapon_cuff_elastic"},
    command = "FLTCMD",
@@ -158,7 +158,7 @@ TEAM_FLC = DarkRP.createJob("Flotten Lieutenant Commander", {
 
 TEAM_FCPT = DarkRP.createJob("Flotten Captain", {
    color = Color(142, 142, 142, 255),
-   model = {"models/navy_clone/navy_clone.mdl"},
+   model = {"models/navy_clone/navy_clone.mdl", "models/defcon/banks/coldwweather/custom/repcom_cold/repcom_cold.mdl"},
    description = [[Flotten Captain]],
    weapons = {"stunstick","re_hands", "salute_swep", "cross_arms_infront_swep", "cross_arms_swep", "rw_sw_bino_white", "rw_sw_dc17", "weapon_cuff_elastic"},
    command = "FCPT",
@@ -181,7 +181,7 @@ TEAM_FCPT = DarkRP.createJob("Flotten Captain", {
 
 TEAM_FCMD = DarkRP.createJob("Flotten Commander", {
    color = Color(142, 142, 142, 255),
-   model = {"models/navy_clone/navy_clone.mdl"},
+   model = {"models/navy_clone/navy_clone.mdl", "models/defcon/banks/coldwweather/custom/repcom_cold/repcom_cold.mdl"},
    description = [[Flotten Commander]],
    weapons = {"stunstick","re_hands", "salute_swep", "cross_arms_infront_swep", "cross_arms_swep", "rw_sw_bino_white", "rw_sw_dc17", "weapon_cuff_elastic"},
    command = "FCMD",
@@ -203,7 +203,7 @@ TEAM_FCMD = DarkRP.createJob("Flotten Commander", {
 
 TEAM_FVA = DarkRP.createJob("Flotten Vize", {
    color = Color(142, 142, 142, 255),
-   model = {"models/navy_clone/navy_clone.mdl"},
+   model = {"models/navy_clone/navy_clone.mdl", "models/defcon/banks/coldwweather/custom/repcom_cold/repcom_cold.mdl"},
    description = [[Flotten Vize Admiral]],
    weapons = {"stunstick","re_hands", "salute_swep", "cross_arms_infront_swep", "cross_arms_swep", "rw_sw_bino_white", "rw_sw_dc17", "weapon_cuff_elastic"},
    command = "FVA",
@@ -225,7 +225,7 @@ TEAM_FVA = DarkRP.createJob("Flotten Vize", {
 
 TEAM_FA = DarkRP.createJob("Flotten Admiral", {
    color = Color(142, 142, 142, 255),
-   model = {"models/navy_officer_1/navy_officer_1.mdl"},
+   model = {"models/navy_officer_1/navy_officer_1.mdl", "models/defcon/banks/coldwweather/custom/repcom_cold/repcom_cold.mdl"},
    description = [[Flotten Admiral]],
    weapons = {"stunstick","re_hands", "salute_swep", "cross_arms_infront_swep", "cross_arms_swep", "rw_sw_bino_white", "rw_sw_dc17", "weapon_cuff_elastic"},
    command = "FA",
@@ -245,12 +245,12 @@ TEAM_FA = DarkRP.createJob("Flotten Admiral", {
    category = "Flottencrew",
 })
 
-TEAM_TARKIN = DarkRP.createJob("Flotten Admiral Wilhuff Tarkin", {
+TEAM_TARKIN = DarkRP.createJob("Flotten Admiral Yularen", {
    color = Color(142, 142, 142, 255),
-   model = {"models/navy_tarkin/navy_tarkin.mdl"},
-   description = [[Flotten Admiral Wilhuff Tarkin]],
+   model = {"models/player/wullf/wullf.mdl", "models/defcon/banks/coldwweather/custom/repcom_cold/repcom_cold.mdl"},
+   description = [[Flotten Admiral Wullf Yularen]],
    weapons = {"stunstick","re_hands", "salute_swep", "cross_arms_infront_swep", "cross_arms_swep", "rw_sw_bino_white", "rw_sw_dc17", "weapon_cuff_elastic"},
-   command = "FT",
+   command = "FAY",
    max = 1,
    salary = 250,
    PlayerSpawn = function(ply) ply:SetHealth(200) ply:SetGravity(1) return CLIENT end,
@@ -266,3 +266,24 @@ TEAM_TARKIN = DarkRP.createJob("Flotten Admiral Wilhuff Tarkin", {
    cook = false,
    category = "Flottencrew",
 })
+
+TEAM_CLOASS = DarkRP.createJob("Assassine", {
+    color = Color(0, 0, 0, 255),
+    model = {"models/fisher/assassin/trooper/assassin.mdl"},
+    description = [[Clone assasine]],
+    weapons = {"weapon_bactainjector" ,"weapon_medkit" ,"weapon_fists" ,"weapon_thehiddenblade" ,"weapon_breachingcharge" ,"seal6-c4" ,"jet_mk6" ,"sw_datapad" ,"tfa_defi_swrp" ,"rw_sw_t4" ,"rw_sw_nade_thermal" ,"rw_sw_nade_smoke" ,"rw_sw_nade_flash" ,"rw_sw_nade_dioxis" ,"rw_sw_nade_bacta" ,"rw_ammo_distributor" ,"rw_sw_bino_dark" ,"rw_sw_nt242c" ,"rw_sw_dual_dc17s" ,"rw_sw_dc19le" ,"rw_sw_dc19" ,"rw_sw_westarm5" ,"rw_sw_shield_rep_dc15s" ,"weapon_vj_flaregun" ,"alydus_fortificationbuildertablet" ,"cross_arms_infront_swep" ,"cross_arms_swep" ,"comlink_swep" ,"middlefinger_animation_swep" ,"salute_swep" ,"weapon_cuff_elastic" ,"cloaking-infinite" ,"re_hands"},
+    command = "Assasin",
+    max = 4,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = true,
+    candemote = false,
+    category = "Flottencrew",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(550)
+        ply:SetHealth(550)
+        ply:SetArmor(255)
+    end
+})
+

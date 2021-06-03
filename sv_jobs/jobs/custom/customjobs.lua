@@ -208,3 +208,69 @@ TEAM_BADBATCHECHO = DarkRP.createJob("Bad Batch Echo", {
         ply:SetArmor(200)
     end
 })
+
+TEAM_SGTARAAY = DarkRP.createJob("ARC-000", {
+    color = Color(0, 0, 0, 255),
+    model = {
+        "models/aussiwozzi/phase1clones/sergeant_arc.mdl"
+    },
+    description = [[ARC-000]],
+    weapons = {"weapon_fists", "re_hands", "rw_sw_westarm5", "rw_sw_dual_dc17", "jet_mk5", "weapon_cuff_elastic", "cross_arms_infront_swep", "cross_arms_swep", "hacktool", "rw_sw_nade_thermal", "hololink_swep", "salute_swep", "comlink_swep"},
+    command = "sgtaraay",
+    max = 1,
+    salary = 250,
+    admin = 0,
+    vote = false,
+    hasLicense = true,
+    candemote = false,
+    category = "ARCS",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(500)
+        ply:SetHealth(500)
+        ply:SetArmor(200)
+    end
+})
+
+TEAM_SGTYAARA = DarkRP.createJob("ARC-550", {
+    color = Color(0, 0, 0, 255),
+    model = {
+        "models/aussiwozzi/phase1clones/sergeant_arc.mdl"
+    },
+    description = [[ARC-550]],
+    weapons = {"weapon_fists", "re_hands", "rw_sw_iqa11", "rw_sw_westarm5", "rw_sw_dual_dc17", "jet_mk5", "weapon_cuff_elastic", "cross_arms_infront_swep", "cross_arms_swep", "hacktool", "rw_sw_nade_thermal", "hololink_swep", "salute_swep", "comlink_swep"},
+    command = "sgtyaara",
+    max = 1,
+    salary = 250,
+    admin = 0,
+    vote = false,
+    hasLicense = true,
+    candemote = false,
+    category = "ARCS",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(500)
+        ply:SetHealth(500)
+        ply:SetArmor(200)
+    end
+})
+
+TEAM_Phose = DarkRP.createJob("ARC-SGTMJ Phose", {
+    color = Color(47, 0, 255, 202),
+    model = {
+        "models/aussiwozzi/phase1clones/captain_arc.mdl"
+    },
+    description = [[ARC-SGTMJ Phose]],
+    weapons = {"weapon_fists", "re_hands", "rw_sw_westarm5", "rw_sw_dual_dc17", "jet_mk5", "rw_sw_dc15le_o", "cross_arms_infront_swep", "cross_arms_swep", "hacktool", "rw_sw_nade_thermal", "hololink_swep", "salute_swep", "comlink_swep"},
+    command = "sgtmjphose",
+    max = 1,
+    salary = 250,
+    admin = 0,
+    vote = false,
+    hasLicense = true,
+    candemote = false,
+    category = "ARCS",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(400)
+        ply:SetHealth(400)
+        ply:SetArmor(200)
+    end
+})

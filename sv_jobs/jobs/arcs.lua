@@ -39,11 +39,11 @@ TEAM_KALSKIRATA = DarkRP.createJob("Kal Skirata", {
     end
 })
 
-TEAM_CMDDOCK = DarkRP.createJob("Veteran ARC CPT 4027 Dock", {
+TEAM_CPTDOCK = DarkRP.createJob("CT ARC MJR 4027 Dock", {
     color = Color(255, 255, 255, 255),
     model = {"models/player/suno/arc/arc_12.mdl"},
     description = [[Arc CPT Dock]],
-    weapons = {"salute_swep", "cross_arms_infront_swep", "cross_arms_swep", "cross_arms_swep", "rw_sw_dual_dc17", "rw_sw_westarm5", "rw_sw_dc15a_o", "rw_sw_dc15s", "weapon_bactainjector", "rw_sw_nade_bacta", "rw_sw_nade_thermal", "jet_mk1", "rw_sw_bino_dark", "tfa_defi_swrp", "sw_datapad", "weapon_armorkit", "weapon_cuff_elastic", "rw_sw_dc15x", "rw_sw_shield_rep", "hacktool", "weapon_extinguisher_infinite"},
+    weapons = {"rw_sw_iqa11c", "re_hands", "stunstick", "salute_swep", "cross_arms_infront_swep", "cross_arms_swep", "cross_arms_swep", "rw_sw_dual_dc17", "rw_sw_westarm5", "rw_sw_dc15a_o", "rw_sw_dc15s", "weapon_bactainjector", "rw_sw_nade_bacta", "rw_sw_nade_thermal", "jet_mk1", "rw_sw_bino_dark", "tfa_defi_swrp", "sw_datapad", "weapon_armorkit", "weapon_cuff_elastic", "rw_sw_dc15x", "rw_sw_shield_rep", "hacktool", "weapon_extinguisher_infinite"},
     command = "cptdock",
     max = 0,
     salary = 100,
@@ -51,7 +51,7 @@ TEAM_CMDDOCK = DarkRP.createJob("Veteran ARC CPT 4027 Dock", {
     vote = false,
     hasLicense = true,
     candemote = false,
-    category = "ARCS",
+    category = "Klontruppen",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(500)
         ply:SetHealth(500)
@@ -174,22 +174,22 @@ TEAM_BLITZ = DarkRP.createJob("ARC SCMD Blitz", {
     end
 })
 
-TEAM_CPTARCNICO = DarkRP.createJob("Veteran ARC-CPT 1299 Nico", {
+TEAM_MJRARCNICO = DarkRP.createJob("ARC MJR 1299 Nico", {
     color = Color(0, 0, 0, 255),
-    model = {"models/ricky/seeker/ricky_seeker.mdl"},
-    description = [[ARC CPT Nico]],
-    weapons = {"cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "weapon_cuff_elastic", "weapon_fists", "re_hands", "weapon_bactainjector", "hacktool", "weapon_thehiddenblade", "weapon_extinguisher_infinite", "weapon_breachingcharge", "jet_exec", "tfa_defi_swrp", "rw_sw_nade_thermal", "rw_sw_bino_dark", "rw_sw_dual_dc17ext", "rw_sw_westarm5", "rw_sw_shield_rep_dc15s", "seal6-c4", "rw_sw_nade_smoke", "rw_sw_iqa11c"},
-    command = "arccptnico",
+    model = {"models/ricky/seeker/ricky_seeker.mdl", "models/loudmantis/arc/cards.mdl"},
+    description = [[ARC MJR Nico]],
+    weapons = {"stunstick", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "weapon_cuff_elastic", "weapon_fists", "re_hands", "weapon_bactainjector", "hacktool", "weapon_thehiddenblade", "weapon_extinguisher_infinite", "weapon_breachingcharge", "jet_exec", "tfa_defi_swrp", "rw_sw_nade_thermal", "rw_sw_bino_dark", "rw_sw_dual_dc17ext", "rw_sw_westarm5", "rw_sw_shield_rep", "seal6-c4", "rw_sw_nade_smoke", "rw_sw_iqa11c"},
+    command = "arcmjrnico",
     max = 1,
     salary = 1000,
     admin = 0,
     vote = false,
     hasLicense = true,
     candemote = false,
-    category = "ARCS",
+    category = "212th",
 	PlayerSpawn = function(ply)
-        ply:SetMaxHealth(500)
-        ply:SetHealth(500)
+        ply:SetMaxHealth(350)
+        ply:SetHealth(350)
         ply:SetArmor(250)
     end
 })

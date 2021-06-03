@@ -19,30 +19,6 @@ TEAM_Mandalorianer = DarkRP.createJob("Jax Kier'ha", {
     end
 })
 
-TEAM_SGTARAAY = DarkRP.createJob("SGT Araay dha'werd", {
-    color = Color(0, 0, 0, 255),
-    model = {
-        "models/jajoff/sps/jlmbase/characters/modular_foundling03.mdl",
-        "models/jajoff/sps/jlmbase/characters/modular_foundling02.mdl",
-        "models/jajoff/sps/jlmbase/characters/modular_foundling01.mdl",
-        "models/player/artel/admiral_lighting.mdl"
-    },
-    description = [[Mando’ade ramikad Dou]],
-    weapons = {"weapon_fists", "re_hands", "rw_sw_westarm5", "rw_sw_dual_dc17", "rw_sw_iqa11", "jet_mk5", "rw_sw_wristblaster_light_blue", "weapon_cuff_elastic", "cross_arms_infront_swep", "cross_arms_swep", "hacktool", "rw_sw_nade_thermal"},
-    command = "sgtaraay",
-    max = 1,
-    salary = 250,
-    admin = 0,
-    vote = false,
-    hasLicense = true,
-    candemote = false,
-    category = "Mandalorianer",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(500)
-        ply:SetHealth(500)
-        ply:SetArmor(200)
-    end
-})
 
 TEAM_Jason = DarkRP.createJob("Jason Kier'ha", {
     color = Color(14, 77, 28, 255),
@@ -93,7 +69,7 @@ TEAM_MANDODALA = DarkRP.createJob("Mando Dala", {
         "models/artel/fss/siren.mdl"
     },
     description = [[Mando’ade ramikad Dou]],
-    weapons = {"weapon_fists", "re_hands", "rw_sw_westarm5", "rw_sw_dual_dc17", "rw_sw_iqa11", "rw_sw_wristblaster_light_blue", "jet_mk5", "weapon_cuff_elastic", "cross_arms_infront_swep", "cross_arms_swep", "weapon_bactainjector", "weapon_bactanade", "tfa_defi_swrp", "rw_sw_nade_thermal"},
+    weapons = {"stunstick", "rw_sw_dual_westar35", "rw_sw_westar35", "weapon_fists", "re_hands", "rw_sw_westarm5", "rw_sw_iqa11", "rw_sw_wristblaster_light_blue", "jet_exec", "weapon_cuff_elastic", "cross_arms_infront_swep", "cross_arms_swep", "weapon_bactainjector", "weapon_bactanade", "tfa_defi_swrp", "rw_sw_nade_thermal"},
     command = "mandodala",
     max = 1,
     salary = 250,
@@ -108,3 +84,4 @@ TEAM_MANDODALA = DarkRP.createJob("Mando Dala", {
         ply:SetArmor(200)
     end
 })
+

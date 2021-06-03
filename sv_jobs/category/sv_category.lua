@@ -292,7 +292,15 @@ DarkRP.createCategory{
 }
 
 DarkRP.createCategory{
-    name = "91st Aufklärungskorps",
+    name = "91st Aufklï¿½rungskorps",
+    categorises = "jobs",
+    startExpanded = true,
+    color = Color(171, 0, 0, 255),
+    canSee = function(ply) return true end,
+    sortOrder = 32
+}
+DarkRP.createCategory{
+    name = "Razer Squad",
     categorises = "jobs",
     startExpanded = true,
     color = Color(171, 0, 0, 255),

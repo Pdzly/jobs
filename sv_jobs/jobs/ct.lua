@@ -2,7 +2,10 @@
 
 TEAM_CTPFC = DarkRP.createJob("CT PFC", {
     color = Color(82, 82, 82, 255),
-    model = "models/player/strasser/bf2/p2_ct/p2_ct_trooper.mdl",
+    model = {
+		"models/player/strasser/bf2/p2_ct/p2_ct_trooper.mdl",
+		"models/defcon/banks/coldwweather/cold_ct/cold_ct.mdl"
+	},
     description = [[]],
     weapons = {"re_hands", "salute_swep", "cross_arms_infront_swep", "cross_arms_swep", "rw_sw_dc15s", "rw_sw_dc15a_o", "weapon_fists"},
     command = "ctpfc",
@@ -17,7 +20,10 @@ TEAM_CTPFC = DarkRP.createJob("CT PFC", {
 
 TEAM_CTLCL = DarkRP.createJob("CT LCL", {
     color = Color(82, 82, 82, 255),
-    model = "models/player/strasser/bf2/p2_ct/p2_ct_trooper.mdl",
+    model = {
+		"models/player/strasser/bf2/p2_ct/p2_ct_trooper.mdl",
+		"models/defcon/banks/coldwweather/cold_ct/cold_ct.mdl"
+	},
     description = [[]],
     weapons = {"re_hands", "salute_swep", "cross_arms_infront_swep", "cross_arms_swep", "rw_sw_dc15s", "rw_sw_dc15a_o", "weapon_fists"},
     command = "ctlcl",
@@ -32,7 +38,10 @@ TEAM_CTLCL = DarkRP.createJob("CT LCL", {
 
 TEAM_CTCPL = DarkRP.createJob("CT CPL", {
     color = Color(82, 82, 82, 255),
-    model = "models/player/strasser/bf2/p2_ct/p2_ct_trooper.mdl",
+    model = {
+		"models/player/strasser/bf2/p2_ct/p2_ct_trooper.mdl",
+		"models/defcon/banks/coldwweather/cold_ct/cold_ct.mdl"
+	},
     description = [[]],
     weapons = {"re_hands", "salute_swep", "cross_arms_infront_swep", "cross_arms_swep", "rw_sw_dc15s", "rw_sw_dc15a_o", "weapon_fists"},
     command = "ctcpl",
@@ -47,7 +56,10 @@ TEAM_CTCPL = DarkRP.createJob("CT CPL", {
 
 TEAM_CTSGT = DarkRP.createJob("CT SGT", {
     color = Color(82, 82, 82, 255),
-    model = "models/player/strasser/bf2/p2_ct/p2_ct_trooper.mdl",
+    model = {
+		"models/player/strasser/bf2/p2_ct/p2_ct_trooper.mdl",
+		"models/defcon/banks/coldwweather/cold_ct/cold_ct.mdl"
+	},
     description = [[]],
     weapons = {"re_hands", "salute_swep", "cross_arms_infront_swep", "cross_arms_swep", "rw_sw_dc15s", "rw_sw_dc15a_o", "weapon_fists"},
     command = "ctsgt",
@@ -62,7 +74,10 @@ TEAM_CTSGT = DarkRP.createJob("CT SGT", {
 
 TEAM_CTSGTMJ = DarkRP.createJob("CT SGTMJ", {
     color = Color(82, 82, 82, 255),
-    model = "models/player/strasser/bf2/p2_ct/p2_ct_trooper.mdl",
+    model = {
+		"models/player/strasser/bf2/p2_ct/p2_ct_trooper.mdl",
+		"models/defcon/banks/coldwweather/cold_ct/cold_ct.mdl"
+	},
     description = [[]],
     weapons = {"re_hands", "salute_swep", "cross_arms_infront_swep", "cross_arms_swep", "rw_sw_dc15s", "rw_sw_dc15a_o", "weapon_fists"},
     command = "ctsgtmj",
@@ -77,7 +92,10 @@ TEAM_CTSGTMJ = DarkRP.createJob("CT SGTMJ", {
 
 TEAM_CT2NDLT = DarkRP.createJob("CT 2ndLT", {
     color = Color(82, 82, 82, 255),
-    model = "models/player/strasser/bf2/p2_ct/p2_ct_trooper.mdl",
+    model = {
+		"models/player/strasser/bf2/p2_ct/p2_ct_trooper.mdl",
+		"models/defcon/banks/coldwweather/cold_ct/cold_ct.mdl"
+	},
     description = [[]],
     weapons = {"re_hands", "salute_swep", "cross_arms_infront_swep", "cross_arms_swep", "rw_sw_dc15s", "rw_sw_dc15a_o", "weapon_fists"},
     command = "ct2ndlt",
@@ -92,7 +110,10 @@ TEAM_CT2NDLT = DarkRP.createJob("CT 2ndLT", {
 
 TEAM_CT1STLT = DarkRP.createJob("CT 1stLT", {
     color = Color(82, 82, 82, 255),
-    model = "models/player/strasser/bf2/p2_ct/p2_ct_trooper.mdl",
+    model = {
+		"models/player/strasser/bf2/p2_ct/p2_ct_trooper.mdl",
+		"models/defcon/banks/coldwweather/cold_ct/cold_ct.mdl"
+	},
     description = [[]],
     weapons = {"re_hands", "salute_swep", "cross_arms_infront_swep", "cross_arms_swep", "rw_sw_dc15s", "rw_sw_dc15a_o", "weapon_fists"},
     command = "ct1stlt",
@@ -107,7 +128,10 @@ TEAM_CT1STLT = DarkRP.createJob("CT 1stLT", {
 
 TEAM_CTCPT = DarkRP.createJob("CT CPT", {
     color = Color(82, 82, 82, 255),
-    model = "models/player/strasser/bf2/p2_ct/p2_ct_trooper.mdl",
+    model = {
+		"models/player/strasser/bf2/p2_ct/p2_ct_trooper.mdl",
+		"models/defcon/banks/coldwweather/cold_ct/cold_ct.mdl"
+	},
     description = [[]],
     weapons = {"re_hands", "salute_swep", "cross_arms_infront_swep", "rw_sw_dual_dc17ext", "weapon_cuff_elastic", "cross_arms_swep", "rw_sw_dc15s", "rw_sw_dc15a_o", "weapon_fists"},
     command = "ctcpt",
@@ -122,7 +146,10 @@ TEAM_CTCPT = DarkRP.createJob("CT CPT", {
 
 TEAM_CTMJR = DarkRP.createJob("CT MJR", {
     color = Color(82, 82, 82, 255),
-    model = "models/player/strasser/bf2/p2_ct/p2_ct_trooper.mdl",
+    model = {
+		"models/player/strasser/bf2/p2_ct/p2_ct_trooper.mdl",
+		"models/defcon/banks/coldwweather/cold_ct/cold_ct.mdl"
+	},
     description = [[]],
     weapons = {"re_hands", "salute_swep", "cross_arms_infront_swep", "rw_sw_dual_dc17ext", "cross_arms_swep", "weapon_cuff_elastic", "rw_sw_dc15s", "rw_sw_dc15a_o", "weapon_fists"},
     command = "ctmjr",
@@ -137,7 +164,10 @@ TEAM_CTMJR = DarkRP.createJob("CT MJR", {
 
 TEAM_CTCMD = DarkRP.createJob("CT CMD", {
     color = Color(82, 82, 82, 255),
-    model = "models/player/strasser/bf2/p2_ct/p2_ct_trooper.mdl",
+    model = {
+		"models/player/strasser/bf2/p2_ct/p2_ct_trooper.mdl",
+		"models/defcon/banks/coldwweather/cold_ct/cold_ct.mdl"
+	},
     description = [[]],
     weapons = {"re_hands", "salute_swep", "cross_arms_infront_swep", "cross_arms_swep", "rw_sw_dc15s", "rw_sw_dc15a_o", "weapon_fists"},
     command = "ctcmd",
@@ -152,7 +182,10 @@ TEAM_CTCMD = DarkRP.createJob("CT CMD", {
 
 TEAM_CTARC = DarkRP.createJob("CT ARC", {
     color = Color(0, 0, 0, 255),
-    model = {"models/player/suno/arc/arc_13_ct.mdl"},
+    model = {
+		"models/player/suno/arc/arc_13_ct.mdl",
+		"models/defcon/stan/arcevo/rancor/evorancor.mdl"
+	},
     description = [[CT ARC]],
     weapons = {"stunstick", "rw_sw_bino_dark", "rw_sw_westarm5", "re_hands", "rw_sw_dc15s", "rw_sw_dc15a_o", "weapon_fists", "realistic_hook", "rw_sw_dual_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal", "weapon_cuff_elastic", "rw_sw_nade_thermal", "bkeycard", "jet_mk1", "stunstick", "tfa_defi_swrp", "weapon_bactainjector", "hacktool"},
     command = "ctarc",

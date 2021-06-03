@@ -13,7 +13,7 @@ TEAM_584CMD = DarkRP.createJob("584th CMD", {
     vote = false,
     hasLicense = true,
     candemote = false,
-    category = "548th",
+    
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(200)
         ply:SetHealth(200)
@@ -34,7 +34,7 @@ TEAM_584SGT = DarkRP.createJob("584th SGT", {
     vote = false,
     hasLicense = true,
     candemote = false,
-    category = "548th",
+    
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(150)
         ply:SetHealth(150)
@@ -54,7 +54,7 @@ TEAM_5842NDLT = DarkRP.createJob("584th 2ndLT", {
     vote = false,
     hasLicense = true,
     candemote = false,
-    category = "548th",
+    
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(159)
         ply:SetHealth(159)
@@ -74,7 +74,7 @@ TEAM_5841STLT = DarkRP.createJob("584th 1stLT", {
     vote = false,
     hasLicense = true,
     candemote = false,
-    category = "548th",
+    
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(170)
         ply:SetHealth(170)
@@ -97,7 +97,7 @@ TEAM_584PVT = DarkRP.createJob("584th PVT", {
     vote = false,
     hasLicense = true,
     candemote = false,
-	category = "548th",
+	
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(140)
         ply:SetHealth(140)

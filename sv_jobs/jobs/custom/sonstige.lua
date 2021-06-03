@@ -83,7 +83,50 @@ TEAM_HITMAN = DarkRP.createJob("HITMAN", {
     vote = false,
     hasLicense = false,
     candemote = false,
-    category = "HITMAN",
+	category = "Other",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(1)
+        ply:SetHealth(1)
+        ply:SetArmor(0)
+    end
+})
+
+
+
+TEAMM_TEST1 = DarkRP.createJob("NICHTASSIGNENDANKE!", {
+    color = Color(117, 116, 116, 255),
+    model = {"models/hcn/starwars/bf/human/human_male.mdl"},
+    description = [[HITMAN]],
+    weapons = {},
+    command = "ARC_CPT",
+    max = 0,
+    salary = 0,
+    admin = 1,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+	category = "Other",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(1)
+        ply:SetHealth(1)
+        ply:SetArmor(0)
+    end
+})
+
+
+TEAMM_TEST2 = DarkRP.createJob("NICHTASSIGNENDANKE2!", {
+    color = Color(117, 116, 116, 255),
+    model = {"models/hcn/starwars/bf/human/human_male.mdl"},
+    description = [[HITMAN]],
+    weapons = {},
+    command = "arccptnico",
+    max = 0,
+    salary = 0,
+    admin = 1,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+	category = "Other",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(1)
         ply:SetHealth(1)

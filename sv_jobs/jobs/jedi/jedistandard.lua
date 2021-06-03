@@ -31,7 +31,7 @@ TEAM_AHSOKA = DarkRP.createJob("Ahsoka Tano", {
     vote = false,
     hasLicense = true,
     candemote = false,
-    category = "Jedi",
+    category = "501st",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(10000)
         ply:SetHealth(10000)
@@ -51,7 +51,7 @@ TEAM_ANAKIN = DarkRP.createJob("Anakin Skywalker", {
     vote = false,
     hasLicense = true,
     candemote = false,
-    category = "Jedi",
+    category = "501st",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(13500)
         ply:SetHealth(13500)
@@ -62,6 +62,7 @@ TEAM_ANAKIN = DarkRP.createJob("Anakin Skywalker", {
 TEAM_OBIWAN = DarkRP.createJob("Obi Wan Kenobi", {
     color = Color(183, 0, 254, 255),
     model = {
+		"models/player/generalkenobi/cgikenobi.mdl",
 		"models/kaiido/obi_wan.mdl",
         "models/kaiido/gnl/jedi_general_male_01.mdl"
     },
@@ -74,7 +75,7 @@ TEAM_OBIWAN = DarkRP.createJob("Obi Wan Kenobi", {
     vote = false,
     hasLicense = true,
     candemote = false,
-    category = "Jedi",
+    category = "212th",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(20000)
         ply:SetHealth(20000)
@@ -361,10 +362,13 @@ TEAM_MEISTER = DarkRP.createJob("Jedi Meister", {
 
 TEAM_187thMaceWindu = DarkRP.createJob("Mace Windu", {
     color = Color(117, 88, 134, 255),
-    model = {"models/kaiido/mace_windu.mdl"},
-    description = [[Mace Windu ]],
+    model = {
+		"models/player/mace/mace.mdl",
+        "models/kaiido/mace_windu.mdl"
+    },	
+    description = [[MaceWindu]],
     weapons = {"weapon_lightsaber_gmeister", "weapon_fists", "re_hands", "cross_arms_swep", "comlink_swep", "cross_arms_infront_swep", "hololink_swep", "weapon_wos_holocaller"},
-    command = "Mace Windu",
+    command = "MaceWindu",
     max = 0,
     salary = 100,
     admin = 0,

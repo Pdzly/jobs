@@ -1,12 +1,31 @@
 TEAM_ROOK = DarkRP.createJob("Jedi Meister Rook", {
     color = Color(255, 255, 255, 255),
-    model = {"models/templeguard/jedi_temple_08.mdl",},
+    model = {"models/templeguard/jedi_temple_08.mdl"},
     description = [[Meister Rook]],
     weapons = {"weapon_fists", "re_hands", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "weapon_lightsaber_rook", "weapon_cuff_elastic", "weapon_lightsaber_meister"},
     command = "MeisterRook",
     max = 0,
     salary = 1000,
     admin = 0,
+    vote = false,
+    hasLicense = true,
+    candemote = false,
+    category = "Jedi",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(20000)
+        ply:SetHealth(20000)
+    end
+})
+
+TEAM_ROOK_TEAM = DarkRP.createJob("Team Meister Rook", {
+    color = Color(255, 0, 255),
+    model = {"models/player/jedi_male_base.mdl"},
+    description = [[Meister Rook]],
+    weapons = {"weapon_fists", "re_hands", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "weapon_lightsaber_rook", "weapon_cuff_elastic", "weapon_lightsaber_meister"},
+    command = "MeisterRookTeam",
+    max = 1,
+    salary = 1000,
+    admin = 1,
     vote = false,
     hasLicense = true,
     candemote = false,

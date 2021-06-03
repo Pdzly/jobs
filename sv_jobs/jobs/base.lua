@@ -21,7 +21,10 @@ TEAM_RECRUIT = DarkRP.createJob("Rekrut", {
 
 TEAM_CTPVT = DarkRP.createJob("CT PVT", {
     color = Color(82, 82, 82, 255),
-    model = "models/player/strasser/bf2/p2_ct/p2_ct_trooper.mdl",
+    model = {
+		"models/player/strasser/bf2/p2_ct/p2_ct_trooper.mdl",
+		"models/defcon/banks/coldwweather/cold_ct/cold_ct.mdl"
+	},
     description = [[]],  -- Job description
     weapons = {"re_hands", "salute_swep", "cross_arms_infront_swep", "cross_arms_swep", "rw_sw_dc15s", "rw_sw_dc15a_o", "weapon_fists"},
     command = "ctpvt",

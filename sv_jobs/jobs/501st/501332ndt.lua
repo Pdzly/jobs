@@ -1,7 +1,10 @@
 --332nd--
 TEAM_501332STPVT = DarkRP.createJob("332nd PVT", {
     color = Color(255, 87, 45, 255),
-    model = {"models/defcon/loudmantis/501/332/officer.mdl"},
+    model = {
+		"models/defcon/loudmantis/501/332/officer.mdl",
+		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
+	},
     description = [[3ndst PVT]],
     weapons = {"jet_mk1", "rw_sw_nade_thermal", "weapon_fists", "re_hands",  "rw_sw_dc15s", "rw_sw_dc15a_o", "weapon_fists", "rw_sw_dc17", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep"},
     command = "332stpvt",
@@ -21,7 +24,10 @@ TEAM_501332STPVT = DarkRP.createJob("332nd PVT", {
 
 TEAM_332ndPFC = DarkRP.createJob("332nd PFC", {
     color = Color(255, 87, 45, 255),
-    model = {"models/defcon/loudmantis/501/332/officer.mdl"},
+    model = {
+		"models/defcon/loudmantis/501/332/officer.mdl",
+		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
+	},
     description = [[332nd PFC]],
     weapons = {"jet_mk1", "rw_sw_nade_thermal", "weapon_fists", "re_hands", "rw_sw_dc15s", "rw_sw_dc15a_o", "weapon_fists", "rw_sw_dc17", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep"},
     command = "332ndpfc",
@@ -41,7 +47,10 @@ TEAM_332ndPFC = DarkRP.createJob("332nd PFC", {
 
 TEAM_332ndLCL = DarkRP.createJob("332nd LCL", {
     color = Color(255, 87, 45, 255),
-    model = {"models/defcon/loudmantis/501/332/officer.mdl"},
+    model = {
+		"models/defcon/loudmantis/501/332/officer.mdl",
+		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
+	},
     description = [[332st LCL]],
     weapons = {"jet_mk1", "rw_sw_nade_thermal", "weapon_fists", "re_hands", "rw_sw_dc15s", "rw_sw_dc15a_o", "weapon_fists", "rw_sw_dc17", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal"},
     command = "332ndlcl",
@@ -61,7 +70,10 @@ TEAM_332ndLCL = DarkRP.createJob("332nd LCL", {
 
 TEAM_332ndCPL = DarkRP.createJob("332nd CPL", {
     color = Color(255, 87, 45, 255),
-    model = {"models/defcon/loudmantis/501/332/officer.mdl"},
+    model = {
+		"models/defcon/loudmantis/501/332/officer.mdl",
+		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
+	},
     description = [[332nd CPL]],
     weapons = {"jet_mk1", "rw_sw_nade_thermal", "weapon_fists", "re_hands", "rw_sw_dc15s", "rw_sw_dc15a_o", "weapon_fists", "rw_sw_dc17", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal"},
     command = "332ndcpl",
@@ -81,7 +93,10 @@ TEAM_332ndCPL = DarkRP.createJob("332nd CPL", {
 
 TEAM_332ndSGT = DarkRP.createJob("332nd SGT", {
     color = Color(255, 87, 45, 255),
-    model = {"models/defcon/loudmantis/501/332/officer.mdl"},
+    model = {
+		"models/defcon/loudmantis/501/332/officer.mdl",
+		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
+	},
     description = [[332nd SGT]],
     weapons = {"jet_mk1", "rw_sw_nade_thermal", "weapon_fists", "re_hands", "rw_sw_dc15s", "rw_sw_dc15a_o", "weapon_fists", "rw_sw_dc17", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal"},
     command = "332ndsgt",
@@ -101,7 +116,10 @@ TEAM_332ndSGT = DarkRP.createJob("332nd SGT", {
 
 TEAM_332ndSGTMJ = DarkRP.createJob("332nd SGTMJ", {
     color = Color(255, 87, 45, 255),
-    model = {"models/defcon/loudmantis/501/332/officer.mdl"},
+    model = {
+		"models/defcon/loudmantis/501/332/officer.mdl",
+		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
+	},
     description = [[332nd SGTMJ]],
     weapons = {"jet_mk1", "rw_sw_nade_thermal", "weapon_fists", "re_hands", "rw_sw_dc15s", "rw_sw_dc15a_o", "weapon_fists", "rw_sw_dc17", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal"},
     command = "332ndsgtmj",
@@ -121,7 +139,10 @@ TEAM_332ndSGTMJ = DarkRP.createJob("332nd SGTMJ", {
 
 TEAM_332nd2ndLT = DarkRP.createJob("332nd 2ndLT", {
     color = Color(255, 87, 45, 255),
-    model = {"models/defcon/loudmantis/501/332/officer.mdl"},
+    model = {
+		"models/defcon/loudmantis/501/332/officer.mdl",
+		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
+	},
     description = [[332nd 2ndLT]],
     weapons = {"jet_mk1", "rw_sw_nade_thermal", "weapon_fists", "re_hands", "rw_sw_dc15s", "rw_sw_dc15a_o", "weapon_fists", "rw_sw_dc17", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal", "weapon_cuff_elastic"},
     command = "332nd2ndlt",
@@ -141,7 +162,10 @@ TEAM_332nd2ndLT = DarkRP.createJob("332nd 2ndLT", {
 
 TEAM_332nd1stLT = DarkRP.createJob("332nd 1stLT", {
     color = Color(255, 87, 45, 255),
-    model = {"models/defcon/loudmantis/501/332/officer.mdl"},
+    model = {
+		"models/defcon/loudmantis/501/332/officer.mdl",
+		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
+	},
     description = [[332nd 1stLT]],
     weapons = {"jet_mk1", "rw_sw_nade_thermal", "weapon_fists", "re_hands", "rw_sw_dc15s", "rw_sw_dc15a_o", "weapon_fists", "rw_sw_dc17", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal", "weapon_cuff_elastic"},
     command = "332nd1stlt",
@@ -159,9 +183,12 @@ TEAM_332nd1stLT = DarkRP.createJob("332nd 1stLT", {
     end
 })
 
-TEAM_332nd1stLT = DarkRP.createJob("332nd CPT Vaughn", {
+TEAM_332ndCPT = DarkRP.createJob("332nd CPT Vaughn", {
     color = Color(255, 87, 45, 255),
-    model = {"models/defcon/loudmantis/501/332/vaughn.mdl"},
+    model = {
+		"models/defcon/loudmantis/501/332/vaughn.mdl",
+		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
+	},
     description = [[332nd CPT Vaughn]],
     weapons = {"jet_mk1", "rw_sw_nade_thermal", "weapon_fists", "re_hands", "rw_sw_dc15s", "rw_sw_dc15a_o", "weapon_fists", "rw_sw_dc17", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal", "weapon_cuff_elastic"},
     command = "332ndCPT",
