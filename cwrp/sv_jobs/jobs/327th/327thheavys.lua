@@ -15,8 +15,8 @@ TEAM_327thVY = DarkRP.createJob("327th Heavy", {
     candemote = false,
     category = "327th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -60,8 +60,8 @@ TEAM_327thHVPVT = DarkRP.createJob("327th Heavy PVT", {
     candemote = false,
     category = "327th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -83,8 +83,8 @@ TEAM_327thHVPFC = DarkRP.createJob("327th Heavy PFC", {
     candemote = false,
     category = "327th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -106,8 +106,8 @@ TEAM_327thHVLCL = DarkRP.createJob("327th Heavy LCL", {
     candemote = false,
     category = "327th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -129,8 +129,8 @@ TEAM_327thHVCPL = DarkRP.createJob("327th Heavy CPL", {
     candemote = false,
     category = "327th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -152,8 +152,8 @@ TEAM_327thHVSGT = DarkRP.createJob("327th Heavy SGT", {
     candemote = false,
     category = "327th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -175,8 +175,8 @@ TEAM_327thHVSGTMJ = DarkRP.createJob("327th Heavy SGTMJ", {
     candemote = false,
     category = "327th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
