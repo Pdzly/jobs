@@ -16,10 +16,10 @@ TEAM_327THPVT = DarkRP.createJob("327th PVT", {
     candemote = false,
     category = "327th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(100)
-        ply:SetHealth(100)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
-		ply:SetBodygroup(5, 1)
+	ply:SetBodygroup(5, 1)
     end
 })
 
@@ -37,8 +37,8 @@ TEAM_327THPFC = DarkRP.createJob("327th PFC", {
     candemote = false,
     category = "327th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -57,8 +57,8 @@ TEAM_327THLCL = DarkRP.createJob("327th LCL", {
     candemote = false,
     category = "327th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -77,8 +77,8 @@ TEAM_327THCPL = DarkRP.createJob("327th CPL", {
     candemote = false,
     category = "327th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -97,8 +97,8 @@ TEAM_327THSGT = DarkRP.createJob("327th SGT", {
     candemote = false,
     category = "327th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -267,9 +267,9 @@ TEAM_327THBLY = DarkRP.createJob("Commander Bly", {
     candemote = false,
     category = "327th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(200)
-        ply:SetHealth(200)
-        ply:SetArmor(100)
+        ply:SetMaxHealth(300)
+        ply:SetHealth(300)
+        ply:SetArmor(200)
     end
 })
 
@@ -290,8 +290,8 @@ TEAM_ARCCPTEVO = DarkRP.createJob("ARC MJR 1288 Evo", {
     candemote = false,
 	category = "327th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(500)
-        ply:SetHealth(500)
-        ply:SetArmor(250)
+        ply:SetMaxHealth(350)
+        ply:SetHealth(350)
+        ply:SetArmor(200)
     end
 })
