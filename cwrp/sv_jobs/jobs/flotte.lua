@@ -17,7 +17,7 @@ TEAM_FK = DarkRP.createJob("Flotten Kadett", {
    mayor = false,
    hobo = false,
    cook = false,
-   PlayerSpawn = function(ply) ply:SetHealth(100) ply:SetGravity(1) return CLIENT end,
+   PlayerSpawn = function(ply) ply:SetHealth(200) ply:SetGravity(1) return CLIENT end,
    category = "Flottencrew",
 })
 
@@ -39,7 +39,7 @@ TEAM_FP = DarkRP.createJob("Flotten Petty Officer", {
    chief = false,
    mayor = false,
    hobo = false,
-   PlayerSpawn = function(ply) ply:SetHealth(100) ply:SetGravity(1) return CLIENT end,
+   PlayerSpawn = function(ply) ply:SetHealth(200) ply:SetGravity(1) return CLIENT end,
    cook = false,
    category = "Flottencrew",
 })
@@ -61,7 +61,7 @@ TEAM_FCPO = DarkRP.createJob("Flotten Chief Petty Officer", {
    chief = false,
    mayor = false,
    hobo = false,
-   PlayerSpawn = function(ply) ply:SetHealth(150) ply:SetGravity(1) return CLIENT end,
+   PlayerSpawn = function(ply) ply:SetHealth(200) ply:SetGravity(1) return CLIENT end,
    cook = false,
    category = "Flottencrew",
 })
@@ -192,7 +192,7 @@ TEAM_FCMD = DarkRP.createJob("Flotten Commander", {
    hasLicense = true,
    candemote = false,
    -- CustomCheck
-   PlayerSpawn = function(ply) ply:SetHealth(200) ply:SetGravity(1) return CLIENT end,
+   PlayerSpawn = function(ply) ply:SetHealth(300) ply:SetGravity(1) return CLIENT end,
    medic = false,
    chief = false,
    mayor = false,
@@ -209,7 +209,7 @@ TEAM_FVA = DarkRP.createJob("Flotten Vize", {
    command = "FVA",
    max = 1,
    salary = 250,
-   PlayerSpawn = function(ply) ply:SetHealth(200) ply:SetGravity(1) return CLIENT end,
+   PlayerSpawn = function(ply) ply:SetHealth(350) ply:SetGravity(1) return CLIENT end,
    admin = 0,
    vote = false,
    hasLicense = false,
@@ -231,7 +231,7 @@ TEAM_FA = DarkRP.createJob("Flotten Admiral", {
    command = "FA",
    max = 1,
    salary = 250,
-   PlayerSpawn = function(ply) ply:SetHealth(200) ply:SetGravity(1) return CLIENT end,
+   PlayerSpawn = function(ply) ply:SetHealth(350) ply:SetGravity(1) return CLIENT end,
    admin = 0,
    vote = false,
    hasLicense = false,
@@ -253,7 +253,7 @@ TEAM_TARKIN = DarkRP.createJob("Flotten Admiral Yularen", {
    command = "FAY",
    max = 1,
    salary = 250,
-   PlayerSpawn = function(ply) ply:SetHealth(200) ply:SetGravity(1) return CLIENT end,
+   PlayerSpawn = function(ply) ply:SetHealth(350) ply:SetGravity(1) return CLIENT end,
    admin = 0,
    vote = false,
    hasLicense = false,
@@ -281,8 +281,8 @@ TEAM_CLOASS = DarkRP.createJob("Assassine", {
     candemote = false,
     category = "Flottencrew",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(550)
-        ply:SetHealth(550)
+        ply:SetMaxHealth(500)
+        ply:SetHealth(500)
         ply:SetArmor(255)
     end
 })
