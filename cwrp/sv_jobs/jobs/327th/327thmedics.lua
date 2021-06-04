@@ -16,8 +16,8 @@ TEAM_327thM = DarkRP.createJob("327th Medic ", {
     candemote = false,
     category = "327th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(100)
-        ply:SetHealth(100)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -59,8 +59,8 @@ TEAM_327THMEDICPVT = DarkRP.createJob("327th-Medic PVT", {
     candemote = false,
     category = "327th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -79,8 +79,8 @@ TEAM_327THMEDICPFC = DarkRP.createJob("327th-Medic PFC", {
     candemote = false,
     category = "327th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -99,8 +99,8 @@ TEAM_327THMEDICLCL = DarkRP.createJob("327th-Medic LCL", {
     candemote = false,
     category = "327th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -119,8 +119,8 @@ TEAM_327THMEDICCPL = DarkRP.createJob("327th-Medic CPL", {
     candemote = false,
     category = "327th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -139,8 +139,8 @@ TEAM_327THMEDICSGT = DarkRP.createJob("327th-Medic SGT", {
     candemote = false,
     category = "327th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -159,8 +159,8 @@ TEAM_327THMEDICSGTMJ = DarkRP.createJob("327th-Medic SGTMJ", {
     candemote = false,
     category = "327th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -181,7 +181,7 @@ TEAM_327THMEDIC2NDLT = DarkRP.createJob("327th-Medic 2ndLT", {
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(200)
         ply:SetHealth(200)
-        ply:SetArmor(200)
+        ply:SetArmor(100)
     end
 })
 
@@ -201,7 +201,7 @@ TEAM_327THMEDIC1STLT = DarkRP.createJob("327th-Medic 1stLT", {
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(200)
         ply:SetHealth(200)
-        ply:SetArmor(200)
+        ply:SetArmor(100)
     end
 })
 
@@ -221,7 +221,7 @@ TEAM_327THMEDICCPT = DarkRP.createJob("327th-Medic CPT", {
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(200)
         ply:SetHealth(200)
-        ply:SetArmor(200)
+        ply:SetArmor(100)
     end
 })
 
@@ -241,7 +241,7 @@ TEAM_327THMEDICMJR = DarkRP.createJob("327th-Medic MJR", {
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(200)
         ply:SetHealth(200)
-        ply:SetArmor(200)
+        ply:SetArmor(100)
     end
 })
 
@@ -261,6 +261,6 @@ TEAM_327THMEDICCOL = DarkRP.createJob("327th-Medic COL", {
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(200)
         ply:SetHealth(200)
-        ply:SetArmor(200)
+        ply:SetArmor(100)
     end
 })
