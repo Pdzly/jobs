@@ -16,8 +16,8 @@ TEAM_501STPVT = DarkRP.createJob("501st PVT", {
     candemote = false,
     category = "501st",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(100)
-        ply:SetHealth(100)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -39,8 +39,8 @@ TEAM_501STPFC = DarkRP.createJob("501st PFC", {
     candemote = false,
     category = "501st",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -62,8 +62,8 @@ TEAM_501STLCL = DarkRP.createJob("501st LCL", {
     candemote = false,
     category = "501st",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -85,8 +85,8 @@ TEAM_501STCPL = DarkRP.createJob("501st CPL", {
     candemote = false,
     category = "501st",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -108,8 +108,8 @@ TEAM_501STSGT = DarkRP.createJob("501st SGT", {
     candemote = false,
     category = "501st",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -200,9 +200,9 @@ TEAM_501STREX = DarkRP.createJob("Captain Rex", {
     candemote = false,
     category = "501st",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(200)
-        ply:SetHealth(200)
-        ply:SetArmor(100)
+        ply:SetMaxHealth(350)
+        ply:SetHealth(350)
+        ply:SetArmor(200)
     end
 })
 
@@ -222,9 +222,9 @@ TEAM_501stARCSGTMJ = DarkRP.createJob("501st ARC 1stLT", {
     category = "501st",
     hasLicense = true,
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(300)
-        ply:SetHealth(300)
-        ply:SetArmor(300)
+        ply:SetMaxHealth(350)
+        ply:SetHealth(350)
+        ply:SetArmor(200)
     end
 })
 
@@ -244,8 +244,8 @@ TEAM_501stARCMAX = DarkRP.createJob("501st ARC Max", {
     category = "501st",
     hasLicense = true,
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(300)
-        ply:SetHealth(300)
-        ply:SetArmor(300)
+        ply:SetMaxHealth(350)
+        ply:SetHealth(350)
+        ply:SetArmor(200)
     end
 })
