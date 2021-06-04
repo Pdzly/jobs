@@ -15,9 +15,9 @@ TEAM_JESSE = DarkRP.createJob("ARC 2ndLT Jesse", {
     candemote = false,
     category = "501st",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(300)
-        ply:SetHealth(300)
-        ply:SetArmor(250)
+        ply:SetMaxHealth(350)
+        ply:SetHealth(350)
+        ply:SetArmor(200)
     end
 })
 
@@ -38,9 +38,9 @@ TEAM_FIVES = DarkRP.createJob("ARC 2ndLT Fives", {
     candemote = false,
     category = "501st",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(300)
-        ply:SetHealth(300)
-        ply:SetArmor(250)
+        ply:SetMaxHealth(350)
+        ply:SetHealth(350)
+        ply:SetArmor(200)
     end
 })
 
@@ -61,9 +61,9 @@ TEAM_ECHO = DarkRP.createJob("ARC 2ndLT Echo", {
     candemote = false,
     category = "501st",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(300)
-        ply:SetHealth(300)
-        ply:SetArmor(250)
+        ply:SetMaxHealth(350)
+        ply:SetHealth(350)
+        ply:SetArmor(200)
     end
 })
 
