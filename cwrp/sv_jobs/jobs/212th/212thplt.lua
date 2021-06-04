@@ -14,7 +14,12 @@ TEAM_212CTPPVT = DarkRP.createJob("212th CTP PVT", {
     vote = false,
     hasLicense = false,
     candemote = false,
-    category = "212th"
+    category = "212th",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
+    end
 })
 
 TEAM_212CTPPFC = DarkRP.createJob("212th CTP PFC", {
@@ -32,7 +37,12 @@ TEAM_212CTPPFC = DarkRP.createJob("212th CTP PFC", {
     vote = false,
     hasLicense = false,
     candemote = false,
-    category = "212th"
+    category = "212th",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
+    end
 })
 
 TEAM_212CTPLCL = DarkRP.createJob("212th CTP LCL", {
@@ -50,7 +60,12 @@ TEAM_212CTPLCL = DarkRP.createJob("212th CTP LCL", {
     vote = false,
     hasLicense = false,
     candemote = false,
-    category = "212th"
+    category = "212th",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
+    end
 })
 
 TEAM_212CTPCPL = DarkRP.createJob("212th CTP CPL", {
@@ -68,7 +83,12 @@ TEAM_212CTPCPL = DarkRP.createJob("212th CTP CPL", {
     vote = false,
     hasLicense = false,
     candemote = false,
-    category = "212th"
+    category = "212th",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
+    end
 })
 
 TEAM_212CTPSGT = DarkRP.createJob("212th CTP SGT", {
@@ -86,7 +106,12 @@ TEAM_212CTPSGT = DarkRP.createJob("212th CTP SGT", {
     vote = false,
     hasLicense = false,
     candemote = false,
-    category = "212th"
+    category = "212th",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
+    end
 })
 
 TEAM_212CTPSGTMJ = DarkRP.createJob("212th CTP SGTMJ", {
@@ -104,7 +129,12 @@ TEAM_212CTPSGTMJ = DarkRP.createJob("212th CTP SGTMJ", {
     vote = false,
     hasLicense = false,
     candemote = false,
-    category = "212th"
+    category = "212th",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
+    end
 })
 
 TEAM_212CTP1stLT = DarkRP.createJob("212th CTP 1stLT", {
@@ -122,7 +152,12 @@ TEAM_212CTP1stLT = DarkRP.createJob("212th CTP 1stLT", {
     vote = false,
     hasLicense = false,
     candemote = false,
-    category = "212th"
+    category = "212th",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
+    end
 })
 
 TEAM_212CTP2ndLT = DarkRP.createJob("212th CTP 2ndLT", {
@@ -140,7 +175,12 @@ TEAM_212CTP2ndLT = DarkRP.createJob("212th CTP 2ndLT", {
     vote = false,
     hasLicense = false,
     candemote = false,
-    category = "212th"
+    category = "212th",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
+    end
 })
 
 TEAM_212CTPCPT = DarkRP.createJob("212th CTP CPT", {
@@ -158,5 +198,10 @@ TEAM_212CTPCPT = DarkRP.createJob("212th CTP CPT", {
     vote = false,
     hasLicense = false,
     candemote = false,
-    category = "212th"
+    category = "212th",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
+    end
 })
