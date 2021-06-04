@@ -15,6 +15,11 @@ TEAM_212ARFPVT = DarkRP.createJob("212th ARF PVT", {
     hasLicense = true,
     candemote = false,
     category = "212th",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
+    end
 })
 
 TEAM_212ARFPFC = DarkRP.createJob("212th ARF PFC", {
@@ -32,7 +37,12 @@ TEAM_212ARFPFC = DarkRP.createJob("212th ARF PFC", {
     vote = false,
     hasLicense = true,
     candemote = false,
-	category = "212th"
+    category = "212th",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
+    end
 })
 
 TEAM_212ARFLCL = DarkRP.createJob("212th ARF LCL", {
@@ -50,7 +60,12 @@ TEAM_212ARFLCL = DarkRP.createJob("212th ARF LCL", {
     vote = false,
     hasLicense = true,
     candemote = false,
-	category = "212th"
+    category = "212th",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
+    end
 })
 
 TEAM_212ARFCPL = DarkRP.createJob("212th ARF CPL", {
@@ -68,7 +83,12 @@ TEAM_212ARFCPL = DarkRP.createJob("212th ARF CPL", {
     vote = false,
     hasLicense = true,
     candemote = false,
-	category = "212th"
+    category = "212th",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
+    end
 })
 
 TEAM_212ARFSGT = DarkRP.createJob("212th ARF SGT", {
@@ -86,7 +106,12 @@ TEAM_212ARFSGT = DarkRP.createJob("212th ARF SGT", {
     vote = false,
     hasLicense = true,
     candemote = false,
-	category = "212th"
+    category = "212th",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
+    end
 })
 
 TEAM_212ARFSGTMJ = DarkRP.createJob("212th ARF SGTMJ", {
@@ -104,7 +129,12 @@ TEAM_212ARFSGTMJ = DarkRP.createJob("212th ARF SGTMJ", {
     vote = false,
     hasLicense = true,
     candemote = false,
-	category = "212th"
+    category = "212th",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
+    end
 })
 
 TEAM_212ARF2NDLT = DarkRP.createJob("212th ARF 2ndLT", {
@@ -122,7 +152,12 @@ TEAM_212ARF2NDLT = DarkRP.createJob("212th ARF 2ndLT", {
     vote = false,
     hasLicense = true,
     candemote = false,
-	category = "212th"
+    category = "212th",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
+    end
 })
 
 TEAM_212ARF1STLT = DarkRP.createJob("212th ARF 1stLT", {
@@ -140,7 +175,12 @@ TEAM_212ARF1STLT = DarkRP.createJob("212th ARF 1stLT", {
     vote = false,
     hasLicense = true,
     candemote = false,
-	category = "212th"
+    category = "212th",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
+    end
 })
 
 TEAM_212ARFCPT = DarkRP.createJob("212th ARF CPT", {
@@ -158,5 +198,10 @@ TEAM_212ARFCPT = DarkRP.createJob("212th ARF CPT", {
     vote = false,
     hasLicense = true,
     candemote = false,
-	category = "212th"
+    category = "212th",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
+    end
 })
