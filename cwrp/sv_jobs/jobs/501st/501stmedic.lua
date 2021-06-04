@@ -17,8 +17,8 @@ TEAM_501stRMCPVT = DarkRP.createJob("501st RMC PVT", {
     candemote = false,
     category = "501st",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(100)
-        ply:SetHealth(100)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -41,8 +41,8 @@ TEAM_501stRMCPFC = DarkRP.createJob("501st RMC PFC", {
     candemote = false,
     category = "501st",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -65,8 +65,8 @@ TEAM_501stRMCLCL = DarkRP.createJob("501st RMC LCL", {
     candemote = false,
     category = "501st",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -89,8 +89,8 @@ TEAM_501stRMCCPL = DarkRP.createJob("501st RMC CPL", {
     candemote = false,
     category = "501st",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -113,8 +113,8 @@ TEAM_501stRMCSGT = DarkRP.createJob("501st RMC SGT", {
     candemote = false,
     category = "501st",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -137,8 +137,8 @@ TEAM_501stRMCSGTMJ = DarkRP.createJob("501st RMC SGTMJ", {
     candemote = false,
     category = "501st",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
