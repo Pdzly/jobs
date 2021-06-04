@@ -113,8 +113,8 @@ TEAM_RAZER = DarkRP.createJob("Razer", {
     candemote = false,
     category = "Razer Squad",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(950)
-        ply:SetHealth(950)
+        ply:SetMaxHealth(700)
+        ply:SetHealth(700)
         ply:SetArmor(250)
     end
 })
@@ -133,8 +133,8 @@ TEAM_TREUY = DarkRP.createJob("Treuy", {
     candemote = false,
     category = "Razer Squad",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(800)
-        ply:SetHealth(800)
+        ply:SetMaxHealth(700)
+        ply:SetHealth(700)
         ply:SetArmor(250)
     end
 })
@@ -153,8 +153,8 @@ TEAM_LACE = DarkRP.createJob("Lace", {
     candemote = false,
     category = "Razer Squad",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(800)
-        ply:SetHealth(800)
+        ply:SetMaxHealth(700)
+        ply:SetHealth(700)
         ply:SetArmor(250)
     end
 })
@@ -173,8 +173,8 @@ TEAM_HIT = DarkRP.createJob("Hit", {
     candemote = false,
     category = "Razer Squad",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(800)
-        ply:SetHealth(800)
+        ply:SetMaxHealth(700)
+        ply:SetHealth(700)
         ply:SetArmor(250)
     end
 })
