@@ -212,10 +212,11 @@ TEAM_BADBATCHECHO = DarkRP.createJob("Bad Batch Echo", {
 TEAM_SGTARAAY = DarkRP.createJob("ARC-000", {
     color = Color(0, 0, 0, 255),
     model = {
-        "models/aussiwozzi/phase1clones/sergeant_arc.mdl"
+        "models/toe/genbarc.mdl",
+        "models/aussiwozzi/phase1clones/captain_arc.mdl"
     },
     description = [[ARC-000]],
-    weapons = {"weapon_fists", "re_hands", "rw_sw_westarm5", "rw_sw_dual_dc17", "jet_mk5", "weapon_cuff_elastic", "cross_arms_infront_swep", "cross_arms_swep", "hacktool", "rw_sw_nade_thermal", "hololink_swep", "salute_swep", "comlink_swep"},
+    weapons = {"weapon_fists", "re_hands", "rw_sw_westarm5", "rw_sw_dual_dc17", "jet_exec", "weapon_cuff_elastic", "cross_arms_infront_swep", "cross_arms_swep", "hacktool", "rw_sw_nade_thermal", "hololink_swep", "salute_swep", "comlink_swep"},
     command = "sgtaraay",
     max = 1,
     salary = 250,
@@ -237,7 +238,7 @@ TEAM_SGTYAARA = DarkRP.createJob("ARC-550", {
         "models/aussiwozzi/phase1clones/sergeant_arc.mdl"
     },
     description = [[ARC-550]],
-    weapons = {"weapon_fists", "re_hands", "rw_sw_iqa11", "rw_sw_westarm5", "rw_sw_dual_dc17", "jet_mk5", "weapon_cuff_elastic", "cross_arms_infront_swep", "cross_arms_swep", "hacktool", "rw_sw_nade_thermal", "hololink_swep", "salute_swep", "comlink_swep"},
+    weapons = {"weapon_fists", "re_hands", "rw_sw_iqa11", "rw_sw_westarm5", "rw_sw_dual_dc17", "jet_exec", "weapon_cuff_elastic", "cross_arms_infront_swep", "cross_arms_swep", "hacktool", "rw_sw_nade_thermal", "hololink_swep", "salute_swep", "comlink_swep"},
     command = "sgtyaara",
     max = 1,
     salary = 250,
