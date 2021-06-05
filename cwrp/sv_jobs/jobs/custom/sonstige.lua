@@ -31,10 +31,10 @@ TEAM_TEAM = DarkRP.createJob("Team im Dienst", {
     vote = false,
     hasLicense = true,
     candemote = false,
-    category = "Other"
+    category = "Other",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(999999)
-        ply:SetHealth(999999)
+        ply:SetMaxHealth(5000)
+        ply:SetHealth(5000)
         ply:SetArmor(100)
     end
 })
