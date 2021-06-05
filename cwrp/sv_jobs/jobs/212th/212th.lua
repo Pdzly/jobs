@@ -13,8 +13,8 @@ TEAM_212PVT = DarkRP.createJob("212th PVT", {
     candemote = false,
     category = "212th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(100)
-        ply:SetHealth(100)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
