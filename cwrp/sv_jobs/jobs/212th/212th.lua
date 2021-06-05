@@ -13,8 +13,8 @@ TEAM_212PVT = DarkRP.createJob("212th PVT", {
     candemote = false,
     category = "212th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(100)
-        ply:SetHealth(100)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -33,8 +33,8 @@ TEAM_212PFC = DarkRP.createJob("212th PFC", {
     candemote = false,
     category = "212th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -53,8 +53,8 @@ TEAM_212LCL = DarkRP.createJob("212th LCL", {
     candemote = false,
     category = "212th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
         ply:SetBodygroup(4, 2)
     end
@@ -74,8 +74,8 @@ TEAM_212CPL = DarkRP.createJob("212th CPL", {
     candemote = false,
     category = "212th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
         ply:SetBodygroup(4, 2)
     end
@@ -95,8 +95,8 @@ TEAM_212SGT = DarkRP.createJob("212th SGT", {
     candemote = false,
     category = "212th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
         ply:SetBodygroup(4, 1)
     end
@@ -228,9 +228,9 @@ TEAM_212ARCMJR = DarkRP.createJob("212th ARC Colonel", {
     candemote = false,
     category = "212th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(300)
-        ply:SetHealth(300)
-        ply:SetArmor(150)
+        ply:SetMaxHealth(350)
+        ply:SetHealth(350)
+        ply:SetArmor(200)
     end
 })
 
@@ -248,9 +248,9 @@ TEAM_Cody = DarkRP.createJob("Commander Cody", {
     candemote = false,
     category = "212th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(500)
-        ply:SetHealth(500)
-        ply:SetArmor(250)
+        ply:SetMaxHealth(300)
+        ply:SetHealth(300)
+        ply:SetArmor(200)
     end
 })
 
@@ -328,8 +328,8 @@ TEAM_212THARC = DarkRP.createJob("212th ARC", {
     candemote = false,
     category = "212th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(250)
-        ply:SetHealth(250)
-        ply:SetArmor(150)
+        ply:SetMaxHealth(350)
+        ply:SetHealth(350)
+        ply:SetArmor(200)
     end
 })

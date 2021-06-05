@@ -12,8 +12,8 @@ TEAM_327THKCOMPANY = DarkRP.createJob("K-Company", {
     candemote = false,
     category = "327th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -34,7 +34,7 @@ TEAM_327THKCOMPANYOffizier = DarkRP.createJob("K-CompanyOffizier", {
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(200)
         ply:SetHealth(200)
-        ply:SetArmor(200)
+        ply:SetArmor(100)
     end
 })
 
@@ -53,8 +53,8 @@ TEAM_327THKCOMPANYPFC = DarkRP.createJob("K-Company PFC", {
     candemote = false,
     category = "327th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -73,8 +73,8 @@ TEAM_327THKCOMPANYLCL = DarkRP.createJob("K-Company LCL", {
     candemote = false,
     category = "327th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -93,8 +93,8 @@ TEAM_327THKCOMPANYCPL = DarkRP.createJob("K-Company CPL", {
     candemote = false,
     category = "327th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -113,8 +113,8 @@ TEAM_327THKCOMPANYSGT = DarkRP.createJob("K-Company SGT", {
     candemote = false,
     category = "327th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -133,8 +133,8 @@ TEAM_327THKCOMPANYSGTMJ = DarkRP.createJob("K-Company SGTMJ", {
     candemote = false,
     category = "327th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -155,7 +155,7 @@ TEAM_327THKCOMPANY2NDLT = DarkRP.createJob("K-Company 2ndLT", {
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(200)
         ply:SetHealth(200)
-        ply:SetArmor(200)
+        ply:SetArmor(100)
     end
 })
 
@@ -175,7 +175,7 @@ TEAM_327THKCOMPANY1STLT = DarkRP.createJob("K-Company 1stLT", {
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(200)
         ply:SetHealth(200)
-        ply:SetArmor(200)
+        ply:SetArmor(100)
     end
 })
 
@@ -195,7 +195,7 @@ TEAM_327THKCOMPANYCPT = DarkRP.createJob("K-Company CPT", {
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(200)
         ply:SetHealth(200)
-        ply:SetArmor(200)
+        ply:SetArmor(100)
     end
 })
 
@@ -215,7 +215,7 @@ TEAM_327THKCOMPANYMJR = DarkRP.createJob("K-Company MJR", {
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(200)
         ply:SetHealth(200)
-        ply:SetArmor(200)
+        ply:SetArmor(100)
     end
 })
 
@@ -235,6 +235,6 @@ TEAM_327THKCOMPANYCOL = DarkRP.createJob("K-Company COL", {
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(200)
         ply:SetHealth(200)
-        ply:SetArmor(200)
+        ply:SetArmor(100)
     end
 })

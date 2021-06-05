@@ -16,8 +16,8 @@ TEAM_212TECHNIKERPVT = DarkRP.createJob("212th Techniker PVT", {
     candemote = false,
     category = "212th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(100)
-        ply:SetHealth(100)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -39,8 +39,8 @@ TEAM_212TECHNIKERPFC = DarkRP.createJob("212th Techniker PFC", {
     candemote = false,
     category = "212th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(100)
-        ply:SetHealth(100)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -62,8 +62,8 @@ TEAM_212TECHNIKERLCPL = DarkRP.createJob("212th Techniker LCPL", {
     candemote = false,
     category = "212th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(100)
-        ply:SetHealth(100)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -85,8 +85,8 @@ TEAM_212TECHNIKERCPL = DarkRP.createJob("212th Techniker CPL", {
     candemote = false,
     category = "212th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(100)
-        ply:SetHealth(100)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -108,8 +108,8 @@ TEAM_212TECHNIKERSGT = DarkRP.createJob("212th Techniker SGT", {
     candemote = false,
     category = "212th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(100)
-        ply:SetHealth(100)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -131,8 +131,8 @@ TEAM_212TECHNIKERSGTMJ = DarkRP.createJob("212th Techniker SGTMJ", {
     candemote = false,
     category = "212th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(100)
-        ply:SetHealth(100)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -154,8 +154,8 @@ TEAM_212TECHNIKER2NDLT = DarkRP.createJob("212th Techniker 2ndLT", {
     candemote = false,
     category = "212th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(100)
-        ply:SetHealth(100)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -177,8 +177,8 @@ TEAM_212TECHNIKER1STLT = DarkRP.createJob("212th Techniker 1stLT", {
     candemote = false,
     category = "212th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(100)
-        ply:SetHealth(100)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -200,8 +200,8 @@ TEAM_212TECHNIKERCPT = DarkRP.createJob("212th Techniker CPT", {
     candemote = false,
     category = "212th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(100)
-        ply:SetHealth(100)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -223,8 +223,8 @@ TEAM_212TECHNIKERMJR = DarkRP.createJob("212th Techniker MJR", {
     candemote = false,
     category = "212th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(100)
-        ply:SetHealth(100)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })

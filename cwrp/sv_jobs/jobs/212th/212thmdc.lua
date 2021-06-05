@@ -17,8 +17,8 @@ TEAM_212THMEDICPVT = DarkRP.createJob("212th Medic PVT", {
     candemote = false,
     category = "212th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(100)
-        ply:SetHealth(100)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -40,8 +40,8 @@ TEAM_212THMEDICPFC = DarkRP.createJob("212th Medic PFC", {
     candemote = false,
     category = "212th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(100)
-        ply:SetHealth(100)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -63,8 +63,8 @@ TEAM_212THMEDICLCL = DarkRP.createJob("212th Medic LCL", {
     candemote = false,
     category = "212th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -86,8 +86,8 @@ TEAM_212THMEDICCPL = DarkRP.createJob("212th Medic CPL", {
     candemote = false,
     category = "212th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -109,8 +109,8 @@ TEAM_212THMEDICSGT = DarkRP.createJob("212th Medic SGT", {
     candemote = false,
     category = "212th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })

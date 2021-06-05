@@ -14,7 +14,12 @@ TEAM_501CTPPVT = DarkRP.createJob("501st CTP PVT", {
     vote = false,
     hasLicense = false,
     candemote = false,
-    category = "501st"
+    category = "501st",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
+    end
 })
 
 TEAM_501CTPPFC = DarkRP.createJob("501st CTP PFC", {
@@ -32,7 +37,12 @@ TEAM_501CTPPFC = DarkRP.createJob("501st CTP PFC", {
     vote = false,
     hasLicense = false,
     candemote = false,
-    category = "501st"
+    category = "501st",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
+    end
 })
 
 TEAM_501CTPLCL = DarkRP.createJob("501st CTP LCL", {
@@ -50,7 +60,12 @@ TEAM_501CTPLCL = DarkRP.createJob("501st CTP LCL", {
     vote = false,
     hasLicense = false,
     candemote = false,
-    category = "501st"
+    category = "501st",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
+    end
 })
 
 TEAM_501CTPCPL = DarkRP.createJob("501st CTP CPL", {
@@ -68,7 +83,12 @@ TEAM_501CTPCPL = DarkRP.createJob("501st CTP CPL", {
     vote = false,
     hasLicense = false,
     candemote = false,
-    category = "501st"
+    category = "501st",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
+    end
 })
 
 TEAM_501CTPSGT = DarkRP.createJob("501st CTP SGT", {
@@ -86,7 +106,12 @@ TEAM_501CTPSGT = DarkRP.createJob("501st CTP SGT", {
     vote = false,
     hasLicense = false,
     candemote = false,
-    category = "501st"
+    category = "501st",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
+    end
 })
 
 TEAM_501CTPSGTMJ = DarkRP.createJob("501st CTP SGTMJ", {
@@ -104,7 +129,12 @@ TEAM_501CTPSGTMJ = DarkRP.createJob("501st CTP SGTMJ", {
     vote = false,
     hasLicense = false,
     candemote = false,
-    category = "501st"
+    category = "501st",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
+    end
 })
 
 TEAM_501CTP2ndLT = DarkRP.createJob("501st CTP 2ndLT", {
@@ -122,7 +152,12 @@ TEAM_501CTP2ndLT = DarkRP.createJob("501st CTP 2ndLT", {
     vote = false,
     hasLicense = false,
     candemote = false,
-    category = "501st"
+    category = "501st",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
+    end
 })
 
 TEAM_501CTP1stLT = DarkRP.createJob("501st CTP 1stLT Hawk", {
@@ -141,7 +176,12 @@ TEAM_501CTP1stLT = DarkRP.createJob("501st CTP 1stLT Hawk", {
     vote = false,
     hasLicense = false,
     candemote = false,
-    category = "501st"
+    category = "501st",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
+    end
 })
 
 TEAM_501CTPCPT = DarkRP.createJob("501st CTP CPT", {
@@ -159,5 +199,10 @@ TEAM_501CTPCPT = DarkRP.createJob("501st CTP CPT", {
     vote = false,
     hasLicense = false,
     candemote = false,
-    category = "501st"
+    category = "501st",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
+    end
 })

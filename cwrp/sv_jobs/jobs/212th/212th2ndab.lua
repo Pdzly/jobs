@@ -15,8 +15,8 @@ TEAM_2NDAIRBORNPFC = DarkRP.createJob("2nd Airborn PFC", {
     candemote = false,
     category = "2nd Airborn",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -38,8 +38,8 @@ TEAM_2NDAIRBORNLCL = DarkRP.createJob("2nd Airborn LCL", {
     candemote = false,
     category = "2nd Airborn",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -61,8 +61,8 @@ TEAM_2NDAIRBORNCPL = DarkRP.createJob("2nd Airborn CPL", {
     candemote = false,
     category = "2nd Airborn",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -84,8 +84,8 @@ TEAM_2NDAIRBORNSGT = DarkRP.createJob("2nd Airborn SGT", {
     candemote = false,
     category = "2nd Airborn",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })

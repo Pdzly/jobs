@@ -13,9 +13,9 @@ TEAM_501ARFPVT = DarkRP.createJob("501st ARF PVT", {
     hasLicense = true,
     candemote = false,
     category = "501st",
-	PlayerSpawn = function(ply)
-        ply:SetMaxHealth(100)
-        ply:SetHealth(100)
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -33,9 +33,9 @@ TEAM_501ARFPFC = DarkRP.createJob("501st ARF PFC", {
     hasLicense = true,
     candemote = false,
     category = "501st",
-	PlayerSpawn = function(ply)
-        ply:SetMaxHealth(100)
-        ply:SetHealth(100)
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -53,9 +53,9 @@ TEAM_501ARFLCL = DarkRP.createJob("501st ARF LCL", {
     hasLicense = true,
     candemote = false,
     category = "501st",
-	PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -73,9 +73,9 @@ TEAM_501ARFCPL = DarkRP.createJob("501st ARF CPL", {
     hasLicense = true,
     candemote = false,
     category = "501st",
-	PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -93,9 +93,9 @@ TEAM_501ARFSGT = DarkRP.createJob("501st ARF SGT", {
     hasLicense = true,
     candemote = false,
     category = "501st",
-	PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -137,7 +137,7 @@ TEAM_501ARF2NDLT = DarkRP.createJob("501st ARF 2ndLT", {
         ply:SetMaxHealth(200)
         ply:SetHealth(200)
         ply:SetArmor(100)
-    end  
+    end
 })
 
 TEAM_501ARF1STLT = DarkRP.createJob("501st ARF 1stLT", {
@@ -153,7 +153,7 @@ TEAM_501ARF1STLT = DarkRP.createJob("501st ARF 1stLT", {
     hasLicense = true,
     candemote = false,
     category = "501st",
-	PlayerSpawn = function(ply)
+    PlayerSpawn = function(ply)
         ply:SetMaxHealth(200)
         ply:SetHealth(200)
         ply:SetArmor(100)
