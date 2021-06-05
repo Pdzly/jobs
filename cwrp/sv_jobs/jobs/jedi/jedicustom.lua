@@ -12,8 +12,8 @@ TEAM_ROOK = DarkRP.createJob("Jedi Meister Rook", {
     candemote = false,
     category = "Jedi",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(20000)
-        ply:SetHealth(20000)
+        ply:SetMaxHealth(5000)
+        ply:SetHealth(5000)
     end
 })
 
@@ -31,8 +31,8 @@ TEAM_ROOK_TEAM = DarkRP.createJob("Team Meister Rook", {
     candemote = false,
     category = "Jedi",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(20000)
-        ply:SetHealth(20000)
+        ply:SetMaxHealth(5000)
+        ply:SetHealth(5000)
     end
 })
 
@@ -50,8 +50,8 @@ TEAM_KOON = DarkRP.createJob("Jedi Koon", {
     candemote = false,
     category = "Jedi",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(20000)
-        ply:SetHealth(20000)
+        ply:SetMaxHealth(5000)
+        ply:SetHealth(5000)
     end
 })
 
@@ -72,8 +72,8 @@ TEAM_JDJB = DarkRP.createJob("Jedi Meister Jarald Chiboal", {
         ["0"] = 0
     },
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(13500)
-        ply:SetHealth(13500)
+        ply:SetMaxHealth(5000)
+        ply:SetHealth(5000)
         ply:SetArmor(100)
         ply:SetBodygroup(0, 0)
     end
