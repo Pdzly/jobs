@@ -13,9 +13,9 @@ TEAM_AARC77 = DarkRP.createJob("Alpha Arc 77", {
     candemote = false,
     category = "Other",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(250)
-        ply:SetHealth(250)
-        ply:SetArmor(150)
+        ply:SetMaxHealth(350)
+        ply:SetHealth(350)
+        ply:SetArmor(200)
     end
 })
 
@@ -33,8 +33,8 @@ TEAM_KALSKIRATA = DarkRP.createJob("Kal Skirata", {
     candemote = false,
     category = "ARCS",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(200)
-        ply:SetHealth(200)
+        ply:SetMaxHealth(350)
+        ply:SetHealth(350)
         ply:SetArmor(200)
     end
 })
@@ -53,8 +53,8 @@ TEAM_CPTDOCK = DarkRP.createJob("CT ARC MJR 4027 Dock", {
     candemote = false,
     category = "Klontruppen",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(500)
-        ply:SetHealth(500)
+        ply:SetMaxHealth(350)
+        ply:SetHealth(350)
         ply:SetArmor(200)
     end
 })
@@ -73,8 +73,8 @@ TEAM_A17 = DarkRP.createJob("ARC Alpha 17", {
     candemote = false,
     category = "ARCS",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(200)
-        ply:SetHealth(200)
+        ply:SetMaxHealth(350)
+        ply:SetHealth(350)
         ply:SetArmor(200)
     end
 })
@@ -92,6 +92,11 @@ TEAM_FEVER = DarkRP.createJob("Alpha ARC CPT 69 Fever", {
     hasLicense = true,
     candemote = false,
     category = "Other",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(350)
+        ply:SetHealth(350)
+        ply:SetArmor(200)
+    end
 })
 
 TEAM_ARCCMDCOLT = DarkRP.createJob("ARC CMD Colt", {
@@ -110,7 +115,7 @@ TEAM_ARCCMDCOLT = DarkRP.createJob("ARC CMD Colt", {
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(350)
         ply:SetHealth(350)
-        ply:SetArmor(250)
+        ply:SetArmor(200)
     end
 })
 
@@ -130,7 +135,7 @@ TEAM_ARCCMDHAVOC = DarkRP.createJob("ARC CMD Havoc", {
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(350)
         ply:SetHealth(350)
-        ply:SetArmor(250)
+        ply:SetArmor(200)
     end
 })
 
@@ -148,9 +153,9 @@ TEAM_ARCMJRCOLT = DarkRP.createJob("ARC MJR Hammer", {
     candemote = false,
     category = "Klontruppen",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(300)
-        ply:SetHealth(300)
-        ply:SetArmor(250)
+        ply:SetMaxHealth(350)
+        ply:SetHealth(350)
+        ply:SetArmor(200)
     end
 })
 
@@ -167,10 +172,10 @@ TEAM_BLITZ = DarkRP.createJob("ARC SCMD Blitz", {
     hasLicense = true,
     candemote = false,
     category = "Klontruppen",
-	PlayerSpawn = function(ply)
+    PlayerSpawn = function(ply)
         ply:SetMaxHealth(350)
         ply:SetHealth(350)
-        ply:SetArmor(250)
+        ply:SetArmor(200)
     end
 })
 
@@ -187,10 +192,10 @@ TEAM_MJRARCNICO = DarkRP.createJob("ARC MJR 1299 Nico", {
     hasLicense = true,
     candemote = false,
     category = "212th",
-	PlayerSpawn = function(ply)
+    PlayerSpawn = function(ply)
         ply:SetMaxHealth(350)
         ply:SetHealth(350)
-        ply:SetArmor(250)
+        ply:SetArmor(200)
     end
 })
 
