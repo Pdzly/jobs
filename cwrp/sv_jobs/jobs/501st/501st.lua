@@ -249,3 +249,23 @@ TEAM_501stARCMAX = DarkRP.createJob("501st ARC Max", {
         ply:SetArmor(200)
     end
 })
+
+TEAM_Techno501 = DarkRP.createJob("501st Techno", {
+    color = Color(0, 0, 0, 255),
+    model = {"models/defcon/loudmantis/501/shadow_tech.mdl"},
+    description = [[501st Techno]],
+    weapons = {"rw_sw_nade_impact" ,"rw_sw_nade_thermal" ,"rw_ammo_distributor" ,"rw_sw_bino_dark" ,"weapon_fists" ,"weapon_breachingcharge" ,"sw_datapad" ,"alydus_fusioncutter" ,"alydus_fortificationbuildertablet" ,"rw_sw_dual_dc17ext" ,"rw_sw_dc15s" ,"rw_sw_dp24" ,"rw_sw_dc15se" ,"rw_sw_dc15a" ,"rw_sw_dp23" ,"seal6-c4" ,"comlink_swep" ,"cross_arms_swep" ,"cross_arms_infront_swep" ,"salute_swep" ,"hololink_swep", "weapon_armorkit" ,"weapon_bactainjector" ,"weapon_extinguisher_infinite" ,"re_hands" ,"weapon_cuff_elastic"},
+    command = "Techno501st",
+    max = 0,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = true,
+    candemote = false,
+    category = "501st",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(230)
+        ply:SetHealth(230)
+        ply:SetArmor(220)
+    end
+})
