@@ -13,8 +13,8 @@ TEAM_YODA = DarkRP.createJob("Großmeister Yoda", {
     candemote = false,
     category = "Jedi",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(25000)
-        ply:SetHealth(25000)
+        ply:SetMaxHealth(5000)
+        ply:SetHealth(5000)
         ply:SetArmor(100)
     end
 })
