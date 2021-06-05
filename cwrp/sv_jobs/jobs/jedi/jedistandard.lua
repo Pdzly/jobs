@@ -280,8 +280,8 @@ TEAM_RITTER = DarkRP.createJob("Jedi Ritter", {
     candemote = false,
     category = "Jedi",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(2000)
-        ply:SetHealth(2000)
+        ply:SetMaxHealth(5000)
+        ply:SetHealth(5000)
     end
 })
 
@@ -355,8 +355,8 @@ TEAM_MEISTER = DarkRP.createJob("Jedi Meister", {
     candemote = false,
     category = "Jedi",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(2000)
-        ply:SetHealth(2000)
+        ply:SetMaxHealth(5000)
+        ply:SetHealth(500)
     end
 })
 
@@ -377,7 +377,7 @@ TEAM_187thMaceWindu = DarkRP.createJob("Mace Windu", {
     candemote = false,
     category = "Jedi",
 	    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(2000)
-        ply:SetHealth(2000)
+        ply:SetMaxHealth(5000)
+        ply:SetHealth(5000)
     end
 })
