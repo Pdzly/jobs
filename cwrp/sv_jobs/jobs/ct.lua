@@ -13,9 +13,9 @@ TEAM_CTPFC = DarkRP.createJob("CT PFC", {
     category = "Klontruppen",
     hasLicense = false,
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(350)
-        ply:SetHealth(350)
-        ply:SetArmor(200)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
     end
 })
 
@@ -191,7 +191,8 @@ TEAM_CTCMD = DarkRP.createJob("CT CMD", {
     vote = false,
     sortOrder = 1;
     category = "Klontruppen",
-    hasLicense = false,    PlayerSpawn = function(ply)
+    hasLicense = false,
+    PlayerSpawn = function(ply)
         ply:SetMaxHealth(300)
         ply:SetHealth(300)
         ply:SetArmor(200)
