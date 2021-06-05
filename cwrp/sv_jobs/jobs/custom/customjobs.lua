@@ -82,8 +82,8 @@ TEAM_2NDAIRBORNSAPNO = DarkRP.createJob("2nd Airborn ARC 4422 Sapno", {
     candemote = false,
     category = "2nd Airborn",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(300)
-        ply:SetHealth(300)
+        ply:SetMaxHealth(350)
+        ply:SetHealth(350)
         ply:SetArmor(200)
     end
 })
@@ -225,8 +225,8 @@ TEAM_SGTARAAY = DarkRP.createJob("ARC-000", {
     candemote = false,
     category = "ARCS",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(500)
-        ply:SetHealth(500)
+        ply:SetMaxHealth(350)
+        ply:SetHealth(350)
         ply:SetArmor(200)
     end
 })
@@ -247,8 +247,8 @@ TEAM_SGTYAARA = DarkRP.createJob("ARC-550", {
     candemote = false,
     category = "ARCS",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(500)
-        ply:SetHealth(500)
+        ply:SetMaxHealth(350)
+        ply:SetHealth(350)
         ply:SetArmor(200)
     end
 })
@@ -269,8 +269,8 @@ TEAM_Phose = DarkRP.createJob("ARC-SGTMJ Phose", {
     candemote = false,
     category = "ARCS",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(400)
-        ply:SetHealth(400)
+        ply:SetMaxHealth(350)
+        ply:SetHealth(350)
         ply:SetArmor(200)
     end
 })
