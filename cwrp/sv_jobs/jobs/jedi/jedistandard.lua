@@ -356,7 +356,7 @@ TEAM_MEISTER = DarkRP.createJob("Jedi Meister", {
     category = "Jedi",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(5000)
-        ply:SetHealth(500)
+        ply:SetHealth(5000)
     end
 })
 
