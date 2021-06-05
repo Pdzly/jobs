@@ -79,9 +79,9 @@ TEAM_MANDODALA = DarkRP.createJob("Mando Dala", {
     candemote = false,
     category = "Mandalorianer",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(500)
-        ply:SetHealth(500)
-        ply:SetArmor(200)
+        ply:SetMaxHealth(300)
+        ply:SetHealth(300)
+        ply:SetArmor(250)
     end
 })
 

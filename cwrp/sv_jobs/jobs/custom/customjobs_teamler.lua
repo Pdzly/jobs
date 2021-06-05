@@ -17,9 +17,9 @@ TEAM_ARF = DarkRP.createJob("ARF CPT Phoenix", {
     candemote = false,
     category = "Spec Ops",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(350)
-        ply:SetHealth(350)
-        ply:SetArmor(250)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
     end
 })
 
@@ -44,9 +44,9 @@ TEAM_FLEZY = DarkRP.createJob("ARF MRJ 5499 Flezy", {
     candemote = false,
     category = "Spec Ops",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(350)
-        ply:SetHealth(350)
-        ply:SetArmor(250)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
     end
 })
 
@@ -68,7 +68,7 @@ TEAM_STEALTH = DarkRP.createJob("Special Pilot", {
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(200)
         ply:SetHealth(200)
-        ply:SetArmor(200)
+        ply:SetArmor(100)
     end
 })
 
@@ -93,9 +93,9 @@ TEAM_SGTMJR = DarkRP.createJob("Spec Ops SGTMJR", {
     candemote = false,
     category = "Spec Ops",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(350)
-        ply:SetHealth(350)
-        ply:SetArmor(250)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
     end
 })
 
@@ -115,7 +115,7 @@ TEAM_TRAUMATRUPPE = DarkRP.createJob("Trauma Truppler", {
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(200)
         ply:SetHealth(200)
-        ply:SetArmor(200)
+        ply:SetArmor(100)
     end
 })
 
@@ -133,9 +133,9 @@ TEAM_CMDTRAUMA = DarkRP.createJob("Commander Trauma", {
     candemote = false,
     category = "Other",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(210)
-        ply:SetHealth(210)
-        ply:SetArmor(210)
+        ply:SetMaxHealth(300)
+        ply:SetHealth(300)
+        ply:SetArmor(200)
     end
 })
 
@@ -155,8 +155,8 @@ TEAM_FORDO = DarkRP.createJob("ARC MJR Fordo", {
     hasLicense = true,
     candemote = false,
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(300)
-        ply:SetHealth(300)
-        ply:SetArmor(250)
+        ply:SetMaxHealth(350)
+        ply:SetHealth(350)
+        ply:SetArmor(200)
     end
 })

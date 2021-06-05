@@ -13,8 +13,8 @@ TEAM_K9PVT = DarkRP.createJob("K9PVT", {
     candemote = false,
     category = "K9",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(100)
-        ply:SetHealth(100)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -33,8 +33,8 @@ TEAM_K9PFC = DarkRP.createJob("K9PFC", {
     candemote = false,
     category = "K9",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(100)
-        ply:SetHealth(100)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -53,8 +53,8 @@ TEAM_K9LCL = DarkRP.createJob("K9LCL", {
     candemote = false,
     category = "K9",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -73,8 +73,8 @@ TEAM_K9CPL = DarkRP.createJob("K9CPL", {
     candemote = false,
     category = "K9",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })

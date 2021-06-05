@@ -32,6 +32,11 @@ TEAM_TEAM = DarkRP.createJob("Team im Dienst", {
     hasLicense = true,
     candemote = false,
     category = "Other"
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(999999)
+        ply:SetHealth(999999)
+        ply:SetArmor(100)
+    end
 })
 
 --Anwalt--
@@ -65,9 +70,9 @@ TEAM_DSGT = DarkRP.createJob("Drill SGT", {
     candemote = false,
     category = "Drill SGT",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
-        ply:SetArmor(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
     end
 })
 

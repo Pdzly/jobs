@@ -1,11 +1,7 @@
 --Schocktruppen--
-
 TEAM_DEPVT = DarkRP.createJob("STDE", {
     color = Color(255, 0, 0, 255),
-    model = {
-		"models/player/ricky/dg/shock/ricky_thire.mdl",
-		"models/defcon/banks/coldwweather/cg_cold/cg_trooper/cg_trooper.mdl"
-	},
+    model = {"models/player/ricky/dg/shock/ricky_thire.mdl", "models/defcon/banks/coldwweather/cg_cold/cg_trooper/cg_trooper.mdl"},
     description = [[ST DE PVT2NDLT]],
     weapons = {"rw_sw_shield_cg", "rw_sw_shield_rep", "rw_sw_shield_rep_dc17", "re_hands", "weapon_cuff_elastic", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "keys", "bkeycard", "rw_sw_stun_dc15s", "rw_sw_dc15a_o", "rw_sw_shield_rep_dc15s"},
     command = "stde",
@@ -17,18 +13,15 @@ TEAM_DEPVT = DarkRP.createJob("STDE", {
     candemote = false,
     category = "Schocktruppen",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(100)
-        ply:SetHealth(100)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
 
 TEAM_Stone = DarkRP.createJob("ST CPT Stone", {
     color = Color(255, 0, 0, 255),
-    model = {
-		"models/fisher/shock/stone/stone.mdl",
-		"models/defcon/banks/coldwweather/cg_cold/cg_trooper/cg_trooper.mdl"
-	},
+    model = {"models/fisher/shock/stone/stone.mdl", "models/defcon/banks/coldwweather/cg_cold/cg_trooper/cg_trooper.mdl"},
     description = [[ST Captian Stone]],
     weapons = {"stunstick", "rw_sw_shield_cg", "rw_sw_shield_rep", "rw_sw_shield_rep_dc17", "cross_arms_infront_swep", "cross_arms_swep", "rw_sw_shield_cg_dc15s", "salute_swep", "surrender_animation_swep", "keys", "weapon_cuff_elastic", "swep_mexicanshockstaff", "re_hands", "sw_datapad", "rw_sw_nade_thermal", "rw_sw_stun_dc15s", "rw_sw_dual_dc17", "rw_sw_dc15a_o", "bkeycard"},
     command = "atcptstone",
@@ -39,10 +32,10 @@ TEAM_Stone = DarkRP.createJob("ST CPT Stone", {
     hasLicense = false,
     candemote = false,
     category = "Schocktruppen",
-	PlayerSpawn = function(ply)
-        ply:SetMaxHealth(250)
-        ply:SetHealth(250)
-        ply:SetArmor(250)
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
     end
 })
 
@@ -60,8 +53,8 @@ TEAM_STPVT = DarkRP.createJob("STPVT", {
     candemote = false,
     category = "Schocktruppen",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(100)
-        ply:SetHealth(100)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -80,8 +73,8 @@ TEAM_STPFC = DarkRP.createJob("STPFC", {
     candemote = false,
     category = "Schocktruppen",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(100)
-        ply:SetHealth(100)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -100,8 +93,8 @@ TEAM_STLCL = DarkRP.createJob("STLCL", {
     candemote = false,
     category = "Schocktruppen",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -120,8 +113,8 @@ TEAM_STCPL = DarkRP.createJob("STCPL", {
     candemote = false,
     category = "Schocktruppen",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -140,8 +133,8 @@ TEAM_STSGT = DarkRP.createJob("STSGT", {
     candemote = false,
     category = "Schocktruppen",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -160,8 +153,8 @@ TEAM_STHOUND = DarkRP.createJob("ST SGT HOUND", {
     candemote = false,
     category = "Schocktruppen",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -280,9 +273,9 @@ TEAM_STFOX = DarkRP.createJob("Commander Fox", {
     candemote = false,
     category = "Schocktruppen",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(200)
-        ply:SetHealth(200)
-        ply:SetArmor(100)
+        ply:SetMaxHealth(300)
+        ply:SetHealth(300)
+        ply:SetArmor(200)
     end
 })
 
@@ -300,9 +293,9 @@ TEAM_STTHORN = DarkRP.createJob("Commander Thorn", {
     candemote = false,
     category = "Schocktruppen",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(200)
-        ply:SetHealth(200)
-        ply:SetArmor(100)
+        ply:SetMaxHealth(300)
+        ply:SetHealth(300)
+        ply:SetArmor(200)
     end
 })
 
@@ -320,8 +313,8 @@ TEAM_CPLRYS = DarkRP.createJob("ST CPL Rys", {
     candemote = false,
     category = "Schocktruppen",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(100)
-        ply:SetHealth(100)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -330,7 +323,7 @@ TEAM_SGTJEK = DarkRP.createJob("ST SGT Jek", {
     color = Color(255, 0, 0, 255),
     model = {"models/fisher/shock/jek/jek_rys.mdl", "models/defcon/banks/coldwweather/cg_cold/cg_trooper/cg_trooper.mdl"},
     description = [[ST SGT Jek]],
-    weapons = {"rw_sw_stun_dc15s", "keys", "rw_sw_shield_rep_dc17",  "cross_arms_infront_swep", "rw_sw_dc15a_o", "stunstick", "rw_sw_z6", "cross_arms_swep", "salute_swep", "rw_sw_stun_dc17", "rw_sw_shield_rep", "weapon_cuff_elastic", "swep_mexicanshockstaff", "rw_sw_shield_cg_dc15s", "re_hands"},
+    weapons = {"rw_sw_stun_dc15s", "keys", "rw_sw_shield_rep_dc17", "cross_arms_infront_swep", "rw_sw_dc15a_o", "stunstick", "rw_sw_z6", "cross_arms_swep", "salute_swep", "rw_sw_stun_dc17", "rw_sw_shield_rep", "weapon_cuff_elastic", "swep_mexicanshockstaff", "rw_sw_shield_cg_dc15s", "re_hands"},
     command = "jek",
     max = 0,
     salary = 100,
@@ -342,7 +335,7 @@ TEAM_SGTJEK = DarkRP.createJob("ST SGT Jek", {
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(200)
         ply:SetHealth(200)
-        ply:SetArmor(150)
+        ply:SetArmor(100)
     end
 })
 
@@ -360,8 +353,8 @@ TEAM_THIRE = DarkRP.createJob("ST 1stLT Thire", {
     candemote = false,
     category = "Schocktruppen",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(250)
-        ply:SetHealth(250)
-        ply:SetArmor(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
     end
 })

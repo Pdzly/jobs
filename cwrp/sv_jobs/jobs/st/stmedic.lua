@@ -13,8 +13,8 @@ TEAM_STMEDICPVT = DarkRP.createJob("ST Medic PVT", {
     candemote = false,
     category = "Schocktruppen",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(100)
-        ply:SetHealth(100)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -33,8 +33,8 @@ TEAM_STMEDICPFC = DarkRP.createJob("ST Medic PFC", {
     candemote = false,
     category = "Schocktruppen",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(100)
-        ply:SetHealth(100)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -53,8 +53,8 @@ TEAM_STMEDICLCL = DarkRP.createJob("ST Medic LCL", {
     candemote = false,
     category = "Schocktruppen",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -73,8 +73,8 @@ TEAM_STMEDICCPL = DarkRP.createJob("ST Medic CPL", {
     candemote = false,
     category = "Schocktruppen",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })
@@ -93,8 +93,8 @@ TEAM_STMEDICSGT = DarkRP.createJob("ST Medic SGT", {
     candemote = false,
     category = "Schocktruppen",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
         ply:SetArmor(100)
     end
 })

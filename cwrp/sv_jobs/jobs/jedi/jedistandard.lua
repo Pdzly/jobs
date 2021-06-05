@@ -13,8 +13,8 @@ TEAM_YODA = DarkRP.createJob("Großmeister Yoda", {
     candemote = false,
     category = "Jedi",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(25000)
-        ply:SetHealth(25000)
+        ply:SetMaxHealth(5000)
+        ply:SetHealth(5000)
         ply:SetArmor(100)
     end
 })
@@ -33,9 +33,9 @@ TEAM_AHSOKA = DarkRP.createJob("Ahsoka Tano", {
     candemote = false,
     category = "501st",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(10000)
-        ply:SetHealth(10000)
-        ply:SetArmor(10000)
+        ply:SetMaxHealth(2000)
+        ply:SetHealth(2000)
+        ply:SetArmor(100)
     end
 })
 
@@ -53,8 +53,8 @@ TEAM_ANAKIN = DarkRP.createJob("Anakin Skywalker", {
     candemote = false,
     category = "501st",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(13500)
-        ply:SetHealth(13500)
+        ply:SetMaxHealth(5000)
+        ply:SetHealth(5000)
         ply:SetArmor(100)
     end
 })
@@ -77,8 +77,8 @@ TEAM_OBIWAN = DarkRP.createJob("Obi Wan Kenobi", {
     candemote = false,
     category = "212th",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(20000)
-        ply:SetHealth(20000)
+        ply:SetMaxHealth(5000)
+        ply:SetHealth(5000)
         ply:SetArmor(100)
     end
 })
@@ -97,8 +97,8 @@ TEAM_AAYLA = DarkRP.createJob("Aayla Secura", {
     candemote = false,
     category = "Jedi",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(20000)
-        ply:SetHealth(20000)
+        ply:SetMaxHealth(5000)
+        ply:SetHealth(5000)
         ply:SetArmor(100)
     end
 })
@@ -117,8 +117,8 @@ TEAM_SHAAK = DarkRP.createJob("Shaak Ti", {
     candemote = false,
     category = "Jedi",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(20000)
-        ply:SetHealth(20000)
+        ply:SetMaxHealth(5000)
+        ply:SetHealth(5000)
         ply:SetArmor(100)
     end
 })
@@ -137,8 +137,8 @@ TEAM_MUNID = DarkRP.createJob("Ki Adi Mundi", {
     candemote = false,
     category = "Jedi",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(20000)
-        ply:SetHealth(20000)
+        ply:SetMaxHealth(5000)
+        ply:SetHealth(5000)
         ply:SetArmor(100)
     end
 })
@@ -159,8 +159,8 @@ TEAM_FISTO = DarkRP.createJob("Kit Fisto", {
     candemote = false,
     category = "Jedi",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(20000)
-        ply:SetHealth(20000)
+        ply:SetMaxHealth(5000)
+        ply:SetHealth(5000)
     end
 })
 
@@ -180,8 +180,8 @@ TEAM_PLOKOON = DarkRP.createJob("Plo Koon", {
     candemote = false,
     category = "Jedi",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(20000)
-        ply:SetHealth(20000)
+        ply:SetMaxHealth(5000)
+        ply:SetHealth(5000)
     end
 })
 
@@ -218,8 +218,8 @@ TEAM_PADAWAN = DarkRP.createJob("Jedi Padawan", {
     candemote = false,
     category = "Jedi",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(10000)
-        ply:SetHealth(10000)
+        ply:SetMaxHealth(2000)
+        ply:SetHealth(2000)
     end
 })
 
@@ -280,8 +280,8 @@ TEAM_RITTER = DarkRP.createJob("Jedi Ritter", {
     candemote = false,
     category = "Jedi",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(13500)
-        ply:SetHealth(13500)
+        ply:SetMaxHealth(5000)
+        ply:SetHealth(5000)
     end
 })
 
@@ -355,8 +355,8 @@ TEAM_MEISTER = DarkRP.createJob("Jedi Meister", {
     candemote = false,
     category = "Jedi",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(20000)
-        ply:SetHealth(20000)
+        ply:SetMaxHealth(5000)
+        ply:SetHealth(500)
     end
 })
 
@@ -377,7 +377,7 @@ TEAM_187thMaceWindu = DarkRP.createJob("Mace Windu", {
     candemote = false,
     category = "Jedi",
 	    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(20000)
-        ply:SetHealth(20000)
+        ply:SetMaxHealth(5000)
+        ply:SetHealth(5000)
     end
 })
