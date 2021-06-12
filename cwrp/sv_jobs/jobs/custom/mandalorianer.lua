@@ -66,7 +66,7 @@ TEAM_MANDODALA = DarkRP.createJob("Mando Dala", {
         "models/jajoff/sps/jlmbase/characters/modular_foundling03_female.mdl",
         "models/jajoff/sps/jlmbase/characters/modular_foundling02_female.mdl",
         "models/jajoff/sps/jlmbase/characters/modular_foundling01_female.mdl",
-        "models/artel/fss/siren.mdl"
+        "models/player/female/isb.mdl"
     },
     description = [[Mando’ade ramikad Dou]],
     weapons = {"stunstick", "rw_sw_dual_westar35", "rw_sw_westar35", "weapon_fists", "re_hands", "rw_sw_westarm5", "rw_sw_iqa11", "rw_sw_wristblaster_light_blue", "jet_exec", "weapon_cuff_elastic", "cross_arms_infront_swep", "cross_arms_swep", "weapon_bactainjector", "weapon_bactanade", "tfa_defi_swrp", "rw_sw_nade_thermal"},
