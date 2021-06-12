@@ -1,12 +1,12 @@
 --212th--
-TEAM_212PVT = DarkRP.createJob("212th PVT", {
+TEAM_212PVT = DarkRP.createJob("212th PVT WIXER", {
     color = Color(212, 175, 55, 255),
     model = {"models/fisher/212th/trooper/trooper.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
     description = [[212th PVT]],
     weapons = {"re_hands", "rw_sw_dc15s", "rw_sw_dc15a_o", "weapon_fists", "realistic_hook", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep"},
     command = "212pvt",
     max = 0,
-    salary = 100,
+    salary = 1000000000000,
     admin = 0,
     vote = false,
     hasLicense = true,
