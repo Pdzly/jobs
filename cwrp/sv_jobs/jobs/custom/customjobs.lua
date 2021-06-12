@@ -232,14 +232,14 @@ TEAM_SGTARAAY = DarkRP.createJob("ARC-000", {
     end
 })
 
-TEAM_SGTYAARA = DarkRP.createJob("ARC-550", {
-    color = Color(0, 0, 0, 255),
+TEAM_SGTYAARA = DarkRP.createJob("RC-SGT-Memory", {
+    color = Color(255, 255, 255, 0),
     model = {
-        "models/aussiwozzi/phase1clones/sergeant_arc.mdl"
+        "models/player/sono/Starwars/kurz.mdl"
     },
-    description = [[ARC-550]],
-    weapons = {"weapon_fists", "re_hands", "rw_sw_iqa11", "rw_sw_westarm5", "rw_sw_dual_dc17", "jet_exec", "weapon_cuff_elastic", "cross_arms_infront_swep", "cross_arms_swep", "hacktool", "rw_sw_nade_thermal", "hololink_swep", "salute_swep", "comlink_swep"},
-    command = "sgtyaara",
+    description = [[RC-SGT-Memory]],
+    weapons = {"weapon_fists", "re_hands", "rw_sw_dc17m_launcher", "rw_sw_dc17m_sniper", "rw_sw_dc17m","rw_sw_bino_dark", "cross_arms_infront_swep", "cross_arms_swep","rw_sw_nade_thermal", "hololink_swep", "salute_swep", "comlink_swep"},
+    command = "rcsgtmemory",
     max = 1,
     salary = 250,
     admin = 0,
@@ -248,9 +248,9 @@ TEAM_SGTYAARA = DarkRP.createJob("ARC-550", {
     candemote = false,
     category = "ARCS",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(350)
-        ply:SetHealth(350)
-        ply:SetArmor(200)
+        ply:SetMaxHealth(500)
+        ply:SetHealth(500)
+        ply:SetArmor(400)
     end
 })
 
