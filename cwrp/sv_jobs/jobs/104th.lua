@@ -1,6 +1,6 @@
 --104th--
 TEAM_104PVT = DarkRP.createJob("104th PVT", {
-    color = Color(117, 117, 117, 255),
+    color = Color(2555, 255, 255, 255),
     model = {"models/fisher/104th/trooper/trooper.mdl"},
     description = [[104th PVT]],
     weapons = {"re_hands", "weapon_fists", "rw_sw_dc15a_o", "rw_sw_dc15s", "jet_exec", "realistic_hook", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_dc17", "rw_sw_dp23"},
