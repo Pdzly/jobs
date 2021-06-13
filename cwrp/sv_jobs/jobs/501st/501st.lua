@@ -190,7 +190,7 @@ TEAM_501STREX = DarkRP.createJob("Captain Rex", {
 		"models/defcon/banks/coldwweather/501st_cold/501st_rex/501st_rex.mdl"
 	},
     description = [[Captain Rex]],
-    weapons = {"jet_mk1", "weapon_fists", "re_hands", "weapon_fists", "rw_sw_dual_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "tfa_dc15s_stun", "weapon_cuff_elastic", "rw_sw_nade_thermal"},
+    weapons = {"rw_sw_dc15s", "rw_sw_westarm5", "jet_mk1", "weapon_fists", "re_hands", "weapon_fists", "rw_sw_dual_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "tfa_dc15s_stun", "weapon_cuff_elastic", "rw_sw_nade_thermal"},
     command = "rex",
     max = 1,
     salary = 100,
