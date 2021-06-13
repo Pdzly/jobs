@@ -248,7 +248,7 @@ TEAM_FVA = DarkRP.createJob("Flotten Vize", {
 
 TEAM_FA = DarkRP.createJob("Flotten Admiral", {
    color = Color(142, 142, 142, 255),
-   model = {"models/player/kurier/fleet/fleetadmiral.mdl", "models/defcon/banks/coldwweather/custom/repcom_cold/repcom_cold.mdl"},
+   model = {"models/defcon/banks/coldwweather/custom/repcom_cold/repcom_cold.mdl"},
    description = [[Flotten Admiral]],
    weapons = {"stunstick","re_hands", "salute_swep", "cross_arms_infront_swep", "cross_arms_swep", "rw_sw_bino_white", "rw_sw_dc17", "weapon_cuff_elastic"},
    command = "FA",
