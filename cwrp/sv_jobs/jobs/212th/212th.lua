@@ -316,7 +316,7 @@ TEAM_212THTRAPPER = DarkRP.createJob("212th CPL Trapper", {
 
 TEAM_212THARC = DarkRP.createJob("212th ARC", {
     color = Color(0, 0, 0, 255),
-    model = {"models/loudmantis/212/arc.mdl", "models/defcon/stan/arcevo/regimentals/evo212tharc.mdl"},
+    model = {"models/fisher/arc/212th_arc_heavy.mdl", "models/defcon/stan/arcevo/regimentals/evo212tharc.mdl"},
     description = [[212th ARC]],
     weapons = {"rw_sw_rps6", "stunstick", "rw_sw_bino_dark", "rw_sw_westarm5", "re_hands", "rw_sw_dc15s", "rw_sw_dc15a_o", "weapon_fists", "realistic_hook", "rw_sw_dual_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal", "weapon_cuff_elastic", "rw_sw_nade_thermal", "bkeycard", "jet_mk1", "stunstick", "tfa_defi_swrp", "weapon_bactainjector", "hacktool"},
     command = "212tharc",
