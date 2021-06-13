@@ -1,5 +1,5 @@
 --Feldmedics--
-TEAM_CLOASS = DarkRP.createJob("RMCFeldSanniPVT", {
+TEAM_FELDSANNIPVT = DarkRP.createJob("RMCFeldSanniPVT", {
     color = Color(0, 0, 0, 255),
     model = {"models/defcon/74/qrf.mdl","models/DxN/cod_ghosts/hazmat_pm.mdl", "models/defcon/banks/coldwweather/74th_cold/74th_trooper/74th_trooper.mdl", "models/smitty/bf2_reg/medic_officer/medic_officer.mdl"},
     description = [[RMCFeldPVT]],
@@ -19,7 +19,7 @@ TEAM_CLOASS = DarkRP.createJob("RMCFeldSanniPVT", {
     end
 })
 
-TEAM_CLOASS = DarkRP.createJob("RMCFeldSanniPFC", {
+TEAM_FELDSANNIPFC = DarkRP.createJob("RMCFeldSanniPFC", {
     color = Color(0, 0, 0, 255),
     model = {"models/defcon/74/qrf.mdl","models/DxN/cod_ghosts/hazmat_pm.mdl", "models/defcon/banks/coldwweather/74th_cold/74th_trooper/74th_trooper.mdl", "models/smitty/bf2_reg/medic_officer/medic_officer.mdl"},
     description = [[RMCFeldPFC]],
@@ -39,7 +39,7 @@ TEAM_CLOASS = DarkRP.createJob("RMCFeldSanniPFC", {
     end
 })
 
-TEAM_CLOASS = DarkRP.createJob("RMCFeldSanniLCPL", {
+TEAM_FELDSANNILCL = DarkRP.createJob("RMCFeldSanniLCL", {
     color = Color(0, 0, 0, 255),
     model = {"models/defcon/74/qrf.mdl", "models/DxN/cod_ghosts/hazmat_pm.mdl", "models/defcon/banks/coldwweather/74th_cold/74th_trooper/74th_trooper.mdl", "models/smitty/bf2_reg/medic_officer/medic_officer.mdl"},
     description = [[RMCFeldLCPL]],
@@ -59,7 +59,7 @@ TEAM_CLOASS = DarkRP.createJob("RMCFeldSanniLCPL", {
     end
 })
 
-TEAM_CLOASS = DarkRP.createJob("RMCFeldSanniCPL", {
+TEAM_FELDSANNICPL = DarkRP.createJob("RMCFeldSanniCPL", {
     color = Color(0, 0, 0, 255),
     model = {"models/defcon/74/qrf.mdl", "models/DxN/cod_ghosts/hazmat_pm.mdl", "models/defcon/banks/coldwweather/74th_cold/74th_trooper/74th_trooper.mdl", "models/smitty/bf2_reg/medic_officer/medic_officer.mdl"},
     description = [[RMCFeldCPL]],
@@ -79,7 +79,7 @@ TEAM_CLOASS = DarkRP.createJob("RMCFeldSanniCPL", {
     end
 })
 
-TEAM_CLOASS = DarkRP.createJob("RMCFeldSanniSGT", {
+TEAM_FELDSANNISGT = DarkRP.createJob("RMCFeldSanniSGT", {
     color = Color(0, 0, 0, 255),
     model = {"models/defcon/74/qrf.mdl", "models/DxN/cod_ghosts/hazmat_pm.mdl", "models/defcon/banks/coldwweather/74th_cold/74th_trooper/74th_trooper.mdl", "models/smitty/bf2_reg/medic_officer/medic_officer.mdl"},
     description = [[RMCFeldSGT]],
@@ -99,7 +99,7 @@ TEAM_CLOASS = DarkRP.createJob("RMCFeldSanniSGT", {
     end
 })
 
-TEAM_CLOASS = DarkRP.createJob("RMCFeldSanniSGTMJ", {
+TEAM_FELDSANNISGTMJ = DarkRP.createJob("RMCFeldSanniSGTMJ", {
     color = Color(0, 0, 0, 255),
     model = {"models/defcon/74/qrf.mdl", "models/DxN/cod_ghosts/hazmat_pm.mdl", "models/defcon/banks/coldwweather/74th_cold/74th_trooper/74th_trooper.mdl", "models/smitty/bf2_reg/medic_officer/medic_officer.mdl"},
     description = [[RMCFeldSGTMJ]],
@@ -119,7 +119,7 @@ TEAM_CLOASS = DarkRP.createJob("RMCFeldSanniSGTMJ", {
     end
 })
 
-TEAM_CLOASS = DarkRP.createJob("RMCFeldSanni2ndLT", {
+TEAM_FELDSANNI2NDLT = DarkRP.createJob("RMCFeldSanni2ndLT", {
     color = Color(0, 0, 0, 255),
     model = {"models/defcon/74/qrf.mdl", "models/DxN/cod_ghosts/hazmat_pm.mdl", "models/defcon/banks/coldwweather/74th_cold/74th_trooper/74th_trooper.mdl", "models/smitty/bf2_reg/medic_officer/medic_officer.mdl"},
     description = [[RMCFeld2ndLT]],
@@ -139,7 +139,7 @@ TEAM_CLOASS = DarkRP.createJob("RMCFeldSanni2ndLT", {
     end
 })
 
-TEAM_CLOASS = DarkRP.createJob("RMCFeldSanni1stLT", {
+TEAM_FELDSANNI1STLT = DarkRP.createJob("RMCFeldSanni1stLT", {
     color = Color(0, 0, 0, 255),
     model = {"models/defcon/74/qrf.mdl", "models/DxN/cod_ghosts/hazmat_pm.mdl", "models/defcon/banks/coldwweather/74th_cold/74th_trooper/74th_trooper.mdl", "models/smitty/bf2_reg/medic_officer/medic_officer.mdl"},
     description = [[RMCFeld1stLT]],
@@ -159,7 +159,7 @@ TEAM_CLOASS = DarkRP.createJob("RMCFeldSanni1stLT", {
     end
 })
 
-TEAM_CLOASS = DarkRP.createJob("RMCFeldSanniCPT", {
+TEAM_FELDSANNICPT = DarkRP.createJob("RMCFeldSanniCPT", {
     color = Color(0, 0, 0, 255),
     model = {"models/defcon/74/qrf.mdl", "models/DxN/cod_ghosts/hazmat_pm.mdl", "models/defcon/banks/coldwweather/74th_cold/74th_trooper/74th_trooper.mdl", "models/smitty/bf2_reg/medic_officer/medic_officer.mdl"},
     description = [[RMCFeldCPT]],

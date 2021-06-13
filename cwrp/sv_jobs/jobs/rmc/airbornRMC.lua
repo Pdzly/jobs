@@ -1,6 +1,6 @@
 ----RMCAIRBORn-------
 
-TEAM_CLOASS = DarkRP.createJob("RMCJumptrooperPVT", {
+TEAM_RMCJUMPTROOPERPVT = DarkRP.createJob("RMCJumptrooperPVT", {
     color = Color(0, 0, 0, 255),
     model = {"models/fisher/ctna/trooper/rmc_jump/rmc_jump_trooper.mdl", "models/DxN/cod_ghosts/hazmat_pm.mdl", "models/defcon/banks/coldwweather/74th_cold/74th_trooper/74th_trooper.mdl", "models/smitty/bf2_reg/medic_officer/medic_officer.mdl"},
     description = [[RMCJumpPVT]],
@@ -20,7 +20,7 @@ TEAM_CLOASS = DarkRP.createJob("RMCJumptrooperPVT", {
     end
 })
 
-TEAM_CLOASS = DarkRP.createJob("RMCJumptrooperPFC", {
+TEAM_RMCJUMPTROOPERPFC = DarkRP.createJob("RMCJumptrooperPFC", {
     color = Color(0, 0, 0, 255),
     model = {"models/fisher/ctna/trooper/rmc_jump/rmc_jump_trooper.mdl", "models/DxN/cod_ghosts/hazmat_pm.mdl", "models/defcon/banks/coldwweather/74th_cold/74th_trooper/74th_trooper.mdl", "models/smitty/bf2_reg/medic_officer/medic_officer.mdl"},
     description = [[RMCJumpPFC]],
@@ -42,7 +42,7 @@ TEAM_CLOASS = DarkRP.createJob("RMCJumptrooperPFC", {
 
 
 
-TEAM_CLOASS = DarkRP.createJob("RMCJumptrooperLCPL", {
+TEAM_RMCJUMPTROOPERLCL = DarkRP.createJob("RMCJumptrooperLCPL", {
     color = Color(0, 0, 0, 255),
     model = {"models/fisher/ctna/trooper/rmc_jump/rmc_jump_trooper.mdl", "models/DxN/cod_ghosts/hazmat_pm.mdl", "models/defcon/banks/coldwweather/74th_cold/74th_trooper/74th_trooper.mdl", "models/smitty/bf2_reg/medic_officer/medic_officer.mdl"},
     description = [[RMCJumpLCPL]],
@@ -62,7 +62,7 @@ TEAM_CLOASS = DarkRP.createJob("RMCJumptrooperLCPL", {
     end
 })
 
-TEAM_CLOASS = DarkRP.createJob("RMCJumptrooperCPL", {
+TEAM_RMCJUMPTROOPERCPL = DarkRP.createJob("RMCJumptrooperCPL", {
     color = Color(0, 0, 0, 255),
     model = {"models/fisher/ctna/trooper/rmc_jump/rmc_jump_trooper.mdl", "models/DxN/cod_ghosts/hazmat_pm.mdl", "models/defcon/banks/coldwweather/74th_cold/74th_trooper/74th_trooper.mdl", "models/smitty/bf2_reg/medic_officer/medic_officer.mdl"},
     description = [[RMCJumpCPL]],
@@ -82,7 +82,7 @@ TEAM_CLOASS = DarkRP.createJob("RMCJumptrooperCPL", {
     end
 })
 
-TEAM_CLOASS = DarkRP.createJob("RMCJumptrooperSGT", {
+TEAM_RMCJUMPTROOPERSGT = DarkRP.createJob("RMCJumptrooperSGT", {
     color = Color(0, 0, 0, 255),
     model = {"models/fisher/ctna/trooper/rmc_jump/rmc_jump_trooper.mdl", "models/DxN/cod_ghosts/hazmat_pm.mdl", "models/defcon/banks/coldwweather/74th_cold/74th_trooper/74th_trooper.mdl", "models/smitty/bf2_reg/medic_officer/medic_officer.mdl"},
     description = [[RMCJumpSGT]],
@@ -102,7 +102,7 @@ TEAM_CLOASS = DarkRP.createJob("RMCJumptrooperSGT", {
     end
 })
 
-TEAM_CLOASS = DarkRP.createJob("RMCJumptrooperSGTMJ", {
+TEAM_RMCJUMPTROOPERSGTMJ = DarkRP.createJob("RMCJumptrooperSGTMJ", {
     color = Color(0, 0, 0, 255),
     model = {"models/fisher/ctna/trooper/rmc_jump/rmc_jump_trooper.mdl", "models/DxN/cod_ghosts/hazmat_pm.mdl", "models/defcon/banks/coldwweather/74th_cold/74th_trooper/74th_trooper.mdl", "models/smitty/bf2_reg/medic_officer/medic_officer.mdl"},
     description = [[RMCJumpSGTMJ]],
@@ -122,7 +122,7 @@ TEAM_CLOASS = DarkRP.createJob("RMCJumptrooperSGTMJ", {
     end
 })
 
-TEAM_CLOASS = DarkRP.createJob("RMCJumptrooper2ndLT", {
+TEAM_RMCJUMPTROOPER2NDLT = DarkRP.createJob("RMCJumptrooper2ndLT", {
     color = Color(0, 0, 0, 255),
     model = {"models/fisher/ctna/trooper/rmc_jump/rmc_jump_trooper.mdl", "models/DxN/cod_ghosts/hazmat_pm.mdl", "models/defcon/banks/coldwweather/74th_cold/74th_trooper/74th_trooper.mdl", "models/smitty/bf2_reg/medic_officer/medic_officer.mdl"},
     description = [[RMCJump2ndLT]],
@@ -142,7 +142,7 @@ TEAM_CLOASS = DarkRP.createJob("RMCJumptrooper2ndLT", {
     end
 })
 
-TEAM_CLOASS = DarkRP.createJob("RMCJumptrooper1stLT", {
+TEAM_RMCJUMPTROOPER1STLT = DarkRP.createJob("RMCJumptrooper1stLT", {
     color = Color(0, 0, 0, 255),
     model = {"models/fisher/ctna/trooper/rmc_jump/rmc_jump_trooper.mdl", "models/DxN/cod_ghosts/hazmat_pm.mdl", "models/defcon/banks/coldwweather/74th_cold/74th_trooper/74th_trooper.mdl", "models/smitty/bf2_reg/medic_officer/medic_officer.mdl"},
     description = [[RMCJump1stLT]],
@@ -162,7 +162,7 @@ TEAM_CLOASS = DarkRP.createJob("RMCJumptrooper1stLT", {
     end
 })
 
-TEAM_CLOASS = DarkRP.createJob("RMCJumptrooperCPT", {
+TEAM_RMCJUMPTROOPERCPT = DarkRP.createJob("RMCJumptrooperCPT", {
     color = Color(0, 0, 0, 255),
     model = {"models/fisher/ctna/trooper/rmc_jump/rmc_jump_trooper.mdl", "models/DxN/cod_ghosts/hazmat_pm.mdl", "models/defcon/banks/coldwweather/74th_cold/74th_trooper/74th_trooper.mdl", "models/smitty/bf2_reg/medic_officer/medic_officer.mdl"},
     description = [[RMCJumpCPT]],
