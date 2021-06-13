@@ -142,7 +142,7 @@ TEAM_501ARF2NDLT = DarkRP.createJob("501st ARF 2ndLT", {
 
 TEAM_501ARF1STLT = DarkRP.createJob("501st ARF 1stLT", {
     color = Color(0, 88, 255, 255),
-    model = {"models/starwars/grady/501st_arf/501st_arf2.mdl"},
+    model = {"models/defcon/loudmantis/501/arf.mdl"},
     description = [[501st ARF 1stLT]],
     weapons = {"weapon_fists", "re_hands", "rw_sw_dc15a_o", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "weapon_grapplehook", "rw_sw_dc15s", "rw_sw_dc15x"},
     command = "501ARF1STLT",
