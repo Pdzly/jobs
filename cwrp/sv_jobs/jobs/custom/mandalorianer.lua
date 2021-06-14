@@ -85,12 +85,12 @@ TEAM_MANDODALA = DarkRP.createJob("Mando Dala", {
     end
 })
 
-TEAM_ZACKIERMANDO = DarkRP.createJob("Zac Kier'ha", {
+TEAM_YERIKIERMANDO = DarkRP.createJob("Yeri Kier'ha", {
 color = Color(14, 77, 28, 255),
-model = {"models/jajoff/sps/jlmbase/characters/schewekir.mdl"},
-description = [[Ein Mandalorianer Names Zac]],
-weapons = {"weapon_fists", "re_hands", "rw_sw_dual_westar35", "rw_sw_nt242c", "rw_sw_scattershotgun", "rw_sw_k16", "rw_sw_wristblaster_light_purple", "rw_sw_wristflame", "rw_sw_wristrocket", "jet_exec", "seal6-c4", "tfa_defi_swrp", "weapon_extinguisher_infinite", "weapon_bactainjector", "weapon_armorkit", "weapon_cuff_elastic", "extinguisher_infinite", "cross_arms_infront_swep", "cross_arms_swep", "rw_sw_wristblaster_light_yellow", "rw_sw_wristflame", "rw_sw_wristrocket", "rw_sw_tusken_cycler"},
-command = "zaci",
+model = {"models/jajoff/sps/jlmbase/characters/modular_foundling01_female.mdl"},
+description = [[Ein Mandalorianer Names Yeri]],
+weapons = {"weapon_fists", "re_hands", "rw_sw_dual_westar35", "rw_sw_nt242c", "rw_sw_scattershotgun", "jet_exec", "seal6-c4", "tfa_defi_swrp", "weapon_extinguisher_infinite", "weapon_bactainjector", "weapon_armorkit", "weapon_cuff_elastic", "extinguisher_infinite", "cross_arms_infront_swep", "cross_arms_swep", "rw_sw_wristblaster_light_yellow", "rw_sw_wristflame", "rw_sw_wristrocket", "rw_sw_tusken_cycler"},
+command = "Yeri",
 max = 1,
 salary = 250,
 admin = 0,
