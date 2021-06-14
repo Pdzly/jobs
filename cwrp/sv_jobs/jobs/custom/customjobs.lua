@@ -235,7 +235,7 @@ TEAM_SGTARAAY = DarkRP.createJob("ARC-000", {
 TEAM_SGTYAARA = DarkRP.createJob("RC-SGT-Memory", {
     color = Color(255, 255, 255, 0),
     model = {
-        "models/player/sono/Starwars/kurz.mdl"
+        "models/dany/rc_striker_pm/rc_new_striker.mdl"
     },
     description = [[RC-SGT-Memory]],
     weapons = {"weapon_fists", "re_hands", "rw_sw_dc17m_launcher", "rw_sw_dc17m_sniper", "rw_sw_dc17m","rw_sw_bino_dark", "cross_arms_infront_swep", "cross_arms_swep","rw_sw_nade_thermal", "hololink_swep", "salute_swep", "comlink_swep"},
