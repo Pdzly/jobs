@@ -2,7 +2,7 @@
 
 TEAM_501ARFPVT = DarkRP.createJob("501st ARF PVT", {
     color = Color(0, 88, 255, 255),
-    model = {"models/starwars/grady/501st_arf/501st_arf2.mdl"},
+    model = {"models/defcon/loudmantis/501/arf.mdl"},
     description = [[501st ARF PVT]],
     weapons = {"weapon_fists", "re_hands", "rw_sw_dc15a_o", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "weapon_grapplehook", "rw_sw_dc15s", "rw_sw_dc15x"},
     command = "501ARFPVT",
@@ -22,7 +22,7 @@ TEAM_501ARFPVT = DarkRP.createJob("501st ARF PVT", {
 
 TEAM_501ARFPFC = DarkRP.createJob("501st ARF PFC", {
     color = Color(0, 88, 255, 255),
-    model = {"models/starwars/grady/501st_arf/501st_arf2.mdl"},
+    model = {"models/defcon/loudmantis/501/arf.mdl"},
     description = [[501st ARF PFC]],
     weapons = {"weapon_fists", "re_hands", "rw_sw_dc15a_o", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "weapon_grapplehook", "rw_sw_dc15s", "rw_sw_dc15x"},
     command = "501ARFPFC",
@@ -42,7 +42,7 @@ TEAM_501ARFPFC = DarkRP.createJob("501st ARF PFC", {
 
 TEAM_501ARFLCL = DarkRP.createJob("501st ARF LCL", {
     color = Color(0, 88, 255, 255),
-    model = {"models/starwars/grady/501st_arf/501st_arf2.mdl"},
+    model = {"models/defcon/loudmantis/501/arf.mdl"},
     description = [[501st ARF LCL]],
     weapons = {"weapon_fists", "re_hands", "rw_sw_dc15a_o", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "weapon_grapplehook", "rw_sw_dc15s", "rw_sw_dc15x"},
     command = "501ARFLCL",
@@ -62,7 +62,7 @@ TEAM_501ARFLCL = DarkRP.createJob("501st ARF LCL", {
 
 TEAM_501ARFCPL = DarkRP.createJob("501st ARF CPL", {
     color = Color(0, 88, 255, 255),
-    model = {"models/starwars/grady/501st_arf/501st_arf2.mdl"},
+    model = {"models/defcon/loudmantis/501/arf.mdl"},
     description = [[501st ARF CPL]],
     weapons = {"weapon_fists", "re_hands", "rw_sw_dc15a_o", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "weapon_grapplehook", "rw_sw_dc15s", "rw_sw_dc15x"},
     command = "501ARFCPL",
@@ -82,7 +82,7 @@ TEAM_501ARFCPL = DarkRP.createJob("501st ARF CPL", {
 
 TEAM_501ARFSGT = DarkRP.createJob("501st ARF SGT", {
     color = Color(0, 88, 255, 255),
-    model = {"models/starwars/grady/501st_arf/501st_arf2.mdl"},
+    model = {"models/defcon/loudmantis/501/arf.mdl"},
     description = [[501st ARF SGT]],
     weapons = {"weapon_fists", "re_hands", "rw_sw_dc15a_o", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "weapon_grapplehook", "rw_sw_dc15s", "rw_sw_dc15x"},
     command = "501ARFSGT",
@@ -102,7 +102,7 @@ TEAM_501ARFSGT = DarkRP.createJob("501st ARF SGT", {
 
 TEAM_501ARFSGTMJ = DarkRP.createJob("501st ARF SGTMJ", {
     color = Color(0, 88, 255, 255),
-    model = {"models/starwars/grady/501st_arf/501st_arf2.mdl"},
+    model = {"models/defcon/loudmantis/501/arf.mdl"},
     description = [[501st ARF SGTMJ]],
     weapons = {"weapon_fists", "re_hands", "rw_sw_dc15a_o", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "weapon_grapplehook", "rw_sw_dc15s", "rw_sw_dc15x"},
     command = "501ARFSGTMJ",
@@ -122,7 +122,7 @@ TEAM_501ARFSGTMJ = DarkRP.createJob("501st ARF SGTMJ", {
 
 TEAM_501ARF2NDLT = DarkRP.createJob("501st ARF 2ndLT", {
     color = Color(0, 88, 255, 255),
-    model = {"models/starwars/grady/501st_arf/501st_arf2.mdl"},
+    model = {"models/defcon/loudmantis/501/arf.mdl"},
     description = [[501st ARF 2ndLT]],
     weapons = {"weapon_fists", "re_hands", "rw_sw_dc15a_o", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "weapon_grapplehook", "rw_sw_dc15s", "rw_sw_dc15x"},
     command = "501ARF2NDLT",
