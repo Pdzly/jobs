@@ -61,7 +61,7 @@ TEAM_CPTFIREN = DarkRP.createJob("CPT Firen", {
     hasLicense = true,
     candemote = false,
     category = "Other",
-	PlayerSpawn = function(ply)
+    PlayerSpawn = function(ply)
         ply:SetMaxHealth(180)
         ply:SetHealth(180)
         ply:SetArmor(180)
@@ -88,9 +88,8 @@ TEAM_2NDAIRBORNSAPNO = DarkRP.createJob("2nd Airborn ARC 4422 Sapno", {
     end
 })
 
-
 TEAM_ARC = DarkRP.createJob("ARC CMD Lucky", {
-    color = Color(255,255,255, 255),
+    color = Color(255, 255, 255, 255),
     model = {"models/loudmantis/arc/cards.mdl"},
     description = [[ARC CMD LUCKY]],
     weapons = {"rw_sw_dc15s", "rw_sw_westarm5", "rw_sw_dual_dc17ext", "rw_sw_z6", "rw_sw_rps6", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "seal6-c4", "jet_exec", "weapon_grapplehook", "weapon_bactainjector", "weapon_armorkit", "rw_sw_nade_thermal", "weapon_extinguisher_infinite", "weapon_cuff_elastic", "re_hands", "stunstick"},
@@ -110,7 +109,7 @@ TEAM_ARC = DarkRP.createJob("ARC CMD Lucky", {
 })
 
 TEAM_TECH = DarkRP.createJob("Bad Batch Tech", {
-    color = Color(255,255,255, 255),
+    color = Color(255, 255, 255, 255),
     model = {"models/player/bad_batch/tech.mdl"},
     description = [[Tech]],
     weapons = {"hacktool", "rw_sw_dc15s", "rw_sw_dc17", "rw_sw_dual_dc17", "rw_sw_nade_thermal", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "sw_datapad", "rw_sw_bino_dark", "meleearts_blade_throwingknife"},
@@ -130,7 +129,7 @@ TEAM_TECH = DarkRP.createJob("Bad Batch Tech", {
 })
 
 TEAM_WRECKER = DarkRP.createJob("Bad Batch Wrecker", {
-    color = Color(255,255,255, 255),
+    color = Color(255, 255, 255, 255),
     model = {"models/player/bad_batch/wrecker.mdl"},
     description = [[Wrecker]],
     weapons = {"seal6-c4", "rw_sw_dc15s", "rw_sw_dc17", "rw_sw_dc17m", "rw_sw_nade_thermal", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "meleearts_blade_throwingknife"},
@@ -150,7 +149,7 @@ TEAM_WRECKER = DarkRP.createJob("Bad Batch Wrecker", {
 })
 
 TEAM_HUNTER = DarkRP.createJob("Bad Batch SGT Hunter", {
-    color = Color(255,255,255, 255),
+    color = Color(255, 255, 255, 255),
     model = {"models/player/bad_batch/hunter.mdl"},
     description = [[Hunter]],
     weapons = {"rw_sw_dc15s", "rw_sw_dc17", "rw_sw_dual_dc17", "rw_sw_nade_thermal", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "meleearts_blade_throwingknife"},
@@ -170,7 +169,7 @@ TEAM_HUNTER = DarkRP.createJob("Bad Batch SGT Hunter", {
 })
 
 TEAM_CROSSHAIR = DarkRP.createJob("Bad Batch Crosshair", {
-    color = Color(255,255,255, 255),
+    color = Color(255, 255, 255, 255),
     model = {"models/player/badbatch2/crosshair/crosshair.mdl"},
     description = [[Crosshair]],
     weapons = {"rw_sw_dc17", "rw_sw_dual_dc17", "rw_sw_iqa11c", "rw_sw_nade_thermal", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "meleearts_blade_throwingknife"},
@@ -190,7 +189,7 @@ TEAM_CROSSHAIR = DarkRP.createJob("Bad Batch Crosshair", {
 })
 
 TEAM_BADBATCHECHO = DarkRP.createJob("Bad Batch Echo", {
-    color = Color(255,255,255, 255),
+    color = Color(255, 255, 255, 255),
     model = {"models/defcon/loudmantis/501/echo_bad_batch.mdl"},
     description = [[Echo]],
     weapons = {"rw_sw_dc15s", "rw_sw_dc17", "rw_sw_dual_dc17", "rw_sw_nade_thermal", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "meleearts_blade_throwingknife", "hacktool"},
@@ -211,10 +210,7 @@ TEAM_BADBATCHECHO = DarkRP.createJob("Bad Batch Echo", {
 
 TEAM_SGTARAAY = DarkRP.createJob("ARC-000", {
     color = Color(0, 0, 0, 255),
-    model = {
-        "models/toe/genbarc.mdl",
-        "models/aussiwozzi/phase1clones/captain_arc.mdl"
-    },
+    model = {"models/toe/genbarc.mdl", "models/aussiwozzi/phase1clones/captain_arc.mdl"},
     description = [[ARC-000]],
     weapons = {"weapon_fists", "re_hands", "rw_sw_westarm5", "rw_sw_dual_dc17", "jet_exec", "weapon_cuff_elastic", "cross_arms_infront_swep", "cross_arms_swep", "hacktool", "rw_sw_nade_thermal", "hololink_swep", "salute_swep", "comlink_swep"},
     command = "sgtaraay",
@@ -234,11 +230,9 @@ TEAM_SGTARAAY = DarkRP.createJob("ARC-000", {
 
 TEAM_SGTYAARA = DarkRP.createJob("RC-SGT-Memory", {
     color = Color(255, 255, 255, 0),
-    model = {
-        "models/dany/rc_striker_pm/rc_new_striker.mdl"
-    },
+    model = {"models/dany/rc_striker_pm/rc_new_striker.mdl"},
     description = [[RC-SGT-Memory]],
-    weapons = {"weapon_fists", "re_hands", "rw_sw_dc17m_launcher", "rw_sw_dc17m_sniper", "rw_sw_dc17m","rw_sw_bino_dark", "cross_arms_infront_swep", "cross_arms_swep","rw_sw_nade_thermal", "hololink_swep", "salute_swep", "comlink_swep"},
+    weapons = {"weapon_fists", "re_hands", "rw_sw_dc17m_launcher", "rw_sw_dc17m_sniper", "rw_sw_dc17m", "rw_sw_bino_dark", "cross_arms_infront_swep", "cross_arms_swep", "rw_sw_nade_thermal", "hololink_swep", "salute_swep", "comlink_swep"},
     command = "rcsgtmemory",
     max = 1,
     salary = 250,
@@ -256,9 +250,7 @@ TEAM_SGTYAARA = DarkRP.createJob("RC-SGT-Memory", {
 
 TEAM_Phose = DarkRP.createJob("ARC-SGTMJ Phose", {
     color = Color(47, 0, 255, 202),
-    model = {
-        "models/aussiwozzi/phase1clones/captain_arc.mdl"
-    },
+    model = {"models/aussiwozzi/phase1clones/captain_arc.mdl"},
     description = [[ARC-SGTMJ Phose]],
     weapons = {"weapon_fists", "re_hands", "rw_sw_westarm5", "rw_sw_dual_dc17", "jet_mk5", "rw_sw_dc15le_o", "cross_arms_infront_swep", "cross_arms_swep", "hacktool", "rw_sw_nade_thermal", "hololink_swep", "salute_swep", "comlink_swep"},
     command = "sgtmjphose",
@@ -277,8 +269,8 @@ TEAM_Phose = DarkRP.createJob("ARC-SGTMJ Phose", {
 })
 
 TEAM_Raven = DarkRP.createJob("ARC-CPT Raven", {
-    color = Color(110,139,61),
-    model = {models/aussiwozzi/phase1clones/sergeant_arc.mdl},
+    color = Color(110, 139, 61),
+    model = {"models/aussiwozzi/phase1clones/sergeant_arc.mdl"},
     description = [[ARC-CPT Phose]],
     weapons = {"weapon_fists", "re_hands", "rw_sw_westarm5", "rw_sw_dual_dc17", "jet_mk5", "rw_sw_dc15a", "cross_arms_infront_swep", "cross_arms_swep", "hacktool", "rw_sw_nade_thermal", "hololink_swep", "salute_swep", "comlink_swep"},
     command = "cptraven",
