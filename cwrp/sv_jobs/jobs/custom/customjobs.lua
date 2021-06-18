@@ -287,3 +287,22 @@ TEAM_Raven = DarkRP.createJob("ARC-CPT Raven", {
         ply:SetArmor(200)
     end
 })
+TEAM_vale = DarkRP.createJob("RC-Vale", {
+    color = Color(145, 7, 7, 255),
+    model = {"models/defcon/loudmantis/shadows/vale.mdl"},
+    description = [[RC_Vale]],
+    weapons = {"at_sw_dc15sa", "at_sw_dc17m", "bkeycard", "weapon_cuff_elastic", "rw_sw_nade_thermal", "tfa_defi_swrp", "weapon_thehiddenblade", "weapon_bactainjector", "weapon_armorkit", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "seal6-c4", "hacktool", "comlink_swep", "alydus_fortificationbuildertablet"},
+    command = "vale",
+    max = 1,
+    salary = 250,
+    admin = 0,
+    vote = false,
+    hasLicense = true,
+    candemote = false,
+    category = "Delta Squad",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(700)
+        ply:SetHealth(700)
+        ply:SetArmor(254)
+    end
+})
