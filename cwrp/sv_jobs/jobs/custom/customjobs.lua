@@ -270,7 +270,7 @@ TEAM_Phose = DarkRP.createJob("ARC-SGTMJ Phose", {
 
 TEAM_Raven = DarkRP.createJob("ARC-CPT Raven", {
     color = Color(110, 139, 61),
-    model = {"models/aussiwozzi/phase1clones/sergeant_arc.mdl"},
+    model = {"models/aussiwozzi/phase1clones/Captain_arc.mdl"},
     description = [[ARC-CPT Phose]],
     weapons = {"weapon_fists", "re_hands", "rw_sw_westarm5", "rw_sw_dual_dc17", "jet_mk5", "rw_sw_dc15a", "cross_arms_infront_swep", "cross_arms_swep", "hacktool", "rw_sw_nade_thermal", "hololink_swep", "salute_swep", "comlink_swep"},
     command = "cptraven",
