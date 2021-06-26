@@ -238,3 +238,25 @@ TEAM_DOOM = DarkRP.createJob("Commander Doom", {
         ply:SetArmor(250)
     end
 })
+
+TEAM_ARCCPTEVO = DarkRP.createJob("ARC COL 1288 Evo", {
+    color = Color(255, 215, 0, 255),
+    model = {
+        "models/player/suno/arc/arc_4.mdl"
+    },
+    description = [[ARC MJR 1288 Evo]],
+    weapons = {"rw_sw_shield_rep", "stunstick", "tfa_defi_swrp", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "point_in_direction_swep", "surrender_animation_swep", "alydus_fusioncutter", "alydus_fortificationbuildertablet", "weapon_bactainjector", "weapon_armorkit", "weapon_thehiddenblade", "weapon_extinguisher_infinite", "weapon_breachingcharge", "seal6-c4", "jet_mk1", "sw_datapad", "rw_sw_dc15s", "rw_sw_westarm5", "rw_sw_dual_dc17ext", "rw_sw_bino_dark", "rw_sw_dc15x"},
+    command = "arccptevo",
+    max = 1,
+    salary = 500,
+    admin = 0,
+    vote = false,
+    hasLicense = true,
+    candemote = false,
+	category = "Dooms Unit",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(350)
+        ply:SetHealth(350)
+        ply:SetArmor(200)
+    end
+})
