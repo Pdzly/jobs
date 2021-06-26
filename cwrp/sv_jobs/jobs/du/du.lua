@@ -53,8 +53,8 @@ TEAM_DOPFC = DarkRP.createJob("Doom PFC", {
     candemote = false,
     category = "Dooms Unit",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(100)
+        ply:SetHealth(100)
         ply:SetArmor(100)
     end
 })
@@ -73,8 +73,8 @@ TEAM_DOLCL = DarkRP.createJob("Doom LCL", {
     candemote = false,
     category = "Dooms Unit",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
+        ply:SetMaxHealth(100)
+        ply:SetHealth(100)
         ply:SetArmor(100)
     end
 })
