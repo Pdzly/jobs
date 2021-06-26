@@ -26,8 +26,10 @@ DarkRP.createCategory{
     startExpanded = true,
     color = Color(44, 137, 38, 255),
     canSee = function(ply) return true end,
-    sortOrder = 2
+    sortOrder = 2 
+    
 }
+
 DarkRP.createCategory{
     name = "DU Heavys",
     categorises = "jobs",
