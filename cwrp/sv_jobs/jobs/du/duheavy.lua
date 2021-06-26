@@ -1,10 +1,10 @@
 --Dooms Unit--
-TEAM_DOLCL = DarkRP.createJob("Doom LCL", {
+TEAM_DOHVLCL = DarkRP.createJob("Doom LCL", {
     color = Color(0, 136, 0, 255),
     model = {"models/player/community/einfachgaming/starwars/du_officer_2.mdl"},
     description = [[Doom LCL]],
-    weapons = {"re_hands", "rw_sw_dc15s", "rw_sw_dc15a_o", "weapon_fists", "rw_sw_z6", "rw_sw_shield_rep", "weapon_doomshield", "rw_sw_dc17", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal"},
-    command = "doomlcl",
+    weapons = {"re_hands", "rw_sw_dc15s", "rw_sw_dc15a_o", "weapon_fists", "rw_sw_z6", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal"},
+    command = "doomheavylcl",
     max = 8,
     salary = 100,
     admin = 0,
@@ -19,12 +19,12 @@ TEAM_DOLCL = DarkRP.createJob("Doom LCL", {
     end
 })
 
-TEAM_DOCPL = DarkRP.createJob("Doom CPL", {
+TEAM_DOHVCPL = DarkRP.createJob("Doom CPL", {
     color = Color(0, 136, 0, 255),
     model = {"models/player/community/einfachgaming/starwars/du_officer_2.mdl"},
     description = [[Doom CPL]],
-    weapons = {"re_hands", "rw_sw_dc15s", "rw_sw_dc15a_o", "weapon_fists", "rw_sw_z6", "rw_sw_shield_rep", "weapon_doomshield", "rw_sw_dc17", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal"},
-    command = "doomcpl",
+    weapons = {"re_hands", "rw_sw_dc15s", "rw_sw_dc15a_o", "weapon_fists", "rw_sw_z6", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal"},
+    command = "doomheavycpl",
     max = 8,
     salary = 100,
     admin = 0,
@@ -39,12 +39,12 @@ TEAM_DOCPL = DarkRP.createJob("Doom CPL", {
     end
 })
 
-TEAM_DOSGT = DarkRP.createJob("Doom SGT", {
+TEAM_DOHVSGT = DarkRP.createJob("Doom SGT", {
     color = Color(0, 136, 0, 255),
     model = {"models/player/community/einfachgaming/starwars/du_officer_2.mdl"},
     description = [[Doom SGT]],
-    weapons = {"re_hands", "rw_sw_dc15s", "rw_sw_dc15a_o", "weapon_fists", "rw_sw_z6", "rw_sw_shield_rep", "weapon_doomshield", "rw_sw_dc17", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal"},
-    command = "doomsgt",
+    weapons = {"re_hands", "rw_sw_dc15s", "rw_sw_dc15a_o", "weapon_fists", "rw_sw_z6", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal"},
+    command = "doomheavysgt",
     max = 5,
     salary = 100,
     admin = 0,
@@ -59,12 +59,12 @@ TEAM_DOSGT = DarkRP.createJob("Doom SGT", {
     end
 })
 
-TEAM_DOSGTMJ = DarkRP.createJob("Doom SGTMJ", {
+TEAM_DOHVSGTMJ = DarkRP.createJob("Doom SGTMJ", {
     color = Color(0, 136, 0, 255),
     model = {"models/player/community/einfachgaming/starwars/du_officer_2.mdl"},
     description = [[Doom SGTMJ]],
-    weapons = {"re_hands", "rw_sw_dc15s", "rw_sw_dc15a_o", "weapon_fists", "rw_sw_z6", "rw_sw_shield_rep", "weapon_doomshield", "rw_sw_dc17", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal"},
-    command = "doomsgtmj",
+    weapons = {"re_hands", "rw_sw_dc15s", "rw_sw_dc15a_o", "weapon_fists", "rw_sw_z6", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal"},
+    command = "doomheavysgtmj",
     max = 2,
     salary = 100,
     admin = 0,
@@ -79,12 +79,12 @@ TEAM_DOSGTMJ = DarkRP.createJob("Doom SGTMJ", {
     end
 })
 
-TEAM_DO2NDLT = DarkRP.createJob("Doom 2ndLT", {
+TEAM_DOHV2NDLT = DarkRP.createJob("Doom 2ndLT", {
     color = Color(0, 136, 0, 255),
     model = {"models/player/community/einfachgaming/starwars/du_officer_2.mdl"},
     description = [[Doom 2ndLT]],
-    weapons = {"re_hands", "rw_sw_dc15s", "rw_sw_dc15a_o", "weapon_fists", "rw_sw_z6", "rw_sw_shield_rep", "weapon_doomshield", "rw_sw_dc17", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal", "weapon_cuff_elastic"},
-    command = "doom2ndlt",
+    weapons = {"re_hands", "rw_sw_dc15s", "rw_sw_dc15a_o", "weapon_fists", "rw_sw_z6", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal", "weapon_cuff_elastic"},
+    command = "doomheavy2ndlt",
     max = 5,
     salary = 100,
     admin = 0,
@@ -103,7 +103,7 @@ TEAM_DOHV1STLT = DarkRP.createJob("Doom 1stLT", {
     color = Color(0, 136, 0, 255),
     model = {"models/player/community/einfachgaming/starwars/du_officer_2.mdl"},
     description = [[Doom 1STLT]],
-    weapons = {"re_hands", "rw_sw_dc15s", "rw_sw_dc15a_o", "weapon_fists", "rw_sw_z6", "rw_sw_shield_rep", "weapon_doomshield", "rw_sw_dc17", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal", "weapon_cuff_elastic"},
+    weapons = {"re_hands", "rw_sw_dc15s", "rw_sw_dc15a_o", "weapon_fists", "rw_sw_z6", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal", "weapon_cuff_elastic"},
     command = "doomheavy1stlt",
     max = 1,
     salary = 100,
@@ -123,7 +123,7 @@ TEAM_DOHVCPT = DarkRP.createJob("Doom CPT", {
     color = Color(0, 136, 0, 255),
     model = {"models/player/community/einfachgaming/starwars/du_officer_2.mdl"},
     description = [[Doom CPT]],
-    weapons = {"re_hands", "rw_sw_dc15s", "rw_sw_dc15a_o", "weapon_fists", "rw_sw_z6", "rw_sw_shield_rep", "weapon_doomshield", "rw_sw_dc17", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal", "weapon_cuff_elastic"},
+    weapons = {"re_hands", "rw_sw_dc15s", "rw_sw_dc15a_o", "weapon_fists", "rw_sw_z6", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal", "weapon_cuff_elastic"},
     command = "doomheavycpt",
     max = 2,
     salary = 100,
