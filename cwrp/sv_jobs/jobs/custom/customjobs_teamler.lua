@@ -7,7 +7,7 @@ TEAM_ARF = DarkRP.createJob("ARF CPT Phoenix", {
         "models/player/smitty/bf2_reg/ft_captain/ft_captain.mdl"
     },
     description = [[ARF Custom Char]],
-    weapons = {"rw_sw_iqa11c", "rw_sw_dc15se", "rw_sw_dc15a_o", "rw_sw_dual_dc17ext", "weapon_cuff_elastic", "weapon_squadshield_arm", "jet_mk3", "tfa_defi_swrp", "weapon_bactainjector", "weapon_bactanade", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "bkeycard", "re_hands", "rw_sw_bino_dark", "hacktool", "alydus_fortificationbuildertablet"},
+    weapons = {"rw_sw_iqa11c", "at_sw_dc15s_alle", "at_sw_dc15a_all", "rw_sw_dual_dc17ext", "weapon_cuff_elastic", "weapon_squadshield_arm", "jet_mk3", "tfa_defi_swrp", "weapon_bactainjector", "weapon_bactanade", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "bkeycard", "re_hands", "rw_sw_bino_dark", "hacktool", "alydus_fortificationbuildertablet"},
     command = "ARF_CPTPHOENIX",
     max = 4,
     salary = 250,
@@ -34,7 +34,7 @@ TEAM_FLEZY = DarkRP.createJob("ARF MRJ 5499 Flezy", {
 	"models/fisher/41st/demon/demon.mdl"
     },
     description = [[ARF MJR FLEZY]],
-    weapons = {"alydus_fortificationbuildertablet", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "re_hands", "weapon_fists", "weapon_breachingcharge", "jet_mk3", "rw_sw_nade_smoke", "rw_sw_nade_thermal", "rw_sw_dc15se", "rw_sw_dc15le", "rw_sw_iqa11c", "rw_sw_z6", "rw_sw_dp23", "weapon_extinguisher_infinite", "rw_sw_dual_dc17ext", "weapon_cuff_elastic"},
+    weapons = {"alydus_fortificationbuildertablet", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "re_hands", "weapon_fists", "weapon_breachingcharge", "jet_mk3", "rw_sw_nade_smoke", "rw_sw_nade_thermal", "at_sw_dc15s_alle", "rw_sw_dc15le", "rw_sw_iqa11c", "rw_sw_z6", "rw_sw_dp23", "weapon_extinguisher_infinite", "rw_sw_dual_dc17ext", "weapon_cuff_elastic"},
     command = "ARF_MJRFLEZY",
     max = 1,
     salary = 250,
@@ -83,7 +83,7 @@ TEAM_SGTMJR = DarkRP.createJob("Spec Ops SGTMJR", {
 	"models/fisher/41st/demon/demon.mdl"
     },
     description = [[SPEC OPS SGTMJR]],
-    weapons = {"alydus_fortificationbuildertablet", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "re_hands", "weapon_fists", "weapon_breachingcharge", "jet_mk3", "rw_sw_nade_smoke", "rw_sw_nade_thermal", "rw_sw_dc15se", "rw_sw_dc15le", "rw_sw_iqa11c", "seal6-c4", "weapon_extinguisher_infinite", "rw_sw_dual_dc17ext", "weapon_cuff_elastic", "rw_sw_rps6"},
+    weapons = {"alydus_fortificationbuildertablet", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "re_hands", "weapon_fists", "weapon_breachingcharge", "jet_mk3", "rw_sw_nade_smoke", "rw_sw_nade_thermal", "at_sw_dc15s_alle", "rw_sw_dc15le", "rw_sw_iqa11c", "seal6-c4", "weapon_extinguisher_infinite", "rw_sw_dual_dc17ext", "weapon_cuff_elastic", "rw_sw_rps6"},
     command = "SPEC_SGTMJR",
     max = 1,
     salary = 250,
@@ -103,7 +103,7 @@ TEAM_TRAUMATRUPPE = DarkRP.createJob("Trauma Truppler", {
     color = Color(0, 168, 89, 255),
     model = {"models/gonzo/traumatrooper/traumatrooper.mdl"},
     description = [[Trauma Truppler]],
-    weapons = {"rw_sw_dc15se", "rw_sw_dc15le", "rw_sw_dc17c", "rw_sw_dc15x", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "re_hands", "weapon_fists", "jet_mk3", "weapon_squadshield_arm"},
+    weapons = {"at_sw_dc15s_alle", "rw_sw_dc15le", "rw_sw_dc17c", "rw_sw_dc15x", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "re_hands", "weapon_fists", "jet_mk3", "weapon_squadshield_arm"},
     command = "Traumatruppler",
     max = 0,
     salary = 200,
@@ -123,7 +123,7 @@ TEAM_CMDTRAUMA = DarkRP.createJob("Commander Trauma", {
     color = Color(0, 168, 89, 255),
     model = {"models/gonzo/trauma/trauma.mdl"},
     description = [[Commander Trauma]],
-    weapons = {"rw_sw_dc15se", "rw_sw_dc15le", "rw_sw_dc17c", "rw_sw_dc15x", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "re_hands", "weapon_fists", "jet_mk3", "weapon_squadshield_arm", "rw_sw_dual_dc17ext", "alydus_fortificationbuildertablet", "meleearts_throwable_firecracker", "weapon_cuff_elastic", "stunstick"},
+    weapons = {"at_sw_dc15s_alle", "rw_sw_dc15le", "rw_sw_dc17c", "rw_sw_dc15x", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "re_hands", "weapon_fists", "jet_mk3", "weapon_squadshield_arm", "rw_sw_dual_dc17ext", "alydus_fortificationbuildertablet", "meleearts_throwable_firecracker", "weapon_cuff_elastic", "stunstick"},
     command = "cmdtrauma",
     max = 0,
     salary = 200,
@@ -146,7 +146,7 @@ TEAM_FORDO = DarkRP.createJob("ARC MJR Fordo", {
         "models/fisher/null/captain/captain.mdl"
     },
     description = [[ARC MJR Fordo]],
-    weapons = {"rw_sw_dual_dc17s", "rw_sw_nade_thermal", "rw_sw_dc17s", "rw_sw_westarm5", "cross_arms_swep", "hololink_swep", "salute_swep", "cross_arms_infront_swep", "stunstick", "rw_sw_dc15s", "rw_sw_dc15x", "rw_sw_bino_dark", "weapon_cuff_elastic", "rw_sw_rps6", "weapon_bactainjector", "tfa_defi_swrp", "jet_exec", "re_hands", "rw_sw_shield_rep_dc15s"},
+    weapons = {"rw_sw_dual_dc17s", "rw_sw_nade_thermal", "rw_sw_dc17s", "rw_sw_westarm5", "cross_arms_swep", "hololink_swep", "salute_swep", "cross_arms_infront_swep", "stunstick", "at_sw_dc15s_all", "rw_sw_dc15x", "rw_sw_bino_dark", "weapon_cuff_elastic", "rw_sw_rps6", "weapon_bactainjector", "tfa_defi_swrp", "jet_exec", "re_hands", "rw_sw_shield_rep_dc15s"},
     command = "fordo",
     max = 1,
     salary = 300,

@@ -7,7 +7,7 @@ TEAM_501stRMCPVT = DarkRP.createJob("501st RMC PVT", {
 		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
 	},
     description = [[501st RMC PVT]],
-    weapons = {"weapon_fists", "re_hands", "zbl_spray", "zbl_gun", "weapon_bactainjector", "weapon_cuff_elastic", "sw_datapad", "rw_sw_nade_bacta", "keys", "weapon_fists", "rw_sw_dc15a_o", "rw_sw_dc15s", "med_kit", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "tfa_defi_swrp", "weapon_bactainjector"},
+    weapons = {"weapon_fists", "re_hands", "zbl_spray", "zbl_gun", "weapon_bactainjector", "weapon_cuff_elastic", "sw_datapad", "rw_sw_nade_bacta", "keys", "weapon_fists", "at_sw_dc15a_all", "at_sw_dc15s_all", "med_kit", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "tfa_defi_swrp", "weapon_bactainjector"},
     command = "501rmcpvt",
     max = 0,
     salary = 100,
@@ -31,7 +31,7 @@ TEAM_501stRMCPFC = DarkRP.createJob("501st RMC PFC", {
 		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"	
 	},
     description = [[501st RMC PFC]],
-    weapons = {"weapon_fists", "re_hands", "zbl_spray", "zbl_gun", "weapon_bactainjector", "weapon_cuff_elastic", "sw_datapad", "rw_sw_nade_bacta", "keys", "weapon_fists", "rw_sw_dc15a_o", "rw_sw_dc15s", "med_kit", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "tfa_defi_swrp", "weapon_bactainjector"},
+    weapons = {"weapon_fists", "re_hands", "zbl_spray", "zbl_gun", "weapon_bactainjector", "weapon_cuff_elastic", "sw_datapad", "rw_sw_nade_bacta", "keys", "weapon_fists", "at_sw_dc15a_all", "at_sw_dc15s_all", "med_kit", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "tfa_defi_swrp", "weapon_bactainjector"},
     command = "501rmcpfc",
     max = 0,
     salary = 100,
@@ -55,7 +55,7 @@ TEAM_501stRMCLCL = DarkRP.createJob("501st RMC LCL", {
 		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
 	},
     description = [[501st RMC LCL]],
-    weapons = {"weapon_fists", "re_hands", "zbl_spray", "zbl_gun", "weapon_cuff_elastic", "weapon_bactainjector", "sw_datapad", "rw_sw_nade_bacta", "keys", "weapon_fists", "rw_sw_dc15a_o", "rw_sw_dc15s", "med_kit", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "tfa_defi_swrp", "weapon_bactainjector"},
+    weapons = {"weapon_fists", "re_hands", "zbl_spray", "zbl_gun", "weapon_cuff_elastic", "weapon_bactainjector", "sw_datapad", "rw_sw_nade_bacta", "keys", "weapon_fists", "at_sw_dc15a_all", "at_sw_dc15s_all", "med_kit", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "tfa_defi_swrp", "weapon_bactainjector"},
     command = "501strmclcl",
     max = 0,
     salary = 100,
@@ -79,7 +79,7 @@ TEAM_501stRMCCPL = DarkRP.createJob("501st RMC CPL", {
 		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
 	},
     description = [[501st RMC CPL]],
-    weapons = {"weapon_fists", "re_hands", "zbl_spray", "zbl_gun", "weapon_cuff_elastic", "weapon_bactainjector", "sw_datapad", "rw_sw_nade_bacta", "keys", "weapon_fists", "rw_sw_dc15a_o", "rw_sw_dc15s", "med_kit", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "tfa_defi_swrp", "weapon_bactainjector"},
+    weapons = {"weapon_fists", "re_hands", "zbl_spray", "zbl_gun", "weapon_cuff_elastic", "weapon_bactainjector", "sw_datapad", "rw_sw_nade_bacta", "keys", "weapon_fists", "at_sw_dc15a_all", "at_sw_dc15s_all", "med_kit", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "tfa_defi_swrp", "weapon_bactainjector"},
     command = "501strmccpl",
     max = 0,
     salary = 100,
@@ -103,7 +103,7 @@ TEAM_501stRMCSGT = DarkRP.createJob("501st RMC SGT", {
 		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
 	},
     description = [[501st RMC SGT]],
-    weapons = {"weapon_fists", "re_hands", "zbl_spray", "zbl_gun", "weapon_bactainjector", "weapon_cuff_elastic", "sw_datapad", "rw_sw_nade_bacta", "keys", "weapon_fists", "rw_sw_dc15a_o", "rw_sw_stun_dc15s", "med_kit", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "tfa_defi_swrp", "weapon_bactainjector"},
+    weapons = {"weapon_fists", "re_hands", "zbl_spray", "zbl_gun", "weapon_bactainjector", "weapon_cuff_elastic", "sw_datapad", "rw_sw_nade_bacta", "keys", "weapon_fists", "at_sw_dc15a_all", "rw_sw_stun_dc15s", "med_kit", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "tfa_defi_swrp", "weapon_bactainjector"},
     command = "501strmcsgt",
     max = 0,
     salary = 100,
@@ -127,7 +127,7 @@ TEAM_501stRMCSGTMJ = DarkRP.createJob("501st RMC SGTMJ", {
 		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
 	},
     description = [[501st RMC SGTMJ]],
-    weapons = {"weapon_fists", "re_hands", "zbl_spray", "zbl_gun", "weapon_bactainjector", "weapon_cuff_elastic", "sw_datapad", "rw_sw_nade_bacta", "keys", "weapon_fists", "rw_sw_dc15a_o", "rw_sw_stun_dc15s", "med_kit", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "tfa_defi_swrp", "weapon_bactainjector"},
+    weapons = {"weapon_fists", "re_hands", "zbl_spray", "zbl_gun", "weapon_bactainjector", "weapon_cuff_elastic", "sw_datapad", "rw_sw_nade_bacta", "keys", "weapon_fists", "at_sw_dc15a_all", "rw_sw_stun_dc15s", "med_kit", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "tfa_defi_swrp", "weapon_bactainjector"},
     command = "501strmcsgtmj",
     max = 0,
     salary = 100,
@@ -151,7 +151,7 @@ TEAM_501stRMC2ndLT = DarkRP.createJob("501st RMC 2ndLT", {
 		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
 	},
     description = [[501st RMC 2ndLT]],
-    weapons = {"weapon_fists", "re_hands", "zbl_spray", "zbl_gun", "weapon_cuff_elastic", "weapon_bactainjector", "sw_datapad", "rw_sw_nade_bacta", "keys", "weapon_fists", "rw_sw_dc15a_o", "rw_sw_stun_dc15s", "med_kit", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "tfa_defi_swrp", "weapon_bactainjector"},
+    weapons = {"weapon_fists", "re_hands", "zbl_spray", "zbl_gun", "weapon_cuff_elastic", "weapon_bactainjector", "sw_datapad", "rw_sw_nade_bacta", "keys", "weapon_fists", "at_sw_dc15a_all", "rw_sw_stun_dc15s", "med_kit", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "tfa_defi_swrp", "weapon_bactainjector"},
     command = "501strmc2ndlt",
     max = 0,
     salary = 100,
@@ -175,7 +175,7 @@ TEAM_501stRMC1stLT = DarkRP.createJob("501st RMC 1stLT", {
 		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
 	},
     description = [[501st RMC 1stLT]],
-    weapons = {"weapon_fists", "re_hands", "zbl_spray", "zbl_gun", "weapon_bactainjector", "sw_datapad", "rw_sw_nade_bacta", "keys", "weapon_fists", "rw_sw_dc15a_o", "rw_sw_stun_dc15s", "weapon_cuff_elastic", "med_kit", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "tfa_defi_swrp", "weapon_bactainjector"},
+    weapons = {"weapon_fists", "re_hands", "zbl_spray", "zbl_gun", "weapon_bactainjector", "sw_datapad", "rw_sw_nade_bacta", "keys", "weapon_fists", "at_sw_dc15a_all", "rw_sw_stun_dc15s", "weapon_cuff_elastic", "med_kit", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "tfa_defi_swrp", "weapon_bactainjector"},
     command = "501strmc1stlt",
     max = 0,
     salary = 100,
@@ -199,7 +199,7 @@ TEAM_501stRMCCPT = DarkRP.createJob("501st RMC CPT", {
 		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
 	},
     description = [[501st RMC CPT]],
-    weapons = {"weapon_fists", "re_hands", "zbl_spray", "zbl_gun", "weapon_bactainjector", "sw_datapad", "rw_sw_nade_bacta", "keys", "weapon_fists", "rw_sw_dc15a_o", "rw_sw_stun_dc15s", "weapon_cuff_elastic", "med_kit", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "tfa_defi_swrp", "weapon_bactainjector"},
+    weapons = {"weapon_fists", "re_hands", "zbl_spray", "zbl_gun", "weapon_bactainjector", "sw_datapad", "rw_sw_nade_bacta", "keys", "weapon_fists", "at_sw_dc15a_all", "rw_sw_stun_dc15s", "weapon_cuff_elastic", "med_kit", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "tfa_defi_swrp", "weapon_bactainjector"},
     command = "501strmccpt",
     max = 0,
     salary = 100,
