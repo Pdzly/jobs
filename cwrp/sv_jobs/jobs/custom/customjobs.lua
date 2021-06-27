@@ -306,3 +306,24 @@ TEAM_vale = DarkRP.createJob("RC-Vale", {
         ply:SetArmor(254)
     end
 })
+
+TEAM_CTPCPT = DarkRP.createJob("SP CPT", {
+    color = Color(255, 215, 0, 255),
+    model = {"models/hevoc/so_phase_o/so_spark/so_spark.mdl"},
+    description = [[Spec ops CPT]],
+    weapons = {"re_hands", "weapon_fists", "rw_sw_dc17", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "at_sw_dc15s_all", "weapon_cuff_elastic"},
+    command = "Spec",
+    max = 2,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = true,
+    candemote = false,
+    category = "Spec Ops",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
+    end
+})
+
