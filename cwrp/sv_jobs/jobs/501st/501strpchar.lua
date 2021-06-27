@@ -97,7 +97,7 @@ TEAM_KIX = DarkRP.createJob("TC MED SGT Kix", {
 		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
 	},
     description = [[TC MED SGT Kix]],
-    weapons = {"med_kit" , "rw_sw_nade_bacta" , "rw_sw_stun_dc15s" , "sw_datapad", "weapon_fists", "re_hands", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "at_sw_dc15s_all", "at_sw_dc15a_all", "rw_sw_dc17", "tfa_defi_swrp", "weapon_bactainjector", "zbl_gun", "zbl_spray"},
+    weapons = {"med_kit" , "rw_sw_nade_bacta"  , "sw_datapad", "weapon_fists", "re_hands", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "at_sw_dc15s_all", "at_sw_dc15a_all", "rw_sw_dc17", "tfa_defi_swrp", "weapon_bactainjector", "zbl_gun", "zbl_spray"},
     command = "kix",
     max = 1,
     salary = 50,
