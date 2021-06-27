@@ -3,7 +3,7 @@
 
 TEAM_FP = DarkRP.createJob("Flotten Petty Officer Medic", {
    color = Color(142, 142, 142, 255),
-   model = {"models/player/kurier/fleet/medic.mdl", "models/defcon/banks/coldwweather/custom/repcom_cold/repcom_cold.mdl"},
+   model = {"models/player/male/medic.mdl", "models/defcon/banks/coldwweather/custom/repcom_cold/repcom_cold.mdl"},
    description = [[Flotten Petty Officer Medic]],
    weapons = {"stunstick","re_hands", "salute_swep","zbl_spray", "zbl_gun", "weapon_bactainjector" ,"weapon_medkit", "sw_datapad", "tfa_defi_swrp" ,"rw_sw_nade_bacta", "cross_arms_infront_swep", "cross_arms_swep", "rw_sw_bino_white", "rw_sw_dc17", "weapon_cuff_elastic"},
    command = "FPOM",
@@ -25,7 +25,7 @@ TEAM_FP = DarkRP.createJob("Flotten Petty Officer Medic", {
 
 TEAM_FCPO = DarkRP.createJob("Flotten Chief Petty Officer Medic", {
    color = Color(142, 142, 142, 255),
-   model = {"models/player/kurier/fleet/medic.mdl", "models/defcon/banks/coldwweather/custom/repcom_cold/repcom_cold.mdl"},
+   model = {"models/player/male/medic.mdl", "models/defcon/banks/coldwweather/custom/repcom_cold/repcom_cold.mdl"},
    description = [[Flotten Chief Petty Officer Medic]],
    weapons = {"stunstick","re_hands", "salute_swep", "zbl_spray", "zbl_gun", "weapon_bactainjector" ,"weapon_medkit", "sw_datapad", "tfa_defi_swrp" ,"rw_sw_nade_bacta", "cross_arms_infront_swep", "cross_arms_swep", "rw_sw_bino_white", "rw_sw_dc17", "weapon_cuff_elastic"},
    command = "FCPOM",
@@ -47,7 +47,7 @@ TEAM_FCPO = DarkRP.createJob("Flotten Chief Petty Officer Medic", {
 
 TEAM_FWO = DarkRP.createJob("Flotten Warrant Officer Medic", {
    color = Color(168, 178, 169, 255),
-   model = {"models/player/kurier/fleet/medic.mdl", "models/defcon/banks/coldwweather/custom/repcom_cold/repcom_cold.mdl"},
+   model = {"models/player/male/medic.mdl", "models/defcon/banks/coldwweather/custom/repcom_cold/repcom_cold.mdl"},
    description = [[Flotten Warrant Officer Medic]],
    weapons = {"stunstick","re_hands", "salute_swep", "zbl_spray", "zbl_gun", "weapon_bactainjector" ,"weapon_medkit", "sw_datapad", "tfa_defi_swrp" ,"rw_sw_nade_bacta", "cross_arms_infront_swep", "cross_arms_swep", "rw_sw_bino_white", "rw_sw_dc17", "weapon_cuff_elastic"},
    command = "FWOM",
@@ -69,7 +69,7 @@ TEAM_FWO = DarkRP.createJob("Flotten Warrant Officer Medic", {
 
 TEAM_FCWO = DarkRP.createJob("Flotten Chief Warrant Officer Medic", {
    color = Color(168, 178, 169, 255),
-   model = {"models/player/kurier/fleet/medic.mdl", "models/defcon/banks/coldwweather/custom/repcom_cold/repcom_cold.mdl"},
+   model = {"models/player/male/medic.mdl", "models/defcon/banks/coldwweather/custom/repcom_cold/repcom_cold.mdl"},
    description = [[Flotten Chief Warrant Officer]],
    weapons = {"stunstick","re_hands", "salute_swep", "zbl_spray", "zbl_gun", "weapon_bactainjector" ,"weapon_medkit", "sw_datapad", "tfa_defi_swrp" ,"rw_sw_nade_bacta", "cross_arms_infront_swep", "cross_arms_swep", "rw_sw_bino_white", "rw_sw_dc17", "weapon_cuff_elastic"},
    command = "FCWOM",
@@ -91,7 +91,7 @@ TEAM_FCWO = DarkRP.createJob("Flotten Chief Warrant Officer Medic", {
 
 TEAM_FL = DarkRP.createJob("Flotten Lieutenant Medic", {
    color = Color(142, 142, 142, 255),
-   model = {"models/player/kurier/fleet/medic.mdl", "models/defcon/banks/coldwweather/custom/repcom_cold/repcom_cold.mdl"},
+   model = {"models/player/male/medic.mdl", "models/defcon/banks/coldwweather/custom/repcom_cold/repcom_cold.mdl"},
    description = [[Flotten Lieutenant Medic]],
    weapons = {"stunstick","re_hands", "salute_swep", "zbl_spray", "zbl_gun", "weapon_bactainjector" ,"weapon_medkit", "sw_datapad", "tfa_defi_swrp" ,"rw_sw_nade_bacta", "cross_arms_infront_swep", "cross_arms_swep", "rw_sw_bino_white", "rw_sw_dc17", "weapon_cuff_elastic"},
    command = "FLTM",
@@ -114,7 +114,7 @@ TEAM_FL = DarkRP.createJob("Flotten Lieutenant Medic", {
 
 TEAM_FLC = DarkRP.createJob("Flotten Lieutenant Commander Medic", {
    color = Color(142, 142, 142, 255),
-   model = {"models/player/kurier/fleet/medic.mdl", "models/defcon/banks/coldwweather/custom/repcom_cold/repcom_cold.mdl"},
+   model = {"models/player/male/medic.mdl", "models/defcon/banks/coldwweather/custom/repcom_cold/repcom_cold.mdl"},
    description = [[Flotten Lieutenant Commander Medic]],
    weapons = {"stunstick","re_hands", "salute_swep", "zbl_spray", "zbl_gun", "weapon_bactainjector" ,"weapon_medkit", "sw_datapad", "tfa_defi_swrp" ,"rw_sw_nade_bacta", "cross_arms_infront_swep", "cross_arms_swep", "rw_sw_bino_white", "rw_sw_dc17", "weapon_cuff_elastic"},
    command = "FLTCMDM",
@@ -137,7 +137,7 @@ TEAM_FLC = DarkRP.createJob("Flotten Lieutenant Commander Medic", {
 
 TEAM_FCPT = DarkRP.createJob("Flotten Captain Medic", {
    color = Color(142, 142, 142, 255),
-   model = {"models/player/kurier/fleet/medic.mdl", "models/defcon/banks/coldwweather/custom/repcom_cold/repcom_cold.mdl"},
+   model = {"models/player/male/medic.mdl", "models/defcon/banks/coldwweather/custom/repcom_cold/repcom_cold.mdl"},
    description = [[Flotten Captain Medic]],
    weapons = {"stunstick","re_hands", "salute_swep", "zbl_spray", "zbl_gun", "weapon_bactainjector" ,"weapon_medkit", "sw_datapad", "tfa_defi_swrp" ,"rw_sw_nade_bacta", "cross_arms_infront_swep", "cross_arms_swep", "rw_sw_bino_white", "rw_sw_dc17", "weapon_cuff_elastic"},
    command = "FCPTM",
@@ -160,7 +160,7 @@ TEAM_FCPT = DarkRP.createJob("Flotten Captain Medic", {
 
 TEAM_FCMD = DarkRP.createJob("Flotten Commander Medic", {
    color = Color(142, 142, 142, 255),
-   model = {"models/player/kurier/fleet/medic.mdl", "models/defcon/banks/coldwweather/custom/repcom_cold/repcom_cold.mdl"},
+   model = {"models/player/male/medic.mdl", "models/defcon/banks/coldwweather/custom/repcom_cold/repcom_cold.mdl"},
    description = [[Flotten Commander Medic]],
    weapons = {"stunstick","re_hands", "salute_swep", "zbl_spray", "zbl_gun", "weapon_bactainjector" ,"weapon_medkit", "sw_datapad", "tfa_defi_swrp" ,"rw_sw_nade_bacta", "cross_arms_infront_swep", "cross_arms_swep", "rw_sw_bino_white", "rw_sw_dc17", "weapon_cuff_elastic"},
    command = "FCMDM",

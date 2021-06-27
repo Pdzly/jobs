@@ -26,6 +26,16 @@ DarkRP.createCategory{
     startExpanded = true,
     color = Color(44, 137, 38, 255),
     canSee = function(ply) return true end,
+    sortOrder = 2 
+    
+}
+
+DarkRP.createCategory{
+    name = "DU Heavys",
+    categorises = "jobs",
+    startExpanded = true,
+    color = Color(44, 137, 38, 255),
+    canSee = function(ply) return true end,
     sortOrder = 2
 }
 
@@ -305,5 +315,51 @@ DarkRP.createCategory{
     startExpanded = true,
     color = Color(171, 0, 0, 255),
     canSee = function(ply) return true end,
-    sortOrder = 32
+    sortOrder = 33
 }
+
+DarkRP.createCategory{
+    name = "Söldner",
+    categorises = "jobs",
+    startExpanded = true,
+    color = Color(171, 0, 0, 255),
+    canSee = function(ply) return true end,
+    sortOrder = 34
+}
+
+DarkRP.createCategory{
+    name = "Kopfgeldjäger",
+    categorises = "jobs",
+    startExpanded = true,
+    color = Color(171, 0, 0, 255),
+    canSee = function(ply) return true end,
+    sortOrder = 35
+}
+
+DarkRP.createCategory{
+    name = "Hondos Piraten",
+    categorises = "jobs",
+    startExpanded = true,
+    color = Color(171, 0, 0, 255),
+    canSee = function(ply) return true end,
+    sortOrder = 36
+}
+
+DarkRP.createCategory{
+    name = "Zivilisten",
+    categorises = "jobs",
+    startExpanded = true,
+    color = Color(171, 0, 0, 255),
+    canSee = function(ply) return true end,
+    sortOrder = 37
+}
+
+DarkRP.createCategory{
+    name = "Senats Wachen",
+    categorises = "jobs",
+    startExpanded = true,
+    color = Color(171, 0, 0, 255),
+    canSee = function(ply) return true end,
+    sortOrder = 38
+}
+
