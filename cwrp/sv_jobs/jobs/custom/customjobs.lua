@@ -268,25 +268,26 @@ TEAM_Phose = DarkRP.createJob("ARC-SGTMJ Phose", {
     end
 })
 
-TEAM_Raven = DarkRP.createJob("ARC-CPT Raven", {
-    color = Color(110, 139, 61),
-    model = {"models/aussiwozzi/phase1clones/Captain_arc.mdl"},
-    description = [[ARC-CPT Phose]],
-    weapons = {"weapon_fists", "re_hands", "rw_sw_westarm5", "rw_sw_dual_dc17", "jet_mk5", "rw_sw_dc15a", "cross_arms_infront_swep", "cross_arms_swep", "hacktool", "rw_sw_nade_thermal", "hololink_swep", "salute_swep", "comlink_swep"},
-    command = "cptraven",
-    max = 1,
+TEAM_Kopfgeldjaeger = DarkRP.createJob("Mando Kopfgeldjaeger", {
+    color = Color(0, 0, 0, 255),
+    model = {"models/player/aussiwozzi/mandalorians/male_mando_purple.mdl", "models/player/aussiwozzi/mandalorians/male_mando_red.mdl"},
+    description = [[Mando-Kopfgeldjaeger]],
+    weapons = {"weapon_fists", "re_hands", "rw_sw_dual_d", "rw_sw_ee3", "rw_sw_nade_thermal", "rw_sw_wristblaster_light_white", "rw_sw_dual_westar35", "rw_sw_wristrocket", "jet_exec", "rw_sw_iqa11c", "weapon_extinguisher_infinite", "cross_arms_infront_swep", "cross_arms_swep", "rw_sw_wristrocket",},
+    command = "Kopfgeldjaeger",
+    max = 3,
     salary = 250,
     admin = 0,
     vote = false,
     hasLicense = true,
     candemote = false,
-    category = "ARCS",
+    category = "Kopfgeldjaeger",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(350)
         ply:SetHealth(350)
         ply:SetArmor(200)
     end
 })
+=======
 TEAM_vale = DarkRP.createJob("RC-Vale", {
     color = Color(145, 7, 7, 255),
     model = {"models/defcon/loudmantis/shadows/vale.mdl"},
