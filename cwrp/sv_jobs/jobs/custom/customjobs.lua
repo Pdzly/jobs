@@ -275,3 +275,23 @@ TEAM_Phose = DarkRP.createJob("ARC-SGTMJ Phose", {
         ply:SetArmor(200)
     end
 })
+
+TEAM_Kopfgeldjaeger = DarkRP.createJob("Mando Kopfgeldjaeger", {
+    color = Color(0, 0, 0, 255),
+    model = {"models/player/aussiwozzi/mandalorians/male_mando_purple.mdl", "models/player/aussiwozzi/mandalorians/male_mando_red.mdl"},
+    description = [[Mando-Kopfgeldjaeger]],
+    weapons = {"weapon_fists", "re_hands", "rw_sw_dual_d", "rw_sw_ee3", "rw_sw_nade_thermal", "rw_sw_wristblaster_light_white", "rw_sw_dual_westar35", "rw_sw_wristrocket", "jet_exec", "rw_sw_iqa11c", "weapon_extinguisher_infinite", "cross_arms_infront_swep", "cross_arms_swep", "rw_sw_wristrocket",},
+    command = "Kopfgeldjaeger",
+    max = 3,
+    salary = 250,
+    admin = 0,
+    vote = false,
+    hasLicense = true,
+    candemote = false,
+    category = "Kopfgeldjaeger",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(350)
+        ply:SetHealth(350)
+        ply:SetArmor(200)
+    end
+})
