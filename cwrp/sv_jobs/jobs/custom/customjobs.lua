@@ -228,7 +228,7 @@ TEAM_SGTARAAY = DarkRP.createJob("ARC-000", {
     end
 })
 
-TEAM_SGTYAARA = DarkRP.createJob("RC-SGT-Memory", {
+TEAM_Memory = DarkRP.createJob("RC-SGT-Memory", {
     color = Color(255, 255, 255, 0),
     model = {"models/dany/rc_striker_pm/rc_new_striker.mdl"},
     description = [[RC-SGT-Memory]],
@@ -246,26 +246,7 @@ TEAM_SGTYAARA = DarkRP.createJob("RC-SGT-Memory", {
         ply:SetHealth(500)
         ply:SetArmor(400)
     end
-})
-
-TEAM_Phose = DarkRP.createJob("ARC-SGTMJ Phose", {
-    color = Color(47, 0, 255, 202),
-    model = {"models/aussiwozzi/phase1clones/captain_arc.mdl"},
-    description = [[ARC-SGTMJ Phose]],
-    weapons = {"weapon_fists", "re_hands", "rw_sw_westarm5", "rw_sw_dual_dc17", "jet_mk5", "rw_sw_dc15le_o", "cross_arms_infront_swep", "cross_arms_swep", "hacktool", "rw_sw_nade_thermal", "hololink_swep", "salute_swep", "comlink_swep"},
-    command = "sgtmjphose",
-    max = 1,
-    salary = 250,
-    admin = 0,
-    vote = false,
-    hasLicense = true,
-    candemote = false,
-    category = "ARCS",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(350)
-        ply:SetHealth(350)
-        ply:SetArmor(200)
-    end
+        
 })
 
 TEAM_Raven = DarkRP.createJob("ARC-CPT Raven", {
