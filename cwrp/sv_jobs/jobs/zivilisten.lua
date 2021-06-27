@@ -1,6 +1,6 @@
 TEAM_SÖLDNERBOSS = DarkRP.createJob("Söldner Boss", {
     color = Color(212, 175, 55, 255),
-    model = {"models/summe/nuru_chiss.mdl"},
+    model = {"models/player/swtor/arsenic/throttle/throttle.mdl"},
     description = [[Söldner Boss]],
     weapons = {"re_hands", "rw_sw_dl44", "rw_sw_dual_dl44", "weapon_fists", "rw_sw_dl18", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_cr2", "rw_sw_huntershotgun"},
     command = "söldnerboss",
@@ -20,7 +20,7 @@ TEAM_SÖLDNERBOSS = DarkRP.createJob("Söldner Boss", {
 
 TEAM_SÖLDNERLEIBGARDE = DarkRP.createJob("Söldner Leibgarde", {
     color = Color(212, 175, 55, 255),
-    model = {"models/hcn/starwars/bf/abednedo/abednedo_3.mdl", "models/hcn/starwars/bf/aqualish/aqualish_3.mdl", "models/hcn/starwars/bf/dressellian/dressellian_3.mdl", "models/hcn/starwars/bf/duros/duros_3.mdl", "models/hcn/starwars/bf/human/human_male_3.mdl", "models/hcn/starwars/bf/ishitib/ishitib_3.mdl", "models/hcn/starwars/bf/quarren/quarren_3.mdl", "models/hcn/starwars/bf/rodian/rodian_3.mdl", "models/hcn/starwars/bf/sullustan/sullustan_3.mdl", "models/hcn/starwars/bf/weequay/weequay_3.mdl", "models/hcn/starwars/bf/zabrak/zabrak_3.mdl"},
+    model = {"models/player/swtor/arsenic/slaeus/slaeus.mdl"},
     description = [[Söldner Leibgarde]],
     weapons = {"re_hands", "rw_sw_dl44", "rw_sw_dual_dl44", "weapon_fists", "rw_sw_dl18", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_cr2"},
     command = "söldnerleibgarde",
@@ -40,7 +40,7 @@ TEAM_SÖLDNERLEIBGARDE = DarkRP.createJob("Söldner Leibgarde", {
 
 TEAM_SÖLDNER1STOFFIZER = DarkRP.createJob("Söldner 1st Offizier", {
     color = Color(212, 175, 55, 255),
-    model = {"models/hcn/starwars/bf/abednedo/abednedo_3.mdl", "models/hcn/starwars/bf/aqualish/aqualish_3.mdl", "models/hcn/starwars/bf/dressellian/dressellian_3.mdl", "models/hcn/starwars/bf/duros/duros_3.mdl", "models/hcn/starwars/bf/human/human_male_3.mdl", "models/hcn/starwars/bf/ishitib/ishitib_3.mdl", "models/hcn/starwars/bf/quarren/quarren_3.mdl", "models/hcn/starwars/bf/rodian/rodian_3.mdl", "models/hcn/starwars/bf/sullustan/sullustan_3.mdl", "models/hcn/starwars/bf/weequay/weequay_3.mdl", "models/hcn/starwars/bf/zabrak/zabrak_3.mdl"},
+    model = {"models/player/swtor/arsenic/hakkabrevamped/hakkabrevamped.mdl"},
     description = [[Söldner 2nd Offizier]],
     weapons = {"re_hands", "rw_sw_dl44", "rw_sw_dual_dl44", "weapon_fists", "rw_sw_dl18", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_cr2"},
     command = "söldner1stoffizier",
@@ -60,7 +60,7 @@ TEAM_SÖLDNER1STOFFIZER = DarkRP.createJob("Söldner 1st Offizier", {
 
 TEAM_SÖLDNER2NDOFFIZER = DarkRP.createJob("Söldner 2nd Offizier", {
     color = Color(212, 175, 55, 255),
-    model = {"models/hcn/starwars/bf/abednedo/abednedo_3.mdl", "models/hcn/starwars/bf/aqualish/aqualish_3.mdl", "models/hcn/starwars/bf/dressellian/dressellian_3.mdl", "models/hcn/starwars/bf/duros/duros_3.mdl", "models/hcn/starwars/bf/human/human_male_3.mdl", "models/hcn/starwars/bf/ishitib/ishitib_3.mdl", "models/hcn/starwars/bf/quarren/quarren_3.mdl", "models/hcn/starwars/bf/rodian/rodian_3.mdl", "models/hcn/starwars/bf/sullustan/sullustan_3.mdl", "models/hcn/starwars/bf/weequay/weequay_3.mdl", "models/hcn/starwars/bf/zabrak/zabrak_3.mdl"},
+    model = {"models/player/swtor/arsenic/hakkabrevamped/hakkabrevamped.mdl"},
     description = [[Söldner 2nd Offizier]],
     weapons = {"re_hands", "rw_sw_dl44", "rw_sw_dual_dl44", "weapon_fists", "rw_sw_dl18", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_cr2"},
     command = "söldner2ndoffizier",
@@ -80,7 +80,7 @@ TEAM_SÖLDNER2NDOFFIZER = DarkRP.createJob("Söldner 2nd Offizier", {
 
 TEAM_SÖLDNER = DarkRP.createJob("Söldner", {
     color = Color(212, 175, 55, 255),
-    model = {"models/hcn/starwars/bf/abednedo/abednedo_3.mdl", "models/hcn/starwars/bf/aqualish/aqualish_3.mdl", "models/hcn/starwars/bf/dressellian/dressellian_3.mdl", "models/hcn/starwars/bf/duros/duros_3.mdl", "models/hcn/starwars/bf/human/human_male_3.mdl", "models/hcn/starwars/bf/ishitib/ishitib_3.mdl", "models/hcn/starwars/bf/quarren/quarren_3.mdl", "models/hcn/starwars/bf/rodian/rodian_3.mdl", "models/hcn/starwars/bf/sullustan/sullustan_3.mdl", "models/hcn/starwars/bf/weequay/weequay_3.mdl", "models/hcn/starwars/bf/zabrak/zabrak_3.mdl"},
+    model = {"models/player/swtor/arsenic/sigma/sigmabor.mdl"},
     description = [[Söldner]],
     weapons = {"re_hands", "rw_sw_dl44", "rw_sw_dual_dl44", "weapon_fists", "rw_sw_dl18", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_cr2"},
     command = "söldner",
