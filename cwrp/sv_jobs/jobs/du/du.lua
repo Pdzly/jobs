@@ -245,7 +245,7 @@ TEAM_AARC88Snoke = DarkRP.createJob("A-ARC 88 Snoke", {
     model = {"models/fisher/null/lieutenant/lieutenant_j.mdl"},
     description = [[DU AARC 88 Snoke]],
     weapons = {"weapon_doomshield", "comlink_swep", "cross_arms_swep", "cross_arms_infront_swep", "high_five_swep", "hololink_swep", "middlefinger_animation_swep", "point_in_direction_swep", "salute_swep", "surrender_animation_swep", "m9k_knife", "meleearts_blade_throwingknife", "weapon_fists", "re_hands", "weapon_armorkit", "weapon_bactainjector", "weapon_breachingcharge", "seal6-c4", "jet_mk5", "tfa_defi_swrp", "at_sw_dc15s_all", "at_sw_dc15a_all", "rw_sw_dual_dc17s", "rw_sw_westarm5", "rw_sw_stun_dc17", "rw_ammo_distributor", "rw_sw_nade_thermal", "rw_sw_nade_impact", "rw_sw_nade_incendiary", "weapon_cuff_elastic",},
-    command = AARC88Snoke
+    command = "AARC88Snoke",
     max = 0,
     salary = 3000,
     admin = 0,
@@ -255,8 +255,8 @@ TEAM_AARC88Snoke = DarkRP.createJob("A-ARC 88 Snoke", {
     category = "Dooms Unit",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(600)
-        ply:SetHealth(60)
-        ply:SetArmor(255)
+        ply:SetHealth(600)
+        ply:SetArmor(250)
     end
 })
 
