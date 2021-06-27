@@ -50,12 +50,12 @@ TEAM_FLEZY = DarkRP.createJob("ARF MRJ 5499 Flezy", {
     end
 })
 
-TEAM_STEALTH = DarkRP.createJob("Special Pilot", {
+TEAM_STEALTH = DarkRP.createJob("CPT Spark", {
     color = Color(255, 154, 0, 255),
     model = {
-        "models/banks/player/stealthpilot/stealthpilot.mdl"
+        "models/hevoc/so_phase_o/so_spark/so_spark.mdl"
     },
-    description = [[Special Pilot]],
+    description = [[CPT Spark]],
     weapons = {"weapon_cuff_elastic", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "re_hands", "weapon_fists", "weapon_extinguisher_infinite", "rw_sw_dc17ext", "alydus_fusioncutter", "rw_sw_dp24"},
     command = "specialplt",
     max = 2,
