@@ -320,7 +320,7 @@ TEAM_HONDOSPIRATEN = DarkRP.createJob("Hondo Ohnakas Piraten", {
 
 TEAM_ZIVILISTWAFFENHÄNDLER = DarkRP.createJob("Waffenhändler", {
     color = Color(212, 175, 55, 255),
-    model = {"models/hcn/starwars/bf/abednedo/abednedo_4.mdl", "models/hcn/starwars/bf/aqualish/aqualish_4.mdl", "models/hcn/starwars/bf/dressellian/dressellian_4.mdl", "models/hcn/starwars/bf/duros/duros_4.mdl", "models/hcn/starwars/bf/human/human_male_4.mdl", "models/hcn/starwars/bf/ishitib/ishitib_4.mdl", "models/hcn/starwars/bf/quarren/quarren_4.mdl", "models/hcn/starwars/bf/rodian/rodian_4.mdl", "models/hcn/starwars/bf/sullustan/sullustan_4.mdl", "models/hcn/starwars/bf/weequay/weequay_4.mdl", "models/hcn/starwars/bf/zabrak/zabrak_4.mdl"},
+    model = {"models/fisher/tomackerson/tomackerson.mdl"},
     description = [[Hondo Ohnaka]],
     weapons = {"re_hands", "rw_sw_dl44", "rw_sw_dual_dl44", "weapon_fists", "rw_sw_dl18", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_cr2"},
     command = "ziviwaffenhändler",
