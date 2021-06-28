@@ -1,5 +1,5 @@
 --Dooms Unit--
-TEAM_DOHVLCL = DarkRP.createJob("Doom LCL", {
+TEAM_DOHVLCL = DarkRP.createJob("Doom Heavy LCL", {
     color = Color(0, 136, 0, 255),
     model = {"models/player/community/einfachgaming/starwars/du_officer_2.mdl"},
     description = [[Doom LCL]],
@@ -19,7 +19,7 @@ TEAM_DOHVLCL = DarkRP.createJob("Doom LCL", {
     end
 })
 
-TEAM_DOHVCPL = DarkRP.createJob("Doom CPL", {
+TEAM_DOHVCPL = DarkRP.createJob("Doom Heavy CPL", {
     color = Color(0, 136, 0, 255),
     model = {"models/player/community/einfachgaming/starwars/du_officer_2.mdl"},
     description = [[Doom CPL]],
@@ -39,7 +39,7 @@ TEAM_DOHVCPL = DarkRP.createJob("Doom CPL", {
     end
 })
 
-TEAM_DOHVSGT = DarkRP.createJob("Doom SGT", {
+TEAM_DOHVSGT = DarkRP.createJob("Doom Heavy SGT", {
     color = Color(0, 136, 0, 255),
     model = {"models/player/community/einfachgaming/starwars/du_officer_2.mdl"},
     description = [[Doom SGT]],
@@ -59,7 +59,7 @@ TEAM_DOHVSGT = DarkRP.createJob("Doom SGT", {
     end
 })
 
-TEAM_DOHVSGTMJ = DarkRP.createJob("Doom SGTMJ", {
+TEAM_DOHVSGTMJ = DarkRP.createJob("Doom Heavy SGTMJ", {
     color = Color(0, 136, 0, 255),
     model = {"models/player/community/einfachgaming/starwars/du_officer_2.mdl"},
     description = [[Doom SGTMJ]],
@@ -79,7 +79,7 @@ TEAM_DOHVSGTMJ = DarkRP.createJob("Doom SGTMJ", {
     end
 })
 
-TEAM_DOHV2NDLT = DarkRP.createJob("Doom 2ndLT", {
+TEAM_DOHV2NDLT = DarkRP.createJob("Doom Heavy 2ndLT", {
     color = Color(0, 136, 0, 255),
     model = {"models/player/community/einfachgaming/starwars/du_officer_2.mdl"},
     description = [[Doom 2ndLT]],
@@ -99,7 +99,7 @@ TEAM_DOHV2NDLT = DarkRP.createJob("Doom 2ndLT", {
     end
 })
 
-TEAM_DOHV1STLT = DarkRP.createJob("Doom 1stLT", {
+TEAM_DOHV1STLT = DarkRP.createJob("Doom Heavy 1stLT", {
     color = Color(0, 136, 0, 255),
     model = {"models/player/community/einfachgaming/starwars/du_officer_2.mdl"},
     description = [[Doom 1STLT]],
@@ -119,7 +119,7 @@ TEAM_DOHV1STLT = DarkRP.createJob("Doom 1stLT", {
     end
 })
 
-TEAM_DOHVCPT = DarkRP.createJob("Doom CPT", {
+TEAM_DOHVCPT = DarkRP.createJob("Doom Heavy CPT", {
     color = Color(0, 136, 0, 255),
     model = {"models/player/community/einfachgaming/starwars/du_officer_2.mdl"},
     description = [[Doom CPT]],

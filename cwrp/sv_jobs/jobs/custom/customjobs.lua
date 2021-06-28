@@ -228,7 +228,7 @@ TEAM_SGTARAAY = DarkRP.createJob("ARC-000", {
     end
 })
 
-TEAM_SGTYAARA = DarkRP.createJob("RC-SGT-Memory", {
+TEAM_Memory = DarkRP.createJob("RC-SGT-Memory", {
     color = Color(255, 255, 255, 0),
     model = {"models/dany/rc_striker_pm/rc_new_striker.mdl"},
     description = [[RC-SGT-Memory]],
@@ -246,26 +246,7 @@ TEAM_SGTYAARA = DarkRP.createJob("RC-SGT-Memory", {
         ply:SetHealth(500)
         ply:SetArmor(400)
     end
-})
-
-TEAM_Phose = DarkRP.createJob("ARC-SGTMJ Phose", {
-    color = Color(47, 0, 255, 202),
-    model = {"models/aussiwozzi/phase1clones/captain_arc.mdl"},
-    description = [[ARC-SGTMJ Phose]],
-    weapons = {"weapon_fists", "re_hands", "rw_sw_westarm5", "rw_sw_dual_dc17", "jet_mk5", "rw_sw_dc15le_o", "cross_arms_infront_swep", "cross_arms_swep", "hacktool", "rw_sw_nade_thermal", "hololink_swep", "salute_swep", "comlink_swep"},
-    command = "sgtmjphose",
-    max = 1,
-    salary = 250,
-    admin = 0,
-    vote = false,
-    hasLicense = true,
-    candemote = false,
-    category = "ARCS",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(350)
-        ply:SetHealth(350)
-        ply:SetArmor(200)
-    end
+        
 })
 
 TEAM_Kopfgeldjaeger = DarkRP.createJob("Mando Kopfgeldjaeger", {
@@ -307,3 +288,24 @@ TEAM_vale = DarkRP.createJob("RC-Vale", {
         ply:SetArmor(254)
     end
 })
+
+TEAM_CTPCPT = DarkRP.createJob("SP CPT", {
+    color = Color(255, 215, 0, 255),
+    model = {"models/hevoc/so_phase_o/so_spark/so_spark.mdl"},
+    description = [[Spec ops CPT]],
+    weapons = {"re_hands", "weapon_fists", "rw_sw_dc17", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "at_sw_dc15s_all", "weapon_cuff_elastic"},
+    command = "Spec",
+    max = 2,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = true,
+    candemote = false,
+    category = "Spec Ops",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
+    end
+})
+
