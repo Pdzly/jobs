@@ -268,11 +268,11 @@ TEAM_Phose = DarkRP.createJob("ARC-SGTMJ Phose", {
     end
 })
 
-TEAM_Kopfgeldjaeger = DarkRP.createJob("Mando Kopfgeldjaeger", {
+TEAM_Kopfgeldjaeger = DarkRP.createJob("Kopfgeldjaeger", {
     color = Color(0, 0, 0, 255),
-    model = {"models/player/aussiwozzi/mandalorians/male_mando_purple.mdl", "models/player/aussiwozzi/mandalorians/male_mando_red.mdl"},
-    description = [[Mando-Kopfgeldjaeger]],
-    weapons = {"weapon_fists", "re_hands", "rw_sw_dual_d", "rw_sw_ee3", "rw_sw_nade_thermal", "rw_sw_wristblaster_light_white", "rw_sw_dual_westar35", "rw_sw_wristrocket", "jet_exec", "rw_sw_iqa11c", "weapon_extinguisher_infinite", "cross_arms_infront_swep", "cross_arms_swep", "rw_sw_wristrocket",},
+    model = {"models/player/aussiwozzi/mandalorians/male_mando_purple.mdl", "models/player/aussiwozzi/mandalorians/male_mando_red.mdl", "models/hcn/starwars/bf/human/human_male_3.mdl", "models/hcn/starwars/bf/quarren/quarren_3.mdl", "models/hcn/starwars/bf/human/human_male_4.mdl", "models/hcn/starwars/bf/sullustan/sullustan_3.mdl", "models/hcn/starwars/bf/zabrak/zabrak_4.mdl", "models/hcn/starwars/bf/rodian/rodian_4.mdl"},
+    description = [[Kopfgeldjaeger]],
+    weapons = {"weapon_fists", "re_hands", "rw_sw_dual_d", "rw_sw_nade_thermal", "rw_sw_wristblaster_light_yellow", "jet_exec", "rw_sw_ee3", "weapon_extinguisher_infinite", "cross_arms_infront_swep", "cross_arms_swep"},
     command = "Kopfgeldjaeger",
     max = 3,
     salary = 250,
