@@ -268,7 +268,7 @@ TEAM_Kopfgeldjaeger = DarkRP.createJob("Mando Kopfgeldjaeger", {
         ply:SetArmor(200)
     end
 })
-=======
+
 TEAM_vale = DarkRP.createJob("RC-Vale", {
     color = Color(145, 7, 7, 255),
     model = {"models/defcon/loudmantis/shadows/vale.mdl"},
