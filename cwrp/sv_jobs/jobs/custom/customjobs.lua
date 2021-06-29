@@ -12,7 +12,25 @@ TEAM_MAUSDROIDE = DarkRP.createJob("Maus Droide", {
     candemote = false,
     category = "Other",
 })
-
+TEAM_CTPCMD = DarkRP.createJob("SP CMD", {
+    color = Color(255, 215, 0, 255),
+    model = {"models/hevoc/so_phase_o/so_blackout/so_blackout.mdl", "models/player/smitty/bf2_reg/so_blackout/so_blackout.mdl"},
+    description = [[SP CMD]],
+    weapons = {"re_hands", "weapon_fists", "rw_sw_dual_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "at_sw_dc15s_all", "weapon_cuff_elastic"},
+    command = "spcmd",
+    max = 1,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = true,
+    candemote = false,
+    category = "Piloten",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
+    end
+})
 TEAM_AYATO = DarkRP.createJob("Captain Ayato", {
     color = Color(14, 77, 28, 255),
     model = {"models/loudmantis/arc/operative.mdl"},
