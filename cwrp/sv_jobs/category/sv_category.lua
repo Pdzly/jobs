@@ -363,3 +363,13 @@ DarkRP.createCategory{
     sortOrder = 38
 }
 
+DarkRP.createCategory{
+    name = "Alpha ARC",
+    categorises = "jobs",
+    startExpanded = true,
+    color = Color(44, 137, 38, 255),
+    canSee = function(ply) return true end,
+    sortOrder = 2 
+    
+}
+
