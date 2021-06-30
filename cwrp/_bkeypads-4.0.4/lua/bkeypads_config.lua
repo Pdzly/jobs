@@ -60,10 +60,10 @@ bKeypads:SetConfig({ -- Don't touch this line
 -- The maximum number of keypads a player can spawn
 -- 0 = no maximum
 MaxKeypads = {
-	["default"] = 15,
-
-	["admin"] = 0,
+	["Administrator"] = 0,
+	["S-Administrator"] = 0,
 	["superadmin"] = 0,
+	["Community Owner"] = 0,
 },
 
 -- If enabled, keypads can ONLY be placed on & linked to fading doors.
@@ -203,7 +203,7 @@ Keycards = {
 		-- %level%     - Keycard level
 		-- %team%      - Team/job name
 		-- %usergroup% - Player's usergroup
-		Message = "%name% presents their %keycard% keycard and identifies themselves as %team%",
+		Message = "%name% zeigt seine %keycard% ID und weist sich als %team% aus",
 
 		-- If you are familiar with GMod's markup library's formatting, switch this option to true to enable markup tags
 		-- https://wiki.facepunch.com/gmod/markup.Parse
@@ -220,16 +220,15 @@ Keycards = {
 	},
 
 	-- The message that is displayed when pressing E on a keycard scanner
-	InsertKeycardMessage = "Please insert your keycard!",
+	InsertKeycardMessage = "Bitte Karte einstecken!",
 
 	-- Should players spawn with a keycard?
 	-- You can configure what teams spawn with keycards and the keycard level they spawn with below
-	SpawnWithKeycard = false,
+	SpawnWithKeycard = true,
 
 	-- Teams that should never spawn with a keycard
 	SpawnWithoutKeycard = {
-		TEAM_CLASS_D,
-		TEAM_HOBO
+		
 	},
 
 	-- Can players drop the keycard they spawned with?
@@ -239,7 +238,7 @@ Keycards = {
 	-- Can players drop other keycards?
 	-- Dropped keycards can be collected by players and used to access keypads
 	-- NOTE: You can configure who can drop keycards using OpenPermissions if installed
-	CanDropKeycard = true,
+	CanDropKeycard = false,
 
 	-- Should the custom DarkRP /job be shown instead of the player's job's actual name?
 	ShowCustomJobName = true,
@@ -252,28 +251,30 @@ Keycards = {
 		-- Players can also have multiple keycard levels, but the one furthest down is the one VISIBLE to them and others.
 		-- The "Name" field of the keycard levels does not affect this.
 
-		{
-			-- Level 1 is always the default, do not remove it, or the next keycard level will be selected as default.
-			Name  = "Level 1",
-			Color = Color(255, 0, 0)
-		},
 
+        {
+			Name  = "Level 1",
+			Color = Color(0, 255, 0),
+		},
 		{
 			Name  = "Level 2",
-			Color = Color(0, 0, 255),
-			Teams = { TEAM_POLICE, TEAM_CHIEF, TEAM_MAYOR }
+			Color = Color(255, 255, 0),
+			Teams = { TEAM_327thHVSGT, TEAM_327thHVSGTMJ, TEAM_327THKCOMPANYSGTMJ, TEAM_327THKCOMPANYSGT, TEAM_327THMEDICSGT, TEAM_327THMEDICSGTMJ, TEAM_STEALTH, TEAM_CTSGT, TEAM_CTSGTMJ, TEAM_212SGT, TEAM_212SGTMJ, TEAM_501STSGT, TEAM_501STSGTMJ, TEAM_187THSGT, TEAM_187THSGTMJ, TEAM_2NDAIRBORNSGT, TEAM_2NDAIRBORNSGTMJ, TEAM_212ARFSGT, TEAM_212ARFSGTMJ, TEAM_212THMEDICSGT, TEAM_212THMEDICSGTMJ, TEAM_212CTPSGT, TEAM_212CTPSGTMJ, TEAM_332ndSGT, TEAM_332ndSGTMJ, TEAM_501ARFSGT, TEAM_501ARFSGTMJ, TEAM_501stRMCSGT, TEAM_501stRMCSGTMJ, TEAM_501CTPSGT, TEAM_501CTPSGTMJ, TEAM_KIX, TEAM_APPO, TEAM_TUP, TEAM_STSGT, TEAM_STSGTMJ, TEAM_K9HOUND, TEAM_STMEDICSGT, TEAM_STMEDICSGTMJ }
 		},
-
 		{
 			Name  = "Level 3",
-			Color = Color(0, 255, 0),
-			Teams = { TEAM_CHIEF, TEAM_MAYOR }
+			Color = Color(255, 215, 0),
+			Teams = { TEAM_ARCCPTEVO, TEAM_327thHV2NDLT, TEAM_327thHV1STLT, TEAM_327TH1stLT, TEAM_327THKCOMPANY1STLT, TEAM_327THKCOMPANY2NDLT, TEAM_327THMEDIC2NDLT, TEAM_327THMEDIC1STLT, TEAM_212THWAXER, TEAM_212THBOIL, TEAM_STEALTH, TEAM_2NDAIRBORNSAPNO, TEAM_187TH2ndLT, TEAM_187TH1stLT,  TEAM_2122ndlt, TEAM_2121stLT, TEAM_2NDAIRBORN2ndlt, TEAM_2NDAIRBORN1stLT, TEAM_212ARF2NDLT, TEAM_212ARF1STLT, TEAM_212THMEDIC2NDLT, TEAM_212CTP1stLT, TEAM_212CTP2ndLT, TEAM_501ST2ndLT, TEAM_501ST1stLT, TEAM_501ARF2NDLT, TEAM_501ARF1STLT, TEAM_501stRMC2ndLT, TEAM_501stRMC1stLT, TEAM_501CTP2ndLT, TEAM_501CTP1stLT, TEAM_JESSE, TEAM_FIVES, TEAM_ECHO, TEAM_ST2ndLT, TEAM_ST1stLT, TEAM_STMEDIC2ndLT, TEAM_STMEDIC1stLT, TEAM_327TH2ndLT, TEAM_327TH1stLT, TEAM_442thGunnerOffizier, TEAM_442thOffizier, TEAM_442thScar, TEAM_442thMedicOffizier, TEAM_442THPILOTOffizier, TEAM_442thScoutOffizier, TEAM_442thTechnikerOffizer, TEAM_CT2NDLT, TEAM_CT1STLT, TEAM_501stARCSGTMJ, TEAM_332nd1stLT }
 		},
-
 		{
 			Name  = "Level 4",
-			Color = Color(200, 0, 255),
-			Teams = { TEAM_MAYOR }
+			Color = Color(220, 80, 35),
+			Teams = { TEAM_327thHVCPT, TEAM_SGTARAAY, TEAM_RAZER, TEAM_TREUY, TEAM_LACE, TEAM_HIT, TEAM_327THKCOMPANYCOL, TEAM_327THKCOMPANYMJR, TEAM_327THKCOMPANYCPT, TEAM_327THMEDICCOL, TEAM_327THMEDICMJR, TEAM_327THMEDICCPT, TEAM_332ndCPT, TEAM_ARCCPTEVO, TEAM_CPTDOCK, TEAM_327THMEDICCPT, TEAM_327THMEDICMJR, TEAM_327THMEDICCOL, TEAM_327thHVCPT,  TEAM_327THKCOMPANYCOL, TEAM_327THKCOMPANYMJR, TEAM_327THKCOMPANYCPT, TEAM_327THCOL, TEAM_327THMEDICCPT, TEAM_327THMEDICMJR, TEAM_327THMEDICCOL, TEAM_GREGOR, TEAM_CPTARCNICO, TEAM_STEALTH, TEAM_CMDTRAUMA, TEAM_FLEZY, TEAM_327thHR, TEAM_187THCMD, TEAM_187THMJR, TEAM_187THCPT, TEAM_Cody, TEAM_212ARCMJR, TEAM_212MJR, TEAM_212CPT, TEAM_2NDAIRBORNCPT, TEAM_2NDAIRBORNMJR, TEAM_212ARFCPT, TEAM_212CTPCPT, TEAM_442thCMD, TEAM_442thGunnercptplus, TEAM_442thMedicOffizierplus, TEAM_442THPILOTOFFIZIERPLUS, TEAM_442thScoutOffizierplus, TEAM_442thTechnikerOffizerplus, TEAM_501STREX, TEAM_501CTPCPT, TEAM_CPTFIREN, TEAM_ARF, TEAM_Stone, TEAM_STCPT, TEAM_STMJR, TEAM_STFOX, TEAM_STTHORN, TEAM_CTCPT, TEAM_CTMJR, TEAM_CTCMD, TEAM_FEVER, TEAM_ARCCMDCOLT, TEAM_ARCCMDHAVOC, TEAM_ARCMJRCOLT, TEAM_BLITZ, TEAM_2NDAIRBORNSAPNO, TEAM_327THBLY, TEAM_327THCPTDEVISS, TEAM_MJRARCNICO, TEAM_MANDODALA, TEAM_327THMEDICCPT, TEAM_327THMEDICMJR, TEAM_CLOASS,TEAM_Raven }
+		},
+		{
+			Name  = "Level 5",
+			Color = Color(255, 0, 0),
+			Teams = { TEAM_FCMD, TEAM_FCPT, TEAM_FLC, TEAM_FL, TEAM_FCWO, TEAM_FWO, TEAM_FCPO, TEAM_FP, TEAM_FCMD, TEAM_FCPT, TEAM_FLC, TEAM_FL, TEAM_FCWO, TEAM_FWO, TEAM_FCPO, TEAM_FP, TEAM_FCWO, TEAM_FAEISKEULE, TEAM_ROOK, TEAM_KOON, TEAM_JDJB, TEAM_YODA, TEAM_AHSOKA, TEAM_ANAKIN, TEAM_OBIWAN, TEAM_AAYLA, TEAM_SHAAK, TEAM_MUNID, TEAM_FISTO, TEAM_PLOKOON, TEAM_PADAWAN, TEAM_RITTER, TEAM_MEISTER, TEAM_187thMaceWindu, TEAM_FK, TEAM_FP, TEAM_FCPO, TEAM_FWO, TEAM_FCWO, TEAM_FL, TEAM_FLC, TEAM_FCPT, TEAM_FCMD, TEAM_FVA, TEAM_FA, TEAM_TARKIN, TEAM_AYATO }
 		},
 		
 		--[[
