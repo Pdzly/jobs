@@ -327,3 +327,43 @@ TEAM_CTPCPT = DarkRP.createJob("SP CPT", {
     end
 })
 
+TEAM_AARC88Snoke = DarkRP.createJob("A-ARC CPT 88 Snoke", {
+    color = Color(0, 0, 0, 255),
+    model = {"models/fisher/null/captain/captain_j.mdl"},
+    description = [[AARC 88 Snoke]],
+    weapons = {"comlink_swep", "cross_arms_swep", "cross_arms_infront_swep", "high_five_swep", "hololink_swep", "middlefinger_animation_swep", "point_in_direction_swep", "salute_swep", "surrender_animation_swep", "m9k_knife", "meleearts_blade_throwingknife", "weapon_fists", "re_hands", "weapon_armorkit", "weapon_bactainjector", "weapon_breachingcharge", "seal6-c4", "jet_mk5", "tfa_defi_swrp", "at_sw_dc15s_all", "at_sw_dc15a_all", "rw_sw_dual_dc17s", "rw_sw_westarm5", "rw_sw_stun_dc17", "rw_ammo_distributor", "rw_sw_nade_thermal", "rw_sw_nade_impact", "rw_sw_nade_incendiary", "weapon_cuff_elastic",},
+    command = "AARCCPT88Snoke",
+    max = 0,
+    salary = 3000,
+    admin = 0,
+    vote = false,
+    hasLicense = true,
+    candemote = false,
+    category = "Alpha ARC",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(450)
+        ply:SetHealth(450)
+        ply:SetArmor(250)
+    end
+})
+
+TEAM_AARC88Snoke = DarkRP.createJob("A-ARC SGT 55 Deadschoot", {
+    color = Color(0, 0, 0, 255),
+    model = {"models/fisher/null/sergeant/spots.mdl"},
+    description = [[AARC 55 Deadshoot]],
+    weapons = {"comlink_swep", "cross_arms_swep", "cross_arms_infront_swep", "high_five_swep", "hololink_swep", "middlefinger_animation_swep", "point_in_direction_swep", "salute_swep", "surrender_animation_swep", "m9k_knife", "meleearts_blade_throwingknife", "weapon_fists", "re_hands", "weapon_armorkit", "weapon_bactainjector", "weapon_breachingcharge", "seal6-c4", "jet_mk5", "tfa_defi_swrp", "at_sw_dc15s_all", "at_sw_dc15a_all", "rw_sw_dual_dc17s", "rw_sw_westarm5", "rw_sw_stun_dc17", "rw_ammo_distributor", "rw_sw_nade_thermal", "rw_sw_nade_impact", "rw_sw_nade_incendiary", "weapon_cuff_elastic",},
+    command = "AARCSGT55Deadschoot",
+    max = 0,
+    salary = 3000,
+    admin = 0,
+    vote = false,
+    hasLicense = true,
+    candemote = false,
+    category = "Alpha ARC",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(450)
+        ply:SetHealth(450)
+        ply:SetArmor(250)
+    end
+})
+
