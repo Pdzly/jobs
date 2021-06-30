@@ -88,7 +88,7 @@ TEAM_CPTFIREN = DarkRP.createJob("CPT Firen", {
 
 TEAM_2NDAIRBORNSAPNO = DarkRP.createJob("2nd Airborn ARC 4422 Sapno", {
     color = Color(212, 175, 55, 255),
-    model = {"models/fisher/arc/212th_arc_airborne.mdl", "models/starwars/grady/212th_custom/212th_custom_josh.mdl"},
+    model = {"models/loudmantis/212/arc.mdl", "models/starwars/grady/212th_custom/212th_custom_josh.mdl"},
     description = [[2nd Airborn ARC 4422 Sapno]],
     weapons = {"re_hands", "at_sw_dc15s_all", "rw_sw_dc15a", "weapon_fists", "weapon_cuff_elastic", "jet_exec", "rw_sw_rps6", "rw_sw_dc17", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal", "rw_sw_westarm5", "rw_sw_dual_dc17", "tfa_defi_swrp", "stunstick", "weapon_bactainjector", "rw_sw_dual_dc17ext", "rw_sw_bino_dark", "rw_sw_dc15x"},
     command = "2ndairbornarcsapno",
