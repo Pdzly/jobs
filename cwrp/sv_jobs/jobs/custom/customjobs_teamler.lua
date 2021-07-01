@@ -160,3 +160,23 @@ TEAM_FORDO = DarkRP.createJob("ARC MJR Fordo", {
         ply:SetArmor(200)
     end
 })
+
+TEAM_MUDI = DarkRP.createJob("Mudi", {
+    color = Color(218, 0, 255, 255),
+    model = {"models/player/aussiwozzi/mandalorians/male_mando_black.mdl"},
+    description = [[DAS IST MUUUUUUUUDDDDDDDDDIIIIIIIIII]],
+    weapons = {"alydus_fusioncutter", "defuse_kit", "keys", "med_kit", "cross_arms_infront_swep", "surrender_animation_swep", "point_in_direction_swep", "middlefinger_animation_swep", "weapon_cuff_elastic", "m9k_fists", "re_hands", "jet_mk6", "tfa_defi_swrp", "rw_sw_wristrocket", "rw_sw_wristflame", "rw_sw_wristblaster_light_yellow", "rw_sw_wristblaster_heavy_yellow", "rw_sw_westar11", "rw_sw_westar35", "rw_sw_dual_westar35", "rw_sw_iqa11c", "rw_sw_bino_dark"},
+    command = "mudi",
+    max = 1,
+    salary = 10000,
+    admin = 0,
+    vote = false,
+    hasLicense = true,
+    candemote = false,
+    category = "Zivilisten",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(250)
+        ply:SetHealth(250)
+        ply:SetArmor(150)
+    end
+})
