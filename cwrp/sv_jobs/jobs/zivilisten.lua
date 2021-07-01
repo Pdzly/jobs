@@ -263,7 +263,7 @@ TEAM_KOPFGELDJÄGER = DarkRP.createJob("Kopfgeldjäger", {
     model = {"rw_sw_dual_defender", "models/hcn/starwars/bf/aqualish/aqualish_3.mdl", "models/hcn/starwars/bf/dressellian/dressellian_3.mdl", "models/hcn/starwars/bf/duros/duros_3.mdl", "models/hcn/starwars/bf/human/human_male_3.mdl", "models/hcn/starwars/bf/ishitib/ishitib_3.mdl", "models/hcn/starwars/bf/quarren/quarren_3.mdl", "models/hcn/starwars/bf/rodian/rodian_3.mdl", "models/hcn/starwars/bf/sullustan/sullustan_3.mdl", "models/hcn/starwars/bf/weequay/weequay_3.mdl", "models/hcn/starwars/bf/zabrak/zabrak_3.mdl"},
     description = [[Kopfgeldjäger]],
     weapons = {"re_hands", "rw_sw_dl18", "weapon_fists", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_dual_d", "rw_sw_nn14", "meleearts_blade_throwingknife"},
-    command = "kopfgeldjäger",
+    command = "Kopfgeldjäger",
     max = 0,
     salary = 0,
     admin = 0,
@@ -498,3 +498,22 @@ TEAM_ZIVILISTDIENER = DarkRP.createJob("Diener", {
     end
 })
 
+TEAM_ZIVILISTNORMAL = DarkRP.createJob("Zivilist", {
+    color = Color(212, 175, 55, 255),
+    model = {"models/hcn/starwars/bf/abednedo/abednedo.mdl", "models/hcn/starwars/bf/aqualish/aqualish.mdl", "models/hcn/starwars/bf/dressellian/dressellian.mdl", "models/hcn/starwars/bf/duros/duros.mdl", "models/hcn/starwars/bf/human/human_male.mdl", "models/hcn/starwars/bf/ishitib/ishitib.mdl", "models/hcn/starwars/bf/quarren/quarren.mdl", "models/hcn/starwars/bf/rodian/rodian.mdl", "models/hcn/starwars/bf/sullustan/sullustan.mdl", "models/hcn/starwars/bf/weequay/weequay.mdl", "models/hcn/starwars/bf/zabrak/zabrak.mdl"},
+    description = [[Zivilist]],
+    weapons = {"re_hands", "rw_sw_d", "weapon_fists", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep"},
+    command = "zivilist",
+    max = 0,
+    salary = 0,
+    admin = 0,
+    vote = false,
+    hasLicense = true,
+    candemote = false,
+    category = "Zivilisten",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
+    end
+})
