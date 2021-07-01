@@ -12,7 +12,25 @@ TEAM_MAUSDROIDE = DarkRP.createJob("Maus Droide", {
     candemote = false,
     category = "Other",
 })
-
+TEAM_CTPCMD = DarkRP.createJob("SP CMD", {
+    color = Color(255, 215, 0, 255),
+    model = {"models/hevoc/so_phase_o/so_blackout/so_blackout.mdl", "models/player/smitty/bf2_reg/so_blackout/so_blackout.mdl"},
+    description = [[SP CMD]],
+    weapons = {"re_hands", "weapon_fists", "rw_sw_dual_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "at_sw_dc15s_all", "weapon_cuff_elastic"},
+    command = "spcmd",
+    max = 1,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = true,
+    candemote = false,
+    category = "Piloten",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
+    end
+})
 TEAM_AYATO = DarkRP.createJob("Captain Ayato", {
     color = Color(14, 77, 28, 255),
     model = {"models/loudmantis/arc/operative.mdl"},
@@ -70,7 +88,7 @@ TEAM_CPTFIREN = DarkRP.createJob("CPT Firen", {
 
 TEAM_2NDAIRBORNSAPNO = DarkRP.createJob("2nd Airborn ARC 4422 Sapno", {
     color = Color(212, 175, 55, 255),
-    model = {"models/fisher/arc/212th_arc_airborne.mdl", "models/starwars/grady/212th_custom/212th_custom_josh.mdl"},
+    model = {"models/loudmantis/212/arc.mdl", "models/starwars/grady/212th_custom/212th_custom_josh.mdl"},
     description = [[2nd Airborn ARC 4422 Sapno]],
     weapons = {"re_hands", "at_sw_dc15s_all", "rw_sw_dc15a", "weapon_fists", "weapon_cuff_elastic", "jet_exec", "rw_sw_rps6", "rw_sw_dc17", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal", "rw_sw_westarm5", "rw_sw_dual_dc17", "tfa_defi_swrp", "stunstick", "weapon_bactainjector", "rw_sw_dual_dc17ext", "rw_sw_bino_dark", "rw_sw_dc15x"},
     command = "2ndairbornarcsapno",
@@ -306,6 +324,46 @@ TEAM_CTPCPT = DarkRP.createJob("SP CPT", {
         ply:SetMaxHealth(200)
         ply:SetHealth(200)
         ply:SetArmor(100)
+    end
+})
+
+TEAM_AARC88Snoke = DarkRP.createJob("A-ARC CPT 88 Snoke", {
+    color = Color(0, 0, 0, 255),
+    model = {"models/fisher/null/captain/captain_j.mdl"},
+    description = [[AARC 88 Snoke]],
+    weapons = {"comlink_swep", "cross_arms_swep", "cross_arms_infront_swep", "high_five_swep", "hololink_swep", "middlefinger_animation_swep", "point_in_direction_swep", "salute_swep", "surrender_animation_swep", "m9k_knife", "meleearts_blade_throwingknife", "weapon_fists", "re_hands", "weapon_armorkit", "weapon_bactainjector", "weapon_breachingcharge", "seal6-c4", "jet_mk5", "tfa_defi_swrp", "at_sw_dc15s_all", "at_sw_dc15a_all", "rw_sw_dual_dc17s", "rw_sw_westarm5", "rw_sw_stun_dc17", "rw_ammo_distributor", "rw_sw_nade_thermal", "rw_sw_nade_impact", "rw_sw_nade_incendiary", "weapon_cuff_elastic",},
+    command = "AARCCPT88Snoke",
+    max = 0,
+    salary = 3000,
+    admin = 0,
+    vote = false,
+    hasLicense = true,
+    candemote = false,
+    category = "Alpha ARC",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(450)
+        ply:SetHealth(450)
+        ply:SetArmor(250)
+    end
+})
+
+TEAM_AARC88Snoke = DarkRP.createJob("A-ARC SGT 55 Deadschoot", {
+    color = Color(0, 0, 0, 255),
+    model = {"models/fisher/null/sergeant/spots.mdl"},
+    description = [[AARC 55 Deadshoot]],
+    weapons = {"comlink_swep", "cross_arms_swep", "cross_arms_infront_swep", "high_five_swep", "hololink_swep", "middlefinger_animation_swep", "point_in_direction_swep", "salute_swep", "surrender_animation_swep", "m9k_knife", "meleearts_blade_throwingknife", "weapon_fists", "re_hands", "weapon_armorkit", "weapon_bactainjector", "weapon_breachingcharge", "seal6-c4", "jet_mk5", "tfa_defi_swrp", "at_sw_dc15s_all", "at_sw_dc15a_all", "rw_sw_dual_dc17s", "rw_sw_westarm5", "rw_sw_stun_dc17", "rw_ammo_distributor", "rw_sw_nade_thermal", "rw_sw_nade_impact", "rw_sw_nade_incendiary", "weapon_cuff_elastic",},
+    command = "AARCSGT55Deadschoot",
+    max = 0,
+    salary = 3000,
+    admin = 0,
+    vote = false,
+    hasLicense = true,
+    candemote = false,
+    category = "Alpha ARC",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(450)
+        ply:SetHealth(450)
+        ply:SetArmor(250)
     end
 })
 
