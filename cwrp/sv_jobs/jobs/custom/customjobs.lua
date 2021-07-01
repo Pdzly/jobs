@@ -299,7 +299,7 @@ TEAM_vale = DarkRP.createJob("RC-Vale", {
     vote = false,
     hasLicense = true,
     candemote = false,
-    category = "Delta Squad",
+    category = "RC",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(700)
         ply:SetHealth(700)
@@ -364,6 +364,47 @@ TEAM_AARC55DEADSCHOOT = DarkRP.createJob("A-ARC SGT 55 Deadschoot", {
         ply:SetMaxHealth(450)
         ply:SetHealth(450)
         ply:SetArmor(250)
+    end
+})
+
+TEAM_RIGGS = DarkRP.createJob("RC-RIGGS", {
+    color = Color(145, 7, 7, 255),
+    model = {"models/defcon/loudmantis/shadows/riggs.mdl"},
+    description = [[RC_Vale]],
+    weapons = {"at_sw_dc15sa", "at_sw_dc17m", "bkeycard", "weapon_cuff_elastic", "rw_sw_nade_thermal", "tfa_defi_swrp", "weapon_thehiddenblade", "weapon_bactainjector", "weapon_armorkit", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "seal6-c4", "hacktool", "comlink_swep", "alydus_fortificationbuildertablet", "weapon_breachingcharge", "t3m4_empgrenade", "defuse_kit", "rw_sw_nade_thermal"},
+    command = "riggs",
+    max = 1,
+    salary = 250,
+    admin = 0,
+    vote = false,
+    hasLicense = true,
+    candemote = false,
+    category = "RC",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(700)
+        ply:SetHealth(700)
+        ply:SetArmor(250)
+    end
+})
+
+
+TEAM_DOSGTMJ = DarkRP.createJob("Doom SGTMJ Vegoh", {
+    color = Color(0, 136, 0, 255),
+    model = {"models/player/community/einfachgaming/starwars/du_officer.mdl"},
+    description = [[Doom SGTMJ]],
+    weapons = {"re_hands", "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_shield_rep", "weapon_doomshield", "rw_sw_dc17", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal", "rw_sw_dual_dc17ext"},
+    command = "doomvegoh",
+    max = 1,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = true,
+    candemote = false,
+    category = "Dooms Unit",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
     end
 })
 

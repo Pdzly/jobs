@@ -373,3 +373,12 @@ DarkRP.createCategory{
     
 }
 
+DarkRP.createCategory{
+    name = "RC",
+    categorises = "jobs",
+    startExpanded = true,
+    color = Color(44, 137, 38, 255),
+    canSee = function(ply) return true end,
+    sortOrder = 2 
+    
+}
