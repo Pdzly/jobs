@@ -299,7 +299,7 @@ TEAM_vale = DarkRP.createJob("RC-Vale", {
     vote = false,
     hasLicense = true,
     candemote = false,
-    category = "Delta Squad",
+    category = "RC",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(700)
         ply:SetHealth(700)
@@ -367,3 +367,22 @@ TEAM_AARC88Snoke = DarkRP.createJob("A-ARC SGT 55 Deadschoot", {
     end
 })
 
+TEAM_vale = DarkRP.createJob("RC-Vale", {
+    color = Color(145, 7, 7, 255),
+    model = {"models/defcon/loudmantis/shadows/vale.mdl"},
+    description = [[RC_Vale]],
+    weapons = {"at_sw_dc15sa", "at_sw_dc17m", "bkeycard", "weapon_cuff_elastic", "rw_sw_nade_thermal", "tfa_defi_swrp", "weapon_thehiddenblade", "weapon_bactainjector", "weapon_armorkit", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "seal6-c4", "hacktool", "comlink_swep", "alydus_fortificationbuildertablet"},
+    command = "riggs",
+    max = 1,
+    salary = 250,
+    admin = 0,
+    vote = false,
+    hasLicense = true,
+    candemote = false,
+    category = "RC",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(700)
+        ply:SetHealth(700)
+        ply:SetArmor(250)
+    end
+})
