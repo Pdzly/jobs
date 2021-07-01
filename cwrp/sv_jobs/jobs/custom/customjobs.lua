@@ -347,7 +347,7 @@ TEAM_AARC88Snoke = DarkRP.createJob("A-ARC CPT 88 Snoke", {
     end
 })
 
-TEAM_AARC88Snoke = DarkRP.createJob("A-ARC SGT 55 Deadschoot", {
+TEAM_AARC55DEADSCHOOT = DarkRP.createJob("A-ARC SGT 55 Deadschoot", {
     color = Color(0, 0, 0, 255),
     model = {"models/fisher/null/sergeant/spots.mdl"},
     description = [[AARC 55 Deadshoot]],

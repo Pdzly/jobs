@@ -381,3 +381,43 @@ TEAM_187thMaceWindu = DarkRP.createJob("Mace Windu", {
         ply:SetHealth(5000)
     end
 })
+
+TEAM_TIPLAR = DarkRP.createJob("Tiplar", {
+    color = Color(183, 0, 254, 255),
+    model = {"models/player/suno/p_tiplar.mdl"},
+    description = [[Tiplar]],
+    weapons = {"weapon_fists", "re_hands", "weapon_lightsaber_meister", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "weapon_cuff_elastic"},
+    command = "tiplar",
+    max = 1,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = true,
+    candemote = false,
+    category = "Jedi",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(5000)
+        ply:SetHealth(5000)
+        ply:SetArmor(100)
+    end
+})
+
+TEAM_TIPLEE = DarkRP.createJob("Tiplee", {
+    color = Color(183, 0, 254, 255),
+    model = {"models/player/suno/p_tiplee.mdl"},
+    description = [[Tiplee]],
+    weapons = {"weapon_fists", "re_hands", "weapon_lightsaber_meister", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "weapon_cuff_elastic"},
+    command = "tiplee",
+    max = 1,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = true,
+    candemote = false,
+    category = "Jedi",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(5000)
+        ply:SetHealth(5000)
+        ply:SetArmor(100)
+    end
+})
