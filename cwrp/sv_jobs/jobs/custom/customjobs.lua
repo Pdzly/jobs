@@ -407,10 +407,10 @@ TEAM_RIGGS = DarkRP.createJob("RC-RIGGS", {
 })
 
 
-TEAM_DOSGTMJ = DarkRP.createJob("Doom SGTMJ Vegoh", {
+TEAM_VEGOH = DarkRP.createJob("Doom SGTMJ Vegoh", {
     color = Color(0, 136, 0, 255),
     model = {"models/player/community/einfachgaming/starwars/du_officer.mdl"},
-    description = [[Doom SGTMJ]],
+    description = [[Doom SGTMJ Vegoh]],
     weapons = {"re_hands", "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_shield_rep", "weapon_doomshield", "rw_sw_dc17", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal", "rw_sw_dual_dc17ext"},
     command = "doomvegoh",
     max = 1,
