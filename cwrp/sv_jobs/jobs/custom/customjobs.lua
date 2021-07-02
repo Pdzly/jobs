@@ -66,6 +66,25 @@ TEAM_DROIDE = DarkRP.createJob("R2-D3", {
     category = "Other",
 })
 
+TEAM_VEGOH = DarkRP.createJob("SGTMJ Vegoh", {
+    color = Color(14, 77, 28, 255),
+    model = {"models/player/community/einfachgaming/starwars/du_officer.mdl"},
+    description = [[SGTMJ Vegoh]],
+    weapons = {"keys", "at_sw_dc15s_all", "at_sw_dc15a_all", "rw_sw_z6", "rw_sw_dual_dc17ext", "weapon_doomshield", "rw_sw_shield_rep", "weapon_fists", "re_hands"},
+    command = "sgtmjvegoh",
+    max = 1,
+    salary = 250,
+    admin = 0,
+    vote = false,
+    hasLicense = true,
+    candemote = false,
+    category = "Other",
+        PlayerSpawn = function(ply)
+        ply:SetMaxHealth(400)
+        ply:SetHealth(400)
+        ply:SetArmor(200)
+    end
+ })       
 TEAM_CPTFIREN = DarkRP.createJob("CPT Firen", {
     color = Color(14, 77, 28, 255),
     model = {"models/aussiwozzi/phase1clones/Captain.mdl"},
