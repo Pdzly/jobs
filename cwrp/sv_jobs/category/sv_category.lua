@@ -369,7 +369,7 @@ DarkRP.createCategory{
     startExpanded = true,
     color = Color(44, 137, 38, 255),
     canSee = function(ply) return true end,
-    sortOrder = 2 
+    sortOrder = 39
     
 }
 
@@ -379,6 +379,15 @@ DarkRP.createCategory{
     startExpanded = true,
     color = Color(44, 137, 38, 255),
     canSee = function(ply) return true end,
-    sortOrder = 2 
+    sortOrder = 40
     
+}
+
+DarkRP.createCategory{
+    name = "ARC Ausbilder",
+    categorises = "jobs",
+    startExpanded = true,
+    color = Color(0, 139, 0, 255),
+    canSee = function(ply) return true end,
+    sortOrder = 41
 }
