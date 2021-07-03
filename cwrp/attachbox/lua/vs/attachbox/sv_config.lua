@@ -41,8 +41,8 @@ function addattachments()
             ["explosive_mod"] = {
                 ["name"] = "Explosive Munition",
                 ["beschreibung"] = "Beim Auftreffen auf etwas explodiert der Schuss",
-                ["allowedjobs"] = {},
-                ["allowedcat"] = {},
+                ["allowedjobs"] = {TEAM_BAUMPVT},
+                ["allowedcat"] = {"BAUM"},
                 ["everyone"] = false
             },
             ["stun_mod"] = {
