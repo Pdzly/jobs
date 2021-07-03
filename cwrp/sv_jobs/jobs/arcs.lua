@@ -51,7 +51,7 @@ TEAM_CPTDOCK = DarkRP.createJob("ARC Ausbilder MJR 4027 Dock", {
     vote = false,
     hasLicense = true,
     candemote = false,
-    category = "ARCS",
+    category = "ARC Ausbilder",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(350)
         ply:SetHealth(350)
@@ -191,7 +191,7 @@ TEAM_MJRARCNICO = DarkRP.createJob("ARC MJR 1299 Nico", {
     vote = false,
     hasLicense = true,
     candemote = false,
-    category = "ARCS",
+    category = "ARC Ausbilder",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(350)
         ply:SetHealth(350)
