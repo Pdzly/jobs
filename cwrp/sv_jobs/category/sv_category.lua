@@ -400,3 +400,12 @@ DarkRP.createCategory{
     canSee = function(ply) return true end,
     sortOrder = 2 
 }
+
+DarkRP.createCategory{
+    name = "BAUM",
+    categorises = "jobs",
+    startExpanded = true,
+    color = Color(44, 137, 38, 255),
+    canSee = function(ply) return true end,
+    sortOrder = 2 
+}
