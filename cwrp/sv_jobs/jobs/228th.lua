@@ -2,7 +2,7 @@
 
 
 
-TEAM_ 228thManschaft= DarkRP.createJob("228th Manschaft", {
+TEAM_228thMANN= DarkRP.createJob("228th Manschaft", {
     color = Color(0, 0, 0, 255),
     model = {"models/player/applesauce/228th/trooper.mdl"},
     description = [[228thManschaft]],
@@ -23,7 +23,7 @@ TEAM_ 228thManschaft= DarkRP.createJob("228th Manschaft", {
 })
 
 
-TEAM_ 228thUnteroffizier= DarkRP.createJob("228th Unteroffizier", {
+TEAM_228thUOFFIZIER= DarkRP.createJob("228th Unteroffizier", {
     color = Color(0, 0, 0, 255),
     model = {"models/player/applesauce/228th/junior_officer.mdl"},
     description = [[228thUnterOfifzier]],
@@ -43,7 +43,7 @@ TEAM_ 228thUnteroffizier= DarkRP.createJob("228th Unteroffizier", {
     end
 })
 
-TEAM_ 228thoffizier= DarkRP.createJob("228th offizier", {
+TEAM_228thOFFIZIER= DarkRP.createJob("228th offizier", {
     color = Color(0, 0, 0, 255),
     model = {"models/player/applesauce/228th/senior_officer.mdl"},
     description = [[228thUnterOfifzier]],
@@ -63,7 +63,7 @@ TEAM_ 228thoffizier= DarkRP.createJob("228th offizier", {
     end
 })
 
-TEAM_ 228thoffizier+= DarkRP.createJob("228th offizier+", {
+TEAM_228thOFFIZIERPLUS= DarkRP.createJob("228th offizier+", {
     color = Color(0, 0, 0, 255),
     model = {"models/player/applesauce/228th/senior_officer.mdl"},
     description = [[228thUnterOffizier+]],
@@ -83,7 +83,7 @@ TEAM_ 228thoffizier+= DarkRP.createJob("228th offizier+", {
     end
 })
 
-TEAM_ 228thcmd= DarkRP.createJob("228th CMD", {
+TEAM_228thCMD= DarkRP.createJob("228th CMD", {
     color = Color(0, 0, 0, 255),
     model = {"models/player/applesauce/228th/senior_officer.mdl"},
     description = [[228thcmd]],
