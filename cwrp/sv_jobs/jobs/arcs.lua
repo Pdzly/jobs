@@ -39,7 +39,7 @@ TEAM_KALSKIRATA = DarkRP.createJob("Kal Skirata", {
     end
 })
 
-TEAM_CPTDOCK = DarkRP.createJob("CT ARC MJR 4027 Dock", {
+TEAM_CPTDOCK = DarkRP.createJob("ARC Ausbilder MJR 4027 Dock", {
     color = Color(255, 255, 255, 255),
     model = {"models/player/suno/arc/arc_12.mdl"},
     description = [[Arc CPT Dock]],
