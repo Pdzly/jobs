@@ -5,7 +5,7 @@ TEAM_JESSE = DarkRP.createJob("ARC 2ndLT Jesse", {
 		"models/defcon/stan/arcevo/regimentals/evo501starc.mdl"
 	},
     description = [[ARC 2ndLT Jesse]],
-    weapons = {"weapon_fists", "re_hands", "jet_mk1", "rw_sw_dc15s", "rw_sw_dual_dc17", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal", "weapon_cuff_elastic", "rw_sw_dual_dc17ext", "stunstick"},
+    weapons = {"weapon_fists", "re_hands", "jet_mk1", "at_sw_dc15s_all", "rw_sw_dual_dc17", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal", "weapon_cuff_elastic", "rw_sw_dual_dc17ext", "stunstick"},
     command = "jesse",
     max = 1,
     salary = 100,
@@ -15,9 +15,9 @@ TEAM_JESSE = DarkRP.createJob("ARC 2ndLT Jesse", {
     candemote = false,
     category = "501st",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(300)
-        ply:SetHealth(300)
-        ply:SetArmor(250)
+        ply:SetMaxHealth(350)
+        ply:SetHealth(350)
+        ply:SetArmor(200)
     end
 })
 
@@ -28,7 +28,7 @@ TEAM_FIVES = DarkRP.createJob("ARC 2ndLT Fives", {
 		"models/defcon/stan/arcevo/regimentals/evo501starc.mdl"
 	},
     description = [[ARC SGT Fives]],
-    weapons = {"weapon_fists", "re_hands", "jet_mk1", "rw_sw_dc15s", "rw_sw_dc15a_o", "rw_sw_dual_dc17", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal", "weapon_cuff_elastic", "rw_sw_dual_dc17ext"},
+    weapons = {"weapon_fists", "re_hands", "jet_mk1", "at_sw_dc15s_all", "at_sw_dc15a_all", "rw_sw_dual_dc17", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal", "weapon_cuff_elastic", "rw_sw_dual_dc17ext"},
     command = "fives",
     max = 1,
     salary = 100,
@@ -38,9 +38,9 @@ TEAM_FIVES = DarkRP.createJob("ARC 2ndLT Fives", {
     candemote = false,
     category = "501st",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(300)
-        ply:SetHealth(300)
-        ply:SetArmor(250)
+        ply:SetMaxHealth(350)
+        ply:SetHealth(350)
+        ply:SetArmor(200)
     end
 })
 
@@ -51,7 +51,7 @@ TEAM_ECHO = DarkRP.createJob("ARC 2ndLT Echo", {
 		"models/defcon/stan/arcevo/regimentals/evo501starc.mdl"
 	},
     description = [[ARC SGT Echo]],
-    weapons = {"weapon_fists", "re_hands", "jet_mk1", "rw_sw_dc15s", "rw_sw_dc15a_o", "rw_sw_dual_dc17", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal", "weapon_cuff_elastic", "rw_sw_dual_dc17ext"},
+    weapons = {"weapon_fists", "re_hands", "jet_mk1", "at_sw_dc15s_all", "at_sw_dc15a_all", "rw_sw_dual_dc17", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal", "weapon_cuff_elastic", "rw_sw_dual_dc17ext"},
     command = "echo",
     max = 1,
     salary = 100,
@@ -61,9 +61,9 @@ TEAM_ECHO = DarkRP.createJob("ARC 2ndLT Echo", {
     candemote = false,
     category = "501st",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(300)
-        ply:SetHealth(300)
-        ply:SetArmor(250)
+        ply:SetMaxHealth(350)
+        ply:SetHealth(350)
+        ply:SetArmor(200)
     end
 })
 
@@ -74,7 +74,7 @@ TEAM_HARDCASE = DarkRP.createJob("TC CPL Hardcase", {
 		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
 	},
     description = [[TC CPL Hardcase]],
-    weapons = {"weapon_fists", "re_hands", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_dc15s", "rw_sw_dc15a_o", "rw_sw_z6"},
+    weapons = {"weapon_fists", "re_hands", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "at_sw_dc15s_all", "at_sw_dc15a_all", "rw_sw_z6"},
     command = "hardcase",
     max = 1,
     salary = 50,
@@ -97,7 +97,7 @@ TEAM_KIX = DarkRP.createJob("TC MED SGT Kix", {
 		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
 	},
     description = [[TC MED SGT Kix]],
-    weapons = {"weapon_fists", "re_hands", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_dc15s", "rw_sw_dc15a_o", "rw_sw_dc17", "tfa_defi_swrp", "weapon_bactainjector", "zbl_gun", "zbl_spray"},
+    weapons = {"med_kit" , "rw_sw_nade_bacta"  , "sw_datapad", "weapon_fists", "re_hands", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "at_sw_dc15s_all", "at_sw_dc15a_all", "rw_sw_dc17", "tfa_defi_swrp", "weapon_bactainjector", "zbl_gun", "zbl_spray"},
     command = "kix",
     max = 1,
     salary = 50,
@@ -120,7 +120,7 @@ TEAM_DOGMA = DarkRP.createJob("TC CPL Dogma", {
 		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
 	},
     description = [[TC CPL Dogma]],
-    weapons = {"weapon_fists", "re_hands", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_dc15s", "rw_sw_dc15a_o", "rw_sw_dc17", "seal6-c4", "weapon_breachingcharge"},
+    weapons = {"weapon_fists", "re_hands", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "at_sw_dc15s_all", "at_sw_dc15a_all", "rw_sw_dc17", "seal6-c4", "weapon_breachingcharge"},
     command = "dogma",
     max = 1,
     salary = 50,
@@ -143,7 +143,7 @@ TEAM_APPO = DarkRP.createJob("TC SGT Appo", {
 		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
 	},
     description = [[TC SGT Appo]],
-    weapons = {"weapon_fists", "re_hands", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_dc15s", "rw_sw_dc15a_o", "rw_sw_dc17"},
+    weapons = {"weapon_fists", "re_hands", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "at_sw_dc15s_all", "at_sw_dc15a_all", "rw_sw_dc17"},
     command = "appo",
     max = 1,
     salary = 50,
@@ -166,7 +166,7 @@ TEAM_TUP = DarkRP.createJob("TC SGT Tup", {
 		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
 	},
     description = [[TC SGT Tup]],
-    weapons = {"weapon_fists", "re_hands", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_dc15s", "rw_sw_dc15a_o", "rw_sw_dc17"},
+    weapons = {"weapon_fists", "re_hands", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "at_sw_dc15s_all", "at_sw_dc15a_all", "rw_sw_dc17"},
     command = "tup",
     max = 1,
     salary = 50,

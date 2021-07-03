@@ -3,7 +3,7 @@ TEAM_AUSBILDER = DarkRP.createJob("Ausbilder", {
     color = Color(63, 63, 63, 255),
     model = {"models/player/smitty/bf2_reg/clone_instructor/clone_instructor.mdl"},
     description = [[Ausbilder]],
-    weapons = {"weapon_fists", "re_hands", "rw_sw_dc15s", "rw_sw_dc15a_o", "rw_sw_dc17", "rw_sw_trd_dc15a", "rw_sw_trd_dc15s", "rw_sw_trd_dc17", "weapon_cuff_elastic", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "weapon_cuff_elastic"},
+    weapons = {"weapon_fists", "re_hands", "at_sw_dc15s_all", "at_sw_dc15a_all", "rw_sw_dc17", "rw_sw_trd_dc15a", "rw_sw_trd_dc15s", "rw_sw_trd_dc17", "weapon_cuff_elastic", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "weapon_cuff_elastic"},
     command = "ausbilder",
     max = 0,
     salary = 100,
@@ -31,7 +31,12 @@ TEAM_TEAM = DarkRP.createJob("Team im Dienst", {
     vote = false,
     hasLicense = true,
     candemote = false,
-    category = "Other"
+    category = "Other",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(5000)
+        ply:SetHealth(5000)
+        ply:SetArmor(100)
+    end
 })
 
 --Anwalt--
@@ -55,7 +60,7 @@ TEAM_DSGT = DarkRP.createJob("Drill SGT", {
     color = Color(117, 116, 116, 255),
     model = {"models/player/suno/arc/arc_9.mdl"},
     description = [[drill sgt]],
-    weapons = {"weapon_fists", "re_hands", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "sw_datapad", "rw_sw_dc15s", "rw_sw_dc15a", "rw_sw_dc15x"},
+    weapons = {"weapon_fists", "re_hands", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "sw_datapad", "at_sw_dc15s_all", "rw_sw_dc15a", "rw_sw_dc15x"},
     command = "ddsgt",
     max = 0,
     salary = 100,
@@ -65,9 +70,9 @@ TEAM_DSGT = DarkRP.createJob("Drill SGT", {
     candemote = false,
     category = "Drill SGT",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(150)
-        ply:SetHealth(150)
-        ply:SetArmor(150)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
     end
 })
 

@@ -6,7 +6,7 @@ TEAM_91ST = DarkRP.createJob("91st CMD Neyo", {
         "models/tkaro/91st/neyo/neyo.mdl"
     },
     description = [[CMD Neyo]],
-    weapons = {"weapon_cuff_elastic", "bkeycard", "rw_sw_dc15a_o", "rw_sw_valken38x", "rw_sw_dual_dc17ext", "rw_sw_stun_dc17", "rw_sw_bino_dark", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "comlink_swep", "jet_exec", "rw_sw_dc15s", "re_hands"},
+    weapons = {"weapon_cuff_elastic", "bkeycard", "at_sw_dc15a_all", "rw_sw_valken38x", "rw_sw_dual_dc17ext", "rw_sw_stun_dc17", "rw_sw_bino_dark", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "comlink_swep", "jet_exec", "at_sw_dc15a_all", "re_hands"},
     command = "cmdneyo",
     max = 1,
     salary = 250,
@@ -14,7 +14,7 @@ TEAM_91ST = DarkRP.createJob("91st CMD Neyo", {
     vote = false,
     hasLicense = true,
     candemote = false,
-    category = "91st Aufklärungskorps",
+    category = "91st Aufklï¿½rungskorps",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(200)
         ply:SetHealth(200)
@@ -26,7 +26,7 @@ TEAM_91ST = DarkRP.createJob("91st PVT", {
     color = Color(171, 0, 0, 255),
     model = {"models/tkaro/91st/trooper/barc_trooper.mdl"},
     description = [[91st PVT]],
-    weapons = {"bkeycard", "rw_sw_dc15a_o", "rw_sw_valken38x", "rw_sw_dc17ext", "rw_sw_bino_dark", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "comlink_swep", "jet_mk2", "rw_sw_dc15s", "re_hands"},
+    weapons = {"bkeycard", "at_sw_dc15a_all", "rw_sw_valken38x", "rw_sw_dc17ext", "rw_sw_bino_dark", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "comlink_swep", "jet_mk2", "at_sw_dc15a_all", "re_hands"},
     command = "91stpvt",
     max = 1,
     salary = 250,
@@ -34,7 +34,7 @@ TEAM_91ST = DarkRP.createJob("91st PVT", {
     vote = false,
     hasLicense = true,
     candemote = false,
-    category = "91st Aufklärungskorps",
+    category = "91st Aufklï¿½rungskorps",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -46,7 +46,7 @@ TEAM_91ST = DarkRP.createJob("91st PFC", {
     color = Color(171, 0, 0, 255),
     model = {"models/tkaro/91st/trooper/barc_trooper.mdl"},
     description = [[91st PFC]],
-    weapons = {"bkeycard", "rw_sw_dc15a_o", "rw_sw_valken38x", "rw_sw_dc17ext", "rw_sw_bino_dark", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "comlink_swep", "jet_mk2", "rw_sw_dc15s", "re_hands"},
+    weapons = {"bkeycard", "at_sw_dc15a_all", "rw_sw_valken38x", "rw_sw_dc17ext", "rw_sw_bino_dark", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "comlink_swep", "jet_mk2", "at_sw_dc15a_all", "re_hands"},
     command = "91stpfc",
     max = 1,
     salary = 250,
@@ -54,7 +54,7 @@ TEAM_91ST = DarkRP.createJob("91st PFC", {
     vote = false,
     hasLicense = true,
     candemote = false,
-    category = "91st Aufklärungskorps",
+    category = "91st Aufklï¿½rungskorps",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(100)
         ply:SetHealth(100)
@@ -66,7 +66,7 @@ TEAM_91ST = DarkRP.createJob("91st CPL", {
     color = Color(171, 0, 0, 255),
     model = {"models/tkaro/91st/trooper/barc_trooper.mdl"},
     description = [[91st CPL]],
-    weapons = {"bkeycard", "rw_sw_dc15a_o", "rw_sw_valken38x", "rw_sw_dc17ext", "rw_sw_bino_dark", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "comlink_swep", "jet_mk2", "rw_sw_dc15s", "re_hands"},
+    weapons = {"bkeycard", "at_sw_dc15a_all", "rw_sw_valken38x", "rw_sw_dc17ext", "rw_sw_bino_dark", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "comlink_swep", "jet_mk2", "at_sw_dc15a_all", "re_hands"},
     command = "91stcpl",
     max = 1,
     salary = 250,
@@ -74,7 +74,7 @@ TEAM_91ST = DarkRP.createJob("91st CPL", {
     vote = false,
     hasLicense = true,
     candemote = false,
-    category = "91st Aufklärungskorps",
+    category = "91st Aufklï¿½rungskorps",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(120)
         ply:SetHealth(120)
@@ -86,7 +86,7 @@ TEAM_91ST = DarkRP.createJob("91st LCPL", {
     color = Color(171, 0, 0, 255),
     model = {"models/tkaro/91st/trooper/barc_trooper.mdl"},
     description = [[91st LCPL]],
-    weapons = {"bkeycard", "rw_sw_dc15a_o", "rw_sw_valken38x", "rw_sw_dc17ext", "rw_sw_bino_dark", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "comlink_swep", "jet_mk2", "rw_sw_dc15s", "re_hands"},
+    weapons = {"bkeycard", "at_sw_dc15a_all", "rw_sw_valken38x", "rw_sw_dc17ext", "rw_sw_bino_dark", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "comlink_swep", "jet_mk2", "at_sw_dc15a_all", "re_hands"},
     command = "91stlcpl",
     max = 1,
     salary = 250,
@@ -94,7 +94,7 @@ TEAM_91ST = DarkRP.createJob("91st LCPL", {
     vote = false,
     hasLicense = true,
     candemote = false,
-    category = "91st Aufklärungskorps",
+    category = "91st Aufklï¿½rungskorps",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(120)
         ply:SetHealth(120)
@@ -106,7 +106,7 @@ TEAM_91ST = DarkRP.createJob("91st SGT", {
     color = Color(171, 0, 0, 255),
     model = {"models/tkaro/91st/trooper/barc_trooper.mdl"},
     description = [[91st SGT]],
-    weapons = {"bkeycard", "rw_sw_dc15a_o", "rw_sw_valken38x", "rw_sw_dc17ext", "rw_sw_bino_dark", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "comlink_swep", "jet_mk2", "rw_sw_dc15s", "re_hands"},
+    weapons = {"bkeycard", "at_sw_dc15a_all", "rw_sw_valken38x", "rw_sw_dc17ext", "rw_sw_bino_dark", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "comlink_swep", "jet_mk2", "at_sw_dc15a_all", "re_hands"},
     command = "91stsgt",
     max = 1,
     salary = 250,
@@ -114,7 +114,7 @@ TEAM_91ST = DarkRP.createJob("91st SGT", {
     vote = false,
     hasLicense = true,
     candemote = false,
-    category = "91st Aufklärungskorps",
+    category = "91st Aufklï¿½rungskorps",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(150)
         ply:SetHealth(150)
@@ -126,7 +126,7 @@ TEAM_91ST = DarkRP.createJob("91st SGTMJR", {
     color = Color(171, 0, 0, 255),
     model = {"models/tkaro/91st/trooper/barc_trooper.mdl"},
     description = [[91st SGTMJR]],
-    weapons = {"bkeycard", "rw_sw_dc15a_o", "rw_sw_valken38x", "rw_sw_dc17ext", "rw_sw_bino_dark", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "comlink_swep", "jet_mk2", "rw_sw_dc15s", "re_hands"},
+    weapons = {"bkeycard", "at_sw_dc15a_all", "rw_sw_valken38x", "rw_sw_dc17ext", "rw_sw_bino_dark", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "comlink_swep", "jet_mk2", "at_sw_dc15a_all", "re_hands"},
     command = "91stsgtmjr",
     max = 1,
     salary = 250,
@@ -134,7 +134,7 @@ TEAM_91ST = DarkRP.createJob("91st SGTMJR", {
     vote = false,
     hasLicense = true,
     candemote = false,
-    category = "91st Aufklärungskorps",
+    category = "91st Aufklï¿½rungskorps",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(150)
         ply:SetHealth(150)
@@ -146,7 +146,7 @@ TEAM_91ST = DarkRP.createJob("91st 2ndLT", {
     color = Color(171, 0, 0, 255),
     model = {"models/tkaro/91st/trooper/barc_trooper.mdl"},
     description = [[91st 2NDLT]],
-    weapons = {"bkeycard", "rw_sw_dual_dc17ext", "rw_sw_dc15a_o", "rw_sw_valken38x", "rw_sw_dc17ext", "rw_sw_bino_dark", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "comlink_swep", "jet_mk2", "rw_sw_dc15s", "re_hands"},
+    weapons = {"bkeycard", "rw_sw_dual_dc17ext", "at_sw_dc15a_all", "rw_sw_valken38x", "rw_sw_dc17ext", "rw_sw_bino_dark", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "comlink_swep", "jet_mk2", "at_sw_dc15a_all", "re_hands"},
     command = "91st2ndlt",
     max = 1,
     salary = 250,
@@ -154,7 +154,7 @@ TEAM_91ST = DarkRP.createJob("91st 2ndLT", {
     vote = false,
     hasLicense = true,
     candemote = false,
-    category = "91st Aufklärungskorps",
+    category = "91st Aufklï¿½rungskorps",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(180)
         ply:SetHealth(180)
@@ -166,7 +166,7 @@ TEAM_91ST = DarkRP.createJob("91st 1stLT", {
     color = Color(171, 0, 0, 255),
     model = {"models/tkaro/91st/trooper/barc_trooper.mdl"},
     description = [[91st 1STLT]],
-    weapons = {"bkeycard", "rw_sw_dual_dc17ext", "rw_sw_dc15a_o", "rw_sw_valken38x", "rw_sw_dc17ext", "rw_sw_bino_dark", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "comlink_swep", "jet_mk2", "rw_sw_dc15s", "re_hands"},
+    weapons = {"bkeycard", "rw_sw_dual_dc17ext", "at_sw_dc15a_all", "rw_sw_valken38x", "rw_sw_dc17ext", "rw_sw_bino_dark", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "comlink_swep", "jet_mk2", "at_sw_dc15a_all", "re_hands"},
     command = "91st1stlt",
     max = 1,
     salary = 250,
@@ -174,7 +174,7 @@ TEAM_91ST = DarkRP.createJob("91st 1stLT", {
     vote = false,
     hasLicense = true,
     candemote = false,
-    category = "91st Aufklärungskorps",
+    category = "91st Aufklï¿½rungskorps",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(180)
         ply:SetHealth(180)
@@ -186,7 +186,7 @@ TEAM_91ST = DarkRP.createJob("91st CPT", {
     color = Color(171, 0, 0, 255),
     model = {"models/tkaro/91st/trooper/barc_trooper.mdl"},
     description = [[91st CPT]],
-    weapons = {"bkeycard", "rw_sw_dual_dc17ext", "rw_sw_dc15a_o", "rw_sw_valken38x", "rw_sw_dc17ext", "rw_sw_bino_dark", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "comlink_swep", "jet_exec", "rw_sw_dc15s", "re_hands"},
+    weapons = {"bkeycard", "rw_sw_dual_dc17ext", "at_sw_dc15a_all", "rw_sw_valken38x", "rw_sw_dc17ext", "rw_sw_bino_dark", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "comlink_swep", "jet_exec", "at_sw_dc15a_all", "re_hands"},
     command = "91stcpt",
     max = 1,
     salary = 250,
@@ -194,7 +194,7 @@ TEAM_91ST = DarkRP.createJob("91st CPT", {
     vote = false,
     hasLicense = true,
     candemote = false,
-    category = "91st Aufklärungskorps",
+    category = "91st Aufklï¿½rungskorps",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(200)
         ply:SetHealth(200)
@@ -206,7 +206,7 @@ TEAM_91ST = DarkRP.createJob("91st MJR", {
     color = Color(171, 0, 0, 255),
     model = {"models/tkaro/91st/trooper/barc_trooper.mdl"},
     description = [[91st MJR]],
-    weapons = {"bkeycard", "rw_sw_dual_dc17ext", "rw_sw_dc15a_o", "rw_sw_valken38x", "rw_sw_dc17ext", "rw_sw_bino_dark", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "comlink_swep", "jet_exec", "rw_sw_dc15s", "re_hands"},
+    weapons = {"bkeycard", "rw_sw_dual_dc17ext", "at_sw_dc15a_all", "rw_sw_valken38x", "rw_sw_dc17ext", "rw_sw_bino_dark", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "comlink_swep", "jet_exec", "at_sw_dc15a_all", "re_hands"},
     command = "91stmjr",
     max = 1,
     salary = 250,
@@ -214,7 +214,7 @@ TEAM_91ST = DarkRP.createJob("91st MJR", {
     vote = false,
     hasLicense = true,
     candemote = false,
-    category = "91st Aufklärungskorps",
+    category = "91st Aufklï¿½rungskorps",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(200)
         ply:SetHealth(200)

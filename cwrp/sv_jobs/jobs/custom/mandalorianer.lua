@@ -66,10 +66,12 @@ TEAM_MANDODALA = DarkRP.createJob("Mando Dala", {
         "models/jajoff/sps/jlmbase/characters/modular_foundling03_female.mdl",
         "models/jajoff/sps/jlmbase/characters/modular_foundling02_female.mdl",
         "models/jajoff/sps/jlmbase/characters/modular_foundling01_female.mdl",
-        "models/artel/fss/siren.mdl"
+        "models/player/female/isb.mdl",
+        "models/artel/fss/siren.mdl",
+        "models/player/aussiwozzi/mandalorians/female_mando_black.mdl",
     },
     description = [[Mando’ade ramikad Dou]],
-    weapons = {"stunstick", "rw_sw_dual_westar35", "rw_sw_westar35", "weapon_fists", "re_hands", "rw_sw_westarm5", "rw_sw_iqa11", "rw_sw_wristblaster_light_blue", "jet_exec", "weapon_cuff_elastic", "cross_arms_infront_swep", "cross_arms_swep", "weapon_bactainjector", "weapon_bactanade", "tfa_defi_swrp", "rw_sw_nade_thermal"},
+    weapons = {"stunstick", "rw_sw_dual_westar35", "keypad_cracker", "rw_sw_westar35", "weapon_fists", "re_hands", "rw_sw_westarm5", "rw_sw_iqa11", "rw_sw_wristblaster_light_blue", "jet_exec", "weapon_cuff_elastic", "cross_arms_infront_swep", "cross_arms_swep", "weapon_bactainjector", "weapon_bactanade", "tfa_defi_swrp", "rw_sw_nade_thermal"},
     command = "mandodala",
     max = 1,
     salary = 250,
@@ -79,9 +81,28 @@ TEAM_MANDODALA = DarkRP.createJob("Mando Dala", {
     candemote = false,
     category = "Mandalorianer",
     PlayerSpawn = function(ply)
-        ply:SetMaxHealth(500)
-        ply:SetHealth(500)
-        ply:SetArmor(200)
+        ply:SetMaxHealth(300)
+        ply:SetHealth(300)
+        ply:SetArmor(250)
     end
 })
 
+TEAM_QUITTKIERMANDO = DarkRP.createJob("Quitt Kier'ha", {
+color = Color(14, 77, 28, 255),
+model = {"models/fire/mando/mando.mdl"},
+description = [[Ein Mandalorianer Names Quitt]],
+weapons = {"weapon_fists", "re_hands", "rw_sw_dual_westar35", "rw_sw_nt242c", "rw_sw_scattershotgun", "jet_exec", "seal6-c4", "tfa_defi_swrp", "weapon_extinguisher_infinite", "weapon_bactainjector", "weapon_armorkit", "weapon_cuff_elastic", "extinguisher_infinite", "cross_arms_infront_swep", "cross_arms_swep", "rw_sw_wristblaster_light_yellow", "rw_sw_wristflame", "rw_sw_wristrocket", "rw_sw_tusken_cycler"},
+command = "Quitt",
+max = 1,
+salary = 250,
+admin = 0,
+vote = false,
+hasLicense = true,
+candemote = false,
+category = "Mandalorianer",
+PlayerSpawn = function(ply)
+     ply:SetMaxHealth(300)
+     ply:SetHealth(300)
+     ply:SetArmor(250)
+   end
+  })

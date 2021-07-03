@@ -1,13 +1,10 @@
 --Feldmedics--
-TEAM_FSPVT = DarkRP.createJob("Feldsanitäter PVT", {
-    color = Color(188, 0, 0, 255),
-    model = {"models/defcon/74/trooper.mdl",
-	"models/dxn/cod_ghosts/hazmat_pm.mdl",
-	"models/smitty/bf2_reg/medic_officer/medic_officer.mdl",
-	"models/defcon/74/qrf.mdl"},
-    description = [[Feldsanitäter PVT]],
-    weapons = {"rw_sw_bino_white", "weapon_grapplehook", "zbl_spray", "zbl_gun", "weapon_bactainjector", "sw_datapad", "rw_sw_nade_bacta", "keys", "weapon_fists", "rw_sw_dc15a_o", "rw_sw_dc15se", "med_kit", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "tfa_defi_swrp", "weapon_doomshield", "rw_sw_dc17", "weapon_bactainjector"},
-    command = "fspvt",
+TEAM_FELDSANNIPVT = DarkRP.createJob("RMCFeldSanniPVT", {
+    color = Color(0, 0, 0, 255),
+    model = {"models/defcon/74/qrf.mdl","models/DxN/cod_ghosts/hazmat_pm.mdl", "models/defcon/banks/coldwweather/74th_cold/74th_trooper/74th_trooper.mdl", "models/smitty/bf2_reg/medic_officer/medic_officer.mdl"},
+    description = [[RMCFeldPVT]],
+    weapons = {"cross_arms_swep", "zbl_spray", "zbl_gun", "cross_arms_infront_swep", "surrender_animation_swep", "salute_swep", "weapon_fists", "re_hands" ,"weapon_bactainjector" ,"weapon_medkit" ,"rw_sw_dc15le_o" ,"sw_datapad" ,"tfa_defi_swrp" ,"rw_sw_nade_bacta" ,"rw_ammo_distributor" ,"at_sw_dc15a_all" ,"at_sw_dc15s_all" ,"rw_sw_dc17"},
+    command = "RMCFeldPVT",
     max = 0,
     salary = 100,
     admin = 0,
@@ -22,15 +19,12 @@ TEAM_FSPVT = DarkRP.createJob("Feldsanitäter PVT", {
     end
 })
 
-TEAM_FSPFC = DarkRP.createJob("Feldsanitäter PFC", {
-    color = Color(188, 0, 0, 255),
-    model = {"models/defcon/74/trooper.mdl",
-	"models/dxn/cod_ghosts/hazmat_pm.mdl",
-	"models/smitty/bf2_reg/medic_officer/medic_officer.mdl",
-	"models/defcon/74/qrf.mdl"},
-    description = [[Feldsanitäter PFC]],
-    weapons = {"rw_sw_bino_white", "weapon_grapplehook", "zbl_spray", "zbl_gun", "weapon_bactainjector", "sw_datapad", "rw_sw_nade_bacta", "keys", "weapon_fists", "rw_sw_dc15a_o", "rw_sw_dc15se", "med_kit", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "tfa_defi_swrp", "weapon_doomshield", "rw_sw_dc17", "weapon_bactainjector"},
-    command = "fspfc",
+TEAM_FELDSANNIPFC = DarkRP.createJob("RMCFeldSanniPFC", {
+    color = Color(0, 0, 0, 255),
+    model = {"models/defcon/74/qrf.mdl","models/DxN/cod_ghosts/hazmat_pm.mdl", "models/defcon/banks/coldwweather/74th_cold/74th_trooper/74th_trooper.mdl", "models/smitty/bf2_reg/medic_officer/medic_officer.mdl"},
+    description = [[RMCFeldPFC]],
+    weapons = {"cross_arms_swep", "zbl_spray", "zbl_gun", "cross_arms_infront_swep", "surrender_animation_swep", "salute_swep", "weapon_fists", "re_hands" ,"weapon_bactainjector" ,"weapon_medkit" ,"rw_sw_dc15le_o" ,"sw_datapad" ,"tfa_defi_swrp" ,"rw_sw_nade_bacta" ,"rw_ammo_distributor" ,"at_sw_dc15a_all" ,"at_sw_dc15s_all" ,"rw_sw_dc17"},
+    command = "RMCFeldPFC",
     max = 0,
     salary = 100,
     admin = 0,
@@ -41,19 +35,16 @@ TEAM_FSPFC = DarkRP.createJob("Feldsanitäter PFC", {
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(110)
         ply:SetHealth(110)
-        ply:SetArmor(100)
+        ply:SetArmor(110)
     end
 })
 
-TEAM_FSLCL = DarkRP.createJob("Feldsanitäter LCL", {
-    color = Color(188, 0, 0, 255),
-    model = {"models/defcon/74/trooper.mdl",
-	"models/dxn/cod_ghosts/hazmat_pm.mdl",
-	"models/smitty/bf2_reg/medic_officer/medic_officer.mdl",
-	"models/defcon/74/qrf.mdl"},
-    description = [[Feldsanitäter LCL]],
-    weapons = {"rw_sw_bino_white", "weapon_grapplehook", "zbl_spray", "zbl_gun", "weapon_bactainjector", "sw_datapad", "rw_sw_nade_bacta", "keys", "weapon_fists", "rw_sw_dc15a_o", "rw_sw_dc15se", "med_kit", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "tfa_defi_swrp", "weapon_doomshield", "rw_sw_dc17", "weapon_bactainjector"},
-    command = "fslcl",
+TEAM_FELDSANNILCL = DarkRP.createJob("RMCFeldSanniLCL", {
+    color = Color(0, 0, 0, 255),
+    model = {"models/defcon/74/qrf.mdl", "models/DxN/cod_ghosts/hazmat_pm.mdl", "models/defcon/banks/coldwweather/74th_cold/74th_trooper/74th_trooper.mdl", "models/smitty/bf2_reg/medic_officer/medic_officer.mdl"},
+    description = [[RMCFeldLCPL]],
+    weapons = {"cross_arms_swep", "zbl_spray", "zbl_gun", "cross_arms_infront_swep", "surrender_animation_swep", "salute_swep", "weapon_fists", "re_hands" ,"weapon_bactainjector" ,"weapon_medkit" ,"rw_sw_dc15le_o" ,"sw_datapad" ,"tfa_defi_swrp" ,"rw_sw_nade_bacta" ,"rw_ammo_distributor" ,"at_sw_dc15a_all" ,"at_sw_dc15s_all" ,"rw_sw_dc17"},
+    command = "RMCFeldLCPL",
     max = 0,
     salary = 100,
     admin = 0,
@@ -68,15 +59,12 @@ TEAM_FSLCL = DarkRP.createJob("Feldsanitäter LCL", {
     end
 })
 
-TEAM_FSCPL = DarkRP.createJob("Feldsanitäter CPL", {
-    color = Color(188, 0, 0, 255),
-    model = {"models/defcon/74/trooper.mdl",
-	"models/dxn/cod_ghosts/hazmat_pm.mdl",
-	"models/smitty/bf2_reg/medic_officer/medic_officer.mdl",
-	"models/defcon/74/qrf.mdl"},
-    description = [[Feldsanitäter CPL]],
-    weapons = {"rw_sw_bino_white", "weapon_grapplehook", "zbl_spray", "zbl_gun", "weapon_bactainjector", "sw_datapad", "rw_sw_nade_bacta", "keys", "weapon_fists", "rw_sw_dc15a_o", "rw_sw_dc15se", "med_kit", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "tfa_defi_swrp", "weapon_doomshield", "rw_sw_dc17", "weapon_bactainjector"},
-    command = "fscpl",
+TEAM_FELDSANNICPL = DarkRP.createJob("RMCFeldSanniCPL", {
+    color = Color(0, 0, 0, 255),
+    model = {"models/defcon/74/qrf.mdl", "models/DxN/cod_ghosts/hazmat_pm.mdl", "models/defcon/banks/coldwweather/74th_cold/74th_trooper/74th_trooper.mdl", "models/smitty/bf2_reg/medic_officer/medic_officer.mdl"},
+    description = [[RMCFeldCPL]],
+    weapons = {"cross_arms_swep", "zbl_spray", "zbl_gun", "cross_arms_infront_swep", "surrender_animation_swep", "salute_swep", "weapon_fists", "re_hands" ,"weapon_bactainjector" ,"weapon_medkit" ,"rw_sw_dc15le_o" ,"sw_datapad" ,"tfa_defi_swrp" ,"rw_sw_nade_bacta" ,"rw_ammo_distributor" ,"at_sw_dc15a_all" ,"at_sw_dc15s_all" ,"rw_sw_dc17"},
+    command = "RMCFeldCPL",
     max = 0,
     salary = 100,
     admin = 0,
@@ -87,19 +75,16 @@ TEAM_FSCPL = DarkRP.createJob("Feldsanitäter CPL", {
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(130)
         ply:SetHealth(130)
-        ply:SetArmor(100)
+        ply:SetArmor(130)
     end
 })
 
-TEAM_FSSGT = DarkRP.createJob("Feldsanitäter SGT", {
-    color = Color(188, 0, 0, 255),
-    model = {"models/defcon/74/officer",
-	"models/dxn/cod_ghosts/hazmat_pm.mdl",
-	"models/smitty/bf2_reg/medic_officer/medic_officer.mdl",
-	"models/defcon/74/qrf.mdl"},
-    description = [[Feldsanitäter SGT]],
-    weapons = {"rw_sw_bino_white", "weapon_grapplehook", "zbl_spray", "zbl_gun", "weapon_bactainjector", "sw_datapad", "rw_sw_nade_bacta", "keys", "weapon_fists", "rw_sw_dc15a_o", "rw_sw_dc15se", "med_kit", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "tfa_defi_swrp", "weapon_doomshield", "rw_sw_dc17", "weapon_bactainjector"},
-    command = "fssgt",
+TEAM_FELDSANNISGT = DarkRP.createJob("RMCFeldSanniSGT", {
+    color = Color(0, 0, 0, 255),
+    model = {"models/defcon/74/qrf.mdl", "models/DxN/cod_ghosts/hazmat_pm.mdl", "models/defcon/banks/coldwweather/74th_cold/74th_trooper/74th_trooper.mdl", "models/smitty/bf2_reg/medic_officer/medic_officer.mdl"},
+    description = [[RMCFeldSGT]],
+    weapons = {"cross_arms_swep", "zbl_spray", "zbl_gun", "cross_arms_infront_swep", "surrender_animation_swep", "salute_swep", "weapon_fists", "re_hands" ,"weapon_bactainjector" ,"weapon_medkit" ,"rw_sw_dc15le_o" ,"sw_datapad" ,"tfa_defi_swrp" ,"rw_sw_nade_bacta" ,"rw_ammo_distributor" ,"at_sw_dc15a_all" ,"at_sw_dc15s_all" ,"rw_sw_dc17"},
+    command = "RMCFeldSGT",
     max = 0,
     salary = 100,
     admin = 0,
@@ -110,19 +95,16 @@ TEAM_FSSGT = DarkRP.createJob("Feldsanitäter SGT", {
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(140)
         ply:SetHealth(140)
-        ply:SetArmor(100)
+        ply:SetArmor(140)
     end
 })
 
-TEAM_FSSGTMJ = DarkRP.createJob("Feldsanitäter SGTMJ", {
-    color = Color(188, 0, 0, 255),
-    model = {"models/defcon/74/officer",
-	"models/dxn/cod_ghosts/hazmat_pm.mdl",
-	"models/smitty/bf2_reg/medic_officer/medic_officer.mdl",
-	"models/defcon/74/qrf.mdl"},
-    description = [[Feldsanitäter SGTMJ]],
-    weapons = {"rw_sw_bino_white", "weapon_grapplehook", "zbl_spray", "zbl_gun", "weapon_bactainjector", "sw_datapad", "rw_sw_nade_bacta", "keys", "weapon_fists", "rw_sw_dc15a_o", "rw_sw_dc15se", "med_kit", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "tfa_defi_swrp", "weapon_doomshield", "rw_sw_dual_dc17", "weapon_bactainjector"},
-    command = "fssgtmj",
+TEAM_FELDSANNISGTMJ = DarkRP.createJob("RMCFeldSanniSGTMJ", {
+    color = Color(0, 0, 0, 255),
+    model = {"models/defcon/74/qrf.mdl", "models/DxN/cod_ghosts/hazmat_pm.mdl", "models/defcon/banks/coldwweather/74th_cold/74th_trooper/74th_trooper.mdl", "models/smitty/bf2_reg/medic_officer/medic_officer.mdl"},
+    description = [[RMCFeldSGTMJ]],
+    weapons = {"cross_arms_swep", "zbl_spray", "zbl_gun", "cross_arms_infront_swep", "surrender_animation_swep", "salute_swep", "weapon_fists", "re_hands" ,"weapon_bactainjector" ,"weapon_medkit" ,"rw_sw_dc15le_o" ,"sw_datapad" ,"tfa_defi_swrp" ,"rw_sw_nade_bacta" ,"rw_ammo_distributor" ,"at_sw_dc15a_all" ,"at_sw_dc15s_all" ,"rw_sw_dc17"},
+    command = "RMCFeldSGTMJ",
     max = 0,
     salary = 100,
     admin = 0,
@@ -133,19 +115,16 @@ TEAM_FSSGTMJ = DarkRP.createJob("Feldsanitäter SGTMJ", {
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(150)
         ply:SetHealth(150)
-        ply:SetArmor(100)
+        ply:SetArmor(150)
     end
 })
 
-TEAM_FS2NDLT = DarkRP.createJob("Feldsanitäter 2ndLT", {
-    color = Color(188, 0, 0, 255),
-    model = {"models/defcon/74/officer",
-	"models/dxn/cod_ghosts/hazmat_pm.mdl",
-	"models/smitty/bf2_reg/medic_officer/medic_officer.mdl",
-	"models/defcon/74/qrf.mdl"},
-    description = [[Feldsanitäter 2ndLT]],
-    weapons = {"rw_sw_bino_white", "weapon_grapplehook", "zbl_spray", "zbl_gun", "weapon_bactainjector", "sw_datapad", "rw_sw_nade_bacta", "keys", "weapon_fists", "rw_sw_dc15a_o", "rw_sw_dc15se", "med_kit", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "tfa_defi_swrp", "weapon_doomshield", "rw_sw_dual_dc17", "weapon_bactainjector"},
-    command = "fs2ndlt",
+TEAM_FELDSANNI2NDLT = DarkRP.createJob("RMCFeldSanni2ndLT", {
+    color = Color(0, 0, 0, 255),
+    model = {"models/defcon/74/qrf.mdl", "models/DxN/cod_ghosts/hazmat_pm.mdl", "models/defcon/banks/coldwweather/74th_cold/74th_trooper/74th_trooper.mdl", "models/smitty/bf2_reg/medic_officer/medic_officer.mdl"},
+    description = [[RMCFeld2ndLT]],
+    weapons = {"cross_arms_swep", "zbl_spray", "zbl_gun", "cross_arms_infront_swep",  "rw_sw_dual_dc17", "weapon_cuff_elastic", "surrender_animation_swep", "salute_swep", "weapon_fists", "re_hands" ,"weapon_bactainjector" ,"weapon_medkit" ,"rw_sw_dc15le_o" ,"sw_datapad" ,"tfa_defi_swrp" ,"rw_sw_nade_bacta" ,"rw_ammo_distributor" ,"at_sw_dc15a_all" ,"at_sw_dc15s_all" ,"rw_sw_dc17"},
+    command = "RMCFeld2ndLT",
     max = 0,
     salary = 100,
     admin = 0,
@@ -156,19 +135,16 @@ TEAM_FS2NDLT = DarkRP.createJob("Feldsanitäter 2ndLT", {
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(160)
         ply:SetHealth(160)
-        ply:SetArmor(100)
+        ply:SetArmor(160)
     end
 })
 
-TEAM_FS1STLT = DarkRP.createJob("Feldsanitäter 1stLT", {
-    color = Color(188, 0, 0, 255),
-    model = {"models/defcon/74/officer",
-	"models/dxn/cod_ghosts/hazmat_pm.mdl",
-	"models/smitty/bf2_reg/medic_officer/medic_officer.mdl",
-	"models/defcon/74/qrf.mdl"},
-    description = [[Feldsanitäter 1stLT]],
-    weapons = {"rw_sw_bino_white", "weapon_grapplehook", "zbl_spray", "zbl_gun", "weapon_bactainjector", "sw_datapad", "rw_sw_nade_bacta", "keys", "weapon_fists", "rw_sw_dc15a_o", "rw_sw_dc15se", "med_kit", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "tfa_defi_swrp", "weapon_doomshield", "rw_sw_dual_dc17", "weapon_bactainjector"},
-    command = "fs1stlt",
+TEAM_FELDSANNI1STLT = DarkRP.createJob("RMCFeldSanni1stLT", {
+    color = Color(0, 0, 0, 255),
+    model = {"models/defcon/74/qrf.mdl", "models/DxN/cod_ghosts/hazmat_pm.mdl", "models/defcon/banks/coldwweather/74th_cold/74th_trooper/74th_trooper.mdl", "models/smitty/bf2_reg/medic_officer/medic_officer.mdl"},
+    description = [[RMCFeld1stLT]],
+    weapons = {"cross_arms_swep", "zbl_spray", "zbl_gun", "cross_arms_infront_swep",  "rw_sw_dual_dc17", "weapon_cuff_elastic", "surrender_animation_swep", "salute_swep", "weapon_fists", "re_hands" ,"weapon_bactainjector" ,"weapon_medkit" ,"rw_sw_dc15le_o" ,"sw_datapad" ,"tfa_defi_swrp" ,"rw_sw_nade_bacta" ,"rw_ammo_distributor" ,"at_sw_dc15a_all" ,"at_sw_dc15s_all" ,"rw_sw_dc17"},
+    command = "RMCFELD1stLT",
     max = 0,
     salary = 100,
     admin = 0,
@@ -179,19 +155,16 @@ TEAM_FS1STLT = DarkRP.createJob("Feldsanitäter 1stLT", {
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(170)
         ply:SetHealth(170)
-        ply:SetArmor(100)
+        ply:SetArmor(170)
     end
 })
 
-TEAM_FSCPT = DarkRP.createJob("Feldsanitäter CPT", {
-    color = Color(188, 0, 0, 255),
-    model = {"models/defcon/74/officer",
-	"models/dxn/cod_ghosts/hazmat_pm.mdl",
-	"models/smitty/bf2_reg/medic_officer/medic_officer.mdl",
-	"models/defcon/74/qrf.mdl"},
-    description = [[Feldsanitäter CPT]],
-    weapons = {"rw_sw_bino_white", "weapon_grapplehook", "zbl_spray", "zbl_gun", "weapon_bactainjector", "sw_datapad", "rw_sw_nade_bacta", "keys", "weapon_fists", "rw_sw_dc15a_o", "rw_sw_dc15se", "med_kit", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "tfa_defi_swrp", "weapon_doomshield", "rw_sw_dual_dc17", "weapon_bactainjector"},
-    command = "fscpt",
+TEAM_FELDSANNICPT = DarkRP.createJob("RMCFeldSanniCPT", {
+    color = Color(0, 0, 0, 255),
+    model = {"models/defcon/74/qrf.mdl", "models/DxN/cod_ghosts/hazmat_pm.mdl", "models/defcon/banks/coldwweather/74th_cold/74th_trooper/74th_trooper.mdl", "models/smitty/bf2_reg/medic_officer/medic_officer.mdl"},
+    description = [[RMCFeldCPT]],
+    weapons = {"cross_arms_swep", "zbl_spray", "zbl_gun", "cross_arms_infront_swep",  "rw_sw_dual_dc17", "weapon_cuff_elastic", "surrender_animation_swep", "salute_swep", "weapon_fists", "re_hands" ,"weapon_bactainjector" ,"weapon_medkit" ,"rw_sw_dc15le_o" ,"sw_datapad" ,"tfa_defi_swrp" ,"rw_sw_nade_bacta" ,"rw_ammo_distributor" ,"at_sw_dc15a_all" ,"at_sw_dc15s_all" ,"rw_sw_dc17"},
+    command = "RMCFeldCPT",
     max = 0,
     salary = 100,
     admin = 0,
@@ -202,6 +175,6 @@ TEAM_FSCPT = DarkRP.createJob("Feldsanitäter CPT", {
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(180)
         ply:SetHealth(180)
-        ply:SetArmor(100)
+        ply:SetArmor(180)
     end
 })
