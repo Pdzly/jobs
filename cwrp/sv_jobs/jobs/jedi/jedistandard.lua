@@ -41,7 +41,7 @@ TEAM_AHSOKA = DarkRP.createJob("Ahsoka Tano", {
 
 TEAM_ANAKIN = DarkRP.createJob("Anakin Skywalker", {
     color = Color(183, 0, 254, 255),
-    model = {"models/player/sample/anakin/anakins7.mdl"},
+    model = {"models/cyanblue/sw/anakin/anakin.mdl", "models/hevoc/anakin/anakin_ba.mdl"},
     description = [[General Skywalker]],
     weapons = {"weapon_fists", "re_hands", "weapon_lightsaber_anakin", "cross_arms_infront_swep", "cross_arms_swep", "weapon_cuff_elastic"},
     command = "anakin",
