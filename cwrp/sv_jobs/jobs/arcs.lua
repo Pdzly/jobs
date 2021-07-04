@@ -191,7 +191,7 @@ TEAM_MJRARCNICO = DarkRP.createJob("ARC MJR 1299 Nico", {
     vote = false,
     hasLicense = true,
     candemote = false,
-    category = "ARC Ausbilder",
+    category = "212th",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(350)
         ply:SetHealth(350)
