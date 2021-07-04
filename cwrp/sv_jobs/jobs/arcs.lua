@@ -39,10 +39,10 @@ TEAM_KALSKIRATA = DarkRP.createJob("Kal Skirata", {
     end
 })
 
-TEAM_CPTDOCK = DarkRP.createJob("ARC Ausbilder MJR 4027 Dock", {
+TEAM_CPTDOCK = DarkRP.createJob("CT MJR 27", {
     color = Color(255, 255, 255, 255),
     model = {"models/player/suno/arc/arc_12.mdl"},
-    description = [[Arc CPT Dock]],
+    description = [[Arc MJR Dock]],
     weapons = {"rw_sw_iqa11c", "re_hands", "stunstick", "salute_swep", "cross_arms_infront_swep", "cross_arms_swep", "cross_arms_swep", "rw_sw_dual_dc17", "rw_sw_westarm5", "at_sw_dc15a_all", "at_sw_dc15s_all", "weapon_bactainjector", "rw_sw_nade_bacta", "rw_sw_nade_thermal", "jet_mk1", "rw_sw_bino_dark", "tfa_defi_swrp", "sw_datapad", "weapon_armorkit", "weapon_cuff_elastic", "rw_sw_dc15x", "rw_sw_shield_rep", "hacktool", "weapon_extinguisher_infinite"},
     command = "cptdock",
     max = 0,
@@ -51,7 +51,7 @@ TEAM_CPTDOCK = DarkRP.createJob("ARC Ausbilder MJR 4027 Dock", {
     vote = false,
     hasLicense = true,
     candemote = false,
-    category = "ARC Ausbilder",
+    category = "Klontruppen",
     PlayerSpawn = function(ply)
         ply:SetMaxHealth(350)
         ply:SetHealth(350)
