@@ -191,7 +191,7 @@ TEAM_212THMEDICCPT = DarkRP.createJob("212th Medic CPT", {
 		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
 	},
     description = [[212th Medic CPT]],
-    weapons = {"rw_sw_nade_bacta", "weapon_bactainjector", "zbl_spray", "zbl_gun", "med_kit", "tfa_defi_swrp", "re_hands", "at_sw_dc15a_all", "weapon_cuff_elastic", "weapon_fists", "rw_sw_dc17", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep"},
+    weapons = {"rw_sw_nade_bacta", "weapon_bactainjector", "weapon_cuff_elastic", "rw_sw_dual_dc17", "zbl_spray", "zbl_gun", "med_kit", "tfa_defi_swrp", "re_hands", "at_sw_dc15a_all", "weapon_cuff_elastic", "weapon_fists", "rw_sw_dc17", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep"},
     command = "212thmediccpt",
     max = 0,
     salary = 100,
