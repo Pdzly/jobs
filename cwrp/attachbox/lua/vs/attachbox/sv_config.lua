@@ -63,7 +63,7 @@ function addattachments()
                 ["name"] = "DLT-19x Zielfernrohr",
                 ["beschreibung"] = "12-facher Zoom",
                 ["allowedjobs"] = {TEAM_CPTDOCK, TEAM_MJRARCNICO},
-                ["allowedcat"] = {},
+                ["allowedcat"] = {"228th"},
                 ["everyone"] = false
             },
             ["dc15_s2"] = {
@@ -77,7 +77,7 @@ function addattachments()
                 ["name"] = "Valken-x38 Zielfernrohr",
                 ["beschreibung"] = "6-facher Zoom",
                 ["allowedjobs"] = {TEAM_327THKCOMPANYPFC, TEAM_327THKCOMPANYLCL, TEAM_327THKCOMPANYCPL, TEAM_327THKCOMPANYSGT, TEAM_327THKCOMPANYSGTMJ, TEAM_327THKCOMPANY2NDLT, TEAM_327THKCOMPANY1STLT, TEAM_327THKCOMPANYCPT, TEAM_327THKCOMPANYMJR, TEAM_327THKCOMPANYCOL},
-                ["allowedcat"] = {},
+                ["allowedcat"] = {"228th"},
                 ["everyone"] = false
             },
             ["dc15_s4"] = {
@@ -112,7 +112,7 @@ function addattachments()
                 ["name"] = "A280-CFE Zielfernrohr",
                 ["beschreibung"] = "8-facher Zoom",
                 ["allowedjobs"] = {},
-                ["allowedcat"] = {},
+                ["allowedcat"] = {"228th"},
                 ["everyone"] = false
             },
             ["dc15_muzzle1"] = {
