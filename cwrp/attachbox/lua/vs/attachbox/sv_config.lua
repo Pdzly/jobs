@@ -118,7 +118,7 @@ function addattachments()
             ["dc15_muzzle1"] = {
                 ["name"] = "DC-15a Mündung",
                 ["beschreibung"] = "Gew��hrt bessere Kontrolle über die Waffe",
-                ["allowedjobs"] = {},
+                ["allowedjobs"] = {TEAM_501st4466Halo},
                 ["allowedcat"] = {},
                 ["everyone"] = true
             },
@@ -167,7 +167,7 @@ function addattachments()
             ["dc15_mxxl"] = {
                 ["name"] = "XXL Magazin",
                 ["beschreibung"] = "Erhöht die Magazingröße um 110%, du bewegst dich aber um 10% langsamer",
-                ["allowedjobs"] = {TEAM_327thHVPVT, TEAM_327thHVPFC, TEAM_327thHVLCL, TEAM_327thHVCPL, TEAM_327thHVSGT, TEAM_327thHVSGTMJ, TEAM_327thHV2NDLT, TEAM_327thHV1STLT, TEAM_327thHVCPT, TEAM_CPTDOCK, TEAM_A17, TEAM_ARCCMDCOLT, TEAM_ARCCMDHAVOC, TEAM_ARCMJRCOLT, TEAM_BLITZ, TEAM_MJRARCNICO},
+                ["allowedjobs"] = {TEAM_327thHVPVT, TEAM_501st4466Halo, TEAM_327thHVPFC, TEAM_327thHVLCL, TEAM_327thHVCPL, TEAM_327thHVSGT, TEAM_327thHVSGTMJ, TEAM_327thHV2NDLT, TEAM_327thHV1STLT, TEAM_327thHVCPT, TEAM_CPTDOCK, TEAM_A17, TEAM_ARCCMDCOLT, TEAM_ARCCMDHAVOC, TEAM_ARCMJRCOLT, TEAM_BLITZ, TEAM_MJRARCNICO},
                 ["allowedcat"] = {},
                 ["everyone"] = false
             },
@@ -260,7 +260,7 @@ function addattachments()
             ["dc15_muzzle1"] = {
                 ["name"] = "DC-15a Mündung",
                 ["beschreibung"] = "Gewährt bessere Kontrolle über die Waffe",
-                ["allowedjobs"] = {},
+                ["allowedjobs"] = {TEAM_501st4466Halo},
                 ["allowedcat"] = {},
                 ["everyone"] = true
             },
@@ -323,7 +323,7 @@ function addattachments()
             ["dc15s_stock4"] = {
                 ["name"] = "DC-15s Hintergriff",
                 ["beschreibung"] = "Gewährt bessere Waffenkontrolle",
-                ["allowedjobs"] = {},
+                ["allowedjobs"] = {TEAM_501st4466Halo},
                 ["allowedcat"] = {},
                 ["everyone"] = true
             }
