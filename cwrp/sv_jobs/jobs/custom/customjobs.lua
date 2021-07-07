@@ -346,46 +346,6 @@ TEAM_CTPCPT = DarkRP.createJob("SP CPT", {
     end
 })
 
-TEAM_AARC88Snoke = DarkRP.createJob("A-ARC CPT 88 Snoke", {
-    color = Color(0, 0, 0, 255),
-    model = {"models/fisher/null/captain/captain_j.mdl"},
-    description = [[AARC 88 Snoke]],
-    weapons = {"comlink_swep", "cross_arms_swep", "cross_arms_infront_swep", "high_five_swep", "hololink_swep", "middlefinger_animation_swep", "point_in_direction_swep", "salute_swep", "surrender_animation_swep", "m9k_knife", "meleearts_blade_throwingknife", "weapon_fists", "re_hands", "weapon_armorkit", "weapon_bactainjector", "weapon_breachingcharge", "seal6-c4", "jet_mk5", "tfa_defi_swrp", "at_sw_dc15s_all", "at_sw_dc15a_all", "rw_sw_dual_dc17s", "rw_sw_westarm5", "rw_sw_stun_dc17", "rw_ammo_distributor", "rw_sw_nade_thermal", "rw_sw_nade_impact", "rw_sw_nade_incendiary", "weapon_cuff_elastic",},
-    command = "AARCCPT88Snoke",
-    max = 0,
-    salary = 3000,
-    admin = 0,
-    vote = false,
-    hasLicense = true,
-    candemote = false,
-    category = "Alpha ARC",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(450)
-        ply:SetHealth(450)
-        ply:SetArmor(250)
-    end
-})
-
-TEAM_AARC55DEADSCHOOT = DarkRP.createJob("A-ARC SGT 55 Deadschoot", {
-    color = Color(0, 0, 0, 255),
-    model = {"models/fisher/null/sergeant/spots.mdl"},
-    description = [[AARC 55 Deadshoot]],
-    weapons = {"comlink_swep", "cross_arms_swep", "cross_arms_infront_swep", "high_five_swep", "hololink_swep", "middlefinger_animation_swep", "point_in_direction_swep", "salute_swep", "surrender_animation_swep", "m9k_knife", "meleearts_blade_throwingknife", "weapon_fists", "re_hands", "weapon_armorkit", "weapon_bactainjector", "weapon_breachingcharge", "seal6-c4", "jet_mk5", "tfa_defi_swrp", "at_sw_dc15s_all", "at_sw_dc15a_all", "rw_sw_dual_dc17s", "rw_sw_westarm5", "rw_sw_stun_dc17", "rw_ammo_distributor", "rw_sw_nade_thermal", "rw_sw_nade_impact", "rw_sw_nade_incendiary", "weapon_cuff_elastic",},
-    command = "AARCSGT55Deadschoot",
-    max = 0,
-    salary = 3000,
-    admin = 0,
-    vote = false,
-    hasLicense = true,
-    candemote = false,
-    category = "Alpha ARC",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(450)
-        ply:SetHealth(450)
-        ply:SetArmor(250)
-    end
-})
-
 TEAM_RIGGS = DarkRP.createJob("RC-RIGGS", {
     color = Color(145, 7, 7, 255),
     model = {"models/defcon/loudmantis/shadows/riggs.mdl"},
@@ -424,6 +384,27 @@ TEAM_VEGOH = DarkRP.createJob("Doom SGTMJ Vegoh", {
         ply:SetMaxHealth(200)
         ply:SetHealth(200)
         ply:SetArmor(100)
+    end
+})
+
+
+TEAM_501st4466Halo= DarkRP.createJob("501st4466Halo", {
+    color = Color(0, 0, 0, 255),
+    model = {"models/cs574/clones/ait/ait_jet_trooper.mdl", "models/cs574/clones/ait/ait_instructor.mdl", "models/cs574/clones/ait/ait_marine.mdl", "models/cs574/clones/ait/ait_flame_trooper.mdl", "models/cs574/clones/ait/ait_commander.mdl"},
+    description = [[501st4466Halo]],
+    weapons = {"cross_arms_swep", "cross_arms_infront_swep", "at_sw_dc15s_all", "at_sw_dc15a_all", "rw_sw_bino_dark", "rw_ammo_distributor", "rw_sw_dc17", "rw_sw_nade_thermal", "sw_datapad", "t3m4_empgrenade", "surrender_animation_swep", "salute_swep", "weapon_fists", "re_hands", "rw_sw_dual_dc17"},
+    command = "501st4466Halo",
+    max = 0,
+    salary = 300,
+    admin = 0,
+    vote = false,
+    hasLicense = true,
+    candemote = false,
+    category = "501st",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(200)
     end
 })
 
