@@ -517,3 +517,23 @@ TEAM_ZIVILISTNORMAL = DarkRP.createJob("Zivilist", {
         ply:SetArmor(100)
     end
 })
+
+TEAM_ZIVIMAX = DarkRP.createJob("Zivilist Max", {
+    color = Color(212, 175, 55, 255),
+    model = {"models/hcn/starwars/bf/rodian/rodian.mdl","models/hcn/starwars/bf/rodian/rodian_2.mdl","models/hcn/starwars/bf/rodian/rodian", "models/hcn/starwars/bf/rodian/rodian_4.mdl", "models/hcn/starwars/bf/rodian/rodian_5.mdl"},
+    description = [[Zivilist]],
+    weapons = {"re_hands", "rw_sw_d", "weapon_fists", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep"},
+    command = "zivilistmax",
+    max = 1,
+    salary = 5,
+    admin = 0,
+    vote = false,
+    hasLicense = true,
+    candemote = false,
+    category = "Zivilisten",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
+    end
+})

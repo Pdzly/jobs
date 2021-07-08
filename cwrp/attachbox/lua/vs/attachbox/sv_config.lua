@@ -49,7 +49,7 @@ function addattachments()
                 ["name"] = "Betäubungsmunition",
                 ["beschreibung"] = "Der Feind, auf welchen der Schuss auftrifft wird für 10 Sekunden bewegungsunfähig gemacht",
                 ["allowedjobs"] = {TEAM_212THMEDICPVT, TEAM_212THMEDICPFC, TEAM_212THMEDICLCL, TEAM_212THMEDICCPL, TEAM_212THMEDICSGT, TEAM_212THMEDICSGTMJ, TEAM_212THMEDIC2NDLT, TEAM_212THMEDIC1STLT, TEAM_212THMEDICCPT, TEAM_327THMEDICPVT, TEAM_327thO, TEAM_327thM, TEAM_327THMEDICPFC, TEAM_327THMEDICLCL, TEAM_327THMEDICCPL, TEAM_327THMEDICSGT, TEAM_327THMEDICSGTMJ, TEAM_327THMEDIC2NDLT, TEAM_327THMEDIC1STLT, TEAM_327THMEDICCPT, TEAM_327THMEDICMJR, TEAM_327THMEDICCOL, TEAM_501stRMCPVT, TEAM_501stRMCPFC, TEAM_501stRMCLCL, TEAM_501stRMCCPL, TEAM_501stRMCSGT, TEAM_501stRMCSGTMJ, TEAM_501stRMC2ndLT, TEAM_501stRMC1stLT, TEAM_501stRMCCPT, TEAM_KIX, TEAM_RMCJUMPTROOPERPVT, TEAM_RMCJUMPTROOPERPFC, TEAM_RMCJUMPTROOPERLCL, TEAM_RMCJUMPTROOPERCPL, TEAM_RMCJUMPTROOPERSGT, TEAM_CLOASS, TEAM_RMCJUMPTROOPERSGTMJ, TEAM_RMCJUMPTROOPER2NDLT, TEAM_RMCJUMPTROOPER1STLT, TEAM_RMCJUMPTROOPERCPT, TEAM_FELDSANNIPVT, TEAM_FELDSANNIPFC, TEAM_FELDSANNILCL, TEAM_FELDSANNICPL, TEAM_FELDSANNISGT, TEAM_FELDSANNISGTMJ, TEAM_FELDSANNI2NDLT, TEAM_FELDSANNI1STLT, TEAM_FELDSANNICPT, TEAM_RMCAUS, TEAM_RMCPVT, TEAM_RMCPFC, TEAM_RMCLCL, TEAM_RMCCPL, TEAM_RMCSGT, TEAM_RMCSGTMJ, TEAM_RMC2ndLT, TEAM_RMC1stLT, TEAM_RMCCPT, TEAM_RMCMJR, TEAM_RMCCMD},
-                ["allowedcat"] = {"Schocktruppen", "228th"},
+                ["allowedcat"] = {"Schocktruppen"},
                 ["everyone"] = false
             },
             ["ammo_indicator"] = {
@@ -63,7 +63,7 @@ function addattachments()
                 ["name"] = "DLT-19x Zielfernrohr",
                 ["beschreibung"] = "12-facher Zoom",
                 ["allowedjobs"] = {TEAM_CPTDOCK, TEAM_MJRARCNICO},
-                ["allowedcat"] = {},
+                ["allowedcat"] = {"228th"},
                 ["everyone"] = false
             },
             ["dc15_s2"] = {
@@ -77,7 +77,7 @@ function addattachments()
                 ["name"] = "Valken-x38 Zielfernrohr",
                 ["beschreibung"] = "6-facher Zoom",
                 ["allowedjobs"] = {TEAM_327THKCOMPANYPFC, TEAM_327THKCOMPANYLCL, TEAM_327THKCOMPANYCPL, TEAM_327THKCOMPANYSGT, TEAM_327THKCOMPANYSGTMJ, TEAM_327THKCOMPANY2NDLT, TEAM_327THKCOMPANY1STLT, TEAM_327THKCOMPANYCPT, TEAM_327THKCOMPANYMJR, TEAM_327THKCOMPANYCOL},
-                ["allowedcat"] = {},
+                ["allowedcat"] = {"228th"},
                 ["everyone"] = false
             },
             ["dc15_s4"] = {
@@ -112,13 +112,13 @@ function addattachments()
                 ["name"] = "A280-CFE Zielfernrohr",
                 ["beschreibung"] = "8-facher Zoom",
                 ["allowedjobs"] = {},
-                ["allowedcat"] = {},
+                ["allowedcat"] = {"228th"},
                 ["everyone"] = false
             },
             ["dc15_muzzle1"] = {
                 ["name"] = "DC-15a Mündung",
                 ["beschreibung"] = "Gew��hrt bessere Kontrolle über die Waffe",
-                ["allowedjobs"] = {},
+                ["allowedjobs"] = {TEAM_501st4466Halo},
                 ["allowedcat"] = {},
                 ["everyone"] = true
             },
@@ -167,7 +167,7 @@ function addattachments()
             ["dc15_mxxl"] = {
                 ["name"] = "XXL Magazin",
                 ["beschreibung"] = "Erhöht die Magazingröße um 110%, du bewegst dich aber um 10% langsamer",
-                ["allowedjobs"] = {TEAM_327thHVPVT, TEAM_327thHVPFC, TEAM_327thHVLCL, TEAM_327thHVCPL, TEAM_327thHVSGT, TEAM_327thHVSGTMJ, TEAM_327thHV2NDLT, TEAM_327thHV1STLT, TEAM_327thHVCPT, TEAM_CPTDOCK, TEAM_A17, TEAM_ARCCMDCOLT, TEAM_ARCCMDHAVOC, TEAM_ARCMJRCOLT, TEAM_BLITZ, TEAM_MJRARCNICO},
+                ["allowedjobs"] = {TEAM_327thHVPVT, TEAM_501st4466Halo, TEAM_327thHVPFC, TEAM_327thHVLCL, TEAM_327thHVCPL, TEAM_327thHVSGT, TEAM_327thHVSGTMJ, TEAM_327thHV2NDLT, TEAM_327thHV1STLT, TEAM_327thHVCPT, TEAM_CPTDOCK, TEAM_A17, TEAM_ARCCMDCOLT, TEAM_ARCCMDHAVOC, TEAM_ARCMJRCOLT, TEAM_BLITZ, TEAM_MJRARCNICO},
                 ["allowedcat"] = {},
                 ["everyone"] = false
             },
@@ -260,7 +260,7 @@ function addattachments()
             ["dc15_muzzle1"] = {
                 ["name"] = "DC-15a Mündung",
                 ["beschreibung"] = "Gewährt bessere Kontrolle über die Waffe",
-                ["allowedjobs"] = {},
+                ["allowedjobs"] = {TEAM_501st4466Halo},
                 ["allowedcat"] = {},
                 ["everyone"] = true
             },
@@ -323,7 +323,7 @@ function addattachments()
             ["dc15s_stock4"] = {
                 ["name"] = "DC-15s Hintergriff",
                 ["beschreibung"] = "Gewährt bessere Waffenkontrolle",
-                ["allowedjobs"] = {},
+                ["allowedjobs"] = {TEAM_501st4466Halo},
                 ["allowedcat"] = {},
                 ["everyone"] = true
             }
