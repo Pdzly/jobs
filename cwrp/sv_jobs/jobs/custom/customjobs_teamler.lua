@@ -180,3 +180,26 @@ TEAM_MUDI = DarkRP.createJob("Mudi", {
         ply:SetArmor(150)
     end
 })
+
+TEAM_ARCAUSBILDER = DarkRP.createJob("ARC Ausbilder", {
+    color = Color(255, 255, 255, 255),
+    model = {
+        "models/ricky/operative/Ricky_Operative.mdl",
+        "models/player/suno/arc/arc_3.mdl"
+    },
+    description = [[ARC Ausbilder]],
+    weapons = {"cross_arms_swep", "cross_arms_infront_swep", "high_five_swep", "point_in_direction_swep", "salute_swep", "surrender_animation_swep", "rw_sw_westarm5", "rw_sw_dual_dc17ext", "rw_sw_dc17ext", "at_sw_dc15s_all", "at_sw_dc15a_all", "stunstick", "sw_datapad", "tfa_defi_swrp", "weapon_bactainjector", "med_kit", "zeus_flashbang"},
+    command = "arcausbilder",
+    max = 2,
+    salary = 2,
+    admin = 0,
+    vote = false,
+    hasLicense = true,
+    candemote = false,
+    category = "ARC Ausbilder",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(350)
+        ply:SetHealth(350)
+        ply:SetArmor(200)
+    end
+})
