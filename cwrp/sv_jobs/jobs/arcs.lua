@@ -198,4 +198,3 @@ TEAM_MJRARCNICO = DarkRP.createJob("ARC MJR 1299 Nico", {
         ply:SetArmor(200)
     end
 })
-
