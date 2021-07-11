@@ -310,7 +310,7 @@ TEAM_vale = DarkRP.createJob("RC-Vale", {
     color = Color(145, 7, 7, 255),
     model = {"models/defcon/loudmantis/shadows/vale.mdl"},
     description = [[RC_Vale]],
-    weapons = {"at_sw_dc15sa", "at_sw_dc17m", "bkeycard", "weapon_cuff_elastic", "rw_sw_nade_thermal", "tfa_defi_swrp", "weapon_thehiddenblade", "weapon_bactainjector", "weapon_armorkit", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "seal6-c4", "hacktool", "comlink_swep", "alydus_fortificationbuildertablet"},
+    weapons = {"at_sw_dc15sa", "at_sw_dc17m", "weapon_cuff_elastic", "rw_sw_nade_thermal", "tfa_defi_swrp", "weapon_thehiddenblade", "weapon_bactainjector", "weapon_armorkit", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "seal6-c4", "hacktool", "comlink_swep", "alydus_fortificationbuildertablet"},
     command = "vale",
     max = 1,
     salary = 250,
@@ -350,7 +350,7 @@ TEAM_RIGGS = DarkRP.createJob("RC-RIGGS", {
     color = Color(145, 7, 7, 255),
     model = {"models/defcon/loudmantis/shadows/riggs.mdl"},
     description = [[RC_Vale]],
-    weapons = {"at_sw_dc15sa", "at_sw_dc17m", "bkeycard", "weapon_cuff_elastic", "rw_sw_nade_thermal", "tfa_defi_swrp", "weapon_thehiddenblade", "weapon_bactainjector", "weapon_armorkit", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "seal6-c4", "hacktool", "comlink_swep", "alydus_fortificationbuildertablet", "weapon_breachingcharge", "t3m4_empgrenade", "defuse_kit", "rw_sw_nade_thermal"},
+    weapons = {"at_sw_dc15sa", "at_sw_dc17m", "weapon_cuff_elastic", "rw_sw_nade_thermal", "tfa_defi_swrp", "weapon_thehiddenblade", "weapon_bactainjector", "weapon_armorkit", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "seal6-c4", "hacktool", "comlink_swep", "alydus_fortificationbuildertablet", "weapon_breachingcharge", "t3m4_empgrenade", "defuse_kit", "rw_sw_nade_thermal"},
     command = "riggs",
     max = 1,
     salary = 250,
@@ -408,3 +408,42 @@ TEAM_501st4466Halo= DarkRP.createJob("501st4466Halo", {
     end
 })
 
+TEAM_PLANK = DarkRP.createJob("RC-PLANK", {
+    color = Color(145, 7, 7, 255),
+    model = {"models/defcon/loudmantis/shadows/plank.mdl"},
+    description = [[RC_PLANK]],
+    weapons = {"at_sw_dc15sa", "at_sw_dc17m", "weapon_cuff_elastic", "rw_sw_nade_thermal", "tfa_defi_swrp", "weapon_thehiddenblade", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "hacktool", "comlink_swep" "t3m4_empgrenade"},
+    command = "plank",
+    max = 1,
+    salary = 250,
+    admin = 0,
+    vote = false,
+    hasLicense = true,
+    candemote = false,
+    category = "RC",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(700)
+        ply:SetHealth(700)
+        ply:SetArmor(250)
+    end
+})
+
+TEAM_WITT = DarkRP.createJob("RC-WITT", {
+    color = Color(145, 7, 7, 255),
+    model = {"models/defcon/loudmantis/shadows/witt.mdl"},
+    description = [[RC_WITT]],
+    weapons = {"at_sw_dc15sa", "weapon_bactanade", "at_sw_dc17m", "weapon_cuff_elastic", "rw_sw_nade_thermal", "tfa_defi_swrp", "weapon_bactainjector", "weapon_armorkit", "weapon_thehiddenblade", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "comlink_swep" "t3m4_empgrenade"},
+    command = "witt",
+    max = 1,
+    salary = 250,
+    admin = 0,
+    vote = false,
+    hasLicense = true,
+    candemote = false,
+    category = "RC",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(700)
+        ply:SetHealth(700)
+        ply:SetArmor(250)
+    end
+})
