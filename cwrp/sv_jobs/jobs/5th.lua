@@ -1,7 +1,7 @@
 --------5th----------
 
 
-TEAM_ 5thPVT= DarkRP.createJob("5th PVT", {
+TEAM_5thPVT= DarkRP.createJob("5th PVT", {
     color = Color(0, 0, 0, 255),
     model = {"models/player/ven/bf2_reg/5thfleet/bf25thfleet.mdl"},
     description = [[5th PVT]],
@@ -22,7 +22,7 @@ TEAM_ 5thPVT= DarkRP.createJob("5th PVT", {
 })
 
 
-TEAM_ 5thPFC= DarkRP.createJob("5th PFC", {
+TEAM_5thPFC= DarkRP.createJob("5th PFC", {
     color = Color(0, 0, 0, 255),
     model = {"models/player/ven/bf2_reg/5thfleet/bf25thfleet.mdl"},
     description = [[5th PFC]],
@@ -42,7 +42,27 @@ TEAM_ 5thPFC= DarkRP.createJob("5th PFC", {
     end
 })
 
-TEAM_ 5thCPL= DarkRP.createJob("5th CPL", {
+TEAM_5thLCPL= DarkRP.createJob("5th LCPL", {
+    color = Color(0, 0, 0, 255),
+    model = {"models/player/ven/bf2_reg/5thfleet/bf25thfleet.mdl"},
+    description = [[5th LCPL]],
+    weapons = {"cross_arms_swep", "cross_arms_infront_swep", "weapon_cuff_elastic", "at_sw_dc15s_all", "at_sw_dc15a_all", "rw_sw_bino_dark", "rw_sw_dc17", "sw_datapad", "t3m4_empgrenade", "surrender_animation_swep", "salute_swep", "weapon_fists", "re_hands"},
+    command = "5thLCPL",
+    max = 0,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = true,
+    candemote = false,
+    category = "5th",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(200)
+    end
+})
+
+TEAM_5thCPL= DarkRP.createJob("5th CPL", {
     color = Color(0, 0, 0, 255),
     model = {"models/player/ven/bf2_reg/5thfleet/bf25thfleet.mdl"},
     description = [[5th CPL]],
@@ -62,7 +82,7 @@ TEAM_ 5thCPL= DarkRP.createJob("5th CPL", {
     end
 })
 
-TEAM_ 5thSGT= DarkRP.createJob("5th SGT", {
+TEAM_5thSGT= DarkRP.createJob("5th SGT", {
     color = Color(0, 0, 0, 255),
     model = {"models/player/ven/bf2_reg/5thfleet/bf25thfleet.mdl"},
     description = [[5th SGT]],
@@ -82,7 +102,7 @@ TEAM_ 5thSGT= DarkRP.createJob("5th SGT", {
     end
 })
 
-TEAM_ 5thSGTMJ= DarkRP.createJob("5th SGTMJ", {
+TEAM_5thSGTMJ= DarkRP.createJob("5th SGTMJ", {
     color = Color(0, 0, 0, 255),
     model = {"models/player/ven/bf2_reg/5thfleet/bf25thfleet.mdl"},
     description = [[5th SGTMJ]],
@@ -102,7 +122,7 @@ TEAM_ 5thSGTMJ= DarkRP.createJob("5th SGTMJ", {
     end
 })
 
-TEAM_ 5th2ndLT= DarkRP.createJob("5th 2ndLT", {
+TEAM_5th2ndLT= DarkRP.createJob("5th 2ndLT", {
     color = Color(0, 0, 0, 255),
     model = {"models/player/ven/bf2_reg/5thfleet/bf25thfleet.mdl"},
     description = [[5th 2ndLT]],
@@ -122,7 +142,7 @@ TEAM_ 5th2ndLT= DarkRP.createJob("5th 2ndLT", {
     end
 })
 
-TEAM_ 5th1stLT= DarkRP.createJob("5th 1stLT", {
+TEAM_5th1stLT= DarkRP.createJob("5th 1stLT", {
     color = Color(0, 0, 0, 255),
     model = {"models/player/ven/bf2_reg/5thfleet/bf25thfleet.mdl"},
     description = [[5th 1stLT]],
@@ -142,7 +162,7 @@ TEAM_ 5th1stLT= DarkRP.createJob("5th 1stLT", {
     end
 })
 
-TEAM_ 5thCPT= DarkRP.createJob("5th CPT", {
+TEAM_5thCPT= DarkRP.createJob("5th CPT", {
     color = Color(0, 0, 0, 255),
     model = {"models/player/ven/bf2_reg/5thfleet/bf25thfleet.mdl"},
     description = [[5th CPT]],
