@@ -213,7 +213,7 @@ TEAM_501stARCSGTMJ = DarkRP.createJob("501st ARC 1stLT", {
 		"models/defcon/stan/arcevo/regimentals/evo501starc.mdl"
 	},
     description = [[501stARC1stLT]],
-    weapons = {"cross_arms_swep", "jet_mk1" "cross_arms_infront_swep", "salute_swep", "bkeycard", "stunstick", "weapon_cuff_elastic", "re_hands", "weapon_bactainjector", "seal6-c4", "", "tfa_defi_swrp", "rw_sw_nade_bacta", "rw_sw_nade_thermal", "rw_sw_westarm5", "rw_sw_dual_dc17ext", "at_sw_dc15s_all", "rw_sw_z6"},
+    weapons = {"cross_arms_swep", "cross_arms_infront_swep", "jet_mk1", "salute_swep", "stunstick", "weapon_cuff_elastic", "re_hands", "weapon_bactainjector", "seal6-c4", "tfa_defi_swrp", "rw_sw_nade_bacta", "rw_sw_nade_thermal", "rw_sw_westarm5", "rw_sw_dual_dc17ext", "at_sw_dc15s_all", "rw_sw_z6"},
     command = "501stARC1stLT",
     max = 0,
     salary = 100,
@@ -235,7 +235,7 @@ TEAM_501stARCMAX = DarkRP.createJob("501st ARC Max", {
 		"models/defcon/stan/arcevo/regimentals/evo501starc.mdl"
 	},
     description = [[501stARCMax]],
-    weapons = {"cross_arms_swep", "cross_arms_infront_swep", "jet_mk1", "salute_swep", "bkeycard", "stunstick", "weapon_cuff_elastic", "re_hands", "weapon_bactainjector", "seal6-c4", "tfa_defi_swrp", "rw_sw_nade_bacta", "rw_sw_nade_thermal", "rw_sw_westarm5", "rw_sw_dual_dc17s", "at_sw_dc15s_all", "rw_sw_dc15a", "weapon_breachingcharge"},
+    weapons = {"cross_arms_swep", "cross_arms_infront_swep", "jet_mk1", "salute_swep", "stunstick", "weapon_cuff_elastic", "re_hands", "weapon_bactainjector", "seal6-c4", "tfa_defi_swrp", "rw_sw_nade_bacta", "rw_sw_nade_thermal", "rw_sw_westarm5", "rw_sw_dual_dc17s", "at_sw_dc15s_all", "rw_sw_dc15a", "weapon_breachingcharge"},
     command = "501stARCMax",
     max = 0,
     salary = 100,
