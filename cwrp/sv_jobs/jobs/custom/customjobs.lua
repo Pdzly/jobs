@@ -109,7 +109,7 @@ TEAM_2NDAIRBORNSAPNO = DarkRP.createJob("2nd Airborn ARC 4422 Sapno", {
     color = Color(212, 175, 55, 255),
     model = {"models/loudmantis/212/arc.mdl", "models/starwars/grady/212th_custom/212th_custom_josh.mdl"},
     description = [[2nd Airborn ARC 4422 Sapno]],
-    weapons = {"re_hands", "at_sw_dc15s_all", "rw_sw_dc15a", "weapon_fists", "weapon_cuff_elastic", "jet_exec", "rw_sw_rps6", "rw_sw_dc17", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal", "rw_sw_westarm5", "rw_sw_dual_dc17", "tfa_defi_swrp", "stunstick", "weapon_bactainjector", "rw_sw_dual_dc17ext", "rw_sw_bino_dark", "rw_sw_dc15x"},
+    weapons = {"re_hands", "at_sw_dc15s_all", "rw_sw_dc15a", "weapon_fists", "weapon_cuff_elastic", "jet_exec", "rw_sw_rps6", "rw_sw_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal", "rw_sw_westarm5", "rw_sw_dual_dc17", "tfa_defi_swrp", "stunstick", "weapon_bactainjector", "rw_sw_dual_dc17ext", "rw_sw_bino_dark", "rw_sw_dc15x"},
     command = "2ndairbornarcsapno",
     max = 5,
     salary = 100,
@@ -249,7 +249,7 @@ TEAM_SGTARAAY = DarkRP.createJob("ARC-000", {
     color = Color(0, 0, 0, 255),
     model = {"models/toe/genbarc.mdl", "models/aussiwozzi/phase1clones/captain_arc.mdl"},
     description = [[ARC-000]],
-    weapons = {"weapon_fists", "re_hands", "rw_sw_westarm5", "rw_sw_dual_dc17", "jet_exec", "weapon_cuff_elastic", "cross_arms_infront_swep", "cross_arms_swep", "hacktool", "rw_sw_nade_thermal", "hololink_swep", "salute_swep", "comlink_swep"},
+    weapons = {"weapon_fists", "re_hands", "rw_sw_westarm5", "rw_sw_dual_dc17ext", "jet_exec", "weapon_cuff_elastic", "cross_arms_infront_swep", "cross_arms_swep", "hacktool", "rw_sw_nade_thermal", "hololink_swep", "salute_swep", "comlink_swep"},
     command = "sgtaraay",
     max = 1,
     salary = 250,
@@ -371,7 +371,7 @@ TEAM_VEGOH = DarkRP.createJob("Doom SGTMJ Vegoh", {
     color = Color(0, 136, 0, 255),
     model = {"models/player/community/einfachgaming/starwars/du_officer.mdl"},
     description = [[Doom SGTMJ Vegoh]],
-    weapons = {"re_hands", "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_shield_rep", "weapon_doomshield", "rw_sw_dc17", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal", "rw_sw_dual_dc17ext"},
+    weapons = {"re_hands", "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_shield_rep", "weapon_doomshield", "rw_sw_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal"},
     command = "doomvegoh",
     max = 1,
     salary = 100,
@@ -387,26 +387,6 @@ TEAM_VEGOH = DarkRP.createJob("Doom SGTMJ Vegoh", {
     end
 })
 
-
-TEAM_501st4466Halo= DarkRP.createJob("501st4466Halo", {
-    color = Color(0, 0, 0, 255),
-    model = {"models/cs574/clones/ait/ait_jet_trooper.mdl", "models/cs574/clones/ait/ait_instructor.mdl", "models/cs574/clones/ait/ait_marine.mdl", "models/cs574/clones/ait/ait_flame_trooper.mdl", "models/cs574/clones/ait/ait_commander.mdl"},
-    description = [[501st4466Halo]],
-    weapons = {"cross_arms_swep", "cross_arms_infront_swep", "at_sw_dc15s_all", "at_sw_dc15a_all", "rw_sw_bino_dark", "rw_ammo_distributor", "rw_sw_dc17", "rw_sw_nade_thermal", "sw_datapad", "t3m4_empgrenade", "surrender_animation_swep", "salute_swep", "weapon_fists", "re_hands", "rw_sw_dual_dc17"},
-    command = "501st4466Halo",
-    max = 0,
-    salary = 300,
-    admin = 0,
-    vote = false,
-    hasLicense = true,
-    candemote = false,
-    category = "501st",
-    PlayerSpawn = function(ply)
-        ply:SetMaxHealth(200)
-        ply:SetHealth(200)
-        ply:SetArmor(200)
-    end
-})
 
 TEAM_PLANK = DarkRP.createJob("RC-PLANK", {
     color = Color(145, 7, 7, 255),
