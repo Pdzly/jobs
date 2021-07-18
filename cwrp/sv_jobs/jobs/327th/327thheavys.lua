@@ -188,7 +188,7 @@ TEAM_327thHV2NDLT = DarkRP.createJob("327th Heavy 2ndLT", {
 		"models/defcon/stan/arcevo/regimentals/evo327tharc.mdl"
 	},
     description = [[Heavy 2ndLT der 327th]],
-    weapons = {"at_sw_dc15s_all", "at_sw_dc15a_all",  "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "keys", "bkeycard", "re_hands", "rw_sw_z6", "rw_sw_nade_thermal", "rw_sw_dual_dc17ext", "weapon_cuff_elastic", "rw_sw_rps6", "weapon_fists"},
+    weapons = {"at_sw_dc15s_all", "rw_sw_dc17ext", "at_sw_dc15a_all",  "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "keys", "bkeycard", "re_hands", "rw_sw_z6", "rw_sw_nade_thermal", "weapon_cuff_elastic", "rw_sw_rps6", "weapon_fists"},
     command = "327thheavy2ndlt",
     max = 0,
     salary = 250,
@@ -211,7 +211,7 @@ TEAM_327thHV1STLT = DarkRP.createJob("327th Heavy 1stLT", {
 		"models/defcon/stan/arcevo/regimentals/evo327tharc.mdl"
 	},
     description = [[Heavy 1stLT der 327th]],
-    weapons = {"at_sw_dc15s_all", "at_sw_dc15a_all",  "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "keys", "bkeycard", "re_hands", "rw_sw_z6", "rw_sw_nade_thermal", "rw_sw_dual_dc17ext", "weapon_cuff_elastic", "rw_sw_rps6", "weapon_fists"},
+    weapons = {"at_sw_dc15s_all", "rw_sw_dc17ext", "at_sw_dc15a_all",  "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "keys", "bkeycard", "re_hands", "rw_sw_z6", "rw_sw_nade_thermal", "weapon_cuff_elastic", "rw_sw_rps6", "weapon_fists"},
     command = "327thheavy1stlt",
     max = 0,
     salary = 250,
@@ -234,7 +234,7 @@ TEAM_327thHVCPT = DarkRP.createJob("327th Heavy CPT", {
 		"models/defcon/stan/arcevo/regimentals/evo327tharc.mdl"
 	},
     description = [[Heavy CPT der 327th]],
-    weapons = {"at_sw_dc15s_all", "at_sw_dc15a_all",  "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "keys", "bkeycard", "re_hands", "rw_sw_z6", "rw_sw_nade_thermal", "rw_sw_dual_dc17ext", "weapon_cuff_elastic", "rw_sw_rps6", "weapon_fists"},
+    weapons = {"at_sw_dc15s_all", "rw_sw_dc17ext", "at_sw_dc15a_all",  "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "keys", "bkeycard", "re_hands", "rw_sw_z6", "rw_sw_nade_thermal", "rw_sw_dual_dc17ext", "weapon_cuff_elastic", "rw_sw_rps6", "weapon_fists"},
     command = "327thheavycpt",
     max = 0,
     salary = 250,
