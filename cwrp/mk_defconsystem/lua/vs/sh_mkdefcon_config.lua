@@ -42,8 +42,8 @@ function addconfig()
                 farbe = Color(12, 255, 12)
             }
         },
-        catacess = {},
-        jobacess = {TEAM_RECRUIT},
+        catacess = {"Flottencrew"},
+        jobacess = {},
         everyone = false,
         defcondelay = 10
     }
