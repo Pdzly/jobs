@@ -151,11 +151,38 @@ DarkRP.createCategory{
 
 DarkRP.createCategory{
     name = "Anderes",
+    categorises = "shipments",
+    startExpanded = true,
+    color = Color(133, 133, 133, 255),
+    canSee = function(ply) return table.HasValue({"TEAM_VIPHAND"}, ply:Team()) end,
+    sortOrder = 13
+}
+
+DarkRP.createCategory{
+    name = "Anderes",
     categorises = "entities",
     startExpanded = true,
     color = Color(133, 133, 133, 255),
     canSee = function(ply) return true end,
     sortOrder = 14
+}
+
+DarkRP.createCategory{
+    name = "Bitcoin Equipment",
+    categorises = "weapons",
+    startExpanded = true,
+    color = Color(0, 107, 0, 255),
+    canSee = function(ply) return table.HasValue({TEAM_BTCMINER}, ply:Team()) end,
+    sortOrder = 1,
+}
+
+DarkRP.createCategory{
+    name = "Bitcoin Equipment",
+    categorises = "shipments",
+    startExpanded = true,
+    color = Color(0, 107, 0, 255),
+    canSee = function(ply) return table.HasValue({TEAM_BTCMINER}, ply:Team()) end,
+    sortOrder = 1,
 }
 
 

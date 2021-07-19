@@ -12,7 +12,7 @@ TEAM_DIEB =  DarkRP.createJob("Dieb", {
     description = [[Du bist ein Dieb
     Du beklaust Leute.
     Du klaust Autos: Regel Autodiebstahl]],
-    weapons = { "itemstore_pickup","lockpick_gate", "weapon_fists", "dsr_lockpick", "aphone" },
+    weapons = {"dsr_lockpick", "keypad_cracker"},
     command = "dieb",
     max = 4,
     salary = 45,
@@ -28,7 +28,7 @@ TEAM_MDIEB =  DarkRP.createJob("VIP Meister Dieb", {
     description = [[Du bist ein Dieb
     Du beklaust Leute.
     Du klaust Autos: Regel Autodiebstahl.]],
-    weapons = { "itemstore_pickup","lockpick_gate", "crack_gate", "weapon_fists", "dsr_lockpick", "aphone" },
+    weapons = {"dsr_lockpick", "keypad_cracker"},
     command = "mdieb",
     max = 1,
     salary = 45,
@@ -59,7 +59,7 @@ TEAM_MAFIA =  DarkRP.createJob("Mafia", {
     Du hörst auf den Mafiaboss.
     Du sammelst nur Schutzgeld von Verkäufern Oder Farmern, wenn der Mafia Boss es Erlaubt maximal 15k pro 20min/wenn er nicht Online ist Dürfen keine Schutzgelder genommen werden 
     Regel: Geiselnahme Preise.]],
-    weapons = { "lockpick_gate","itemstore_pickup", "crack_gate", "weapon_fists", "dsr_lockpick", "aphone" },
+    weapons = {},
     command = "mafia",
     max = 4,
     salary = 45,
@@ -76,7 +76,7 @@ TEAM_MAFIAB =  DarkRP.createJob("Mafia Boss", {
     description = [[Du Leitest die Mafia.
     Du Orderst Auch Banden Krige Gegen den Staat Oder die Gangster.
     Du Sammelst Schutzgeld von Verkeufern Oder Farmer vom Maximal 15k pro 20min.]],
-    weapons = { "lockpick_gate","itemstore_pickup", "crack_gate", "weapon_fists", "dsr_lockpick", "aphone" },
+    weapons = {},
     command = "mafiaboss",
     max = 1,
     salary = 45,
@@ -102,7 +102,7 @@ TEAM_GANG =  DarkRP.createJob("Gangster", {
     Du Hörst auf Den Gangster Boss.
     Du Entfürhrst Leute Mit Den Gangsterboss Regel:Geiselnahme Preise.
     ]],
-    weapons = { "lockpick_gate", "crack_gate","itemstore_pickup", "weapon_fists", "aphone" },
+    weapons = {},
     command = "gangster",
     max = 4,
     salary = 45,
@@ -118,7 +118,7 @@ TEAM_GANGB =  DarkRP.createJob("Gangster Boss", {
     model = {"models/player/gman_high.mdl"},
     description = [[Du Leitest die Gangster.
     Du Orderst Auch Banden Krige Gegen den Staat Oder die Mafia Regel:Geiselnahme Preise.]],
-    weapons = { "lockpick_gate", "crack_gate","itemstore_pickup", "weapon_fists", "dsr_lockpick", "aphone" },
+    weapons = {"dsr_lockpick"},
     command = "gangsterboss",
     max = 1,
     salary = 45,
@@ -144,7 +144,7 @@ TEAM_TERR =  DarkRP.createJob("VIP Terrorist", {
     model = {"models/player/kuma/alqaeda_commando.mdl", "models/player/kuma/taliban_bomber.mdl", "models/player/kuma/taliban_grunt.mdl", "models/player/kuma/taliban_rpg.mdl"},
     description = [[Du darfst Bombenanschläge volziehen|Nen Bomben Anschlag nur bei ner gruppirung von 5 Leuten gestartet werden
     Du darfst leuten Handschellen ansetzen und sie Entführen Regel:Geiselnahme Preise]],
-    weapons = { "weapon_fists","itemstore_pickup", "weapon_leash_elastic", "aphone" },
+    weapons = {"weapon_leash_elastic"},
     command = "terrorist",
     max = 3,
     salary = 45,
@@ -173,7 +173,7 @@ TEAM_KID =  DarkRP.createJob("VIP Kidnapper", {
     color = Color(83, 83, 83),
     model = {"models/player/bloodz/slow_1.mdl", "models/player/bloodz/slow_2.mdl", "models/player/bloodz/slow_3.mdl"},
     description = [[PEDO]],
-    weapons = { "weapon_fists","itemstore_pickup", "weapon_leash_elastic", "aphone" },
+    weapons = "weapon_leash_elastic"},
     command = "kidnapper",
     max = 2,
     salary = 45,
@@ -186,4 +186,20 @@ TEAM_KID =  DarkRP.createJob("VIP Kidnapper", {
         table.HasValue({"Community-Owner", "Stellv.Owner", "DarkRP-Owner", "Stellv.DarkRP-Owner", "", "Serverleitung", "STLV-Serverleitung", "Developer", "S-Administrator", "Administrator", "admin", "superadmin", "Mod", "T-Mod", "Superdonator", "Donator+"}, ply:GetNWString("usergroup"))   
     end,
     CustomCheckFailMsg = "Dieser Job ist für Donator+",
+})
+
+TEAM_BTCMINER =  DarkRP.createJob("BTC Miner", {
+    color = Color(83, 83, 83),
+    model = {"models/player/soldier_stripped.mdl"},
+    description = [[Du kannst BTC (Bitcoin) minen und damit Geld verdienen.
+    Es ist aber illegal, sei gewarnt!]],
+    weapons = {},
+    command = "btcminer",
+    max = 4,
+    salary = 45,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Farmer",
 })
