@@ -418,3 +418,25 @@ TEAM_41STARFCPT = DarkRP.createJob("41st ARF CPT", {
         ply:SetArmor(100)
     end
 })
+
+TEAM_ARCEVO = DarkRP.createJob("ARC 1288 Evo", {
+    color = Color(59, 163, 64, 255),
+    model = {
+        "models/player/ricky/dg/41st/ricky_41starc.mdl", "models/defcon/loudmantis/evo/41/green.mdl"
+    },
+    description = [[ARC 1288 Evo]],
+    weapons = {"rw_sw_westarm5", "re_hands", "at_sw_dc15a_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_nade_thermal", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_bino_white", "rw_sw_dc17ext", "weapon_cuff_elastic", "rw_sw_dual_dc17ext", "rw_sw_valken38x", "realistic_hook", "rw_sw_dc15x", "weapon_breachingcharge", "tfa_defi_swrp", "t3m4_empgrenade", "zeus_flashbang", "seal6-c4", "rw_sw_rps6", "med_kit"},
+    command = "arccptevo",
+    max = 1,
+    salary = 500,
+    admin = 0,
+    vote = false,
+    hasLicense = true,
+    candemote = false,
+	category = "41st",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(350)
+        ply:SetHealth(350)
+        ply:SetArmor(200)
+    end
+})
