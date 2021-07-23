@@ -21,7 +21,7 @@ TEAM_YODA = DarkRP.createJob("Großmeister Yoda", {
 
 TEAM_AHSOKA = DarkRP.createJob("Ahsoka Tano", {
     color = Color(183, 0, 254, 255),
-    model = {"models/plo/ahsoka/Ahsoka_S7.mdl"},
+    model = {"models/hosti/swcw/pm_sw_ahsoka_v2.mdl"},
     description = [[Commander Ahsoka Tano]],
     weapons = {"weapon_fists", "re_hands", "weapon_lightsaber_reverse", "cross_arms_infront_swep", "cross_arms_swep", "weapon_lightsaber_wos_dual", "weapon_cuff_elastic"},
     command = "ahsoka",
