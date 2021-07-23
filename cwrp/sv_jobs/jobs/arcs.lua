@@ -104,7 +104,7 @@ TEAM_BLITZ = DarkRP.createJob("ARC SCMD Blitz", {
 
 TEAM_MJRARCNICO = DarkRP.createJob("ARC MJR 1299 Nico", {
     color = Color(0, 0, 0, 255),
-    model = {"models/ricky/seeker/ricky_seeker.mdl", "models/loudmantis/arc/cards.mdl"},
+    model = {"models/player/arc99/models/models/player/arc99/arc99.mdl"},
     description = [[ARC MJR Nico]],
     weapons = {"stunstick", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "weapon_cuff_elastic", "weapon_fists", "re_hands", "weapon_bactainjector", "hacktool", "weapon_thehiddenblade", "weapon_extinguisher_infinite", "weapon_breachingcharge", "jet_mk1", "tfa_defi_swrp", "rw_sw_nade_thermal", "rw_sw_bino_dark", "rw_sw_dc17ext", "rw_sw_dual_dc17ext", "rw_sw_westarm5", "rw_sw_shield_rep", "seal6-c4", "rw_sw_nade_smoke", "rw_sw_iqa11c"},
     command = "arcmjrnico",
