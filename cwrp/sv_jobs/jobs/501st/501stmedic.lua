@@ -3,7 +3,7 @@ TEAM_501stRMCPVT = DarkRP.createJob("501st RMC PVT", {
     color = Color(188, 0, 0, 255),
     model = {
 		"models/smitty/bf2_reg/medic_officer/medic_officer.mdl", 
-		"models/player/svenman/bf2_reg/501st_medic/501st_medic.mdl",
+		"models/defcon/loudmantis/501/medic.mdl",
 		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
 	},
     description = [[501st RMC PVT]],
@@ -27,7 +27,7 @@ TEAM_501stRMCPFC = DarkRP.createJob("501st RMC PFC", {
     color = Color(188, 0, 0, 255),
     model = {
 		"models/smitty/bf2_reg/medic_officer/medic_officer.mdl", 
-		"models/player/svenman/bf2_reg/501st_medic/501st_medic.mdl",
+		"models/defcon/loudmantis/501/medic.mdl",
 		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"	
 	},
     description = [[501st RMC PFC]],
