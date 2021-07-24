@@ -1,7 +1,7 @@
 TEAM_JESSE = DarkRP.createJob("ARC 2ndLT Jesse", {
     color = Color(0, 0, 255, 255),
     model = {
-		"models/fisher/rogue/501st/jesse.mdl",
+		"models/defcon/loudmantis/501/jesse_arc.mdl",
 		"models/defcon/stan/arcevo/regimentals/evo501starc.mdl"
 	},
     description = [[ARC 2ndLT Jesse]],
@@ -24,7 +24,7 @@ TEAM_JESSE = DarkRP.createJob("ARC 2ndLT Jesse", {
 TEAM_FIVES = DarkRP.createJob("ARC 2ndLT Fives", {
     color = Color(0, 0, 255, 255),
     model = {
-		"models/fisher/rogue/501st/fives.mdl",
+		"models/defcon/loudmantis/501/fives_arc.mdl",
 		"models/defcon/stan/arcevo/regimentals/evo501starc.mdl"
 	},
     description = [[ARC SGT Fives]],
@@ -47,7 +47,7 @@ TEAM_FIVES = DarkRP.createJob("ARC 2ndLT Fives", {
 TEAM_ECHO = DarkRP.createJob("ARC 2ndLT Echo", {
     color = Color(0, 0, 255, 255),
     model = {
-		"models/fisher/rogue/501st/echo.mdl",
+		"models/defcon/loudmantis/501/echo_arc.mdl",
 		"models/defcon/stan/arcevo/regimentals/evo501starc.mdl"
 	},
     description = [[ARC SGT Echo]],
@@ -70,7 +70,7 @@ TEAM_ECHO = DarkRP.createJob("ARC 2ndLT Echo", {
 TEAM_HARDCASE = DarkRP.createJob("TC CPL Hardcase", {
     color = Color(255, 255, 255, 255),
     model = {
-		"models/player/svenman/bf2_reg/501st_hardcase/501st_hardcase.mdl",
+		"models/defcon/loudmantis/501/hardcase.mdl",
 		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
 	},
     description = [[TC CPL Hardcase]],
@@ -93,7 +93,7 @@ TEAM_HARDCASE = DarkRP.createJob("TC CPL Hardcase", {
 TEAM_KIX = DarkRP.createJob("TC MED SGT Kix", {
     color = Color(255, 255, 255, 255),
     model = {
-		"models/player/svenman/bf2_reg/501st_kix/501st_kix.mdl",
+		"models/defcon/loudmantis/501/kix.mdl",
 		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
 	},
     description = [[TC MED SGT Kix]],
@@ -116,7 +116,7 @@ TEAM_KIX = DarkRP.createJob("TC MED SGT Kix", {
 TEAM_DOGMA = DarkRP.createJob("TC CPL Dogma", {
     color = Color(255, 255, 255, 255),
     model = {
-		"models/player/svenman/bf2_reg/501st_dogma/501st_dogma.mdl",
+		"models/defcon/loudmantis/501/dogma.mdl",
 		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
 	},
     description = [[TC CPL Dogma]],
@@ -139,7 +139,7 @@ TEAM_DOGMA = DarkRP.createJob("TC CPL Dogma", {
 TEAM_APPO = DarkRP.createJob("TC SGT Appo", {
     color = Color(255, 255, 255, 255),
     model = {
-		"models/player/svenman/bf2_reg/501st_appo/501st_appo.mdl",
+		"models/defcon/loudmantis/501/appo.mdl",
 		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
 	},
     description = [[TC SGT Appo]],
@@ -162,7 +162,7 @@ TEAM_APPO = DarkRP.createJob("TC SGT Appo", {
 TEAM_TUP = DarkRP.createJob("TC SGT Tup", {
     color = Color(255, 255, 255, 255),
     model = {
-		"models/player/svenman/bf2_reg/501st_appo/501st_appo.mdl",
+		"models/defcon/loudmantis/501/tup.mdl",
 		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
 	},
     description = [[TC SGT Tup]],
