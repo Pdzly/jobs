@@ -1,7 +1,7 @@
 TEAM_2NDAIRBORNPFC = DarkRP.createJob("2nd Airborn PFC", {
     color = Color(212, 175, 55, 255),
     model = {
-		"models/fisher/212th/para/para.mdl",
+		"models/starwars/grady/212th_airborne/212th_airborne2.mdl",
 		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
 	},
     description = [[2nd Airborn PVT]],
@@ -24,7 +24,7 @@ TEAM_2NDAIRBORNPFC = DarkRP.createJob("2nd Airborn PFC", {
 TEAM_2NDAIRBORNLCL = DarkRP.createJob("2nd Airborn LCL", {
     color = Color(212, 175, 55, 255),
     model = {
-		"models/fisher/212th/para/para.mdl",
+		"models/starwars/grady/212th_airborne/212th_airborne2.mdl",
 		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
 	},
     description = [[2nd Airborn LCL]],
@@ -47,7 +47,7 @@ TEAM_2NDAIRBORNLCL = DarkRP.createJob("2nd Airborn LCL", {
 TEAM_2NDAIRBORNCPL = DarkRP.createJob("2nd Airborn CPL", {
     color = Color(212, 175, 55, 255),
     model = {
-		"models/fisher/212th/para/para.mdl",
+		"models/starwars/grady/212th_airborne/212th_airborne2.mdl",
 		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
 	},
     description = [[2nd Airborn CPL]],
@@ -70,7 +70,7 @@ TEAM_2NDAIRBORNCPL = DarkRP.createJob("2nd Airborn CPL", {
 TEAM_2NDAIRBORNSGT = DarkRP.createJob("2nd Airborn SGT", {
     color = Color(212, 175, 55, 255),
     model = {
-		"models/fisher/212th/para/para.mdl",
+		"models/starwars/grady/212th_airborne/212th_airborne2.mdl",
 		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
 	},
     description = [[2nd Airborn SGT]],
@@ -93,7 +93,7 @@ TEAM_2NDAIRBORNSGT = DarkRP.createJob("2nd Airborn SGT", {
 TEAM_2NDAIRBORNSGTMJ = DarkRP.createJob("2nd Airborn SGTMJ", {
     color = Color(212, 175, 55, 255),
     model = {
-		"models/fisher/212th/para/para.mdl",
+		"models/starwars/grady/212th_airborne/212th_airborne2.mdl",
 		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
 	},
     description = [[2nd Airborn SGTMJ]],
@@ -116,7 +116,7 @@ TEAM_2NDAIRBORNSGTMJ = DarkRP.createJob("2nd Airborn SGTMJ", {
 TEAM_2NDAIRBORN2ndlt = DarkRP.createJob("2nd Airborn 2ndLT", {
     color = Color(212, 175, 55, 255),
     model = {
-		"models/fisher/212th/para/para.mdl",
+		"models/starwars/grady/212th_airborne/212th_airborne2.mdl",
 		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
 	},
     description = [[2nd Airborn 2ndLT]],
@@ -139,7 +139,7 @@ TEAM_2NDAIRBORN2ndlt = DarkRP.createJob("2nd Airborn 2ndLT", {
 TEAM_2NDAIRBORN1stLT = DarkRP.createJob("2nd Airborn 1stLT", {
     color = Color(212, 175, 55, 255),
     model = {
-		"models/fisher/212th/para/para.mdl",
+		"models/starwars/grady/212th_airborne/212th_airborne2.mdl",
 		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
 	},
     description = [[2nd Airborn 1stLT]],
@@ -162,7 +162,7 @@ TEAM_2NDAIRBORN1stLT = DarkRP.createJob("2nd Airborn 1stLT", {
 TEAM_2NDAIRBORNCPT = DarkRP.createJob("2nd Airborn CPT", {
     color = Color(212, 175, 55, 255),
     model = {
-		"models/fisher/212th/para/para.mdl",
+		"models/starwars/grady/212th_airborne/212th_airborne2.mdl",
 		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl",
 		"models/starwars/grady/212th_airborne/212th_airborne2.mdl"
 	},
@@ -186,7 +186,7 @@ TEAM_2NDAIRBORNCPT = DarkRP.createJob("2nd Airborn CPT", {
 TEAM_2NDAIRBORNMJR = DarkRP.createJob("2nd Airborn MJR", {
     color = Color(212, 175, 55, 255),
     model = {
-		"models/fisher/212th/para/para.mdl",
+		"models/starwars/grady/212th_airborne/212th_airborne2.mdl",
 		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
 	},
     description = [[2nd Airborn MJR]],
