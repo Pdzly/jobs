@@ -4,7 +4,7 @@ mk_attachbox.config = {
     kistemdl = "models/reizer_props/srsp/sci_fi/command_table_02/command_table_02.mdl",
     delay = 5,
     withoutammo = true,
-    allowedmobileattach = {"at_sw_dc17m", "rw_sw_rps6", "at_sw_dc15sa"},
+    allowedmobileattach = {"at_sw_dc17m", "rw_sw_rps6", "at_sw_dc15sa", "rw_sw_bino_dark", "rw_sw_bino_desert", "rw_sw_bino_white"},
 }
 
 function addattachments()
@@ -214,6 +214,120 @@ function addattachments()
                 ["everyone"] = true
             }
         },
+        ["rw_sw_bino_dark"] = {
+            ["bino_zoom_2"]
+                ["name"] = "Zoom x2",
+                ["beschreibung"] = "Zoom",
+                ["allowedjobs"] = {},
+                ["allowedcat"] = {},
+                ["everyone"] = true
+            ["bino_zoom_4"]
+                ["name"] = "Zoom x4",
+                ["beschreibung"] = "Zoom",
+                ["allowedjobs"] = {},
+                ["allowedcat"] = {},
+                ["everyone"] = true
+            ["bino_zoom_6"]
+                ["name"] = "Zoom x6",
+                ["beschreibung"] = "Zoom",
+                ["allowedjobs"] = {},
+                ["allowedcat"] = {},
+                ["everyone"] = true
+            ["bino_zoom_8"]
+                ["name"] = "Zoom x8",
+                ["beschreibung"] = "Zoom",
+                ["allowedjobs"] = {},
+                ["allowedcat"] = {},
+                ["everyone"] = true
+            ["bino_zoom_10"]
+                ["name"] = "Zoom x10",
+                ["beschreibung"] = "Zoom",
+                ["allowedjobs"] = {},
+                ["allowedcat"] = {},
+                ["everyone"] = true
+            ["bino_zoom_12"]
+                ["name"] = "Zoom x12",
+                ["beschreibung"] = "Zoom",
+                ["allowedjobs"] = {},
+                ["allowedcat"] = {},
+                ["everyone"] = true
+        },
+        ["rw_sw_bino_desert"] = {
+            ["bino_zoom_2"]
+                ["name"] = "Zoom x2",
+                ["beschreibung"] = "Zoom",
+                ["allowedjobs"] = {},
+                ["allowedcat"] = {},
+                ["everyone"] = true
+            ["bino_zoom_4"]
+                ["name"] = "Zoom x4",
+                ["beschreibung"] = "Zoom",
+                ["allowedjobs"] = {},
+                ["allowedcat"] = {},
+                ["everyone"] = true
+            ["bino_zoom_6"]
+                ["name"] = "Zoom x6",
+                ["beschreibung"] = "Zoom",
+                ["allowedjobs"] = {},
+                ["allowedcat"] = {},
+                ["everyone"] = true
+            ["bino_zoom_8"]
+                ["name"] = "Zoom x8",
+                ["beschreibung"] = "Zoom",
+                ["allowedjobs"] = {},
+                ["allowedcat"] = {},
+                ["everyone"] = true
+            ["bino_zoom_10"]
+                ["name"] = "Zoom x10",
+                ["beschreibung"] = "Zoom",
+                ["allowedjobs"] = {},
+                ["allowedcat"] = {},
+                ["everyone"] = true
+            ["bino_zoom_12"]
+                ["name"] = "Zoom x12",
+                ["beschreibung"] = "Zoom",
+                ["allowedjobs"] = {},
+                ["allowedcat"] = {},
+                ["everyone"] = true
+        },
+        ["rw_sw_bino_white"] = {
+            ["bino_zoom_2"]
+                ["name"] = "Zoom x2",
+                ["beschreibung"] = "Zoom",
+                ["allowedjobs"] = {},
+                ["allowedcat"] = {},
+                ["everyone"] = true
+            ["bino_zoom_4"]
+                ["name"] = "Zoom x4",
+                ["beschreibung"] = "Zoom",
+                ["allowedjobs"] = {},
+                ["allowedcat"] = {},
+                ["everyone"] = true
+            ["bino_zoom_6"]
+                ["name"] = "Zoom x6",
+                ["beschreibung"] = "Zoom",
+                ["allowedjobs"] = {},
+                ["allowedcat"] = {},
+                ["everyone"] = true
+            ["bino_zoom_8"]
+                ["name"] = "Zoom x8",
+                ["beschreibung"] = "Zoom",
+                ["allowedjobs"] = {},
+                ["allowedcat"] = {},
+                ["everyone"] = true
+            ["bino_zoom_10"]
+                ["name"] = "Zoom x10",
+                ["beschreibung"] = "Zoom",
+                ["allowedjobs"] = {},
+                ["allowedcat"] = {},
+                ["everyone"] = true
+            ["bino_zoom_12"]
+                ["name"] = "Zoom x12",
+                ["beschreibung"] = "Zoom",
+                ["allowedjobs"] = {},
+                ["allowedcat"] = {},
+                ["everyone"] = true
+        }
         ["at_sw_dc15s_all"] = {
             ["training_mod"] = {
                 ["name"] = "Trainingsmunition",
