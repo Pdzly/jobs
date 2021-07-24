@@ -2,7 +2,7 @@
 TEAM_212TECHNIKERPVT = DarkRP.createJob("212th Techniker PVT", {
     color = Color(212, 175, 55, 255),
     model = {
-		"models/player/smitty/bf2_reg/sm_bs_eod_trooper/sm_bs_eod_trooper.mdl",
+		"models/starwars/grady/212th_engineer/212th_engineer2.mdl",
 		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
 	},
     description = [[212th PVT]],
@@ -25,7 +25,7 @@ TEAM_212TECHNIKERPVT = DarkRP.createJob("212th Techniker PVT", {
 TEAM_212TECHNIKERPFC = DarkRP.createJob("212th Techniker PFC", {
     color = Color(212, 175, 55, 255),
     model = {
-		"models/player/smitty/bf2_reg/sm_bs_eod_trooper/sm_bs_eod_trooper.mdl",
+		"models/starwars/grady/212th_engineer/212th_engineer2.mdl",
 		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
 	},
     description = [[212th PFC]],
@@ -48,7 +48,7 @@ TEAM_212TECHNIKERPFC = DarkRP.createJob("212th Techniker PFC", {
 TEAM_212TECHNIKERLCPL = DarkRP.createJob("212th Techniker LCPL", {
     color = Color(212, 175, 55, 255),
     model = {
-		"models/player/smitty/bf2_reg/sm_bs_eod_trooper/sm_bs_eod_trooper.mdl",
+		"models/starwars/grady/212th_engineer/212th_engineer2.mdl",
 		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
 	},
     description = [[212th LCPL]],
@@ -71,7 +71,7 @@ TEAM_212TECHNIKERLCPL = DarkRP.createJob("212th Techniker LCPL", {
 TEAM_212TECHNIKERCPL = DarkRP.createJob("212th Techniker CPL", {
     color = Color(212, 175, 55, 255),
     model = {
-		"models/player/smitty/bf2_reg/sm_bs_eod_trooper/sm_bs_eod_trooper.mdl",
+		"models/starwars/grady/212th_engineer/212th_engineer2.mdl",
 		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
 	},
     description = [[212th CPL]],
