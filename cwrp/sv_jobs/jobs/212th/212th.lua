@@ -1,7 +1,7 @@
 --212th--
 TEAM_212PVT = DarkRP.createJob("212th PVT", {
     color = Color(212, 175, 55, 255),
-    model = {"models/fisher/212th/trooper/trooper.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
+    model = {"models/starwars/grady/212th/212th_trooper2.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
     description = [[212th PVT]],
     weapons = {"re_hands", "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "realistic_hook", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_dc17ext"},
     command = "212pvt",
@@ -21,7 +21,7 @@ TEAM_212PVT = DarkRP.createJob("212th PVT", {
 
 TEAM_212PFC = DarkRP.createJob("212th PFC", {
     color = Color(212, 175, 55, 255),
-    model = {"models/fisher/212th/trooper/trooper.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
+    model = {"models/starwars/grady/212th/212th_trooper2.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
     description = [[212th PFC]],
     weapons = {"re_hands", "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "realistic_hook", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_dc17ext"},
     command = "212pfc",
@@ -41,7 +41,7 @@ TEAM_212PFC = DarkRP.createJob("212th PFC", {
 
 TEAM_212LCL = DarkRP.createJob("212th LCL", {
     color = Color(212, 175, 55, 255),
-    model = {"models/fisher/212th/trooper/trooper.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
+    model = {"models/starwars/grady/212th/212th_trooper2.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
     description = [[212th LCL]],
     weapons = {"re_hands", "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_rps6", "realistic_hook", "rw_sw_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal"},
     command = "212lcl",
@@ -62,7 +62,7 @@ TEAM_212LCL = DarkRP.createJob("212th LCL", {
 
 TEAM_212CPL = DarkRP.createJob("212th CPL", {
     color = Color(212, 175, 55, 255),
-    model = {"models/fisher/212th/trooper/trooper.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
+    model = {"models/starwars/grady/212th/212th_trooper2.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
     description = [[212th CPL]],
     weapons = {"re_hands", "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_rps6", "realistic_hook", "rw_sw_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal"},
     command = "212cpl",
@@ -83,7 +83,7 @@ TEAM_212CPL = DarkRP.createJob("212th CPL", {
 
 TEAM_212SGT = DarkRP.createJob("212th SGT", {
     color = Color(212, 175, 55, 255),
-    model = {"models/fisher/212th/trooper/trooper.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
+    model = {"models/starwars/grady/212th/212th_trooper2.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
     description = [[212th SGT]],
     weapons = {"re_hands", "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_rps6", "realistic_hook", "rw_sw_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal"},
     command = "212sgt",
@@ -104,7 +104,7 @@ TEAM_212SGT = DarkRP.createJob("212th SGT", {
 
 TEAM_212SGTMJ = DarkRP.createJob("212th SGTMJ", {
     color = Color(212, 175, 55, 255),
-    model = {"models/fisher/212th/trooper/trooper.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
+    model = {"models/starwars/grady/212th/212th_trooper2.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
     description = [[212th SGTMJ]],
     weapons = {"re_hands", "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_rps6", "realistic_hook", "rw_sw_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal"},
     command = "212sgtmj",
@@ -126,7 +126,7 @@ TEAM_212SGTMJ = DarkRP.createJob("212th SGTMJ", {
 
 TEAM_2122ndlt = DarkRP.createJob("212th 2ndLT", {
     color = Color(212, 175, 55, 255),
-    model = {"models/fisher/212th/trooper/trooper.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
+    model = {"models/starwars/grady/212th/212th_trooper2.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
     description = [[212th 2ndLT]],
     weapons = {"re_hands", "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_rps6", "realistic_hook", "rw_sw_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal", "weapon_cuff_elastic"},
     command = "2122ndlt",
@@ -148,7 +148,7 @@ TEAM_2122ndlt = DarkRP.createJob("212th 2ndLT", {
 
 TEAM_2121stLT = DarkRP.createJob("212th 1stLT", {
     color = Color(212, 175, 55, 255),
-    model = {"models/fisher/212th/trooper/trooper.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
+    model = {"models/starwars/grady/212th/212th_trooper2.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
     description = [[212th 1stLT]],
     weapons = {"re_hands", "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_rps6", "realistic_hook", "rw_sw_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal", "weapon_cuff_elastic"},
     command = "2121stlt",
@@ -171,7 +171,7 @@ TEAM_2121stLT = DarkRP.createJob("212th 1stLT", {
 
 TEAM_212CPT = DarkRP.createJob("212th CPT", {
     color = Color(212, 175, 55, 255),
-    model = {"models/fisher/212th/trooper/trooper.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
+    model = {"models/starwars/grady/212th/212th_trooper2.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
     description = [[212th CPT]],
     weapons = {"re_hands", "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_rps6", "realistic_hook", "rw_sw_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal", "weapon_cuff_elastic", "rw_sw_dual_dc17ext"},
     command = "212cpt",
@@ -196,7 +196,7 @@ TEAM_212CPT = DarkRP.createJob("212th CPT", {
 
 TEAM_212MJR = DarkRP.createJob("212th MJR", {
     color = Color(212, 175, 55, 255),
-    model = {"models/fisher/212th/trooper/trooper.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
+    model = {"models/starwars/grady/212th/212th_trooper2.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
     description = [[212th MJR]],
     weapons = {"re_hands", "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_rps6", "realistic_hook", "rw_sw_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal", "weapon_cuff_elastic", "rw_sw_dual_dc17ext"},
     command = "212mjr",
@@ -236,7 +236,7 @@ TEAM_212ARCMJR = DarkRP.createJob("212th ARC Colonel", {
 
 TEAM_Cody = DarkRP.createJob("Commander Cody", {
     color = Color(212, 175, 55, 255),
-    model = {"models/player/strasser/bf2_reg/bf2_cody/cody.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_cody/212th_cody.mdl"},
+    model = {"models/starwars/grady/212th_lore/212th_cody2003.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_cody/212th_cody.mdl"},
     description = [[212th Commander Cody]],
     weapons = {"re_hands", "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "jet_exec", "rw_sw_rps6", "realistic_hook", "rw_sw_dual_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal", "weapon_cuff_elastic", "rw_sw_dc17ext"},
     command = "212cmdcody",
@@ -256,7 +256,7 @@ TEAM_Cody = DarkRP.createJob("Commander Cody", {
 
 TEAM_212THWAXER = DarkRP.createJob("212th 2ndLT Waxer", {
     color = Color(34, 85, 85, 255),
-    model = {"models/fisher/212th/waxer/waxer.mdl", "models/fisher/212th/arf/arf_waxer.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
+    model = {"models/starwars/grady/212th_lore/212th_waxer.mdl", "models/starwars/grady/212th_arf/212th_arf_waxer.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
     description = [[212th 2ndLT Waxer]],
     weapons = {"weapon_fists", "re_hands", "at_sw_dc15a_all", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "weapon_grapplehook", "at_sw_dc15s_all", "rw_sw_dc15x", "at_sw_dc15a_all", "rw_sw_nade_thermal", "rw_sw_dc17ext"},
     command = "212thwaxer",
@@ -276,7 +276,7 @@ TEAM_212THWAXER = DarkRP.createJob("212th 2ndLT Waxer", {
 
 TEAM_212THBOIL = DarkRP.createJob("212th CPT Boil", {
     color = Color(34, 85, 85, 255),
-    model = {"models/fisher/212th/boil/boil.mdl", "models/fisher/212th/arf/arf_boil.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
+    model = {"models/starwars/grady/212th_lore/212th_boil.mdl", "models/starwars/grady/212th_arf/212th_arf_boil.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
     description = [[212th CPT Boil]],
     weapons = {"weapon_fists", "re_hands", "at_sw_dc15a_all", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "weapon_grapplehook", "at_sw_dc15s_all", "rw_sw_dc15x", "at_sw_dc15a_all", "rw_sw_nade_thermal", "rw_sw_dc17ext", "rw_sw_dual_dc17ext"},
     command = "212thboil",
@@ -296,7 +296,7 @@ TEAM_212THBOIL = DarkRP.createJob("212th CPT Boil", {
 
 TEAM_212THTRAPPER = DarkRP.createJob("212th CPL Trapper", {
     color = Color(34, 85, 85, 255),
-    model = {"models/starwars/grady/212th_lore/212th_trapper.mdl", "models/fisher/212th/arf/arf_trapper.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
+    model = {"models/starwars/grady/212th_lore/212th_trapper.mdl", "models/starwars/grady/212th_arf/212th_arf_trapper.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
     description = [[212th Trapper]],
     weapons = {"weapon_fists", "re_hands", "at_sw_dc15a_all", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "weapon_grapplehook", "at_sw_dc15s_all", "rw_sw_dc15x", "at_sw_dc15a_all", "rw_sw_nade_thermal", "rw_sw_dc17ext"},
     command = "212thtrapper",
