@@ -1,11 +1,7 @@
 --212th Medic--
-
 TEAM_212THMEDICPVT = DarkRP.createJob("212th Medic PVT", {
     color = Color(255, 0, 0, 255),
-    model = {
-		"models/fisher/212th/medic/medic.mdl",
-		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
-	},
+    model = {"models/fisher/212th/medic/medic.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl", "models/strasser/bf2/250th/clone_250th_medic_officer.mdl"},
     description = [[212th Medic PVT]],
     weapons = {"sw_datapad", "rw_sw_nade_bacta", "weapon_bactainjector", "zbl_spray", "zbl_gun", "med_kit", "tfa_defi_swrp", "weapon_cuff_elastic", "re_hands", "at_sw_dc15a_all", "weapon_fists", "rw_sw_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep"},
     command = "212thmedicpvt",
@@ -25,10 +21,7 @@ TEAM_212THMEDICPVT = DarkRP.createJob("212th Medic PVT", {
 
 TEAM_212THMEDICPFC = DarkRP.createJob("212th Medic PFC", {
     color = Color(255, 0, 0, 255),
-    model = {
-		"models/fisher/212th/medic/medic.mdl",
-		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
-	},
+    model = {"models/fisher/212th/medic/medic.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl", "models/strasser/bf2/250th/clone_250th_medic_officer.mdl"},
     description = [[212th Medic PFC]],
     weapons = {"sw_datapad", "rw_sw_nade_bacta", "weapon_bactainjector", "zbl_spray", "zbl_gun", "med_kit", "weapon_cuff_elastic", "tfa_defi_swrp", "re_hands", "at_sw_dc15a_all", "weapon_fists", "rw_sw_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep"},
     command = "212thmedicpfc",
@@ -48,10 +41,7 @@ TEAM_212THMEDICPFC = DarkRP.createJob("212th Medic PFC", {
 
 TEAM_212THMEDICLCL = DarkRP.createJob("212th Medic LCL", {
     color = Color(255, 0, 0, 255),
-    model = {
-		"models/fisher/212th/medic/medic.mdl",
-		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
-	},
+    model = {"models/fisher/212th/medic/medic.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl", "models/strasser/bf2/250th/clone_250th_medic_officer.mdl"},
     description = [[212th Medic LCL]],
     weapons = {"sw_datapad", "rw_sw_nade_bacta", "weapon_bactainjector", "zbl_spray", "zbl_gun", "med_kit", "weapon_cuff_elastic", "tfa_defi_swrp", "re_hands", "at_sw_dc15a_all", "weapon_fists", "rw_sw_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep"},
     command = "212thmediclcl",
@@ -71,10 +61,7 @@ TEAM_212THMEDICLCL = DarkRP.createJob("212th Medic LCL", {
 
 TEAM_212THMEDICCPL = DarkRP.createJob("212th Medic CPL", {
     color = Color(255, 0, 0, 255),
-    model = {
-		"models/fisher/212th/medic/medic.mdl",
-		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
-	},
+    model = {"models/fisher/212th/medic/medic.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl", "models/strasser/bf2/250th/clone_250th_medic_officer.mdl"},
     description = [[212th Medic CPL]],
     weapons = {"sw_datapad", "rw_sw_nade_bacta", "weapon_bactainjector", "zbl_spray", "zbl_gun", "med_kit", "tfa_defi_swrp", "re_hands", "at_sw_dc15a_all", "weapon_cuff_elastic", "weapon_fists", "rw_sw_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep"},
     command = "212thmediccpl",
@@ -94,10 +81,7 @@ TEAM_212THMEDICCPL = DarkRP.createJob("212th Medic CPL", {
 
 TEAM_212THMEDICSGT = DarkRP.createJob("212th Medic SGT", {
     color = Color(255, 0, 0, 255),
-    model = {
-		"models/fisher/212th/medic/medic.mdl",
-		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
-	},
+    model = {"models/fisher/212th/medic/medic.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl", "models/strasser/bf2/250th/clone_250th_medic_officer.mdl"},
     description = [[212th Medic SGT]],
     weapons = {"sw_datapad", "rw_sw_nade_bacta", "weapon_bactainjector", "zbl_spray", "zbl_gun", "tfa_defi_swrp", "med_kit", "re_hands", "weapon_cuff_elastic", "at_sw_dc15a_all", "weapon_fists", "rw_sw_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep"},
     command = "212thmedicsgt",
@@ -117,10 +101,7 @@ TEAM_212THMEDICSGT = DarkRP.createJob("212th Medic SGT", {
 
 TEAM_212THMEDICSGTMJ = DarkRP.createJob("212th Medic SGTMJ", {
     color = Color(255, 0, 0, 255),
-    model = {
-		"models/fisher/212th/medic/medic.mdl",
-		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
-	},
+    model = {"models/fisher/212th/medic/medic.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl", "models/strasser/bf2/250th/clone_250th_medic_officer.mdl"},
     description = [[212th Medic SGTMJ]],
     weapons = {"sw_datapad", "rw_sw_nade_bacta", "weapon_bactainjector", "zbl_spray", "zbl_gun", "tfa_defi_swrp", "med_kit", "re_hands", "at_sw_dc15a_all", "weapon_fists", "weapon_cuff_elastic", "rw_sw_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep"},
     command = "212thmedicsgtmj",
@@ -140,10 +121,7 @@ TEAM_212THMEDICSGTMJ = DarkRP.createJob("212th Medic SGTMJ", {
 
 TEAM_212THMEDIC2NDLT = DarkRP.createJob("212th Medic 2ndLT", {
     color = Color(255, 0, 0, 255),
-    model = {
-		"models/fisher/212th/medic/medic.mdl",
-		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
-	},
+    model = {"models/fisher/212th/medic/medic.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl", "models/strasser/bf2/250th/clone_250th_medic_officer.mdl"},
     description = [[212th Medic 2ndLT]],
     weapons = {"sw_datapad", "rw_sw_nade_bacta", "weapon_bactainjector", "zbl_spray", "zbl_gun", "tfa_defi_swrp", "re_hands", "med_kit", "at_sw_dc15a_all", "weapon_cuff_elastic", "weapon_fists", "rw_sw_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep"},
     command = "212thmedic2ndlt",
@@ -163,10 +141,7 @@ TEAM_212THMEDIC2NDLT = DarkRP.createJob("212th Medic 2ndLT", {
 
 TEAM_212THMEDIC1STLT = DarkRP.createJob("212th Medic 1stLT", {
     color = Color(255, 0, 0, 255),
-    model = {
-		"models/fisher/212th/medic/medic.mdl",
-		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
-	},
+    model = {"models/fisher/212th/medic/medic.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl", "models/strasser/bf2/250th/clone_250th_medic_officer.mdl"},
     description = [[212th Medic 1stLT]],
     weapons = {"sw_datapad", "rw_sw_nade_bacta", "weapon_bactainjector", "zbl_spray", "med_kit", "zbl_gun", "tfa_defi_swrp", "re_hands", "at_sw_dc15a_all", "weapon_cuff_elastic", "weapon_fists", "rw_sw_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep"},
     command = "212thmedic1stlt",
@@ -186,10 +161,7 @@ TEAM_212THMEDIC1STLT = DarkRP.createJob("212th Medic 1stLT", {
 
 TEAM_212THMEDICCPT = DarkRP.createJob("212th Medic CPT", {
     color = Color(255, 0, 0, 255),
-    model = {
-		"models/fisher/212th/medic/medic.mdl",
-		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
-	},
+    model = {"models/fisher/212th/medic/medic.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl", "models/strasser/bf2/250th/clone_250th_medic_officer.mdl"},
     description = [[212th Medic CPT]],
     weapons = {"sw_datapad", "rw_sw_nade_bacta", "weapon_bactainjector", "weapon_cuff_elastic", "rw_sw_dual_dc17ext", "zbl_spray", "zbl_gun", "med_kit", "tfa_defi_swrp", "re_hands", "at_sw_dc15a_all", "weapon_cuff_elastic", "weapon_fists", "rw_sw_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep"},
     command = "212thmediccpt",
