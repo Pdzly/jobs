@@ -7,7 +7,7 @@ TEAM_501STJUMPPVT = DarkRP.createJob("501st Jumptrooper PVT", {
 		
 	},
     description = [[501stJUMPPVT]],
-    weapons = {"weapon_fists", "re_hands",  "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "jet_mk2"},
+    weapons = {"dk_flare_gun", "weapon_fists", "re_hands",  "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "jet_mk2"},
     command = "501stjumppvt",
     max = 0,
     salary = 100,
@@ -29,7 +29,7 @@ TEAM_501STJUMPPFC = DarkRP.createJob("501st Jumptrooper PFC", {
 		
 	},
     description = [[501stJUMPPFC]],
-    weapons = {"weapon_fists", "re_hands",  "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "jet_mk2"},
+    weapons = {"dk_flare_gun", "weapon_fists", "re_hands",  "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "jet_mk2"},
     command = "501stjumppfc",
     max = 0,
     salary = 100,
@@ -51,7 +51,7 @@ TEAM_501STJUMPLCL = DarkRP.createJob("501st Jumptrooper LCL", {
 		
 	},
     description = [[501stJUMPLCL]],
-    weapons = {"weapon_fists", "re_hands",  "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "jet_mk2"},
+    weapons = {"dk_flare_gun", "weapon_fists", "re_hands",  "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "jet_mk2"},
     command = "501stjumplcl",
     max = 0,
     salary = 100,
@@ -73,7 +73,7 @@ TEAM_501STJUMPCPL = DarkRP.createJob("501st Jumptrooper CPL", {
 		
 	},
     description = [[501stJUMPCPL]],
-    weapons = {"weapon_fists", "re_hands",  "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "jet_mk2"},
+    weapons = {"dk_flare_gun", "weapon_fists", "re_hands",  "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "jet_mk2"},
     command = "501stjumpcpl",
     max = 0,
     salary = 100,
@@ -95,7 +95,7 @@ TEAM_501STJUMPSGT = DarkRP.createJob("501st Jumptrooper SGT", {
 		
 	},
     description = [[501stJUMPSGT]],
-    weapons = {"weapon_fists", "re_hands",  "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "jet_mk2"},
+    weapons = {"dk_flare_gun", "weapon_fists", "re_hands",  "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "jet_mk2"},
     command = "501stjumpsgt",
     max = 0,
     salary = 100,
