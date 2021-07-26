@@ -6,7 +6,7 @@ TEAM_212TECHNIKERPVT = DarkRP.createJob("212th Techniker PVT", {
 		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
 	},
     description = [[212th PVT]],
-    weapons = {"re_hands", "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_dp23", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "alydus_fusioncutter", "seal6-c4", "weapon_breachingcharge", "rw_sw_dc17ext", "weapon_extinguisher_infinite", "rw_ammo_distributor", "sw_datapad"},
+    weapons = {"dk_flare_gun", "re_hands", "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_dp23", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "alydus_fusioncutter", "seal6-c4", "weapon_breachingcharge", "rw_sw_dc17ext", "weapon_extinguisher_infinite", "rw_ammo_distributor", "sw_datapad"},
     command = "212tecknikerpvt",
     max = 0,
     salary = 100,
@@ -29,7 +29,7 @@ TEAM_212TECHNIKERPFC = DarkRP.createJob("212th Techniker PFC", {
 		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
 	},
     description = [[212th PFC]],
-    weapons = {"re_hands", "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_dp23", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "alydus_fusioncutter", "seal6-c4", "weapon_breachingcharge", "rw_sw_dc17ext", "weapon_extinguisher_infinite", "rw_ammo_distributor", "sw_datapad"},
+    weapons = {"dk_flare_gun", "re_hands", "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_dp23", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "alydus_fusioncutter", "seal6-c4", "weapon_breachingcharge", "rw_sw_dc17ext", "weapon_extinguisher_infinite", "rw_ammo_distributor", "sw_datapad"},
     command = "212tecknikerpfc",
     max = 0,
     salary = 100,
@@ -52,7 +52,7 @@ TEAM_212TECHNIKERLCPL = DarkRP.createJob("212th Techniker LCPL", {
 		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
 	},
     description = [[212th LCPL]],
-    weapons = {"re_hands", "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_dp23", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "alydus_fusioncutter", "seal6-c4", "weapon_breachingcharge", "rw_sw_dc17ext", "weapon_extinguisher_infinite", "rw_ammo_distributor", "sw_datapad"},
+    weapons = {"dk_flare_gun", "re_hands", "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_dp23", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "alydus_fusioncutter", "seal6-c4", "weapon_breachingcharge", "rw_sw_dc17ext", "weapon_extinguisher_infinite", "rw_ammo_distributor", "sw_datapad"},
     command = "212tecknikerlcpl",
     max = 0,
     salary = 100,
@@ -75,7 +75,7 @@ TEAM_212TECHNIKERCPL = DarkRP.createJob("212th Techniker CPL", {
 		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
 	},
     description = [[212th CPL]],
-    weapons = {"re_hands", "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_dp23", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "alydus_fusioncutter", "seal6-c4", "weapon_breachingcharge", "rw_sw_dc17ext", "weapon_extinguisher_infinite", "rw_ammo_distributor", "sw_datapad"},
+    weapons = {"dk_flare_gun", "re_hands", "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_dp23", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "alydus_fusioncutter", "seal6-c4", "weapon_breachingcharge", "rw_sw_dc17ext", "weapon_extinguisher_infinite", "rw_ammo_distributor", "sw_datapad"},
     command = "212tecknikercpl",
     max = 0,
     salary = 100,
@@ -98,7 +98,7 @@ TEAM_212TECHNIKERSGT = DarkRP.createJob("212th Techniker SGT", {
 		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
 	},
     description = [[212th SGT]],
-    weapons = {"re_hands", "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_dp23", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "alydus_fusioncutter", "seal6-c4", "weapon_breachingcharge", "rw_sw_dc17ext", "weapon_extinguisher_infinite", "rw_ammo_distributor", "sw_datapad"},
+    weapons = {"dk_flare_gun", "re_hands", "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_dp23", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "alydus_fusioncutter", "seal6-c4", "weapon_breachingcharge", "rw_sw_dc17ext", "weapon_extinguisher_infinite", "rw_ammo_distributor", "sw_datapad"},
     command = "212tecknikersgt",
     max = 0,
     salary = 100,
@@ -121,7 +121,7 @@ TEAM_212TECHNIKERSGTMJ = DarkRP.createJob("212th Techniker SGTMJ", {
 		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
 	},
     description = [[212th SGTMJ]],
-    weapons = {"re_hands", "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_dp23", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "alydus_fusioncutter", "seal6-c4", "weapon_breachingcharge", "rw_sw_dc17ext", "weapon_extinguisher_infinite", "rw_ammo_distributor", "sw_datapad"},
+    weapons = {"dk_flare_gun", "re_hands", "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_dp23", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "alydus_fusioncutter", "seal6-c4", "weapon_breachingcharge", "rw_sw_dc17ext", "weapon_extinguisher_infinite", "rw_ammo_distributor", "sw_datapad"},
     command = "212tecknikersgtmj",
     max = 0,
     salary = 100,
@@ -144,7 +144,7 @@ TEAM_212TECHNIKER2NDLT = DarkRP.createJob("212th Techniker 2ndLT", {
 		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
 	},
     description = [[212th 2ndLT]],
-    weapons = {"re_hands", "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_dp23", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "alydus_fusioncutter", "seal6-c4", "weapon_breachingcharge", "rw_sw_dc17ext", "weapon_extinguisher_infinite", "rw_ammo_distributor", "sw_datapad"},
+    weapons = {"dk_flare_gun", "re_hands", "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_dp23", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "alydus_fusioncutter", "seal6-c4", "weapon_breachingcharge", "rw_sw_dc17ext", "weapon_extinguisher_infinite", "rw_ammo_distributor", "sw_datapad"},
     command = "212teckniker2ndlt",
     max = 0,
     salary = 100,
@@ -167,7 +167,7 @@ TEAM_212TECHNIKER1STLT = DarkRP.createJob("212th Techniker 1stLT", {
 		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
 	},
     description = [[212th 1stLT]],
-    weapons = {"re_hands", "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_dp23", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "alydus_fusioncutter", "seal6-c4", "weapon_breachingcharge", "rw_sw_dc17ext", "weapon_extinguisher_infinite", "rw_ammo_distributor", "sw_datapad"},
+    weapons = {"dk_flare_gun", "re_hands", "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_dp23", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "alydus_fusioncutter", "seal6-c4", "weapon_breachingcharge", "rw_sw_dc17ext", "weapon_extinguisher_infinite", "rw_ammo_distributor", "sw_datapad"},
     command = "212teckniker1stlt",
     max = 0,
     salary = 100,
@@ -190,7 +190,7 @@ TEAM_212TECHNIKERCPT = DarkRP.createJob("212th Techniker CPT", {
 		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
 	},
     description = [[212th CPT]],
-    weapons = {"re_hands", "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_dp23", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "alydus_fusioncutter", "seal6-c4", "weapon_breachingcharge", "rw_sw_dc17ext", "rw_sw_dual_dc17ext", "weapon_extinguisher_infinite", "rw_ammo_distributor", "sw_datapad"},
+    weapons = {"dk_flare_gun", "re_hands", "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_dp23", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "alydus_fusioncutter", "seal6-c4", "weapon_breachingcharge", "rw_sw_dc17ext", "rw_sw_dual_dc17ext", "weapon_extinguisher_infinite", "rw_ammo_distributor", "sw_datapad"},
     command = "212tecknikercpt",
     max = 0,
     salary = 100,
@@ -213,7 +213,7 @@ TEAM_212TECHNIKERMJR = DarkRP.createJob("212th Techniker MJR", {
 		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
 	},
     description = [[212th MJR]],
-    weapons = {"re_hands", "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_dp23", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "alydus_fusioncutter", "seal6-c4", "weapon_breachingcharge", "rw_sw_dc17ext", "rw_sw_dual_dc17ext", "weapon_extinguisher_infinite", "rw_ammo_distributor", "sw_datapad"},
+    weapons = {"dk_flare_gun", "re_hands", "at_sw_dc15s_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_dp23", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "alydus_fusioncutter", "seal6-c4", "weapon_breachingcharge", "rw_sw_dc17ext", "rw_sw_dual_dc17ext", "weapon_extinguisher_infinite", "rw_ammo_distributor", "sw_datapad"},
     command = "212tecknikermjr",
     max = 0,
     salary = 100,
