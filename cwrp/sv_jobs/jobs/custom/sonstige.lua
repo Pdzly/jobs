@@ -21,7 +21,7 @@ TEAM_AUSBILDER = DarkRP.createJob("Ausbilder", {
 --Spezielle Jobs--
 TEAM_TEAM = DarkRP.createJob("Team im Dienst", {
     color = Color(255, 117, 0, 255),
-    model = {"models/player/hostage/hostage_04.mdl"},
+    model = {"models/player/combine_super_soldier.mdl"},
     description = [[Team im Dienst]],
     weapons = {"weapon_fists", "re_hands", "weapon_physgun", "gmod_tool", "weapon_cuff_elastic"},
     command = "team",
@@ -60,7 +60,7 @@ TEAM_DSGT = DarkRP.createJob("Drill SGT", {
     color = Color(117, 116, 116, 255),
     model = {"models/player/suno/arc/arc_9.mdl"},
     description = [[drill sgt]],
-    weapons = {"weapon_fists", "re_hands", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "sw_datapad", "at_sw_dc15s_all", "rw_sw_dc15a", "rw_sw_dc15x"},
+    weapons = {"dk_flare_gun", "weapon_fists", "re_hands", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "sw_datapad", "at_sw_dc15s_all", "rw_sw_dc15a", "rw_sw_dc15x"},
     command = "ddsgt",
     max = 0,
     salary = 100,
