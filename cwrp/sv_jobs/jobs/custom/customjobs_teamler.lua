@@ -188,7 +188,7 @@ TEAM_ARCAUSBILDER = DarkRP.createJob("ARC Ausbilder", {
         "models/player/suno/arc/arc_3.mdl"
     },
     description = [[ARC Ausbilder]],
-    weapons = {"cross_arms_swep", "cross_arms_infront_swep", "high_five_swep", "point_in_direction_swep", "salute_swep", "surrender_animation_swep", "rw_sw_westarm5", "rw_sw_dual_dc17ext", "rw_sw_dc17ext", "at_sw_dc15s_all", "at_sw_dc15a_all", "stunstick", "sw_datapad", "tfa_defi_swrp", "weapon_bactainjector", "med_kit", "zeus_flashbang"},
+    weapons = {"dk_flare_gun","cross_arms_swep", "cross_arms_infront_swep", "high_five_swep", "point_in_direction_swep", "salute_swep", "surrender_animation_swep", "rw_sw_westarm5", "rw_sw_dual_dc17ext", "rw_sw_dc17ext", "at_sw_dc15s_all", "at_sw_dc15a_all", "stunstick", "sw_datapad", "tfa_defi_swrp", "weapon_bactainjector", "med_kit", "zeus_flashbang"},
     command = "arcausbilder",
     max = 2,
     salary = 2,

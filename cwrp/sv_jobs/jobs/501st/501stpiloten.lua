@@ -6,7 +6,7 @@ TEAM_501CTPPVT = DarkRP.createJob("501st CTP PVT", {
 		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
 	},
     description = [[501st Pilot PVT]],
-    weapons = {"weapon_fists", "re_hands", "rw_sw_dp24", "rw_sw_dc17ext", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep"},
+    weapons = {"dk_flare_gun", "weapon_fists", "re_hands", "rw_sw_dp24", "rw_sw_dc17ext", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "at_sw_dc15s_all"},
     command = "501CTPPVT",
     max = 0,
     salary = 20,
@@ -29,7 +29,7 @@ TEAM_501CTPPFC = DarkRP.createJob("501st CTP PFC", {
 		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
 	},
     description = [[501st Pilot PFC]],
-    weapons = {"weapon_fists", "re_hands", "rw_sw_dp24", "rw_sw_dc17ext", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep"},
+    weapons = {"dk_flare_gun", "weapon_fists", "re_hands", "rw_sw_dp24", "rw_sw_dc17ext", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "at_sw_dc15s_all"},
     command = "501CTPPFC",
     max = 0,
     salary = 20,
@@ -52,7 +52,7 @@ TEAM_501CTPLCL = DarkRP.createJob("501st CTP LCL", {
 		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
 	},
     description = [[501st Pilot LCL]],
-    weapons = {"weapon_fists", "re_hands", "rw_sw_dp24", "rw_sw_dc17ext", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep"},
+    weapons = {"dk_flare_gun", "weapon_fists", "re_hands", "rw_sw_dp24", "rw_sw_dc17ext", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "at_sw_dc15s_all"},
     command = "501CTPLCL",
     max = 0,
     salary = 20,
@@ -75,7 +75,7 @@ TEAM_501CTPCPL = DarkRP.createJob("501st CTP CPL", {
 		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
 	},
     description = [[501st Pilot CPL]],
-    weapons = {"weapon_fists", "re_hands", "rw_sw_dp24", "rw_sw_dc17ext", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep"},
+    weapons = {"dk_flare_gun", "weapon_fists", "re_hands", "rw_sw_dp24", "rw_sw_dc17ext", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "at_sw_dc15s_all"},
     command = "501CTPCPL",
     max = 0,
     salary = 20,
@@ -98,7 +98,7 @@ TEAM_501CTPSGT = DarkRP.createJob("501st CTP SGT", {
 		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
 	},
     description = [[501st Pilot SGT]],
-    weapons = {"weapon_fists", "re_hands", "rw_sw_dp24", "rw_sw_dc17ext", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep"},
+    weapons = {"dk_flare_gun", "weapon_fists", "re_hands", "rw_sw_dp24", "rw_sw_dc17ext", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "at_sw_dc15s_all"},
     command = "501CTPSGT",
     max = 0,
     salary = 20,
@@ -121,7 +121,7 @@ TEAM_501CTPSGTMJ = DarkRP.createJob("501st CTP SGTMJ", {
 		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
 	},
     description = [[501st Pilot SGTMJ]],
-    weapons = {"weapon_fists", "re_hands", "rw_sw_dp24", "rw_sw_dc17ext", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep"},
+    weapons = {"dk_flare_gun", "weapon_fists", "re_hands", "rw_sw_dp24", "rw_sw_dc17ext", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "at_sw_dc15s_all"},
     command = "501CTPSGTMJ",
     max = 0,
     salary = 20,
@@ -144,7 +144,7 @@ TEAM_501CTP2ndLT = DarkRP.createJob("501st CTP 2ndLT", {
 		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
 	},
     description = [[501st Pilot 2ndLT]],
-    weapons = {"weapon_fists", "re_hands", "rw_sw_dp24", "rw_sw_dc17ext", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep"},
+    weapons = {"dk_flare_gun", "weapon_fists", "re_hands", "rw_sw_dp24", "rw_sw_dc17ext", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "at_sw_dc15s_all"},
     command = "501CTP2NDLT",
     max = 0,
     salary = 20,
@@ -168,7 +168,7 @@ TEAM_501CTP1stLT = DarkRP.createJob("501st CTP 1stLT Hawk", {
 		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
 	},
     description = [[501st Pilot CPT Hawk]],
-    weapons = {"weapon_fists", "re_hands", "rw_sw_dp24", "rw_sw_dc17ext", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep"},
+    weapons = {"dk_flare_gun", "weapon_fists", "re_hands", "rw_sw_dp24", "rw_sw_dc17ext", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "at_sw_dc15s_all"},
     command = "501CTP1STLTHAWK",
     max = 1,
     salary = 20,
@@ -191,7 +191,7 @@ TEAM_501CTPCPT = DarkRP.createJob("501st CTP CPT", {
 		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
 	},
     description = [[501st Pilot CPT]],
-    weapons = {"weapon_fists", "re_hands", "rw_sw_dp24", "rw_sw_dc17ext", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "rw_sw_dual_dc17ext"},
+    weapons = {"dk_flare_gun", "weapon_fists", "re_hands", "rw_sw_dp24", "rw_sw_dc17ext", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "rw_sw_dual_dc17ext", "at_sw_dc15s_all"},
     command = "501CTPCPT",
     max = 0,
     salary = 20,
