@@ -160,16 +160,16 @@ TEAM_501CTP2ndLT = DarkRP.createJob("501st CTP 2ndLT", {
     end
 })
 
-TEAM_501CTP1stLT = DarkRP.createJob("501st CTP 1stLT Hawk", {
+TEAM_501CTP1stLT = DarkRP.createJob("501st CTP 1stLT", {
     color = Color(34, 85, 85, 255),
     model = {
-		"models/fisher/501st/hawk/hawk.mdl",
+		"models/defcon/loudmantis/501/pilot.mdl",
 		"models/fisher/501st/legion/legion.mdl",
 		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
 	},
-    description = [[501st Pilot CPT Hawk]],
+    description = [[501st Pilot CPT]],
     weapons = {"dk_flare_gun", "weapon_fists", "re_hands", "rw_sw_dp24", "rw_sw_dc17ext", "cross_arms_swep", "cross_arms_infront_swep", "salute_swep", "at_sw_dc15s_all"},
-    command = "501CTP1STLTHAWK",
+    command = "501CTP1STLT",
     max = 1,
     salary = 20,
     admin = 0,
