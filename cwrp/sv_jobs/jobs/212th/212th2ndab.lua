@@ -205,3 +205,26 @@ TEAM_2NDAIRBORNMJR = DarkRP.createJob("2nd Airborn MJR", {
         ply:SetArmor(100)
     end
 })
+
+TEAM_2NDAIRBORNBARLEX = DarkRP.createJob("2nd Airborn Barlex", {
+    color = Color(212, 175, 55, 255)
+    model = {
+                      "models/loudmantis/212/barlex.mdl",
+                      "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
+       },
+    description = [[SGT Barlex]],
+    weapons = {"dk_flare_gun", "jet_exec", "at_sw_dc15a", "at_sw_dc15s_all", "rw_sw_dc17ext", "bkeycard", "keys", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "re_hands", "rw_sw_nade_thermal", "rw_sw_rps6"},
+    command = "2ndairbornsgtbarlex",
+    max = 1,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = true,
+    candemote = false,
+    category = "2nd Airborn",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(200)
+        ply:SetHealth(200)
+        ply:SetArmor(100)
+    end
+})
