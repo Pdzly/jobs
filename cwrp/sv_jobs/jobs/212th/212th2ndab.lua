@@ -1,9 +1,6 @@
 TEAM_2NDAIRBORNPFC = DarkRP.createJob("2nd Airborn PFC", {
     color = Color(212, 175, 55, 255),
-    model = {
-		"models/starwars/grady/212th_airborne/212th_airborne2.mdl",
-		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
-	},
+    model = {"models/starwars/grady/212th_airborne/212th_airborne2.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
     description = [[2nd Airborn PVT]],
     weapons = {"dk_flare_gun", "re_hands", "at_sw_dc15s_all", "rw_sw_dc15a", "weapon_fists", "jet_mk1", "cross_arms_infront_swep", "cross_arms_swep", "rw_sw_dc17ext", "salute_swep"},
     command = "2ndairbornpfc",
@@ -23,10 +20,7 @@ TEAM_2NDAIRBORNPFC = DarkRP.createJob("2nd Airborn PFC", {
 
 TEAM_2NDAIRBORNLCL = DarkRP.createJob("2nd Airborn LCL", {
     color = Color(212, 175, 55, 255),
-    model = {
-		"models/starwars/grady/212th_airborne/212th_airborne2.mdl",
-		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
-	},
+    model = {"models/starwars/grady/212th_airborne/212th_airborne2.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
     description = [[2nd Airborn LCL]],
     weapons = {"dk_flare_gun", "re_hands", "at_sw_dc15s_all", "rw_sw_dc15a", "weapon_fists", "jet_mk1", "rw_sw_rps6", "rw_sw_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal"},
     command = "2ndairbornlcl",
@@ -46,10 +40,7 @@ TEAM_2NDAIRBORNLCL = DarkRP.createJob("2nd Airborn LCL", {
 
 TEAM_2NDAIRBORNCPL = DarkRP.createJob("2nd Airborn CPL", {
     color = Color(212, 175, 55, 255),
-    model = {
-		"models/starwars/grady/212th_airborne/212th_airborne2.mdl",
-		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
-	},
+    model = {"models/starwars/grady/212th_airborne/212th_airborne2.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
     description = [[2nd Airborn CPL]],
     weapons = {"dk_flare_gun", "re_hands", "at_sw_dc15s_all", "rw_sw_dc15a", "weapon_fists", "jet_mk1", "rw_sw_rps6", "rw_sw_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal"},
     command = "2ndairborncpl",
@@ -69,10 +60,7 @@ TEAM_2NDAIRBORNCPL = DarkRP.createJob("2nd Airborn CPL", {
 
 TEAM_2NDAIRBORNSGT = DarkRP.createJob("2nd Airborn SGT", {
     color = Color(212, 175, 55, 255),
-    model = {
-		"models/starwars/grady/212th_airborne/212th_airborne2.mdl",
-		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
-	},
+    model = {"models/starwars/grady/212th_airborne/212th_airborne2.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
     description = [[2nd Airborn SGT]],
     weapons = {"dk_flare_gun", "re_hands", "at_sw_dc15s_all", "rw_sw_dc15a", "weapon_fists", "jet_mk1", "rw_sw_rps6", "rw_sw_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal"},
     command = "2ndairbornsgt",
@@ -92,10 +80,7 @@ TEAM_2NDAIRBORNSGT = DarkRP.createJob("2nd Airborn SGT", {
 
 TEAM_2NDAIRBORNSGTMJ = DarkRP.createJob("2nd Airborn SGTMJ", {
     color = Color(212, 175, 55, 255),
-    model = {
-		"models/starwars/grady/212th_airborne/212th_airborne2.mdl",
-		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
-	},
+    model = {"models/starwars/grady/212th_airborne/212th_airborne2.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
     description = [[2nd Airborn SGTMJ]],
     weapons = {"dk_flare_gun", "re_hands", "at_sw_dc15s_all", "rw_sw_dc15a", "weapon_fists", "jet_mk1", "rw_sw_rps6", "rw_sw_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal"},
     command = "2ndairbornsgtmj",
@@ -115,10 +100,7 @@ TEAM_2NDAIRBORNSGTMJ = DarkRP.createJob("2nd Airborn SGTMJ", {
 
 TEAM_2NDAIRBORN2ndlt = DarkRP.createJob("2nd Airborn 2ndLT", {
     color = Color(212, 175, 55, 255),
-    model = {
-		"models/starwars/grady/212th_airborne/212th_airborne2.mdl",
-		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
-	},
+    model = {"models/starwars/grady/212th_airborne/212th_airborne2.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
     description = [[2nd Airborn 2ndLT]],
     weapons = {"dk_flare_gun", "re_hands", "at_sw_dc15s_all", "rw_sw_dc15a", "weapon_fists", "jet_mk1", "rw_sw_rps6", "rw_sw_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal", "weapon_cuff_elastic"},
     command = "2ndairborn2ndlt",
@@ -138,10 +120,7 @@ TEAM_2NDAIRBORN2ndlt = DarkRP.createJob("2nd Airborn 2ndLT", {
 
 TEAM_2NDAIRBORN1stLT = DarkRP.createJob("2nd Airborn 1stLT", {
     color = Color(212, 175, 55, 255),
-    model = {
-		"models/starwars/grady/212th_airborne/212th_airborne2.mdl",
-		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
-	},
+    model = {"models/starwars/grady/212th_airborne/212th_airborne2.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
     description = [[2nd Airborn 1stLT]],
     weapons = {"dk_flare_gun", "re_hands", "at_sw_dc15s_all", "rw_sw_dc15a", "weapon_fists", "jet_mk1", "rw_sw_rps6", "rw_sw_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal", "weapon_cuff_elastic"},
     command = "2ndairborn1stlt",
@@ -161,11 +140,7 @@ TEAM_2NDAIRBORN1stLT = DarkRP.createJob("2nd Airborn 1stLT", {
 
 TEAM_2NDAIRBORNCPT = DarkRP.createJob("2nd Airborn CPT", {
     color = Color(212, 175, 55, 255),
-    model = {
-		"models/starwars/grady/212th_airborne/212th_airborne2.mdl",
-		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl",
-		"models/starwars/grady/212th_airborne/212th_airborne2.mdl"
-	},
+    model = {"models/starwars/grady/212th_airborne/212th_airborne2.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl", "models/starwars/grady/212th_airborne/212th_airborne2.mdl"},
     description = [[2nd Airborn CPT]],
     weapons = {"dk_flare_gun", "re_hands", "at_sw_dc15s_all", "rw_sw_dc15a", "weapon_fists", "jet_mk1", "rw_sw_rps6", "rw_sw_dual_dc17ext", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal", "rw_sw_dc17ext", "weapon_cuff_elastic"},
     command = "2ndairborncpt",
@@ -185,10 +160,7 @@ TEAM_2NDAIRBORNCPT = DarkRP.createJob("2nd Airborn CPT", {
 
 TEAM_2NDAIRBORNMJR = DarkRP.createJob("2nd Airborn MJR", {
     color = Color(212, 175, 55, 255),
-    model = {
-		"models/starwars/grady/212th_airborne/212th_airborne2.mdl",
-		"models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
-	},
+    model = {"models/starwars/grady/212th_airborne/212th_airborne2.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
     description = [[2nd Airborn MJR]],
     weapons = {"dk_flare_gun", "re_hands", "at_sw_dc15s_all", "rw_sw_dc15a", "weapon_fists", "jet_mk1", "rw_sw_rps6", "rw_sw_dual_dc17ext", "cross_arms_infront_swep", "rw_sw_dc17ext", "cross_arms_swep", "salute_swep", "rw_sw_nade_thermal", "weapon_cuff_elastic"},
     command = "2ndairbornmjr",
@@ -208,8 +180,7 @@ TEAM_2NDAIRBORNMJR = DarkRP.createJob("2nd Airborn MJR", {
 
 TEAM_2NDAIRBORNBARLEX = DarkRP.createJob("2nd Airborn Barlex", {
     color = Color(212, 175, 55, 255),
-    model = {"models/loudmantis/212/barlex.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"
-       },
+    model = {"models/loudmantis/212/barlex.mdl", "models/defcon/banks/coldwweather/212th_cold/212th_trooper/212th_trooper.mdl"},
     description = [[SGT Barlex]],
     weapons = {"dk_flare_gun", "jet_exec", "at_sw_dc15a", "at_sw_dc15s_all", "rw_sw_dc17ext", "bkeycard", "keys", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "re_hands", "rw_sw_nade_thermal", "rw_sw_rps6"},
     command = "2ndairbornsgtbarlex",
