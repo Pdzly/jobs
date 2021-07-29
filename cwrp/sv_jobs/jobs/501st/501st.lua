@@ -94,7 +94,7 @@ TEAM_501STCPL = DarkRP.createJob("501st CPL", {
 TEAM_501STSGT = DarkRP.createJob("501st SGT", {
     color = Color(0, 0, 255, 255),
     model = {
-		"models/defcon/loudmantis/501/marksman.mdl",
+		"models/defcon/loudmantis/501/officer.mdl",
 		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
 	},
     description = [[501st SGT]],
@@ -117,7 +117,7 @@ TEAM_501STSGT = DarkRP.createJob("501st SGT", {
 TEAM_501STSGTMJ = DarkRP.createJob("501st SGTMJ", {
     color = Color(0, 0, 255, 255),
     model = {
-		"models/defcon/loudmantis/501/marksman.mdl",
+		"models/defcon/loudmantis/501/officer.mdl",
 		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
 	},
     description = [[501st SGTMJ]],
@@ -140,7 +140,7 @@ TEAM_501STSGTMJ = DarkRP.createJob("501st SGTMJ", {
 TEAM_501ST2ndLT = DarkRP.createJob("501st 2ndLT", {
     color = Color(0, 0, 255, 255),
     model = {
-		"models/defcon/loudmantis/501/marksman.mdl",
+		"models/defcon/loudmantis/501/officer.mdl",
 		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
 	},
     description = [[501st 2ndLT]],
@@ -163,7 +163,7 @@ TEAM_501ST2ndLT = DarkRP.createJob("501st 2ndLT", {
 TEAM_501ST1stLT = DarkRP.createJob("501st 1stLT", {
     color = Color(0, 0, 255, 255),
     model = {
-		"models/defcon/loudmantis/501/marksman.mdl",
+		"models/defcon/loudmantis/501/officer.mdl",
 		"models/defcon/banks/coldwweather/501st_cold/501st_trooper/501st_trooper.mdl"
 	},
     description = [[501st 1stLT]],
