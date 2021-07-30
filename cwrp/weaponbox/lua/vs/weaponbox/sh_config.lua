@@ -1,0 +1,154 @@
+if (SERVER) then
+    AddCSLuaFile()
+end
+
+mk_weaponbox = mk_weaponbox or {}
+
+mk_weaponbox.config = {
+    defaulthealth = 150,
+    allowedrepjob = false,
+    allowedrepcat = false,
+    repairperc = 0.10,
+    repaircoold = 1, -- sekunden
+    kistemdl = "models/reizer_props/srsp/sci_fi/armory_02/armory_02.mdl",
+    delay = 5,
+    withoutammo = true
+}
+
+mk_weaponbox.config.weapons = {
+    ["rw_sw_trd_dc17"] = {
+        title = "Trainingswaffe - DC-17", -- Name der angezeigt wird
+        model = "models/sw_battlefront/weapons/dc17_blaster.mdl", -- Modelpfad (!md)
+        entity = "rw_sw_trd_dc17", -- Waffennamen über rechtsklick "In die Zwischenablage kopieren"
+        allowedjobs = {}, -- Jobname
+        allowedcat = {}, -- Kategoriename
+        everyone = true, -- JEDER???? hmmm.......
+        weight = 2.5 -- Gewicht HMMMMM 
+    },
+    ["rw_sw_rps6"] = {
+        title = "RPS-6",
+        model = "models/rps6/zl_rps-6.mdl",
+        entity = "rw_sw_rps6",
+        allowedjobs = {TEAM_212MJR, TEAM_212CPL, TEAM_212SGT, TEAM_212SGTMJ, TEAM_2122ndlt, TEAM_2121stLT, TEAM_212CPT, TEAM_212MJR, TEAM_212ARCMJR, TEAM_Cody, TEAM_212THARC, TEAM_2NDAIRBORNLCL, TEAM_2NDAIRBORNCPL, TEAM_2NDAIRBORNSGT, TEAM_2NDAIRBORNSGTMJ, TEAM_2NDAIRBORN2ndlt, TEAM_2NDAIRBORN1stLT, TEAM_2NDAIRBORNCPT, TEAM_2NDAIRBORNMJR, TEAM_327THSGT, TEAM_327THSGTMJ, TEAM_327TH2ndLT, TEAM_327TH1stLT, TEAM_327THCPT, TEAM_327THCPTDEVISS, TEAM_327THMJR, TEAM_327THCOL, TEAM_327thHV1STLT, TEAM_327thHVCPT, TEAM_2NDAIRBORNSAPNO, TEAM_SGTMJR, TEAM_ARCCMDCOLT, TEAM_ARCCMDHAVOC, TEAM_ARCMJRCOLT, TEAM_BLITZ, TEAM_STFOX, TEAM_CPLRYS, TEAM_THIRE},
+        allowedcat = {"212th"},
+        everyone = false,
+        weight = 5
+    },
+    ["rw_sw_nade_thermal"] = {
+        title = "Thermal Detonator",
+        model = "models/weapons/tfa_starwars/w_thermal.mdl",
+        entity = "rw_sw_nade_thermal",
+        allowedjobs = {TEAM_212LCL, TEAM_212CPL, TEAM_212SGT, TEAM_212SGTMJ, TEAM_2122ndlt, TEAM_2121stLT, TEAM_212CPT, TEAM_212MJR, TEAM_212ARCMJR, TEAM_Cody, TEAM_212THWAXER, TEAM_212THBOIL, TEAM_212THTRAPPER, TEAM_212THARC, TEAM_2NDAIRBORNLCL, TEAM_2NDAIRBORNCPL, TEAM_2NDAIRBORNSGT, TEAM_2NDAIRBORNSGTMJ, TEAM_2NDAIRBORN2ndlt, TEAM_2NDAIRBORN1stLT, TEAM_2NDAIRBORNCPT, TEAM_2NDAIRBORNMJR, TEAM_212ARFLCL, TEAM_212ARFCPL, TEAM_212ARFSGT, TEAM_212ARFSGTMJ, TEAM_212ARF2NDLT, TEAM_212ARF1STLT, TEAM_212ARFCPT, TEAM_212THMEDICLCL, TEAM_212THMEDICCPL, TEAM_212THMEDICSGT, TEAM_212THMEDICSGTMJ, TEAM_212THMEDIC2NDLT, TEAM_212THMEDIC1STLT, TEAM_212THMEDICCPT, TEAM_212CTPLCL, TEAM_212CTPCPL, TEAM_212CTPSGT, TEAM_212CTPSGTMJ, TEAM_212CTP1stLT, TEAM_212CTP2ndLT, TEAM_212CTPCPT, TEAM_212TECHNIKERLCPL, TEAM_212TECHNIKERCPL, TEAM_212TECHNIKERSGT, TEAM_212TECHNIKERSGTMJ, TEAM_212TECHNIKER2NDLT, TEAM_212TECHNIKER1STLT, TEAM_212TECHNIKERCPT, TEAM_212TECHNIKERMJR, TEAM_501STLCL, TEAM_501STCPL, TEAM_501STSGT, TEAM_501STSGTMJ, TEAM_501ST2ndLT, TEAM_501ST1stLT, TEAM_501STREX, TEAM_501stARCSGTMJ, TEAM_501stARCMAX, TEAM_Techno501, TEAM_501ARFLCL, TEAM_501ARFCPL, TEAM_501ARFSGT, TEAM_501ARFSGTMJ, TEAM_501ARF2NDLT, TEAM_501ARF1STLT, TEAM_501stRMCLCL, TEAM_501stRMCCPL, TEAM_501stRMCSGT, TEAM_501stRMCSGTMJ, TEAM_501stRMC2ndLT, TEAM_501stRMC1stLT, TEAM_501stRMCCPT, TEAM_501CTPLCL, TEAM_501CTPCPL, TEAM_501CTPSGT, TEAM_501CTPSGTMJ, TEAM_501CTP2ndLT, TEAM_501CTP1stLT, TEAM_501CTPCPT, TEAM_JESSE, TEAM_FIVES, TEAM_ECHO, TEAM_HARDCASE, TEAM_KIX, TEAM_DOGMA, TEAM_APPO, TEAM_TUP, TEAM_327THLCL, TEAM_327THCPL, TEAM_327THSGT, TEAM_327THSGTMJ, TEAM_327TH2ndLT, TEAM_327TH1stLT, TEAM_327THCPT, TEAM_327THCPTDEVISS, TEAM_327THMJR, TEAM_327THCOL, TEAM_327THBLY, TEAM_ARCCPTEVO, TEAM_327thHVPVT, TEAM_327thHVPFC, TEAM_327thHVLCL, TEAM_327thHVCPL, TEAM_327thHVSGT, TEAM_327thHVSGTMJ, TEAM_327thHV2NDLT, TEAM_327thHV1STLT, TEAM_327thHVCPT, TEAM_327THMEDICLCL, TEAM_327THMEDICCPL, TEAM_327THMEDICSGT, TEAM_327THMEDICSGTMJ, TEAM_327THMEDIC2NDLT, TEAM_327THMEDIC1STLT, TEAM_327THMEDICCPT, TEAM_327THMEDICMJR, TEAM_327THMEDICCOL, TEAM_327THKCOMPANYLCL, TEAM_327THKCOMPANYCPL, TEAM_327THKCOMPANYSGT, TEAM_327THKCOMPANYSGTMJ, TEAM_327THKCOMPANY2NDLT, TEAM_327THKCOMPANY1STLT, TEAM_327THKCOMPANYCPT, TEAM_327THKCOMPANYMJR, TEAM_327THKCOMPANYCOL, TEAM_2NDAIRBORNSAPNO, TEAM_SGTARAAY, TEAM_SGTYAARA, TEAM_Phose, TEAM_Raven, TEAM_SGTMJR, TEAM_STEALTH, TEAM_MANDODALA, TEAM_DSGT, TEAM_CLOASS, TEAM_RMCJUMPTROOPERLCL, TEAM_RMCJUMPTROOPERCPL, TEAM_RMCJUMPTROOPERSGT, TEAM_RMCJUMPTROOPERSGTMJ, TEAM_RMCJUMPTROOPER2NDLT, TEAM_RMCJUMPTROOPER1STLT, TEAM_RMCJUMPTROOPERCPT, TEAM_FELDSANNILCL, TEAM_FELDSANNICPL, TEAM_FELDSANNISGT, TEAM_FELDSANNISGTMJ, TEAM_FELDSANNI2NDLT, TEAM_FELDSANNI1STLT, TEAM_FELDSANNICPT, TEAM_RMCLCL, TEAM_RMCCPL, TEAM_RMCSGT, TEAM_RMCSGTMJ, TEAM_RMC2ndLT, TEAM_RMC1stLT, TEAM_RMCCPT, TEAM_RMCMJR, TEAM_RMCCMD, TEAM_Stone, TEAM_STLCL, TEAM_STCPL, TEAM_STSGT, TEAM_STHOUND, TEAM_STSGTMJ, TEAM_ST2ndLT, TEAM_ST1stLT, TEAM_STCPT, TEAM_STMJR, TEAM_STFOX, TEAM_STTHORN, TEAM_CPLRYS, TEAM_SGTJEK, TEAM_THIRE, TEAM_K9LCL, TEAM_K9CPL, TEAM_STMEDICLCL, TEAM_STMEDICCPL, TEAM_STMEDICSGT, TEAM_STMEDICSGTMJ, TEAM_STMEDIC2ndLT, TEAM_STMEDIC1stLT, TEAM_CPTDOCK, TEAM_FEVER, TEAM_ARCCMDCOLT, TEAM_ARCCMDHAVOC, TEAM_ARCMJRCOLT, TEAM_BLITZ, TEAM_MJRARCNICO, TEAM_CTLCL, TEAM_CTCPL, TEAM_CTSGT, TEAM_CTSGTMJ, TEAM_CT2NDLT, TEAM_CT1STLT, TEAM_CTCPT, TEAM_CTMJR, TEAM_CTCMD, TEAM_CTARC, TEAM_RAZER, TEAM_TREUY, TEAM_LACE, TEAM_HIT},
+        allowedcat = {},
+        everyone = false,
+        weight = 2.5,
+        forceammo = true
+    },
+    ["at_sw_dc15a_all"] = {
+        title = "DC-15A",
+        model = "models/sw_battlefront/weapons/dc15a_rifle.mdl",
+        entity = "at_sw_dc15a_all",
+        allowedjobs = {},
+        allowedcat = {},
+        everyone = true,
+        weight = 2.5
+    },
+    ["at_sw_dc15s_all"] = {
+        title = "DC-15S",
+        model = "models/sw_battlefront/weapons/dc15s_carbine.mdl",
+        entity = "at_sw_dc15s_all",
+        allowedjobs = {},
+        allowedcat = {},
+        everyone = true,
+        weight = 2.5
+    },
+    ["rw_sw_westarm5"] = {
+        title = "Westar-M5",
+        model = "models/sw_battlefront/weapons/new/westar_m5_blaster_rifle.mdl",
+        entity = "rw_sw_westarm5",
+        allowedjobs = {TEAM_CLOASS, TEAM_212ARCMJR, TEAM_212THARC, TEAM_ARCCPTEVO, TEAM_501STREX, TEAM_501stARCSGTMJ, TEAM_501stARCMAX, TEAM_AYATO, TEAM_2NDAIRBORNSAPNO, TEAM_ARC, TEAM_SGTARAAY, TEAM_Phose, TEAM_Raven, TEAM_FORDO, TEAM_MANDODALA, TEAM_CPTDOCK, TEAM_A17, TEAM_FEVER, TEAM_ARCCMDCOLT, TEAM_ARCCMDHAVOC, TEAM_ARCMJRCOLT, TEAM_BLITZ, TEAM_MJRARCNICO, TEAM_CTARC},
+        allowedcat = {},
+        everyone = false,
+        weight = 5
+    },
+    ["rw_sw_dual_dc17ext"] = {
+        title = "Dual DC-17 Extented",
+        model = "models/fisher/extendeddc17/extendeddc17.mdl",
+        entity = "rw_sw_dual_dc17ext",
+        allowedjobs = {TEAM_212CPT, TEAM_212MJR, TEAM_212ARCMJR, TEAM_Cody, TEAM_212THARC, TEAM_2NDAIRBORNCPT, TEAM_2NDAIRBORNMJR, TEAM_212ARFCPT, TEAM_212THMEDICCPT, TEAM_212CTPCPT, TEAM_212TECHNIKERCPT, TEAM_212TECHNIKERMJR, TEAM_327THCPT, TEAM_327THCPTDEVISS, TEAM_327THMJR, TEAM_327THCOL, TEAM_327THBLY, TEAM_ARCCPTEVO, TEAM_327thHVCPT, TEAM_327THMEDICCPT, TEAM_327THMEDICMJR, TEAM_327THMEDICCOL, TEAM_327THKCOMPANYCPT, TEAM_327THKCOMPANYMJR, TEAM_327THKCOMPANYCOL, TEAM_501STREX, TEAM_501stARCSGTMJ, TEAM_501stARCMAX, TEAM_Techno501, TEAM_501stRMCCPT, TEAM_501CTPCPT, TEAM_JESSE, TEAM_FIVES, TEAM_ECHO, TEAM_2NDAIRBORNSAPNO, TEAM_ARC, TEAM_SGTARAAY, TEAM_Phose, TEAM_Raven, TEAM_ARF, TEAM_FLEZY, TEAM_SGTMJR, TEAM_FORDO, TEAM_CLOASS, TEAM_RMCJUMPTROOPERCPT, TEAM_FELDSANNICPT, TEAM_RMCCPT, TEAM_RMCMJR, TEAM_RMCCMD, TEAM_Stone, TEAM_STCPT, TEAM_STMJR, TEAM_STFOX, TEAM_STTHORN, TEAM_AARC77, TEAM_KALSKIRATA, TEAM_CPTDOCK, TEAM_A17, TEAM_FEVER, TEAM_ARCCMDCOLT, TEAM_ARCCMDHAVOC, TEAM_ARCMJRCOLT, TEAM_BLITZ, TEAM_MJRARCNICO, TEAM_CTARC, TEAM_CTCPT, TEAM_CTMJR, TEAM_CTCMD},
+        allowedcat = {},
+        everyone = false,
+        weight = 5
+    },
+    ["rw_sw_z6"] = {
+        title = "Z6 Rotationsblaster",
+        model = "models/sw_battlefront/weapons/z6_rotary_cannon.mdl",
+        entity = "rw_sw_z6",
+        allowedjobs = {TEAM_327thVY, TEAM_327thHR, TEAM_327thHVPVT, TEAM_327thHVPFC, TEAM_327thHVLCL, TEAM_327thHVCPL, TEAM_327thHVSGT, TEAM_327thHVSGTMJ, TEAM_327thHV2NDLT, TEAM_327thHV1STLT, TEAM_327thHVCPT, TEAM_501stARCSGTMJ, TEAM_HARDCASE, TEAM_ARC, TEAM_FLEZY, TEAM_STTHORN, TEAM_SGTJEK, TEAM_AARC77, TEAM_ARCCMDCOLT, TEAM_ARCCMDHAVOC, TEAM_BLITZ, TEAM_ARCMJRCOLT},
+        allowedcat = {},
+        everyone = false,
+        weight = 5
+    },
+    ["rw_sw_dp23"] = {
+        title = "DP23",
+        model = "models/cs574/weapons/dp23.mdl",
+        entity = "rw_sw_dp23",
+        allowedjobs = {TEAM_212TECHNIKERPVT, TEAM_212TECHNIKERPFC, TEAM_212TECHNIKERLCPL, TEAM_212TECHNIKERCPL, TEAM_212TECHNIKERSGT, TEAM_212TECHNIKERSGTMJ, TEAM_212TECHNIKER2NDLT, TEAM_212TECHNIKERCPT, TEAM_212TECHNIKERMJR, TEAM_Techno501, TEAM_FLEZY},
+        allowedcat = {},
+        everyone = false,
+        weight = 5
+    },
+    ["rw_sw_dp24"] = {
+        title = "DP24",
+        model = "models/cs574/weapons/dp24.mdl",
+        entity = "rw_sw_dp24",
+        allowedjobs = {TEAM_212CTPPVT, TEAM_212CTPPFC, TEAM_212CTPLCL, TEAM_212CTPCPL, TEAM_212CTPSGT, TEAM_212CTPSGTMJ, TEAM_212CTP1stLT, TEAM_212CTP2ndLT, TEAM_212CTPCPT, TEAM_Techno501, TEAM_501CTPPVT, TEAM_501CTPPFC, TEAM_501CTPLCL, TEAM_501CTPCPL, TEAM_501CTPSGT, TEAM_501CTPSGTMJ, TEAM_501CTP2ndLT, TEAM_501CTP1stLT, TEAM_501CTPCPT, TEAM_STEALTH},
+        allowedcat = {},
+        everyone = false,
+        weight = 5
+    },
+    ["rw_sw_valken38x"] = {
+        title = "Valken 38x",
+        model = "models/sw_battlefront/weapons/valken_38x.mdl",
+        entity = "rw_sw_valken38x",
+        allowedjobs = {TEAM_327THCPTDEVISS, TEAM_327THKCOMPANYPFC, TEAM_327THKCOMPANYLCL, TEAM_327THKCOMPANYCPL, TEAM_327THKCOMPANYSGT, TEAM_327THKCOMPANYSGTMJ, TEAM_327THKCOMPANY2NDLT, TEAM_327THKCOMPANY1STLT, TEAM_327THKCOMPANYCPT, TEAM_327THKCOMPANYMJR, TEAM_327THKCOMPANYCOL, TEAM_KALSKIRATA},
+        allowedcat = {},
+        everyone = false,
+        weight = 2.5
+    },
+    ["rw_sw_dc19"] = {
+        title = "DC-19",
+        model = "models/sw_battlefront/weapons/dc15s_carbine.mdl",
+        entity = "rw_sw_dc19",
+        allowedjobs = {TEAM_CLOASS},
+        allowedcat = {},
+        everyone = false,
+        weight = 2.5
+    },
+    ["rw_sw_dc19le"] = {
+        title = "DC-19LE",
+        model = "models/player/applesauce/228th/dc15s_carbine.mdl",
+        entity = "rw_sw_dc19le",
+        allowedjobs = {TEAM_CLOASS},
+        allowedcat = {},
+        everyone = false,
+        weight = 2.5
+    },
+    ["at_sw_dc17m"] = {
+        title = "DC-17m",
+        model = "models/cs574/dc17m/dc17m_base.mdl",
+        entity = "at_sw_dc17m",
+        allowedjobs = {"TEAM_SGTYAARA"},
+        allowedcat = {"Delta Squad", "Razer Squad"},
+        everyone = false,
+        weight = 5
+    }
+}
+
+mk_weaponbox.config.jobconf = {
+    ["default"] = {
+        maxweight = 25
+    },
+}
+
+mk_weaponbox.config.catconf = {}

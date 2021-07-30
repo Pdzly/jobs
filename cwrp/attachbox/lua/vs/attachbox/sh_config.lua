@@ -4,24 +4,23 @@ mk_attachbox.config = {
     kistemdl = "models/reizer_props/srsp/sci_fi/command_table_02/command_table_02.mdl",
     delay = 5,
     withoutammo = true,
-    allowedmobileattach = {"at_sw_dc17m", "rw_sw_rps6", "at_sw_dc15sa", "rw_sw_bino_dark", "rw_sw_bino_desert", "rw_sw_bino_white"},
+    allowedmobileattach = {"at_sw_dc17m", "rw_sw_rps6", "at_sw_dc15sa"},
 }
 
-function addattachments()
     mk_attachbox.config.attachments = {
         ["at_sw_dc15a_all"] = {
             ["dc15le"] = {
                 ["name"] = "LE Modul",
                 ["beschreibung"] = "Es erhöt den Schaden aber dafür hat es geringere Schussrate!",
                 ["allowedjobs"] = {TEAM_212THWAXER, TEAM_212THBOIL, TEAM_212THTRAPPER, TEAM_212ARFPVT, TEAM_212ARFPFC, TEAM_212ARFLCL, TEAM_212ARFCPL, TEAM_212ARFSGT, TEAM_212ARFSGTMJ, TEAM_212ARF2NDLT, TEAM_212ARF1STLT, TEAM_212ARFCPT, TEAM_501ARFPVT, TEAM_501ARFPFC, TEAM_501ARFLCL, TEAM_501ARFCPL, TEAM_501ARFSGT, TEAM_501ARFSGTMJ, TEAM_501ARF2NDLT, TEAM_501ARF1STLT, TEAM_CPTDOCK, TEAM_MJRARCNICO},
-                ["allowedcat"] = {"228th"},
+                ["allowedcat"] = {},
                 ["everyone"] = false
             },
             ["dc15x"] = {
                 ["name"] = "Anti Material Modul",
                 ["beschreibung"] = "Es erhöt sehr den Schaden aber dafür hat es geringere Schussrate!",
                 ["allowedjobs"] = {TEAM_212THWAXER, TEAM_212THBOIL, TEAM_212THTRAPPER, TEAM_212ARFPVT, TEAM_212ARFPFC, TEAM_212ARFLCL, TEAM_212ARFCPL, TEAM_212ARFSGT, TEAM_212ARFSGTMJ, TEAM_212ARF2NDLT, TEAM_212ARF1STLT, TEAM_212ARFCPT, TEAM_501ARFPVT, TEAM_501ARFPFC, TEAM_501ARFLCL, TEAM_501ARFCPL, TEAM_501ARFSGT, TEAM_501ARFSGTMJ, TEAM_501ARF2NDLT, TEAM_501ARF1STLT, TEAM_CPTDOCK, TEAM_MJRARCNICO},
-                ["allowedcat"] = {"228th"},
+                ["allowedcat"] = {},
                 ["everyone"] = false
             },
             ["training_mod"] = {
@@ -49,7 +48,7 @@ function addattachments()
                 ["name"] = "Betäubungsmunition",
                 ["beschreibung"] = "Der Feind, auf welchen der Schuss auftrifft wird für 10 Sekunden bewegungsunfähig gemacht",
                 ["allowedjobs"] = {TEAM_212THMEDICPVT, TEAM_212THMEDICPFC, TEAM_212THMEDICLCL, TEAM_212THMEDICCPL, TEAM_212THMEDICSGT, TEAM_212THMEDICSGTMJ, TEAM_212THMEDIC2NDLT, TEAM_212THMEDIC1STLT, TEAM_212THMEDICCPT, TEAM_327THMEDICPVT, TEAM_327thO, TEAM_327thM, TEAM_327THMEDICPFC, TEAM_327THMEDICLCL, TEAM_327THMEDICCPL, TEAM_327THMEDICSGT, TEAM_327THMEDICSGTMJ, TEAM_327THMEDIC2NDLT, TEAM_327THMEDIC1STLT, TEAM_327THMEDICCPT, TEAM_327THMEDICMJR, TEAM_327THMEDICCOL, TEAM_501stRMCPVT, TEAM_501stRMCPFC, TEAM_501stRMCLCL, TEAM_501stRMCCPL, TEAM_501stRMCSGT, TEAM_501stRMCSGTMJ, TEAM_501stRMC2ndLT, TEAM_501stRMC1stLT, TEAM_501stRMCCPT, TEAM_KIX, TEAM_RMCJUMPTROOPERPVT, TEAM_RMCJUMPTROOPERPFC, TEAM_RMCJUMPTROOPERLCL, TEAM_RMCJUMPTROOPERCPL, TEAM_RMCJUMPTROOPERSGT, TEAM_CLOASS, TEAM_RMCJUMPTROOPERSGTMJ, TEAM_RMCJUMPTROOPER2NDLT, TEAM_RMCJUMPTROOPER1STLT, TEAM_RMCJUMPTROOPERCPT, TEAM_FELDSANNIPVT, TEAM_FELDSANNIPFC, TEAM_FELDSANNILCL, TEAM_FELDSANNICPL, TEAM_FELDSANNISGT, TEAM_FELDSANNISGTMJ, TEAM_FELDSANNI2NDLT, TEAM_FELDSANNI1STLT, TEAM_FELDSANNICPT, TEAM_RMCAUS, TEAM_RMCPVT, TEAM_RMCPFC, TEAM_RMCLCL, TEAM_RMCCPL, TEAM_RMCSGT, TEAM_RMCSGTMJ, TEAM_RMC2ndLT, TEAM_RMC1stLT, TEAM_RMCCPT, TEAM_RMCMJR, TEAM_RMCCMD},
-                ["allowedcat"] = {"Schocktruppen", "5th"},
+                ["allowedcat"] = {"Schocktruppen"},
                 ["everyone"] = false
             },
             ["ammo_indicator"] = {
@@ -63,7 +62,7 @@ function addattachments()
                 ["name"] = "DLT-19x Zielfernrohr",
                 ["beschreibung"] = "12-facher Zoom",
                 ["allowedjobs"] = {TEAM_CPTDOCK, TEAM_MJRARCNICO},
-                ["allowedcat"] = {"228th"},
+                ["allowedcat"] = {},
                 ["everyone"] = false
             },
             ["dc15_s2"] = {
@@ -77,7 +76,7 @@ function addattachments()
                 ["name"] = "Valken-x38 Zielfernrohr",
                 ["beschreibung"] = "6-facher Zoom",
                 ["allowedjobs"] = {TEAM_327THKCOMPANYPFC, TEAM_327THKCOMPANYLCL, TEAM_327THKCOMPANYCPL, TEAM_327THKCOMPANYSGT, TEAM_327THKCOMPANYSGTMJ, TEAM_327THKCOMPANY2NDLT, TEAM_327THKCOMPANY1STLT, TEAM_327THKCOMPANYCPT, TEAM_327THKCOMPANYMJR, TEAM_327THKCOMPANYCOL},
-                ["allowedcat"] = {"228th"},
+                ["allowedcat"] = {},
                 ["everyone"] = false
             },
             ["dc15_s4"] = {
@@ -112,13 +111,13 @@ function addattachments()
                 ["name"] = "A280-CFE Zielfernrohr",
                 ["beschreibung"] = "8-facher Zoom",
                 ["allowedjobs"] = {},
-                ["allowedcat"] = {"228th"},
+                ["allowedcat"] = {},
                 ["everyone"] = false
             },
             ["dc15_muzzle1"] = {
                 ["name"] = "DC-15a Mündung",
                 ["beschreibung"] = "Gew��hrt bessere Kontrolle über die Waffe",
-                ["allowedjobs"] = {TEAM_501st4466Halo},
+                ["allowedjobs"] = {},
                 ["allowedcat"] = {},
                 ["everyone"] = true
             },
@@ -167,7 +166,7 @@ function addattachments()
             ["dc15_mxxl"] = {
                 ["name"] = "XXL Magazin",
                 ["beschreibung"] = "Erhöht die Magazingröße um 110%, du bewegst dich aber um 10% langsamer",
-                ["allowedjobs"] = {TEAM_327thHVPVT, TEAM_501st4466Halo, TEAM_327thHVPFC, TEAM_327thHVLCL, TEAM_327thHVCPL, TEAM_327thHVSGT, TEAM_327thHVSGTMJ, TEAM_327thHV2NDLT, TEAM_327thHV1STLT, TEAM_327thHVCPT, TEAM_CPTDOCK, TEAM_A17, TEAM_ARCCMDCOLT, TEAM_ARCCMDHAVOC, TEAM_ARCMJRCOLT, TEAM_BLITZ, TEAM_MJRARCNICO},
+                ["allowedjobs"] = {TEAM_327thHVPVT, TEAM_327thHVPFC, TEAM_327thHVLCL, TEAM_327thHVCPL, TEAM_327thHVSGT, TEAM_327thHVSGTMJ, TEAM_327thHV2NDLT, TEAM_327thHV1STLT, TEAM_327thHVCPT, TEAM_CPTDOCK, TEAM_A17, TEAM_ARCCMDCOLT, TEAM_ARCCMDHAVOC, TEAM_ARCMJRCOLT, TEAM_BLITZ, TEAM_MJRARCNICO},
                 ["allowedcat"] = {},
                 ["everyone"] = false
             },
@@ -214,120 +213,6 @@ function addattachments()
                 ["everyone"] = true
             }
         },
-        ["rw_sw_bino_dark"] = {
-            ["bino_zoom_2"]
-                ["name"] = "Zoom x2",
-                ["beschreibung"] = "Zoom",
-                ["allowedjobs"] = {},
-                ["allowedcat"] = {},
-                ["everyone"] = true
-            ["bino_zoom_4"]
-                ["name"] = "Zoom x4",
-                ["beschreibung"] = "Zoom",
-                ["allowedjobs"] = {},
-                ["allowedcat"] = {},
-                ["everyone"] = true
-            ["bino_zoom_6"]
-                ["name"] = "Zoom x6",
-                ["beschreibung"] = "Zoom",
-                ["allowedjobs"] = {},
-                ["allowedcat"] = {},
-                ["everyone"] = true
-            ["bino_zoom_8"]
-                ["name"] = "Zoom x8",
-                ["beschreibung"] = "Zoom",
-                ["allowedjobs"] = {},
-                ["allowedcat"] = {},
-                ["everyone"] = true
-            ["bino_zoom_10"]
-                ["name"] = "Zoom x10",
-                ["beschreibung"] = "Zoom",
-                ["allowedjobs"] = {},
-                ["allowedcat"] = {},
-                ["everyone"] = true
-            ["bino_zoom_12"]
-                ["name"] = "Zoom x12",
-                ["beschreibung"] = "Zoom",
-                ["allowedjobs"] = {},
-                ["allowedcat"] = {},
-                ["everyone"] = true
-        },
-        ["rw_sw_bino_desert"] = {
-            ["bino_zoom_2"]
-                ["name"] = "Zoom x2",
-                ["beschreibung"] = "Zoom",
-                ["allowedjobs"] = {},
-                ["allowedcat"] = {},
-                ["everyone"] = true
-            ["bino_zoom_4"]
-                ["name"] = "Zoom x4",
-                ["beschreibung"] = "Zoom",
-                ["allowedjobs"] = {},
-                ["allowedcat"] = {},
-                ["everyone"] = true
-            ["bino_zoom_6"]
-                ["name"] = "Zoom x6",
-                ["beschreibung"] = "Zoom",
-                ["allowedjobs"] = {},
-                ["allowedcat"] = {},
-                ["everyone"] = true
-            ["bino_zoom_8"]
-                ["name"] = "Zoom x8",
-                ["beschreibung"] = "Zoom",
-                ["allowedjobs"] = {},
-                ["allowedcat"] = {},
-                ["everyone"] = true
-            ["bino_zoom_10"]
-                ["name"] = "Zoom x10",
-                ["beschreibung"] = "Zoom",
-                ["allowedjobs"] = {},
-                ["allowedcat"] = {},
-                ["everyone"] = true
-            ["bino_zoom_12"]
-                ["name"] = "Zoom x12",
-                ["beschreibung"] = "Zoom",
-                ["allowedjobs"] = {},
-                ["allowedcat"] = {},
-                ["everyone"] = true
-        },
-        ["rw_sw_bino_white"] = {
-            ["bino_zoom_2"]
-                ["name"] = "Zoom x2",
-                ["beschreibung"] = "Zoom",
-                ["allowedjobs"] = {},
-                ["allowedcat"] = {},
-                ["everyone"] = true
-            ["bino_zoom_4"]
-                ["name"] = "Zoom x4",
-                ["beschreibung"] = "Zoom",
-                ["allowedjobs"] = {},
-                ["allowedcat"] = {},
-                ["everyone"] = true
-            ["bino_zoom_6"]
-                ["name"] = "Zoom x6",
-                ["beschreibung"] = "Zoom",
-                ["allowedjobs"] = {},
-                ["allowedcat"] = {},
-                ["everyone"] = true
-            ["bino_zoom_8"]
-                ["name"] = "Zoom x8",
-                ["beschreibung"] = "Zoom",
-                ["allowedjobs"] = {},
-                ["allowedcat"] = {},
-                ["everyone"] = true
-            ["bino_zoom_10"]
-                ["name"] = "Zoom x10",
-                ["beschreibung"] = "Zoom",
-                ["allowedjobs"] = {},
-                ["allowedcat"] = {},
-                ["everyone"] = true
-            ["bino_zoom_12"]
-                ["name"] = "Zoom x12",
-                ["beschreibung"] = "Zoom",
-                ["allowedjobs"] = {},
-                ["allowedcat"] = {},
-                ["everyone"] = true
-        }
         ["at_sw_dc15s_all"] = {
             ["training_mod"] = {
                 ["name"] = "Trainingsmunition",
@@ -347,7 +232,7 @@ function addattachments()
                 ["name"] = "Betäubungsmunition",
                 ["beschreibung"] = "Der Feind, auf welchen der Schuss auftrifft wird für 10 Sekunden bewegungsunfähig gemacht",
                 ["allowedjobs"] = {TEAM_212THMEDICPVT, TEAM_212THMEDICPFC, TEAM_212THMEDICLCL, TEAM_212THMEDICCPL, TEAM_212THMEDICSGT, TEAM_212THMEDICSGTMJ, TEAM_212THMEDIC2NDLT, TEAM_212THMEDIC1STLT, TEAM_212THMEDICCPT, TEAM_327THMEDICPVT, TEAM_327thO, TEAM_327thM, TEAM_327THMEDICPFC, TEAM_327THMEDICLCL, TEAM_327THMEDICCPL, TEAM_327THMEDICSGT, TEAM_327THMEDICSGTMJ, TEAM_327THMEDIC2NDLT, TEAM_327THMEDIC1STLT, TEAM_327THMEDICCPT, TEAM_327THMEDICMJR, TEAM_327THMEDICCOL, TEAM_501stRMCPVT, TEAM_501stRMCPFC, TEAM_501stRMCLCL, TEAM_501stRMCCPL, TEAM_501stRMCSGT, TEAM_501stRMCSGTMJ, TEAM_501stRMC2ndLT, TEAM_501stRMC1stLT, TEAM_501stRMCCPT, TEAM_KIX, TEAM_RMCJUMPTROOPERPVT, TEAM_RMCJUMPTROOPERPFC, TEAM_RMCJUMPTROOPERLCL, TEAM_RMCJUMPTROOPERCPL, TEAM_RMCJUMPTROOPERSGT, TEAM_CLOASS, TEAM_RMCJUMPTROOPERSGTMJ, TEAM_RMCJUMPTROOPER2NDLT, TEAM_RMCJUMPTROOPER1STLT, TEAM_RMCJUMPTROOPERCPT, TEAM_FELDSANNIPVT, TEAM_FELDSANNIPFC, TEAM_FELDSANNILCL, TEAM_FELDSANNICPL, TEAM_FELDSANNISGT, TEAM_FELDSANNISGTMJ, TEAM_FELDSANNI2NDLT, TEAM_FELDSANNI1STLT, TEAM_FELDSANNICPT, TEAM_RMCAUS, TEAM_RMCPVT, TEAM_RMCPFC, TEAM_RMCLCL, TEAM_RMCCPL, TEAM_RMCSGT, TEAM_RMCSGTMJ, TEAM_RMC2ndLT, TEAM_RMC1stLT, TEAM_RMCCPT, TEAM_RMCMJR, TEAM_RMCCMD},
-                ["allowedcat"] = {"Schocktruppen", "5th"},
+                ["allowedcat"] = {"Schocktruppen"},
                 ["everyone"] = false
             },
             ["ammo_indicator"] = {
@@ -374,7 +259,7 @@ function addattachments()
             ["dc15_muzzle1"] = {
                 ["name"] = "DC-15a Mündung",
                 ["beschreibung"] = "Gewährt bessere Kontrolle über die Waffe",
-                ["allowedjobs"] = {TEAM_501st4466Halo},
+                ["allowedjobs"] = {},
                 ["allowedcat"] = {},
                 ["everyone"] = true
             },
@@ -437,7 +322,7 @@ function addattachments()
             ["dc15s_stock4"] = {
                 ["name"] = "DC-15s Hintergriff",
                 ["beschreibung"] = "Gewährt bessere Waffenkontrolle",
-                ["allowedjobs"] = {TEAM_501st4466Halo},
+                ["allowedjobs"] = {},
                 ["allowedcat"] = {},
                 ["everyone"] = true
             }
@@ -598,9 +483,7 @@ function addattachments()
     }
 
     mk_attachbox.config.allowedconsolebt = {TEAM_212THMEDICPVT, TEAM_212THMEDICPFC, TEAM_212THMEDICLCL, TEAM_212THMEDICCPL, TEAM_212THMEDICSGT, TEAM_212THMEDICSGTMJ, TEAM_212THMEDIC2NDLT, TEAM_212THMEDIC1STLT, TEAM_212THMEDICCPT, TEAM_327THMEDICPVT, TEAM_327thO, TEAM_327thM, TEAM_327THMEDICPFC, TEAM_327THMEDICLCL, TEAM_327THMEDICCPL, TEAM_327THMEDICSGT, TEAM_327THMEDICSGTMJ, TEAM_327THMEDIC2NDLT, TEAM_327THMEDIC1STLT, TEAM_327THMEDICCPT, TEAM_327THMEDICMJR, TEAM_327THMEDICCOL, TEAM_501stRMCPVT, TEAM_501stRMCPFC, TEAM_501stRMCLCL, TEAM_501stRMCCPL, TEAM_501stRMCSGT, TEAM_501stRMCSGTMJ, TEAM_501stRMC2ndLT, TEAM_501stRMC1stLT, TEAM_501stRMCCPT, TEAM_KIX, TEAM_RMCJUMPTROOPERPVT, TEAM_RMCJUMPTROOPERPFC, TEAM_RMCJUMPTROOPERLCL, TEAM_RMCJUMPTROOPERCPL, TEAM_RMCJUMPTROOPERSGT, TEAM_CLOASS, TEAM_RMCJUMPTROOPERSGTMJ, TEAM_RMCJUMPTROOPER2NDLT, TEAM_RMCJUMPTROOPER1STLT, TEAM_RMCJUMPTROOPERCPT, TEAM_FELDSANNIPVT, TEAM_FELDSANNIPFC, TEAM_FELDSANNILCL, TEAM_FELDSANNICPL, TEAM_FELDSANNISGT, TEAM_FELDSANNISGTMJ, TEAM_FELDSANNI2NDLT, TEAM_FELDSANNI1STLT, TEAM_FELDSANNICPT, TEAM_RMCAUS, TEAM_RMCPVT, TEAM_RMCPFC, TEAM_RMCLCL, TEAM_RMCCPL, TEAM_RMCSGT, TEAM_RMCSGTMJ, TEAM_RMC2ndLT, TEAM_RMC1stLT, TEAM_RMCCPT, TEAM_RMCMJR, TEAM_RMCCMD, TEAM_DEPVT, TEAM_Stone, TEAM_STPVT, TEAM_STPFC, TEAM_STLCL, TEAM_STCPL, TEAM_STSGT, TEAM_STHOUND, TEAM_STSGTMJ, TEAM_ST2ndLT, TEAM_ST1stLT, TEAM_STCPT, TEAM_STMJR, TEAM_STFOX, TEAM_STTHORN, TEAM_CPLRYS, TEAM_SGTJEK, TEAM_THIRE, TEAM_K9PVT, TEAM_K9PFC, TEAM_K9LCL, TEAM_K9CPL, TEAM_K9HOUND}
-end
 
-hook.Add("loadCustomDarkRPItems", "mk_config", addattachments)
 
 mk_attachbox.config.cats = {
     ["at_sw_dc15s_all"] = {"Schießmodis", "Zielfernrohre", "Läufe", "Magazine", "Laserpointer", "Schulterpads"},
