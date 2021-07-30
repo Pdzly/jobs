@@ -241,7 +241,7 @@ TEAM_41STFAIE = DarkRP.createJob("MJR Faie", {
 
 TEAM_41STARFPVT = DarkRP.createJob("41st ARF PVT", {
     color = Color(59, 163, 64, 255),
-    model = {"models/patou/41st/arf/41st_arf.mdl", "models/smitty/bf2_reg/ct_arf_trooper/ct_arf_trooper.mdl"},
+    model = {"models/patou/41st/arf/41st_arf.mdl", "models/smitty/bf2_reg/ct_arf_trooper/ct_arf_trooper.mdl", "models/isellpower/snow_arf.mdl", "models/isellpower/sand_arf.mdl", "models/isellpower/forest_arf.mdl", "models/isellpower/city_arf.mdl"},
     description = [[41st PVT]],
     weapons = {"realistic_hook", "re_hands", "at_sw_dc15a_all", "at_sw_dc15a_all", "weapon_fists", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_bino_white", "rw_sw_dc17ext", "rw_sw_valken38x"},
     command = "41starfpvt",
@@ -261,7 +261,7 @@ TEAM_41STARFPVT = DarkRP.createJob("41st ARF PVT", {
 
 TEAM_41STARFPFC = DarkRP.createJob("41st ARF PFC", {
     color = Color(59, 163, 64, 255),
-    model = {"models/patou/41st/arf/41st_arf.mdl", "models/smitty/bf2_reg/ct_arf_trooper/ct_arf_trooper.mdl"},
+    model = {"models/patou/41st/arf/41st_arf.mdl", "models/smitty/bf2_reg/ct_arf_trooper/ct_arf_trooper.mdl", "models/isellpower/snow_arf.mdl", "models/isellpower/sand_arf.mdl", "models/isellpower/forest_arf.mdl", "models/isellpower/city_arf.mdl"},
     description = [[41st PFC]],
     weapons = {"realistic_hook", "re_hands", "at_sw_dc15a_all", "at_sw_dc15a_all", "weapon_fists", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_dc15x", "rw_sw_bino_white", "rw_sw_dc17ext", "rw_sw_valken38x"},
     command = "41starfpfc",
@@ -281,7 +281,7 @@ TEAM_41STARFPFC = DarkRP.createJob("41st ARF PFC", {
 
 TEAM_41STARFLCL = DarkRP.createJob("41st ARF LCL", {
     color = Color(59, 163, 64, 255),
-    model = {"models/patou/41st/arf/41st_arf.mdl", "models/smitty/bf2_reg/ct_arf_trooper/ct_arf_trooper.mdl"},
+    model = {"models/patou/41st/arf/41st_arf.mdl", "models/smitty/bf2_reg/ct_arf_trooper/ct_arf_trooper.mdl", "models/isellpower/snow_arf.mdl", "models/isellpower/sand_arf.mdl", "models/isellpower/forest_arf.mdl", "models/isellpower/city_arf.mdl"},
     description = [[41st LCL]],
     weapons = {"realistic_hook", "re_hands", "at_sw_dc15a_all", "at_sw_dc15a_all", "weapon_fists", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_dc15x", "rw_sw_bino_white", "rw_sw_dc17ext", "rw_sw_nade_thermal", "rw_sw_valken38x"},
     command = "41starflcl",
@@ -301,7 +301,7 @@ TEAM_41STARFLCL = DarkRP.createJob("41st ARF LCL", {
 
 TEAM_41STARFCPL = DarkRP.createJob("41st ARF CPL", {
     color = Color(59, 163, 64, 255),
-    model = {"models/patou/41st/arf/41st_arf.mdl", "models/smitty/bf2_reg/ct_arf_trooper/ct_arf_trooper.mdl"},
+    model = {"models/patou/41st/arf/41st_arf.mdl", "models/smitty/bf2_reg/ct_arf_trooper/ct_arf_trooper.mdl", "models/isellpower/snow_arf.mdl", "models/isellpower/sand_arf.mdl", "models/isellpower/forest_arf.mdl", "models/isellpower/city_arf.mdl"},
     description = [[41st CPL]],
     weapons = {"realistic_hook", "re_hands", "at_sw_dc15a_all", "at_sw_dc15a_all", "weapon_fists", "cross_arms_infront_swep", "rw_sw_nade_thermal", "cross_arms_swep", "salute_swep", "rw_sw_dc15x", "rw_sw_bino_white", "rw_sw_dc17ext", "rw_sw_valken38x"},
     command = "41starfcpl",
@@ -321,7 +321,7 @@ TEAM_41STARFCPL = DarkRP.createJob("41st ARF CPL", {
 
 TEAM_41STARFSGT = DarkRP.createJob("41st ARF SGT", {
     color = Color(59, 163, 64, 255),
-    model = {"models/patou/41st/arf/41st_arf.mdl", "models/smitty/bf2_reg/ct_arf_sergeant/ct_arf_sergeant.mdl"},
+    model = {"models/patou/41st/arf/41st_arf.mdl", "models/smitty/bf2_reg/ct_arf_sergeant/ct_arf_sergeant.mdl", "models/isellpower/snow_arf.mdl", "models/isellpower/sand_arf.mdl", "models/isellpower/forest_arf.mdl", "models/isellpower/city_arf.mdl"},
     description = [[41st SGT]],
     weapons = {"realistic_hook", "re_hands", "at_sw_dc15a_all", "at_sw_dc15a_all", "weapon_fists", "cross_arms_infront_swep", "cross_arms_swep", "rw_sw_nade_thermal", "salute_swep", "rw_sw_dc15x", "rw_sw_bino_white", "rw_sw_dc17ext", "rw_sw_valken38x"},
     command = "41starfsgt",
@@ -341,7 +341,7 @@ TEAM_41STARFSGT = DarkRP.createJob("41st ARF SGT", {
 
 TEAM_41STARFSGTMJ = DarkRP.createJob("41st ARF SGTMJ", {
     color = Color(59, 163, 64, 255),
-    model = {"models/patou/41st/arf/41st_arf.mdl", "models/smitty/bf2_reg/ct_arf_sergeant/ct_arf_sergeant.mdl"},
+    model = {"models/patou/41st/arf/41st_arf.mdl", "models/smitty/bf2_reg/ct_arf_sergeant/ct_arf_sergeant.mdl", "models/isellpower/snow_arf.mdl", "models/isellpower/sand_arf.mdl", "models/isellpower/forest_arf.mdl", "models/isellpower/city_arf.mdl"},
     description = [[41st SGTMJ]],
     weapons = {"realistic_hook", "re_hands", "at_sw_dc15a_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_nade_thermal", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_dc15x", "rw_sw_bino_white", "rw_sw_dc17ext", "rw_sw_valken38x"},
     command = "41starfsgtmj",
@@ -361,7 +361,7 @@ TEAM_41STARFSGTMJ = DarkRP.createJob("41st ARF SGTMJ", {
 
 TEAM_41STARF2ndLT = DarkRP.createJob("41st ARF 2ndLT", {
     color = Color(59, 163, 64, 255),
-    model = {"models/patou/41st/arf/41st_arf.mdl", "models/smitty/bf2_reg/ct_arf_lieutenant/ct_arf_lieutenant.mdl"},
+    model = {"models/patou/41st/arf/41st_arf.mdl", "models/smitty/bf2_reg/ct_arf_lieutenant/ct_arf_lieutenant.mdl", "models/isellpower/snow_arf.mdl", "models/isellpower/sand_arf.mdl", "models/isellpower/forest_arf.mdl", "models/isellpower/city_arf.mdl"},
     description = [[41st 2ndLT]],
     weapons = {"realistic_hook", "re_hands", "at_sw_dc15a_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_nade_thermal", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_dc15x", "rw_sw_bino_white", "rw_sw_dc17ext", "weapon_cuff_elastic", "rw_sw_valken38x"},
     command = "41starf2ndlt",
@@ -381,7 +381,7 @@ TEAM_41STARF2ndLT = DarkRP.createJob("41st ARF 2ndLT", {
 
 TEAM_41STARF1stLT = DarkRP.createJob("41st ARF 1stLT", {
     color = Color(59, 163, 64, 255),
-    model = {"models/patou/41st/arf/41st_arf.mdl", "models/smitty/bf2_reg/ct_arf_lieutenant/ct_arf_lieutenant.mdl"},
+    model = {"models/patou/41st/arf/41st_arf.mdl", "models/smitty/bf2_reg/ct_arf_lieutenant/ct_arf_lieutenant.mdl", "models/isellpower/snow_arf.mdl", "models/isellpower/sand_arf.mdl", "models/isellpower/forest_arf.mdl", "models/isellpower/city_arf.mdl"},
     description = [[41st 1stLT]],
     weapons = {"realistic_hook", "re_hands", "at_sw_dc15a_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_nade_thermal", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_dc15x", "rw_sw_bino_white", "rw_sw_dc17ext", "weapon_cuff_elastic", "rw_sw_valken38x"},
     command = "41starf1stlt",
@@ -401,7 +401,7 @@ TEAM_41STARF1stLT = DarkRP.createJob("41st ARF 1stLT", {
 
 TEAM_41STARFCPT = DarkRP.createJob("41st ARF CPT", {
     color = Color(59, 163, 64, 255),
-    model = {"models/patou/41st/arf/41st_arf.mdl", "models/smitty/bf2_reg/ct_arf_captain/ct_arf_captain.mdl"},
+    model = {"models/patou/41st/arf/41st_arf.mdl", "models/smitty/bf2_reg/ct_arf_captain/ct_arf_captain.mdl", "models/isellpower/snow_arf.mdl", "models/isellpower/sand_arf.mdl", "models/isellpower/forest_arf.mdl", "models/isellpower/city_arf.mdl"},
     description = [[41st CPT]],
     weapons = {"realistic_hook", "re_hands", "at_sw_dc15a_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_nade_thermal", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_dc15x", "rw_sw_bino_white", "rw_sw_dc17ext", "weapon_cuff_elastic", "rw_sw_dual_dc17ext", "rw_sw_valken38x"},
     command = "41starfcpt",
@@ -422,7 +422,7 @@ TEAM_41STARFCPT = DarkRP.createJob("41st ARF CPT", {
 TEAM_ARCEVO = DarkRP.createJob("ARC 1288 Evo", {
     color = Color(59, 163, 64, 255),
     model = {
-        "models/player/ricky/dg/41st/ricky_41starc.mdl", "models/defcon/loudmantis/evo/41/green.mdl"
+        "models/player/ricky/dg/41st/ricky_41starc.mdl", "models/defcon/loudmantis/evo/41/green.mdl", "models/isellpower/snow_arf.mdl", "models/isellpower/sand_arf.mdl", "models/isellpower/forest_arf.mdl", "models/isellpower/city_arf.mdl"
     },
     description = [[ARC 1288 Evo]],
     weapons = {"rw_sw_westarm5", "re_hands", "at_sw_dc15a_all", "at_sw_dc15a_all", "weapon_fists", "rw_sw_nade_thermal", "cross_arms_infront_swep", "cross_arms_swep", "salute_swep", "rw_sw_bino_white", "rw_sw_dc17ext", "weapon_cuff_elastic", "rw_sw_dual_dc17ext", "rw_sw_valken38x", "realistic_hook", "rw_sw_dc15x", "weapon_breachingcharge", "tfa_defi_swrp", "t3m4_empgrenade", "zeus_flashbang", "seal6-c4", "rw_sw_rps6", "med_kit"},
